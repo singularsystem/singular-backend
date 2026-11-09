@@ -108,6 +108,81 @@ builder.Services.AddScoped<IUserSummaryFactory, UserSummaryFactory>();
 // consumido pelo DocumentsSignatureController sem acoplar à rotina de backup inteira.
 builder.Services.AddScoped<ISignedMediaResolver, SignedMediaResolver>();
 
+builder.Services.AddHangfire(config =>
+    config
+        .SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
+        .UseSimpleAssemblyNameTypeSerializer()
+        .UseRecommendedSerializerSettings()
+        .UseSqlServerStorage(
+            builder.Configuration.GetConnectionString("DefaultConnection"),
+            new SqlServerStorageOptions
+            {
+                CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+                SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+                QueuePollInterval = TimeSpan.FromSeconds(15),
+                UseRecommendedIsolationLevel = true,
+                DisableGlobalLocks = true
+            }
+        )
+);
+
+builder.Services.AddHangfireServer(options =>
+{
+    options.WorkerCount = Environment.ProcessorCount * 2;
+    options.Queues = new[] { "default", "necksign", "signatures" };
+});
+
+builder.Services.AddCORSOrigins(builder.Configuration, MyAllowSpecificOrigins);
+builder.Services.AddSignalR();
+builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
+{
+    options.InvalidModelStateResponseFactory = context =>
+    {
+        var errors = context.ModelState
+            .Where(kvp => kvp.Value?.Errors.Count > 0)
+            .Select(kvp => new
+            {
+                Field = kvp.Key,
+                Errors = kvp.Value!.Errors.Select(e => e.ErrorMessage).Where(m => !string.IsNullOrWhiteSpace(m)).ToList()
+            })
+            .ToList();
+
+        var message = errors.Count > 0
+            ? "Dados inválidos: " + string.Join("; ", errors.SelectMany(e => e.Errors).Take(10))
+            : "Dados inválidos.";
+
+        return new BadRequestObjectResult(new ApiResponse<object>
+        {
+            Success = false,
+            Message = message,
+            Data = errors
+        });
+    };
+});
+
+builder.Services.AddSwaggerExplorer(builder.Environment)
+                .InjectDbContext(builder.Configuration)
+                .AddAppConfig(builder.Configuration)
+                .LowercaseURLs()
+                .AddIdentityHandlersAndStores()
+                .ConfigureIdentityOptions()
+                .AddIdentityAuth(builder.Configuration);
+
+builder.Services.AddScoped<IIBGEService, IBGEService>();
+builder.Services.AddScoped<NotificationService>();
+builder.Services.AddScoped<IFileStorageService, FileStorageService>();
+builder.Services.AddSingleton<IConverter>(new SynchronizedConverter(new PdfTools()));
+builder.Services.AddScoped<IPDFService, PDFService>();
+builder.Services.AddScoped<IStudentPDFGenerator, StudentsListPDFGenerator>();
+builder.Services.AddScoped<IDocumentPdfGenerator, PAEEPDFGenerator>();
+builder.Services.AddScoped<IDocumentPdfGenerator, RegularTeacherCaseStudyPDFGenerator>();
+builder.Services.AddScoped<IDocumentPdfGenerator, ReportsPDFGenerator>();
+builder.Services.AddScoped<IReportAEEPDFGenerator, ReportsAEEPDFGenerator>();
+builder.Services.AddScoped<IDocumentPdfGenerator, PEIPDFGenerator>();
+builder.Services.AddMemoryCache();
+builder.Services.AddSingleton<IPEISuggestionLoader, PEISuggestionLoader>();
+builder.Services.AddSingleton<IPortageSuggestionLoader, PortageSuggestionLoader>();
+
 
 
 // Integração NeckBook Books Proxy (task 13.1): DataProtection, protetor de chave, resolver por município e assembler.
