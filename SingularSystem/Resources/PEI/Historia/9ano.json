@@ -1,0 +1,118 @@
+{
+  "subject": "História",
+  "serie": "9º Ano",
+  "questions": [
+    {
+      "id": "EF09HI01",
+      "pergunta": "Brasil e mundo globalizado: economia, cultura e tecnologia após 1990.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de globalização e marcos digitais.\nEstudo de caso (cadeia de um produto).\nDebate: impactos locais de processos globais.",
+      "sugestaoNao": "Evitar determinismos tecnológicos.\nCitar fontes de dados.\nConsiderar múltiplas perspectivas."
+    },
+    {
+      "id": "EF09HI02",
+      "pergunta": "Redemocratização e vida política brasileira (1985→): partidos, eleições, participação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de instituições e processos eleitorais.\nAnalisar notícias de diferentes veículos.\nSimulação de conselho de escola.",
+      "sugestaoNao": "Distinguir opinião de informação.\nChecar fontes.\nEvitar desinformação."
+    },
+    {
+      "id": "EF09HI03",
+      "pergunta": "Direitos humanos, diversidade e cidadania no século XXI.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estudo de casos (acesso, igualdade, respeito).\nProjeto escolar de promoção de direitos.\nCarta de compromisso da turma.",
+      "sugestaoNao": "Usar linguagem inclusiva.\nBasear ações em dados/relatos.\nAvaliar impactos."
+    },
+    {
+      "id": "EF09HI04",
+      "pergunta": "Economia brasileira recente: planos, moedas e estabilidade/instabilidades.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo econômica (planos, moedas).\nLeitura de gráficos simples de inflação/desemprego.\nConectar mudanças econômicas ao cotidiano.",
+      "sugestaoNao": "Citar fontes estatísticas.\nEvitar simplificações causais.\nChecar datas e contextos."
+    },
+    {
+      "id": "EF09HI05",
+      "pergunta": "Meio ambiente e sociedade: conflitos e políticas públicas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de biomas e conflitos socioambientais.\nEstudo de caso local de preservação/impacto.\nProposta de ação com parceiros locais.",
+      "sugestaoNao": "Indicar responsabilidades e atores.\nCitar dados e legislação.\nAvaliar viabilidade."
+    },
+    {
+      "id": "EF09HI06",
+      "pergunta": "Cultura digital, informação e memória: usos da internet e redes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Oficina de verificação de fatos e rastreio de fontes.\nComparar narrativas sobre um mesmo evento.\nCriar guia de boas práticas digitais.",
+      "sugestaoNao": "Identificar bolhas informacionais.\nChecar autoria e data.\nEvitar exposição de dados pessoais."
+    },
+    {
+      "id": "EF09HI07",
+      "pergunta": "História e identidades: gênero, raça, etnia, geração e território.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar trajetórias de diferentes grupos.\nRoda de conversa mediada; escuta e respeito.\nProduto cultural (podcast/cartaz).",
+      "sugestaoNao": "Evitar estereótipos.\nUsar dados/fonte.\nGarantir espaço seguro de fala."
+    },
+    {
+      "id": "EF09HI08",
+      "pergunta": "Conflitos internacionais contemporâneos: noções e impactos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de regiões em tensão e organismos internacionais.\nAnálise de notícias de múltiplas fontes.\nDebate mediado com regras de respeito.",
+      "sugestaoNao": "Evitar simplificações geopolíticas.\nChecar factualidade.\nCitar fontes."
+    },
+    {
+      "id": "EF09HI09",
+      "pergunta": "Cidades e cidadania: mobilidade, habitação, serviços.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa da cidade com problemas e propostas.\nEntrevistas com moradores e autoridades.\nProjeto piloto de melhoria (ex.: sinalização).",
+      "sugestaoNao": "Diferenciar esferas de governo.\nBasear proposta em dados.\nRegistrar retorno/impacto."
+    },
+    {
+      "id": "EF09HI10",
+      "pergunta": "Patrimônio, memória e disputas de narrativas na cidade/estado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro crítico de monumentos/nomes de rua.\nProposta de ressignificação (placas explicativas).\nExposição digital com fontes e legendas.",
+      "sugestaoNao": "Evitar vandalismo e incentivar educação patrimonial.\nCitar fontes.\nConsiderar públicos diversos."
+    },
+    {
+      "id": "EF09HI11",
+      "pergunta": "Pesquisa histórica autoral: tema livre dentro do eixo do ano.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Projeto com pergunta de pesquisa e plano de coleta.\nRelatório com análise de fontes e conclusões.\nApresentação multimodal (pôster/vídeo/podcast).",
+      "sugestaoNao": "Garantir ética (consentimento/anonimato quando necessário).\nRegistrar referências.\nAvaliar limites do estudo."
+    },
+    {
+      "id": "EF09HI12",
+      "pergunta": "Sínteses comparativas: relacionar períodos e temas estudados nos anos finais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir quadro comparativo (semelhanças/diferenças).\nEscrever síntese crítica final.\nApresentar para outra turma/comunidade.",
+      "sugestaoNao": "Coesão temporal e clareza.\nCitar exemplos e fontes.\nEvitar generalizações."
+    },
+    {
+      "id": "EF05–EF09/FONTES",
+      "pergunta": "Usar múltiplas fontes (orais, textuais, visuais, digitais) com criticidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro padrão de análise (quem/quando/onde/por quê).\nComparar duas fontes e apontar divergências.\nRegistrar limitações e lacunas.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria e contexto.\nEvitar uso de fontes sem verificação."
+    },
+    {
+      "id": "EF05–EF09/TEMPO",
+      "pergunta": "Trabalhar tempo histórico (duração, simultaneidade, permanência, mudança).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir e ler linhas do tempo comparadas.\nMarcar durações e simultaneidades.\nRever contagem de séculos.",
+      "sugestaoNao": "Checar datas em mais de uma fonte.\nEvitar anacronismos.\nCorrigir legendas imprecisas."
+    },
+    {
+      "id": "EF05–EF09/CIDADANIA",
+      "pergunta": "Direitos humanos e participação social.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debates mediados com regras de respeito.\nProjetos de intervenção local.\nCartas/documentos dirigidos a órgãos públicos.",
+      "sugestaoNao": "Basear propostas em dados.\nDefinir responsáveis/prazos.\nAvaliar impactos e comunicar resultados."
+    },
+    {
+      "id": "EF05–EF09/COMUNICAÇÃO",
+      "pergunta": "Letramento midiático e combate à desinformação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checar autoria/data/URL.\nComparar coberturas jornalísticas.\nProduzir síntese com referências.",
+      "sugestaoNao": "Evitar encaminhar conteúdo sem checagem.\nUsar linguagem clara e respeitosa.\nCitar fontes."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "subject": "Matemática",
+  "serie": "8º Ano",
+  "questions": [
+    {
+      "id": "EF08MA01",
+      "pergunta": "Operar com racionais em problemas complexos e justificar estratégias.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar duas estratégias e justificar a escolha.\nChecar plausibilidade com aproximações.\nCriar problema com duas operações.",
+      "sugestaoNao": "Converter e simplificar representações.\nRegistrar passo a passo.\nVerificar com outra estratégia."
+    },
+    {
+      "id": "EF08MA02",
+      "pergunta": "Proporcionalidade e porcentagens com taxas/índices e aumentos sucessivos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Regra de três composta simples; interpretar taxa.\nTabela de variação acumulada.\nComparar métodos (fator × soma).",
+      "sugestaoNao": "Evitar somar percentuais sucessivos.\nChecar com estimativa.\nExplicar a taxa no contexto."
+    },
+    {
+      "id": "EF08MA03",
+      "pergunta": "Equações do 1º grau e modelagem de problemas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelar em equação e resolver.\nSimplificar antes de substituir.\nComparar solução algébrica × aritmética.",
+      "sugestaoNao": "Explicar transformações.\nChecar por substituição.\nRever unidades do resultado."
+    },
+    {
+      "id": "EF08MA04",
+      "pergunta": "Sistema cartesiano e gráficos lineares simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Plotar dados e interpretar inclinação/intercepto.\nAjustar linha e discutir tendência.\nLer pares ordenados e relacionar ao contexto.",
+      "sugestaoNao": "Rotular eixos/unidades.\nEscolher escala coerente.\nChecar linearidade por diferenças constantes."
+    },
+    {
+      "id": "EF08MA05",
+      "pergunta": "Teorema de Pitágoras e áreas por decomposição.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Aplicar Pitágoras em distâncias.\nDecompor figuras para calcular área.\nJustificar estratégia adotada.",
+      "sugestaoNao": "Estimativa/checar medidas.\nConferir unidades.\nRedesenhar com medidas proporcionais."
+    },
+    {
+      "id": "EF08MA06",
+      "pergunta": "Semelhança de triângulos e escalas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calcular medidas por razões de semelhança.\nUsar escalas em mapas/plantas.\nDesenho em escala simples.",
+      "sugestaoNao": "Checar ângulos correspondentes.\nEvitar confundir 1:k com k:1.\nJustificar escolha de escala."
+    },
+    {
+      "id": "EF08MA07",
+      "pergunta": "Grandezas: perímetro, áreas compostas e volume (prismas/cilindros).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Medir/calcular e registrar unidades.\nEstimar antes e comparar.\nModelar objetos do cotidiano.",
+      "sugestaoNao": "Selecionar fórmula e variáveis.\nChecar coerência dimensional.\nCorrigir substituições equivocadas."
+    },
+    {
+      "id": "EF08MA08",
+      "pergunta": "Probabilidade simples em espaços equiprováveis.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Listar espaço amostral e contar favoráveis.\nComparar cenários alternativos.\nValidar por simulação.",
+      "sugestaoNao": "Diferenciar frequência × probabilidade.\nChecar se os casos são exaustivos.\nRevisar contagens duplicadas."
+    },
+    {
+      "id": "EF08MA09",
+      "pergunta": "Estatística: gráficos (colunas/linhas) e análise de tendências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir gráfico de linhas e rotular.\nEscrever conclusões a partir de tendências.\nComparar dois gráficos do mesmo tema.",
+      "sugestaoNao": "Escolher escala adequada.\nIndicar fonte/tempo.\nEvitar conclusões sem dados."
+    },
+    {
+      "id": "EF06–EF09/NÚMEROS",
+      "pergunta": "Cálculo mental, estimativas e verificação com inversas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver por duas estratégias e comparar.\nExplicar como estimou e checou.\nCriar problema que exija estimar.",
+      "sugestaoNao": "Sequências graduadas com feedback.\nChecklist de erros comuns.\nRefazer com outra estratégia."
+    },
+    {
+      "id": "EF06–EF09/ÁLGEBRA",
+      "pergunta": "Modelar com expressões, equações e proporções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Traduzir texto↔expressão e validar.\nResolver e checar equações.\nComparar modelos proporcionais × não proporcionais.",
+      "sugestaoNao": "Diferenciar variável/unidade.\nExplicar cada transformação.\nTestar plausibilidade com valores."
+    },
+    {
+      "id": "EF06–EF09/GEOMETRIA",
+      "pergunta": "Visualizar, decompor e justificar soluções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Esboçar e decompor em figuras básicas.\nValidar com maquetes/softwares.\nComunicar solução com unidades.",
+      "sugestaoNao": "Selecionar fórmula coerente.\nChecar consistência dimensional.\nCorrigir construções imprecisas."
+    },
+    {
+      "id": "EF06–EF09/DADOS",
+      "pergunta": "Planejar, coletar, representar e concluir; noções de probabilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa, tabular e graficar.\nSimular aleatoriedade e comparar com teoria.\nDiscutir limites de generalização.",
+      "sugestaoNao": "Escolher gráfico adequado.\nRotular eixos e indicar fonte.\nEvitar inferências sem suporte."
+    }
+  ]
+}
+

@@ -1,0 +1,132 @@
+{
+  "subject": "Ciências",
+  "serie": "5º Ano",
+  "questions": [
+    {
+      "id": "EF05CI01",
+      "pergunta": "Sistemas do corpo: digestório, respiratório e circulatório — funções e hábitos de saúde.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Rotas de oxigênio e nutrientes (esquema).\nMedir pulso antes/depois de atividade.\nJogo de decisão: 'o que favorece cada sistema?'",
+      "sugestaoNao": "Usar termos corretos.\nEvitar mitos comuns.\nRelacionar dados medidos às conclusões."
+    },
+    {
+      "id": "EF05CI02",
+      "pergunta": "Microrganismos: úteis e nocivos; prevenção de doenças.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Observação de fungos em pão/fruta (com segurança).\nCartaz: 'onde os microrganismos vivem?'\nOficina de higiene das mãos.",
+      "sugestaoNao": "Evitar exposição a agentes patogênicos.\nUsar EPI simples.\nDescarte seguro."
+    },
+    {
+      "id": "EF05CI03",
+      "pergunta": "Reprodução humana (noções) e mudanças corporais na infância/pré‑adolescência.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro de mudanças físicas/psicossociais (respeito/privacidade).\nRoda de perguntas anônimas.\nLeitura de material adequado à idade.",
+      "sugestaoNao": "Usar linguagem respeitosa e científica.\nNão expor experiências pessoais.\nIndicar fontes confiáveis."
+    },
+    {
+      "id": "EF05CI04",
+      "pergunta": "Classificação dos seres vivos (noções): grupos e critérios simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Chave de classificação básica.\nInventário de espécies do entorno.\nFicha de espécie com habitat e alimentação.",
+      "sugestaoNao": "Evitar confundir grupo taxonômico × habitat.\nCitar nome científico quando possível.\nRespeitar ética na coleta/observação."
+    },
+    {
+      "id": "EF05CI05",
+      "pergunta": "Fotossíntese e respiração em plantas (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimento com folhas em água gaseificada.\nComparar plantas à sombra × sol.\nRelatar condições do experimento.",
+      "sugestaoNao": "Não atribuir consciência às plantas.\nControlar variáveis simples.\nRegistrar dados."
+    },
+    {
+      "id": "EF05CI06",
+      "pergunta": "Rochas e minerais: tipos e ciclo (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coleção de rochas locais (com autorização).\nTeste simples de dureza.\nLinha do tempo do ciclo das rochas.",
+      "sugestaoNao": "Anotar local de coleta.\nEvitar danificar áreas protegidas.\nUsar termos básicos corretamente."
+    },
+    {
+      "id": "EF05CI07",
+      "pergunta": "Água: potabilidade, tratamento e acesso.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar filtro caseiro (areia/carvão/algodão).\nEtapas do tratamento (diagrama).\nMapa de pontos de água da escola.",
+      "sugestaoNao": "Não ingerir água não potável do experimento.\nIndicar que é demonstração.\nCitar órgãos responsáveis."
+    },
+    {
+      "id": "EF05CI08",
+      "pergunta": "Eletricidade simples: circuitos, condutores e isolantes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar circuito com pilha/lâmpada/chave.\nTestar materiais como condutores/isolantes.\nDesenhar esquema elétrico.",
+      "sugestaoNao": "Não usar rede elétrica.\nEvitar curto‑circuito.\nDesligar e guardar corretamente."
+    },
+    {
+      "id": "EF05CI09",
+      "pergunta": "Calor e temperatura (noções) e mudanças de estado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Termometria básica (sem vidro/mercúrio).\nExperimentos de fusão/evaporação seguros.\nTabela de resultados.",
+      "sugestaoNao": "Usar recipientes adequados.\nEvitar queimaduras.\nRegistrar unidades."
+    },
+    {
+      "id": "EF05CI10",
+      "pergunta": "Forças e movimentos (noções): empurrar, puxar, atrito.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Pista de carrinhos com diferentes superfícies.\nComparar distâncias percorridas.\nRelato com hipótese e conclusão.",
+      "sugestaoNao": "Controlar variáveis (massa/superfície).\nMedir e anotar.\nEvitar extrapolações."
+    },
+    {
+      "id": "EF05CI11",
+      "pergunta": "Ambiente e resíduos: redução, reutilização e reciclagem.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Auditoria de resíduos da turma.\nPlano de redução por categoria.\nCampanha com metas e acompanhamento.",
+      "sugestaoNao": "Medir antes/depois.\nComunicar resultados.\nAjustar estratégias."
+    },
+    {
+      "id": "EF05CI12",
+      "pergunta": "Linguagem científica: tabelas, gráficos e relatório simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Transformar dados em gráfico.\nRelatório com perguntas→método→resultados→conclusões.\nApresentação com evidências.",
+      "sugestaoNao": "Citar fontes e datas.\nNão inventar dados.\nRevisar clareza visual."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}

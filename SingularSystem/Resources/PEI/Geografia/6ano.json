@@ -1,0 +1,118 @@
+{
+  "subject": "Geografia",
+  "serie": "6º Ano",
+  "questions": [
+    {
+      "id": "EF06GE01",
+      "pergunta": "Conceitos base: espaço geográfico, paisagem, território, lugar e região (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa mental com exemplos locais.\nGaleria fotográfica comentada.\nDiscussão: como o poder organiza o território?",
+      "sugestaoNao": "Evitar confundir conceitos.\nCitar exemplos precisos.\nUsar vocabulário adequado."
+    },
+    {
+      "id": "EF06GE02",
+      "pergunta": "Cartografia: coordenadas (noções), escala, legenda e representação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler coordenadas aproximadas.\nComparar escalas (grande/pequena).\nPadronizar legenda da turma.",
+      "sugestaoNao": "Verificar orientação.\nEvitar erros de escala.\nRevisar simbologia."
+    },
+    {
+      "id": "EF06GE03",
+      "pergunta": "Dinâmica da natureza: relevo, clima, vegetação e hidrografia e suas interações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Esquema de ciclo da água local.\nMapa de risco (enchentes/encostas).\nRelato de como o clima afeta o bairro.",
+      "sugestaoNao": "Citar fontes.\nEvitar causalidades simplistas.\nChecar unidades."
+    },
+    {
+      "id": "EF06GE04",
+      "pergunta": "População: indicadores básicos, crescimento e estrutura etária (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Pirâmides etárias.\nComparar dois municípios.\nTexto com conclusões.",
+      "sugestaoNao": "Citar ano/fonte.\nEvitar generalização.\nUsar termos corretos."
+    },
+    {
+      "id": "EF06GE05",
+      "pergunta": "Rural e urbano: redes, fluxos e trabalho.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de produtos do campo à cidade.\nMapa de fluxos.\nEstudo de caso local.",
+      "sugestaoNao": "Evitar estereótipos.\nReconhecer interdependências.\nCitar fontes."
+    },
+    {
+      "id": "EF06GE06",
+      "pergunta": "Indústria, comércio e serviços: circuitos produtivos (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Fluxograma de um produto local.\nIdentificar etapas e atores.\nDiscutir impactos no espaço.",
+      "sugestaoNao": "Evitar reducionismos.\nChecar dados.\nIncluir logística e consumo."
+    },
+    {
+      "id": "EF06GE07",
+      "pergunta": "Meio ambiente e risco: impactos e prevenção.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de áreas de risco e cuidados.\nPlano de evacuação escolar.\nEntrevista com órgão local.",
+      "sugestaoNao": "Evitar alarmismo sem base.\nCitar fontes.\nAvaliar efetividade."
+    },
+    {
+      "id": "EF06GE08",
+      "pergunta": "Cartografia digital e SIG (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar camadas em mapas on‑line.\nGeorreferenciar pontos da escola.\nComparar mapas base.",
+      "sugestaoNao": "Garantir privacidade.\nConferir precisão.\nRegistrar limitações."
+    },
+    {
+      "id": "EF06GE09",
+      "pergunta": "Transporte e mobilidade: fluxos locais e regionais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Levantamento de rotas e modais.\nMapa de linhas e tempos.\nProposta de melhoria.",
+      "sugestaoNao": "Distinguir modais e atores.\nBasear em dados.\nAvaliar viabilidade."
+    },
+    {
+      "id": "EF06GE10",
+      "pergunta": "Cidadania e políticas públicas no território.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simular audiência pública.\nCarta propositiva com dados.\nAcompanhar resposta do órgão.",
+      "sugestaoNao": "Respeitar papéis.\nLinguagem clara.\nRegistrar evolução."
+    },
+    {
+      "id": "EF06GE11",
+      "pergunta": "Leitura crítica de imagens, gráficos e mapas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise multimodal.\nComparar representações.\nEscrever síntese.",
+      "sugestaoNao": "Evitar cherry‑picking.\nCitar fonte/data.\nRevisar argumento."
+    },
+    {
+      "id": "EF06GE12",
+      "pergunta": "Projeto integrador local: diagnóstico e ação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tema territorial (lixo/água/mobilidade).\nColetar dados e mapear.\nImplementar ação e avaliar.",
+      "sugestaoNao": "Definir indicadores.\nÉtica/consentimento.\nSocializar resultados."
+    },
+    {
+      "id": "EF03–EF09/CARTOGRAFIA",
+      "pergunta": "Leitura e produção de mapas, croquis e gráficos com rigor.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar título, legenda, orientação e escala.\nComparar representações da mesma área.\nJustificar escolhas cartográficas.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nChecar fontes/datas.\nManter padrão visual."
+    },
+    {
+      "id": "EF03–EF09/FONTES",
+      "pergunta": "Uso crítico de mapas, fotos aéreas, imagens de satélite e relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise (quem/onde/quando/por quê).\nCruzar pelo menos duas fontes.\nRegistrar limitações das fontes.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria/licenças.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF03–EF09/CIDADANIA",
+      "pergunta": "Participação social e respeito aos espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico do entorno e plano de ação.\nDiálogo com órgãos públicos.\nCampanhas educativas com registro.",
+      "sugestaoNao": "Respeitar papéis institucionais.\nBasear proposta em dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA",
+      "pergunta": "Cartografia digital e letramento midiático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar apps/SIG educativos.\nChecar autoria e data de conteúdos.\nProduzir sínteses com referências.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar desinformação.\nCitar fontes corretamente."
+    }
+  ]
+}

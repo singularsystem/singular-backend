@@ -1,0 +1,160 @@
+{
+  "subject": "Matemática",
+  "serie": "1º Ano",
+  "questions": [
+    {
+      "id": "EF01MA01",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Utilizar números naturais como indicador de quantidade ou de ordem em diferentes situações cotidianas e reconhecer situações em que os números não indicam contagem nem ordem, mas sim código de identificação.",
+      "sugestaoNao": "Jogos de contagem oral (calendário, chamada, trilhas). Pareamento 1–1 com objetos (tampinhas/palitos). Identificar números em contextos de código (nº da casa, camisa, CEP) e dizer sua função.",
+      "sugestaoSimComMediacao": "Procurar números em cartazes/listas com apoio do professor. Diferenciar ordem × código com exemplos guiados. Jogos de trilha usando dados, com mediação para verbalizar a função do número."
+    },
+    {
+      "id": "EF01MA02",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Contar de maneira exata ou aproximada, utilizando diferentes estratégias como o pareamento e outros agrupamentos.",
+      "sugestaoNao": "Contagem um a um com materiais concretos. Estimar antes de contar e conferir depois. Agrupar de 2/5/10 usando copinhos/caixinhas.",
+      "sugestaoSimComMediacao": "Contagem em duplas com cartões de apoio. Explicar em voz alta a estratégia usada (pareamento, agrupamento). Registrar com marcas/pictogramas com ajuda."
+    },
+    {
+      "id": "EF01MA03",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Estimar e comparar quantidades de objetos de dois conjuntos (em torno de 20 elementos), por estimativa e/ou por correspondência (um a um, dois a dois) para indicar \"tem mais\", \"tem menos\" ou \"tem a mesma quantidade\".",
+      "sugestaoNao": "Situações concretas de comparação (quem tem mais/menos). Correspondência 1–1 entre conjuntos. Conferir a estimativa contando ao final.",
+      "sugestaoSimComMediacao": "Justificar a comparação oralmente com perguntas-guias. Jogos de adivinhação com checagem orientada. Atividades em pares para comparar coleções."
+    },
+    {
+      "id": "EF01MA04",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Contar a quantidade de objetos de coleções até 100 unidades e apresentar o resultado por registros verbais e simbólicos, em situações de seu interesse, como jogos, brincadeiras, materiais da sala de aula, entre outros.",
+      "sugestaoNao": "Sequências com músicas, número a número. Construir reta numérica coletiva na sala. Registros pictográficos antes da escrita numérica.",
+      "sugestaoSimComMediacao": "Bingo numérico e calendários com apoio do professor. Escrever números de coleções com modelos à vista. Usar a reta numérica como suporte quando necessário."
+    },
+    {
+      "id": "EF01MA05",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Comparar números naturais de até duas ordens em situações cotidianas, com e sem suporte da reta numérica.",
+      "sugestaoNao": "Ordenar cartões (maior/menor/igual) com material visível. Usar a reta numérica para visualizar distâncias entre números. Jogos de cartas: \"quem tem mais?\"",
+      "sugestaoSimComMediacao": "Comparar usando a reta apenas quando preciso (fading). Justificar a comparação oralmente (\"é maior porque…\"). Desafios em duplas com feedback mediado."
+    },
+    {
+      "id": "EF01MA06",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Construir fatos básicos da adição e utilizá-los em procedimentos de cálculo para resolver problemas.",
+      "sugestaoNao": "Juntar coleções com objetos reais (tampinhas, palitos). Situações-problema do cotidiano (ganhou +2 figurinhas). Jogos de tabuleiro que exigem somar passos.",
+      "sugestaoSimComMediacao": "Cálculo mental com apoio (dedos, desenhos). Resolver em pares e explicar a estratégia usada. Registrar os fatos básicos em quadros de soma com mediação."
+    },
+    {
+      "id": "EF01MA07",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Compor e decompor número de até duas ordens, por meio de diferentes adições, com o suporte de material manipulável, contribuindo para a compreensão de características do sistema de numeração decimal e o desenvolvimento de estratégias de cálculo.",
+      "sugestaoNao": "Material dourado/dinheiro de brinquedo para dezenas e unidades. Jogos de \"troca 10 por 1\" para entender o valor posicional. Compor números a partir de duas coleções (ex.: 30 + 4).",
+      "sugestaoSimComMediacao": "Decompor números em DU/DU com quadros de valor posicional (QVP). Registrar diferentes decomposições com ajuda (34=30+4=20+14). Problemas simples que peçam compor/decompor com mediação."
+    },
+    {
+      "id": "EF01MA08",
+      "tipo": "Números e Álgebra",
+      "pergunta": "Resolver e elaborar problemas de adição e de subtração, envolvendo números de até dois algarismos, com os significados de juntar, acrescentar, separar e retirar, com o suporte de imagens e/ou material manipulável, utilizando estratégias e formas de registro pessoais.",
+      "sugestaoNao": "Dramatizações (tinha 8, saiu 3). Usar imagens/objetos para modelar a situação. Registrar com desenhos antes de símbolos.",
+      "sugestaoSimComMediacao": "Resolver com cálculo mental apoiado (dedos/quadros). Elaborar um problema similar com ajuda do professor. Compartilhar a estratégia com um colega (fala matemática guiada)."
+    },
+    {
+      "id": "EF01MA09",
+      "tipo": "Álgebra",
+      "pergunta": "Organizar e ordenar objetos familiares ou representações por figuras, por meio de atributos, tais como cor, forma e medida.",
+      "sugestaoNao": "Classificar por um atributo por vez (cor). Depois, combinar dois atributos (cor e forma). Jogos de categorização com cartões/objetos da sala.",
+      "sugestaoSimComMediacao": "Registrar a regra de classificação com apoio (legenda). Ordenar e explicar o critério usado. Montar pequenas coleções e pedir ao colega para identificar a regra."
+    },
+    {
+      "id": "EF01MA10",
+      "tipo": "Álgebra",
+      "pergunta": "Descrever, após o reconhecimento e a explicitação de um padrão (ou regularidade), os elementos ausentes em sequências recursivas de números naturais, objetos ou figuras.",
+      "sugestaoNao": "Sequências simples com blocos/adesivos (ABAB, AAB, ABC). Dizer o que se repete antes de continuar a sequência. Completar lacunas com material concreto.",
+      "sugestaoSimComMediacao": "Descrever verbalmente o padrão com perguntas-guias. Completar sequências em duplas com modelos à vista. Criar pequena sequência para o colega completar."
+    },
+    {
+      "id": "EF01MA11",
+      "tipo": "Geometria",
+      "pergunta": "Descrever a localização de pessoas e de objetos no espaço em relação à sua própria posição, utilizando termos como à direita, à esquerda, em frente, atrás.",
+      "sugestaoNao": "Circuitos motores na sala/pátio (direita/esquerda/frente/atrás). Jogos de \"siga o comando\". Indicar posições de objetos na carteira/estante.",
+      "sugestaoSimComMediacao": "Descrever o caminho em mapas simples com mediação. Jogos de localização com pistas verbais do professor. Registrar setas/setores em desenhos apoiados."
+    },
+    {
+      "id": "EF01MA12",
+      "tipo": "Geometria",
+      "pergunta": "Descrever a localização de pessoas e de objetos no espaço segundo um dado ponto de referência, compreendendo que, para a utilização de termos que se referem à posição, como direita, esquerda, em cima, em baixo, é necessário explicitar-se o referencial.",
+      "sugestaoNao": "Brincadeiras de esconder/achar usando um referencial comum (a mesa do professor). Indicar direções em relação ao referencial (à direita da porta). Fotografar e marcar setas sobre a imagem.",
+      "sugestaoSimComMediacao": "Mudar o referencial e descrever novamente, com apoio. Jogos de percurso em tabuleiros com legenda mediada. Relatar oralmente um trajeto curto usando o referencial dado."
+    },
+    {
+      "id": "EF01MA13",
+      "tipo": "Geometria",
+      "pergunta": "Relacionar figuras geométricas espaciais (cones, cilindros, esferas e blocos retangulares) a objetos familiares do mundo físico.",
+      "sugestaoNao": "Explorar embalagens e brinquedos (lata=cilindro, bola=esfera). Cesta de objetos para classificar por forma espacial. Modelagem com massinha para reconhecer formatos.",
+      "sugestaoSimComMediacao": "Jogo de caça às formas na sala com lista guiada. Fotografar objetos e etiquetar com mediação. Explicar semelhanças/diferenças entre duas formas com apoio."
+    },
+    {
+      "id": "EF01MA14",
+      "tipo": "Geometria",
+      "pergunta": "Identificar e nomear figuras planas (círculo, quadrado, retângulo e triângulo) em desenhos apresentados em diferentes disposições ou em contornos de faces de sólidos geométricos.",
+      "sugestaoNao": "Cartazes e jogos de associação figura–nome. Montagens com palitos/barbante para formar figuras planas. Encontrar figuras em revistas/ambiente escolar.",
+      "sugestaoSimComMediacao": "Identificar figuras em diferentes orientações com apoio. Relacionar faces de sólidos às figuras planas com mediação. Desenhar/contornar figuras em duplas."
+    },
+    {
+      "id": "EF01MA15",
+      "tipo": "Grandezas e Medidas",
+      "pergunta": "Comparar comprimentos, capacidades ou massas, utilizando termos como mais alto, mais baixo, mais comprido, mais curto, mais grosso, mais fino, mais largo, mais pesado, mais leve, cabe mais, cabe menos, entre outros, para ordenar objetos de uso cotidiano.",
+      "sugestaoNao": "Medir com unidades não padronizadas (palmo, passo, lápis). Ordenar objetos pelo atributo solicitado (do mais curto ao mais comprido). Experimentos práticos (encher recipientes, comparar massas).",
+      "sugestaoSimComMediacao": "Justificar a ordenação com perguntas orientadas. Registrar comparações com setas/tabelas simples, com apoio. Repetir a atividade variando o atributo com mediação."
+    },
+    {
+      "id": "EF01MA16",
+      "tipo": "Grandezas e Medidas",
+      "pergunta": "Relatar em linguagem verbal ou não verbal sequência de acontecimentos relativos a um dia, utilizando, quando possível, os horários dos eventos.",
+      "sugestaoNao": "Linha do tempo da rotina da turma com imagens. Sequenciar cartões de eventos (acordar, lanche, tarefa). Relacionar eventos a horários aproximados (manhã/tarde/noite).",
+      "sugestaoSimComMediacao": "Contar oralmente a rotina com apoio de imagens/relógio. Completar horários faltantes com mediação. Registrar a própria rotina em 3–4 passos com ajuda."
+    },
+    {
+      "id": "EF01MA17",
+      "tipo": "Grandezas e Medidas",
+      "pergunta": "Reconhecer e relacionar períodos do dia, dias da semana e meses do ano, utilizando calendário, quando necessário.",
+      "sugestaoNao": "Cantar dias da semana/meses; calendário da sala. Marcar aniversários e eventos da turma. Diferenciar manhã/tarde/noite em fotos/ilustrações.",
+      "sugestaoSimComMediacao": "Ler o calendário para localizar datas com apoio. Montar um mini-calendário com mediação. Relacionar datas a eventos próximos (passeio, prova)."
+    },
+    {
+      "id": "EF01MA18",
+      "tipo": "Grandezas e Medidas",
+      "pergunta": "Produzir a escrita de uma data, apresentando o dia, o mês e o ano, e indicar o dia da semana de uma data, consultando calendários.",
+      "sugestaoNao": "Copiar e depois escrever datas significativas (aniversário, hoje). Identificar no calendário o dia da semana correspondente. Exercícios de completar campos: __/__/____.",
+      "sugestaoSimComMediacao": "Escrever datas a partir de cartões-modelo com mediação. Localizar datas pedidas pelo professor no calendário. Verificar se a data escrita corresponde ao dia da semana, com ajuda."
+    },
+    {
+      "id": "EF01MA19",
+      "tipo": "Grandezas e Medidas",
+      "pergunta": "Reconhecer e relacionar valores de moedas e cédulas do sistema monetário brasileiro para resolver situações simples do cotidiano do estudante.",
+      "sugestaoNao": "Manuseio de dinheiro de brinquedo; parear moeda/valor. Situações de compra e troco simples com objetos da sala. Jogo de \"feirinha\" com preços inteiros pequenos.",
+      "sugestaoSimComMediacao": "Resolver pequenas compras com apoio do professor (contar valores). Registrar a combinação de moedas/cédulas para formar um valor. Simular pagamento e conferir troco com mediação."
+    },
+    {
+      "id": "EF01MA20",
+      "tipo": "Probabilidade e Estatística",
+      "pergunta": "Classificar eventos envolvendo o acaso, tais como \"acontecerá com certeza\", \"talvez aconteça\" e \"é impossível acontecer\", em situações do cotidiano.",
+      "sugestaoNao": "Discutir exemplos do cotidiano (chover agora? sair o sol à noite?). Classificar cartões de eventos em três caixas: certeza/talvez/impossível. Simulações simples (lançar moeda) para perceber incerteza.",
+      "sugestaoSimComMediacao": "Justificar a classificação com apoio de perguntas. Criar um exemplo para cada categoria com mediação. Relacionar \"talvez\" a condições (se…, então…)."
+    },
+    {
+      "id": "EF01MA21",
+      "tipo": "Probabilidade e Estatística",
+      "pergunta": "Ler dados expressos em tabelas e em gráficos de colunas simples.",
+      "sugestaoNao": "Construir gráfico pictórico da turma (cores favoritas). Ler juntos uma tabela simples (quantidades da caixa de brinquedos). Responder perguntas diretas (qual coluna é maior?).",
+      "sugestaoSimComMediacao": "Ler em pares com roteiro de perguntas. Explicar, com mediação, o que o gráfico mostra (mais/menos/igual). Apontar dados específicos solicitados pelo professor."
+    },
+    {
+      "id": "EF01MA22",
+      "tipo": "Probabilidade e Estatística",
+      "pergunta": "Realizar pesquisa, envolvendo até duas variáveis categóricas de seu interesse e universo de até 30 elementos, e organizar dados por meio de representações pessoais.",
+      "sugestaoNao": "Escolher tema (fruta favorita/brincadeira preferida) e coletar dados na turma. Marcar contagens com risquinhos/pictogramas. Organizar em uma tabela simples desenhada.",
+      "sugestaoSimComMediacao": "Montar gráfico com mediação (pictórico/colunas simples). Apresentar oralmente um achado (o mais escolhido) com apoio. Comparar duas categorias com perguntas-guias."
+    }
+  ]
+}

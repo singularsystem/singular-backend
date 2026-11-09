@@ -1,0 +1,132 @@
+{
+  "subject": "Ciências",
+  "serie": "8º Ano",
+  "questions": [
+    {
+      "id": "EF08CI01",
+      "pergunta": "Química: átomos, moléculas e substâncias (noções); propriedades e mudanças.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelos com esferas (moléculas).\nClassificar substâncias × misturas.\nEvidências de reações.",
+      "sugestaoNao": "Evitar reagentes perigosos.\nUsar EPI simples.\nVentilação adequada."
+    },
+    {
+      "id": "EF08CI02",
+      "pergunta": "Tabela periódica (noções): famílias e tendências básicas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa da tabela (metais/não‑metais).\nRelacionar propriedades a usos do cotidiano.\nQuiz de localização de elementos.",
+      "sugestaoNao": "Evitar decorar sem sentido.\nUsar exemplos reais.\nCitar fontes."
+    },
+    {
+      "id": "EF08CI03",
+      "pergunta": "Reações químicas qualitativas: combustão, oxidação, neutralização (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Demonstrar com materiais seguros.\nRegistrar indícios (cor, gás, temperatura).\nEscrever reação em linguagem simples.",
+      "sugestaoNao": "Evitar chamas abertas sem controle.\nNão inalar gases.\nDescarte correto."
+    },
+    {
+      "id": "EF08CI04",
+      "pergunta": "Eletricidade e circuitos: série × paralelo; consumo e segurança.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar série/paralelo com pilhas.\nMedir brilho/tensão relativos (noções).\nPlano de segurança elétrica doméstica.",
+      "sugestaoNao": "Não usar rede elétrica.\nEvitar curto.\nArmazenar pilhas corretamente."
+    },
+    {
+      "id": "EF08CI05",
+      "pergunta": "Magnetismo e eletromagnetismo (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Brincar com ímãs e limalha (linhas de campo).\nEletroímã simples com pilha.\nRelatar aplicações.",
+      "sugestaoNao": "Evitar aquecimento do fio.\nDesligar após uso.\nManter distância de mídias magnéticas."
+    },
+    {
+      "id": "EF08CI06",
+      "pergunta": "Óptica: reflexão/refração; lentes (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caixa de feixes (laser de baixa potência e névoa) — com cuidado.\nExperimentos com lente de lupa.\nDescrever trajetórias da luz.",
+      "sugestaoNao": "Não apontar laser nos olhos.\nUsar potência baixa.\nAmbiente controlado."
+    },
+    {
+      "id": "EF08CI07",
+      "pergunta": "Ondas e som: frequência, amplitude e timbre (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Cordas vibrantes e tubos sonoros.\nAplicar conceitos em instrumentos simples.\nRelatar medições qualitativas.",
+      "sugestaoNao": "Controle de volume.\nEvitar exposição prolongada.\nRegistrar variáveis."
+    },
+    {
+      "id": "EF08CI08",
+      "pergunta": "Terra e ambiente: ciclos biogeoquímicos e mudanças climáticas (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelo de ciclo do carbono.\nLeitura de gráficos de CO₂/temperatura.\nPlano de mitigação/adaptação escolar.",
+      "sugestaoNao": "Citar dados e fontes científicas.\nEvitar alarmismo.\nDefinir indicadores."
+    },
+    {
+      "id": "EF08CI09",
+      "pergunta": "Geociências: intemperismo, erosão e solo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimento de erosão em bandejas.\nComparar coberturas do solo.\nPlano anti‑erosão na horta.",
+      "sugestaoNao": "Evitar desperdício de água/solo.\nCitar local de coleta.\nRegistrar tempo e condições."
+    },
+    {
+      "id": "EF08CI10",
+      "pergunta": "Saúde coletiva: prevenção, vacinas e saneamento.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de vacinas.\nMapa de saneamento no bairro (noções).\nCampanha de prevenção baseada em evidências.",
+      "sugestaoNao": "Usar fontes confiáveis.\nEvitar fake news.\nLinguagem acessível e respeitosa."
+    },
+    {
+      "id": "EF08CI11",
+      "pergunta": "Energia: fontes renováveis x não renováveis; eficiência.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Inventário de consumo da escola.\nProtótipo simples (solar/eólica).\nPlano de eficiência com metas.",
+      "sugestaoNao": "Unidades corretas (noções).\nEvitar promessas sem base.\nAvaliar resultados."
+    },
+    {
+      "id": "EF08CI12",
+      "pergunta": "Comunicar ciência: infográfico e vídeo curto com dados.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar roteiro.\nCitar fontes e licenças de imagens.\nPublicar no mural/ambiente digital.",
+      "sugestaoNao": "Respeitar direitos autorais.\nRevisar clareza.\nAcessibilidade do material."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}

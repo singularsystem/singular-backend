@@ -1,0 +1,118 @@
+{
+  "subject": "Ciências",
+  "serie": "3º Ano",
+  "questions": [
+    {
+      "id": "EF03CI01",
+      "pergunta": "Observar o corpo humano e os sentidos no cotidiano (visão, audição, olfato, paladar, tato).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Circuito dos sentidos: estações para cada sentido.\nCaderno de observação: registrar estímulos do dia.\nJogo de adivinhar objetos pelo tato/cheiro.",
+      "sugestaoNao": "Nomear órgãos e função básica.\nHigiene e cuidado com olhos/orelhas/pele.\nRever crenças equivocadas com exemplos simples."
+    },
+    {
+      "id": "EF03CI02",
+      "pergunta": "Identificar hábitos de saúde: alimentação, higiene, sono, atividade física.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar prato colorido com recortes.\nRotina saudável semanal (tabela).\nRoda de alongamento e consciência corporal.",
+      "sugestaoNao": "Diferenciar alimento in natura × ultraprocessado.\nLer rótulos simples (açúcar/sódio).\nHigienizar as mãos corretamente."
+    },
+    {
+      "id": "EF03CI03",
+      "pergunta": "Reconhecer seres vivos e não vivos; necessidades básicas dos seres vivos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça ao tesouro vivo × não vivo no pátio.\nGráfico das plantas/animais observados.\nCuidar de uma planta da turma.",
+      "sugestaoNao": "Registrar o que seres vivos precisam (água, ar, alimento).\nEvitar classificar 'pedra' como vivo.\nAnotar mudanças ao longo das semanas."
+    },
+    {
+      "id": "EF03CI04",
+      "pergunta": "Entender ciclos de vida simples (plantas, insetos, anfíbios).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar linha do tempo de um ciclo (girino→sapo).\nObservação de germinação (feijões).\nLivro de imagens do ciclo escolhido.",
+      "sugestaoNao": "Diferenciar crescimento × metamorfose.\nMarcar tempo (dias/semanas).\nCuidar dos seres observados com ética."
+    },
+    {
+      "id": "EF03CI05",
+      "pergunta": "Explorar materiais do cotidiano e suas propriedades (duro, mole, solúvel, impermeável).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Bancada tátil: testar e classificar.\nExperimento de solubilidade (açúcar/areia).\nRegistrar em tabela e desenho.",
+      "sugestaoNao": "Não provar materiais desconhecidos.\nUsar EPI simples (avental, óculos de papel).\nDescarte seguro."
+    },
+    {
+      "id": "EF03CI06",
+      "pergunta": "Observar água e ar: estados físicos e mudanças simples (evaporação/condensação).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimento do 'copo de chuva' (condensação).\nMapear usos da água na escola.\nJogo do ciclo da água.",
+      "sugestaoNao": "Economia de água (placas).\nDiferenciar 'sumir' de evaporar.\nAnotar condições (sol/vento)."
+    },
+    {
+      "id": "EF03CI07",
+      "pergunta": "Identificar fontes de luz e som e como percebemos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caixa‑escura simples (orifício).\nLaboratório do som (objetos que vibram).\nRoteiro: o que precisamos para ver/ouvir?",
+      "sugestaoNao": "Evitar olhar para fontes intensas.\nRelacionar som a vibração.\nCuidar do volume de fones."
+    },
+    {
+      "id": "EF03CI08",
+      "pergunta": "Reconhecer fenômenos do céu (dia/noite; Sol e Lua) e variações do tempo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calendário de fases da Lua (observação).\nRegistro do tempo (sol/chuva/nuvens).\nDesenho do céu em diferentes horas.",
+      "sugestaoNao": "Diferenciar Lua de nuvem.\nMarcar horários das observações.\nConectar com rotina diária."
+    },
+    {
+      "id": "EF03CI09",
+      "pergunta": "Separar lixo, reutilizar e cuidar do ambiente da escola/comunidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coleta seletiva na sala.\nReutilização criativa (oficina).\nMutirão de limpeza e relatório.",
+      "sugestaoNao": "Classificar resíduos corretamente.\nHigienizar materiais.\nAvaliar impacto da ação."
+    },
+    {
+      "id": "EF03CI10",
+      "pergunta": "Usar linguagem científica inicial: observar, registrar, perguntar.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro 'o que observei/o que penso/o que testei'.\nDesenho científico com legenda.\nApresentação oral curta do achado.",
+      "sugestaoNao": "Evitar copiar sem observar.\nCitar data/local do registro.\nUsar termos simples e corretos."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}

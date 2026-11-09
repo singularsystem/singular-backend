@@ -1,0 +1,118 @@
+{
+  "subject": "História",
+  "serie": "6º Ano",
+  "questions": [
+    {
+      "id": "EF06HI01",
+      "pergunta": "Distinguir história, memória e patrimônio; usar diferentes fontes com criticidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar duas fontes do mesmo fato e apontar convergências.\nInventário de patrimônios do bairro (material e imaterial).\nRelatório curto sobre confiabilidade de uma fonte.",
+      "sugestaoNao": "Separar fato/opinião.\nRegistrar autoria/data.\nApontar limites da fonte."
+    },
+    {
+      "id": "EF06HI02",
+      "pergunta": "Noções de tempo e periodização: linha do tempo comparando diferentes sociedades.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo paralela (Brasil × mundo) com 6 marcos.\nMarcar simultaneidades e durações.\nConverter datas em séculos corretamente.",
+      "sugestaoNao": "Corrigir contagem de séculos.\nRever legenda/título.\nJustificar escolhas de marcos."
+    },
+    {
+      "id": "EF06HI03",
+      "pergunta": "Povos da Antiguidade: modos de vida, técnica e organização social/política.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa das civilizações e recursos naturais.\nFichas de comparação (escrita, religião, poder).\nDiário fictício ambientado em uma civilização com base em fontes.",
+      "sugestaoNao": "Evitar anacronismos.\nCitar fontes de imagens/textos.\nDiferenciar mito de dado arqueológico."
+    },
+    {
+      "id": "EF06HI04",
+      "pergunta": "Cidades antigas e comércio: rotas, trocas e circulação de ideias.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Desenhar rota comercial e produtos trocados.\nRole‑play de troca entre mercadores.\nRelacionar comércio a surgimento de cidades.",
+      "sugestaoNao": "Indicar meios de transporte plausíveis.\nEvitar simplificações sobre 'progresso'.\nConferir mapa e legenda."
+    },
+    {
+      "id": "EF06HI05",
+      "pergunta": "Religiões e culturas na Antiguidade: diversidade e permanências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro de crenças e práticas culturais.\nAnalisar arte/arquitetura e significados.\nComparar ritos/perspectivas sem hierarquizar.",
+      "sugestaoNao": "Evitar juízos de valor religiosos.\nUsar vocabulário respeitoso.\nCitar a fonte analisada."
+    },
+    {
+      "id": "EF06HI06",
+      "pergunta": "Sociedades indígenas no território brasileiro pré‑colonial: diversidade e técnicas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa etnolinguístico (noções) com fontes do IBGE/Funai.\nOficina de técnicas tradicionais (cerâmica, cultivo) em relato.\nComparar modos de ocupação do território.",
+      "sugestaoNao": "Nomear povos concretos.\nEvitar generalizações.\nRegistrar fontes."
+    },
+    {
+      "id": "EF06HI07",
+      "pergunta": "Chegada dos europeus e primeiros contatos: conflitos e negociações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de contatos e aldeamentos.\nAnalisar Carta de Pero Vaz (trechos) com mediação.\nDiscussão sobre impactos para cada grupo.",
+      "sugestaoNao": "Evitar narrativas de 'descoberta' simplistas.\nRegistrar diferentes pontos de vista.\nIndicar consequências."
+    },
+    {
+      "id": "EF06HI08",
+      "pergunta": "Escravização de indígenas e de africanos: rotas, práticas e resistências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa das rotas e locais de trabalho compulsório.\nLeitura de documentos (anúncio de fuga).\nQuadro de formas de resistência.",
+      "sugestaoNao": "Diferenciar escravização de trabalho livre.\nEvitar termos naturalizantes.\nCitar fontes."
+    },
+    {
+      "id": "EF06HI09",
+      "pergunta": "Formação de vilas/cidades no período colonial: administração e cotidiano.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa das vilas; funções e ofícios.\nRegistros do cotidiano (posturas municipais).\nMaquete simples de uma vila.",
+      "sugestaoNao": "Diferenciar câmaras/poder local.\nUsar vocabulário correto.\nRevisar coerência espacial."
+    },
+    {
+      "id": "EF06HI10",
+      "pergunta": "Fontes iconográficas: leitura crítica (gravuras, mapas, pinturas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de leitura de imagem (quem/onde/quando).\nComparar imagem oficial × relato não oficial.\nEscrever legenda crítica.",
+      "sugestaoNao": "Evitar leitura literal sem contexto.\nIndicar autoria.\nChecar data/local."
+    },
+    {
+      "id": "EF06HI11",
+      "pergunta": "Produzir texto expositivo curto sobre tema do período colonial com base em fontes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar, escrever, revisar e referenciar.\nApresentação oral com apoio visual.\nChecklist de coesão temporal.",
+      "sugestaoNao": "Citar fontes corretamente.\nRevisar ortografia de nomes próprios.\nVerificar coerência temporal."
+    },
+    {
+      "id": "EF06HI12",
+      "pergunta": "Cidadania e direitos humanos: respeito à diversidade étnico‑racial e cultural.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roda de conversa sobre preconceitos e direitos.\nPlano de ação na escola (combate ao racismo).\nCartazes educativos.",
+      "sugestaoNao": "Usar linguagem inclusiva.\nBasear afirmações em dados.\nAvaliar impacto da ação."
+    },
+    {
+      "id": "EF05–EF09/FONTES",
+      "pergunta": "Usar múltiplas fontes (orais, textuais, visuais, digitais) com criticidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro padrão de análise (quem/quando/onde/por quê).\nComparar duas fontes e apontar divergências.\nRegistrar limitações e lacunas.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria e contexto.\nEvitar uso de fontes sem verificação."
+    },
+    {
+      "id": "EF05–EF09/TEMPO",
+      "pergunta": "Trabalhar tempo histórico (duração, simultaneidade, permanência, mudança).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir e ler linhas do tempo comparadas.\nMarcar durações e simultaneidades.\nRever contagem de séculos.",
+      "sugestaoNao": "Checar datas em mais de uma fonte.\nEvitar anacronismos.\nCorrigir legendas imprecisas."
+    },
+    {
+      "id": "EF05–EF09/CIDADANIA",
+      "pergunta": "Direitos humanos e participação social.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debates mediados com regras de respeito.\nProjetos de intervenção local.\nCartas/documentos dirigidos a órgãos públicos.",
+      "sugestaoNao": "Basear propostas em dados.\nDefinir responsáveis/prazos.\nAvaliar impactos e comunicar resultados."
+    },
+    {
+      "id": "EF05–EF09/COMUNICAÇÃO",
+      "pergunta": "Letramento midiático e combate à desinformação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checar autoria/data/URL.\nComparar coberturas jornalísticas.\nProduzir síntese com referências.",
+      "sugestaoNao": "Evitar encaminhar conteúdo sem checagem.\nUsar linguagem clara e respeitosa.\nCitar fontes."
+    }
+  ]
+}

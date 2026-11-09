@@ -1,0 +1,62 @@
+{
+  "subject": "História",
+  "serie": "1º Ano",
+  "questions": [
+    {
+      "id": "EF01HI01",
+      "pergunta": "Reconhecer a própria identidade e a dos colegas (semelhanças e diferenças) e os grupos de que fazem parte (família, turma, escola).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Autorretrato com legenda (nome, gostos, pertencimentos).\nRoda de conversa: “o que temos em comum e o que é diferente?” com combinados de respeito.\nMapa dos grupos: família, turma, projetos; colar fotos/desenhos.",
+      "sugestaoNao": "Cartões de apoio com vocabulário (gosto de…, pertenço a…).\nPareamento por características simples (quem também…?).\nMediação sobre respeito às diferenças com exemplos do cotidiano."
+    },
+    {
+      "id": "EF01HI02",
+      "pergunta": "Perceber mudanças e permanências no cotidiano (ontem/hoje), usando marcadores simples de tempo (antes, agora, depois).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo pessoal: 3 momentos (bebê, agora, próximo ano).\nSequência de fotos da escola (antigas/atuais) e discussão do que mudou.\nCalendário da turma: registrar eventos e aniversários.",
+      "sugestaoNao": "Cartões de ordem temporal (antes/depois) para organizar tirinhas.\nJogo de ordenar cenas do cotidiano e explicar a sequência.\nRelógio e agenda visual para marcar rotinas (entrada/lanche/saída)."
+    },
+    {
+      "id": "EF01HI03",
+      "pergunta": "Identificar lugares de memória na escola/comunidade (murais, símbolos, monumentos, festas) e explicar por que são importantes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Passeio pela escola: registrar lugares que guardam memórias (biblioteca, murais).\nEntrevista com funcionário antigo: o que mudou? o que permanece?\nMini‑exposição com fotos/objetos da escola e legendas.",
+      "sugestaoNao": "Roteiro de observação com ícones (olho, ouvido, fala).\nMapa simples da escola marcando lugares de memória.\nRecontar oralmente uma memória coletada."
+    },
+    {
+      "id": "EF01HI04",
+      "pergunta": "Reconhecer diferentes fontes para conhecer o passado: fotos, objetos, relatos, canções, desenhos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mesa de fontes: manusear objetos/fotos e dizer o que podem contar.\nHistória de família: trazer uma foto e narrar quem está/onde/quando.\nComparar 2 fontes sobre o mesmo fato (foto × relato).",
+      "sugestaoNao": "Quadro 'o que vejo/o que imagino' para cada fonte.\nRabiscar pistas em cópias de fotos (datas, pessoas, lugares).\nRecontar a história ouvida com apoio de imagens."
+    },
+    {
+      "id": "EF01HI05",
+      "pergunta": "Contar histórias simples do cotidiano com início, meio e fim, usando marcadores temporais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Livro da turma: cada aluno escreve/desehna um episódio e ordenamos.\nTeatro de fantoches para recontar uma rotina (chegada, aula, saída).\nÁlbum seriado de uma atividade (passeio, feira) com legendas.",
+      "sugestaoNao": "Sequência de três quadros para completar (início–meio–fim).\nCartões de conectivos (depois, então, por fim).\nRecontar em dupla a história do colega, mantendo a ordem."
+    },
+    {
+      "id": "EF01HI06",
+      "pergunta": "Conhecer e valorizar diferentes formas de marcar o tempo (calendário, aniversários, estações, festas) na cultura local.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calendário cultural da turma: festas e datas significativas locais.\nLinha do tempo do mês: marcar fases da lua/clima observado.\nConvite para uma festa da escola com data/hora/local.",
+      "sugestaoNao": "Jogo de ligar evento ↔ mês/estação.\nCompletar um calendário com eventos da escola.\nOrganizar a rotina semanal com pictogramas."
+    },
+    {
+      "id": "EF01HI07",
+      "pergunta": "Reconhecer diferentes jeitos de viver e costumes (diversidade cultural) com respeito e curiosidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mostra das culturas da turma (comidas, músicas, brincadeiras).\nLeitura de histórias de diferentes origens e conversa sobre costumes.\nBrincadeiras tradicionais trazidas pelas famílias.",
+      "sugestaoNao": "Cartas de curiosidades (como se diz ‘olá’ em…?).\nPainel 'eu aprendi sobre…' após cada história.\nRegras de convivência combinadas para acolher diferenças."
+    },
+    {
+      "id": "EF01HI08",
+      "pergunta": "Participar de ações de cuidado e cooperação na escola (regras, direitos e deveres, cuidado com espaços e pessoas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Contrato de convivência da turma (regras desenhadas e assinadas).\nRodas de cuidado: combinados para biblioteca, parque, sala.\nEscala de responsabilidades (ajudantes do dia).",
+      "sugestaoNao": "Cartões‑lembrete de regras (guardar, pedir licença, fila).\nRole‑play de situações de conflito com mediação do professor.\nDiário coletivo de cuidados realizados na semana."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "subject": "Ciências",
+  "serie": "2º Ano",
+  "questions": [
+    {
+      "id": "EF02CI01",
+      "tipo": "Matéria e Energia",
+      "pergunta": "Comparar materiais (textura, dureza, flexibilidade, transparência) e justificar escolhas de uso no cotidiano.",
+      "sugestaoNao": "• Estação de investigação com kits de materiais; tabela de comparação (duro/macio, flexível/rigido etc.).\n• Testes simples (amassar, dobrar, molhar, iluminar) e registro com pictogramas.\n• Propor usos alternativos e avaliar viabilidade.",
+      "sugestaoSimComMediacao": "• Comparar pares de materiais com perguntas-guias (qual suporta água? qual deixa passar luz?).\n• Registrar observações com apoio (tabela com ícones).\n• Explicar oralmente uma escolha, com mediação."
+    },
+    {
+      "id": "EF02CI02",
+      "tipo": "Vida e Evolução",
+      "pergunta": "Identificar partes do corpo humano e descrever funções básicas, cuidados de higiene e prevenção de doenças.",
+      "sugestaoNao": "• Jogo de montar figura humana; nomear partes e funções básicas.\n• Roteiro de higiene (mãos, dentes, banho) com demonstração prática.\n• Cartazes sobre prevenção (vacinas, lavar as mãos).",
+      "sugestaoSimComMediacao": "• Preencher fichas (parte do corpo ↔ função), com apoio.\n• Simular rotina de higiene com mediação (sequência de passos).\n• Relatar, com ajuda, um cuidado diário e sua importância."
+    },
+    {
+      "id": "EF02CI03",
+      "tipo": "Vida e Evolução",
+      "pergunta": "Reconhecer características e necessidades de plantas e animais do entorno, comparando formas de obtenção de alimento e abrigo.",
+      "sugestaoNao": "• Observação do pátio/horta; registro fotográfico/desenho.\n• Experimento de germinação em algodão; comparação de condições (luz/água).\n• Tabela de necessidades (água, luz, alimento, abrigo).",
+      "sugestaoSimComMediacao": "• Descrever oralmente diferenças entre dois seres vivos com perguntas-guia.\n• Completar quadro de comparação (planta × animal) com mediação.\n• Propor um cuidado para o ser vivo observado, com apoio."
+    },
+    {
+      "id": "EF02CI04",
+      "tipo": "Terra e Universo",
+      "pergunta": "Observar e registrar variações do tempo atmosférico e relacioná-las a roupas, atividades e cuidados de saúde.",
+      "sugestaoNao": "• Calendário do clima (sol, chuva, vento, frio/calor) com pictogramas.\n• Gráfico semanal do tempo; discussão sobre vestuário/atividades.\n• Lista de cuidados (protetor, capa de chuva, hidratação).",
+      "sugestaoSimComMediacao": "• Comparar dias e justificar escolhas de roupas com mediação.\n• Produzir recados/avisos para a turma (levar capa/água), com apoio.\n• Relatar mudanças percebidas ao longo da semana, com orientação."
+    },
+    {
+      "id": "EF02CI05",
+      "tipo": "Terra e Universo",
+      "pergunta": "Descrever a posição aparente do Sol ao longo do dia e relacionar com tamanho/direção de sombras e com a duração do dia.",
+      "sugestaoNao": "• Medir sombra de um objeto em 2–3 horários e marcar no chão.\n• Registrar com desenhos/fotos e setas (direção da sombra).\n• Comparar tamanhos e discutir por que variam.",
+      "sugestaoSimComMediacao": "• Responder perguntas-guias (em que horário a sombra foi maior/menor?).\n• Montar mini-diário solar com mediação.\n• Explicar, com apoio, a relação entre posição do Sol e sombra."
+    },
+    {
+      "id": "EF02CI06",
+      "tipo": "Terra e Universo",
+      "pergunta": "Identificar ações de conservação do ambiente (redução de lixo, reuso, reciclagem, economia de água e energia) e propor práticas na escola/comunidade.",
+      "sugestaoNao": "• Auditoria do lixo da sala; separação básica e cartazes informativos.\n• Campanha de economia de água/energia com metas semanais.\n• Construção de brinquedos com material reaproveitado.",
+      "sugestaoSimComMediacao": "• Planejar, com mediação, um pequeno projeto (ex.: pontos de coleta na sala).\n• Registrar ações em tabela (dia/ação), com apoio.\n• Apresentar resultados em mural com auxílio do professor."
+    }
+  ]
+}

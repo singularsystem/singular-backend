@@ -1,0 +1,104 @@
+{
+  "subject": "Matemática",
+  "serie": "7º Ano",
+  "questions": [
+    {
+      "id": "EF07MA01",
+      "pergunta": "Operar com racionais (frações/decimais), positivos e negativos, em problemas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver por diferentes estratégias e comparar.\nEstimativa antes do cálculo.\nCriar problema (saldo/temperatura).",
+      "sugestaoNao": "Converter fração↔decimal; simplificar.\nRegistrar passo a passo.\nChecar por aproximação."
+    },
+    {
+      "id": "EF07MA02",
+      "pergunta": "Razão, proporção e regra de três simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro de proporcionalidade e gráfico.\nVerificar se há proporcionalidade.\nInterpretar taxa no contexto.",
+      "sugestaoNao": "Simplificar razões equivalentes.\nDiferenciar proporcional e não proporcional.\nCorrigir confusões com porcentagem."
+    },
+    {
+      "id": "EF07MA03",
+      "pergunta": "Porcentagens: aumentos/descontos simples e sucessivos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tabelas de 1%, 5%, 10%; simulações de compra.\nComparar métodos (decimal × fração).\nChecar com estimativa.",
+      "sugestaoNao": "Evitar somar percentuais sucessivos.\nExplicar 15% de x no contexto.\nRever cálculos com base errada."
+    },
+    {
+      "id": "EF07MA04",
+      "pergunta": "Expressões algébricas: traduzir, simplificar e substituir.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Texto↔expressão; distributiva; termos semelhantes.\nTabela de valores para diferentes entradas.\nExplicar cada passo.",
+      "sugestaoNao": "Diferenciar número, variável, operador.\nChecar com substituição.\nCorrigir erros comuns."
+    },
+    {
+      "id": "EF07MA05",
+      "pergunta": "Equações lineares simples: resolver e aplicar.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Isolamento e verificação por substituição.\nModelar problema e resolver.\nComparar balança × transformações.",
+      "sugestaoNao": "Explicar propriedade usada.\nMontar equação correta.\nIdentificar e corrigir erros."
+    },
+    {
+      "id": "EF07MA06",
+      "pergunta": "Geometria plana: triângulos/quadriláteros; perímetro e ângulos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Medir ângulos e somas internas simples.\nClassificar por lados/ângulos.\nResolver perímetro/ângulos em figuras.",
+      "sugestaoNao": "Identificar propriedades essenciais.\nDesenhar em malha e justificar.\nCorrigir classificações."
+    },
+    {
+      "id": "EF07MA07",
+      "pergunta": "Grandezas: área (retângulos/triângulos) e volume (bloco ret.).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Medir objetos reais; calcular e registrar unidades.\nConstruir sólido e anotar dimensões.\nComparar estimativa × cálculo.",
+      "sugestaoNao": "Selecionar fórmula e identificar variáveis.\nChecar coerência de unidades.\nRevisar substituições."
+    },
+    {
+      "id": "EF07MA08",
+      "pergunta": "Funções (noção): relações proporcionais/lineares simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tabela (x,y) e gráfico cartesiano.\nIdentificar taxa constante.\nInterpretar coeficientes.",
+      "sugestaoNao": "Plotar e rotular corretamente.\nRevisar escala.\nTestar diferenças constantes."
+    },
+    {
+      "id": "EF07MA09",
+      "pergunta": "Probabilidade: experimentar, listar e estimar chances.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simular e comparar previsão × frequência.\nListar espaço amostral.\nDiscutir equiprobabilidade.",
+      "sugestaoNao": "Diferenciar 'possível' de 'provável'.\nJustificar com números.\nRever contagens incompletas."
+    },
+    {
+      "id": "EF07MA10",
+      "pergunta": "Estatística: comparar dois conjuntos e comunicar.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar, tabular, graficar duas turmas.\nEscrever conclusões fundamentadas.\nApresentação com evidências.",
+      "sugestaoNao": "Responder questões inferenciais.\nIdentificar outliers.\nEscolher gráfico adequado."
+    },
+    {
+      "id": "EF06–EF09/NÚMEROS",
+      "pergunta": "Cálculo mental, estimativas e verificação com inversas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver por duas estratégias e comparar.\nExplicar como estimou e checou.\nCriar problema que exija estimar.",
+      "sugestaoNao": "Sequências graduadas com feedback.\nChecklist de erros comuns.\nRefazer com outra estratégia."
+    },
+    {
+      "id": "EF06–EF09/ÁLGEBRA",
+      "pergunta": "Modelar com expressões, equações e proporções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Traduzir texto↔expressão e validar.\nResolver e checar equações.\nComparar modelos proporcionais × não proporcionais.",
+      "sugestaoNao": "Diferenciar variável/unidade.\nExplicar cada transformação.\nTestar plausibilidade com valores."
+    },
+    {
+      "id": "EF06–EF09/GEOMETRIA",
+      "pergunta": "Visualizar, decompor e justificar soluções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Esboçar e decompor em figuras básicas.\nValidar com maquetes/softwares.\nComunicar solução com unidades.",
+      "sugestaoNao": "Selecionar fórmula coerente.\nChecar consistência dimensional.\nCorrigir construções imprecisas."
+    },
+    {
+      "id": "EF06–EF09/DADOS",
+      "pergunta": "Planejar, coletar, representar e concluir; noções de probabilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa, tabular e graficar.\nSimular aleatoriedade e comparar com teoria.\nDiscutir limites de generalização.",
+      "sugestaoNao": "Escolher gráfico adequado.\nRotular eixos e indicar fonte.\nEvitar inferências sem suporte."
+    }
+  ]
+}

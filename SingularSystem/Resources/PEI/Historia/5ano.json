@@ -1,0 +1,118 @@
+{
+  "subject": "História",
+  "serie": "5º Ano",
+  "questions": [
+    {
+      "id": "EF05HI01",
+      "pergunta": "Identificar continuidades e mudanças do Brasil Colônia ao Império em aspectos do cotidiano (trabalho, alimentação, vestuário).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Painel 'antes/depois' com imagens e descrições do cotidiano.\nLeitura de trechos de cartas/gravuras coloniais e comparação com hoje.\nRelato curto: 'o que mudou e o que permaneceu?'",
+      "sugestaoNao": "Classificar exemplos em mudança/permanência com justificativa.\nCompletar linhas do tempo com eventos do cotidiano.\nReescrever legenda incorreta com base na fonte."
+    },
+    {
+      "id": "EF05HI02",
+      "pergunta": "Reconhecer povos indígenas e africanos na formação do Brasil, suas contribuições e resistências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de povos/rotas e registro de contribuições (língua, alimentação, técnicas).\nLeitura de relatos sobre quilombos e discutir resistências.\nMostra cultural (músicas, brincadeiras, palavras de origem).",
+      "sugestaoNao": "Citar a fonte de cada dado e evitar generalizações.\nRelacionar contribuição a áreas da vida cotidiana.\nCorrigir estereótipos em frases-modelo."
+    },
+    {
+      "id": "EF05HI03",
+      "pergunta": "Localizar o Brasil no contexto do comércio atlântico e do trabalho compulsório (tráfico de africanos escravizados).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa do Atlântico com rotas simplificadas e números aproximados.\nAnalisar um documento (anúncio de venda/fotografia) e discutir.\nEscrever um parágrafo explicando impactos humanos e sociais.",
+      "sugestaoNao": "Diferenciar escravização de migração voluntária.\nEvitar linguagem que naturalize a violência.\nApontar agentes e interesses envolvidos."
+    },
+    {
+      "id": "EF05HI04",
+      "pergunta": "Conhecer formas de organização política no período colonial (câmaras, capitanias, governadores).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro 'quem fazia o quê' nas instâncias coloniais.\nEstudo de caso local (sesmarias, vilas) quando houver registro.\nDramatização de uma reunião de Câmara.",
+      "sugestaoNao": "Distinguir níveis de poder e funções.\nRevisar termos-chave (capitania, sesmaria).\nChecar coerência histórica das falas na dramatização."
+    },
+    {
+      "id": "EF05HI05",
+      "pergunta": "Identificar processos de ocupação do território e conflitos com povos originários.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de frentes de expansão e conflitos.\nMapa com marcações de aldeias/territórios (quando houver).\nTexto curto: 'o que motivou os conflitos?'",
+      "sugestaoNao": "Evitar simplificações; nomear povos/territórios.\nIndicar consequências para cada grupo.\nCitar as fontes usadas."
+    },
+    {
+      "id": "EF05HI06",
+      "pergunta": "Reconhecer que há diversas fontes para estudar o passado (documentos, mapas, objetos, tradições orais) e analisar sua confiabilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mesa de fontes com perguntas 'quem/onde/quando/por quê'.\nComparar duas fontes sobre o mesmo tema e discutir divergências.\nClassificar fontes em primárias/secundárias (noções).",
+      "sugestaoNao": "Distinguir fato de opinião em relatos.\nExaminar autoria e contexto de produção.\nRegistrar limitações de cada fonte."
+    },
+    {
+      "id": "EF05HI07",
+      "pergunta": "Utilizar noções de tempo histórico (décadas, séculos) e localizar eventos do período colonial/imperial.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir linha do tempo com séculos e eventos-chave.\nConverter data em século e vice‑versa.\nMarcar duração e simultaneidade de eventos.",
+      "sugestaoNao": "Corrigir erros comuns em contagem de séculos.\nIndicar relações de antes/depois/simultâneo.\nRevisar legendas com datas."
+    },
+    {
+      "id": "EF05HI08",
+      "pergunta": "Compreender Independência do Brasil em linhas gerais (causas, processo, consequências).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa mental de causas internas/externas.\nLeitura de imagem clássica (Grito do Ipiranga) e crítica do mito.\nTexto: 'o que mudou após a Independência no cotidiano?'",
+      "sugestaoNao": "Separar mito de fato com base em fontes.\nIndicar diferentes grupos sociais e seus interesses.\nChecar coerência temporal (datas, contextos)."
+    },
+    {
+      "id": "EF05HI09",
+      "pergunta": "Relacionar símbolos nacionais (bandeira, hino) à construção da identidade brasileira no Império.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar letras/símbolos e seus significados.\nCriar legenda crítica para uma imagem oficial do período.\nDebate: símbolos unem todos? Por quê?",
+      "sugestaoNao": "Distinguir interpretação oficial × leitura crítica.\nEvitar generalizações; considerar grupos excluídos.\nCitar fontes das imagens analisadas."
+    },
+    {
+      "id": "EF05HI10",
+      "pergunta": "Reconhecer diferentes grupos na sociedade imperial (livres, libertos, escravizados) e seus papéis.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro comparativo de direitos e restrições.\nEstudo de vida cotidiana por meio de anúncios/notícias.\nEscrita de uma micro‑biografia baseada em fontes.",
+      "sugestaoNao": "Evitar romantização da escravidão.\nIdentificar agência e resistências.\nIndicar a fonte de cada dado biográfico."
+    },
+    {
+      "id": "EF05HI11",
+      "pergunta": "Produzir textos/linhas do tempo a partir de fontes sobre Brasil Colônia/Império.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reportagem da turma sobre um evento do período.\nLinha do tempo de um tema (educação, saúde, transporte).\nExposição com legendas e referências.",
+      "sugestaoNao": "Revisar coesão temporal e citações.\nChecar datas e nomes próprios.\nIndicar bibliografia/fonte."
+    },
+    {
+      "id": "EF05HI12",
+      "pergunta": "Participar de debates sobre memória e patrimônio colonial/imperial na cidade/estado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roda de conversa sobre nomes de ruas/estátuas.\nPropor alternativas de memória (placas explicativas, roteiros).\nCarta à comunidade justificando a proposta.",
+      "sugestaoNao": "Fundamentar com dados/fonte.\nManter tom respeitoso e propositivo.\nDefinir responsáveis e próximos passos."
+    },
+    {
+      "id": "EF05–EF09/FONTES",
+      "pergunta": "Usar múltiplas fontes (orais, textuais, visuais, digitais) com criticidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro padrão de análise (quem/quando/onde/por quê).\nComparar duas fontes e apontar divergências.\nRegistrar limitações e lacunas.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria e contexto.\nEvitar uso de fontes sem verificação."
+    },
+    {
+      "id": "EF05–EF09/TEMPO",
+      "pergunta": "Trabalhar tempo histórico (duração, simultaneidade, permanência, mudança).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir e ler linhas do tempo comparadas.\nMarcar durações e simultaneidades.\nRever contagem de séculos.",
+      "sugestaoNao": "Checar datas em mais de uma fonte.\nEvitar anacronismos.\nCorrigir legendas imprecisas."
+    },
+    {
+      "id": "EF05–EF09/CIDADANIA",
+      "pergunta": "Direitos humanos e participação social.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debates mediados com regras de respeito.\nProjetos de intervenção local.\nCartas/documentos dirigidos a órgãos públicos.",
+      "sugestaoNao": "Basear propostas em dados.\nDefinir responsáveis/prazos.\nAvaliar impactos e comunicar resultados."
+    },
+    {
+      "id": "EF05–EF09/COMUNICAÇÃO",
+      "pergunta": "Letramento midiático e combate à desinformação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checar autoria/data/URL.\nComparar coberturas jornalísticas.\nProduzir síntese com referências.",
+      "sugestaoNao": "Evitar encaminhar conteúdo sem checagem.\nUsar linguagem clara e respeitosa.\nCitar fontes."
+    }
+  ]
+}

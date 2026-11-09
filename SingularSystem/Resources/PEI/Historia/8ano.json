@@ -1,0 +1,118 @@
+{
+  "subject": "História",
+  "serie": "8º Ano",
+  "questions": [
+    {
+      "id": "EF08HI01",
+      "pergunta": "Brasil no Segundo Reinado: economia, política e sociedade (café, imigração, Guerra do Paraguai).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa das ferrovias e regiões cafeeiras.\nQuadro imigração (origens, razões, trabalho).\nEstudo de caso: Guerra do Paraguai (causas/impactos).",
+      "sugestaoNao": "Evitar simplificações nacionalistas.\nCitar fontes.\nChecar datas e números."
+    },
+    {
+      "id": "EF08HI02",
+      "pergunta": "Abolição: lutas, leis e resistências até 1888.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo (1831–1888).\nFontes: anúncios de fuga, clubes abolicionistas.\nBiografias curtas de protagonistas.",
+      "sugestaoNao": "Evitar narrativa de dádiva.\nIndicar agência dos escravizados.\nReferenciar fontes."
+    },
+    {
+      "id": "EF08HI03",
+      "pergunta": "Proclamação da República e primeiros anos (1890–1930): mudanças e permanências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro de reformas e resistências.\nAnalisar charge de época.\nMapa de revoltas (Canudos, Contestado).",
+      "sugestaoNao": "Contextualizar cada documento.\nEvitar teleologia.\nChecar datas."
+    },
+    {
+      "id": "EF08HI04",
+      "pergunta": "Movimentos sociais e trabalhadores (1900–1930): urbanização, greves, associações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de greves e legislação.\nLeitura de manifestos/jornais operários.\nRelato local/regional quando houver.",
+      "sugestaoNao": "Distinguir demandas e contexto.\nCitar fontes.\nEvitar generalizações."
+    },
+    {
+      "id": "EF08HI05",
+      "pergunta": "Era Vargas (1930–1945/1954): Estado, cultura e economia.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de políticas públicas (trabalho, educação, cultura).\nAnálise de propaganda oficial.\nDebate mediado: limites do projeto.",
+      "sugestaoNao": "Contextualizar autoritarismo/participação.\nChecar datas.\nIncluir vozes dissonantes."
+    },
+    {
+      "id": "EF08HI06",
+      "pergunta": "Brasil e o mundo em guerras (I e II): participação e impactos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo dos eventos principais.\nFontes: cartas, fotos de pracinhas, jornais.\nSíntese sobre impactos no cotidiano.",
+      "sugestaoNao": "Evitar triunfalismo.\nCitar fontes.\nChecar números e termos."
+    },
+    {
+      "id": "EF08HI07",
+      "pergunta": "Ditadura civil‑militar (1964–1985): repressão, resistência e redemocratização.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa dos atos institucionais e movimentos de resistência.\nAnálise de documentos (AI‑5, músicas de protesto).\nLinha do tempo da redemocratização.",
+      "sugestaoNao": "Evitar anacronismos de juízo sem fonte.\nIndicar diversidade de atores.\nReferenciar documentos."
+    },
+    {
+      "id": "EF08HI08",
+      "pergunta": "Constituição de 1988 e cidadania: direitos e participação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Leitura guiada de artigos selecionados.\nEstudo de caso local (conselhos, orçamento).\nCarta de direitos da turma.",
+      "sugestaoNao": "Evitar leitura descontextualizada.\nUsar linguagem acessível.\nCitar artigos."
+    },
+    {
+      "id": "EF08HI09",
+      "pergunta": "Cultura, identidades e mídias no século XX/XXI: mudanças tecnológicas e socioculturais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo tecnológica e impactos no cotidiano.\nComparar cobertura de um evento em mídias diferentes.\nOficina de checagem de fatos.",
+      "sugestaoNao": "Identificar autoria e intenção.\nChecar data e contexto.\nEvitar difusão de boatos."
+    },
+    {
+      "id": "EF08HI10",
+      "pergunta": "Relações internacionais do Brasil recente: Mercosul, ONU, cooperação regional.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa político da América do Sul.\nEstudo de caso de cooperação (saúde, educação).\nDebate: vantagens e desafios.",
+      "sugestaoNao": "Citar dados e acordos.\nEvitar jargões sem explicar.\nChecar atualidade das informações."
+    },
+    {
+      "id": "EF08HI11",
+      "pergunta": "Patrimônio e memória no Brasil republicano.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Inventário de patrimônios modernos na cidade.\nProjeto de memória local com entrevistas.\nProposta de preservação com justificativa.",
+      "sugestaoNao": "Indicar responsáveis legais/institucionais.\nRegistrar consentimento em entrevistas.\nAvaliar viabilidade."
+    },
+    {
+      "id": "EF08HI12",
+      "pergunta": "Produção de sínteses históricas com múltiplas fontes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar, escrever e apresentar com evidências.\nRevisar coesão temporal e citações.\nUsar diferentes linguagens (texto, áudio, vídeo).",
+      "sugestaoNao": "Referenciar corretamente.\nChecar datas/nomes.\nGarantir clareza do argumento."
+    },
+    {
+      "id": "EF05–EF09/FONTES",
+      "pergunta": "Usar múltiplas fontes (orais, textuais, visuais, digitais) com criticidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro padrão de análise (quem/quando/onde/por quê).\nComparar duas fontes e apontar divergências.\nRegistrar limitações e lacunas.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria e contexto.\nEvitar uso de fontes sem verificação."
+    },
+    {
+      "id": "EF05–EF09/TEMPO",
+      "pergunta": "Trabalhar tempo histórico (duração, simultaneidade, permanência, mudança).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir e ler linhas do tempo comparadas.\nMarcar durações e simultaneidades.\nRever contagem de séculos.",
+      "sugestaoNao": "Checar datas em mais de uma fonte.\nEvitar anacronismos.\nCorrigir legendas imprecisas."
+    },
+    {
+      "id": "EF05–EF09/CIDADANIA",
+      "pergunta": "Direitos humanos e participação social.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debates mediados com regras de respeito.\nProjetos de intervenção local.\nCartas/documentos dirigidos a órgãos públicos.",
+      "sugestaoNao": "Basear propostas em dados.\nDefinir responsáveis/prazos.\nAvaliar impactos e comunicar resultados."
+    },
+    {
+      "id": "EF05–EF09/COMUNICAÇÃO",
+      "pergunta": "Letramento midiático e combate à desinformação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checar autoria/data/URL.\nComparar coberturas jornalísticas.\nProduzir síntese com referências.",
+      "sugestaoNao": "Evitar encaminhar conteúdo sem checagem.\nUsar linguagem clara e respeitosa.\nCitar fontes."
+    }
+  ]
+}

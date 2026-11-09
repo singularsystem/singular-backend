@@ -1,0 +1,62 @@
+{
+  "subject": "História",
+  "serie": "2º Ano",
+  "questions": [
+    {
+      "id": "EF02HI01",
+      "tipo": "A comunidade e seus registros",
+      "pergunta": "Reconhecer e registrar a própria história (linhas do tempo pessoais) relacionando-a a histórias da família e da comunidade.",
+      "sugestaoNao": "• Linha do tempo pessoal (eventos marcantes) com fotos/desenhos.\n• Entrevistas com familiares; registro de relatos orais.\n• Quadro \"eu, minha família, minha comunidade\".",
+      "sugestaoSimComMediacao": "• Completar linha do tempo com mediação.\n• Ditado ao professor de um pequeno relato, com apoio.\n• Apresentar oralmente um fato, com roteiro de perguntas."
+    },
+    {
+      "id": "EF02HI02",
+      "tipo": "A comunidade e seus registros",
+      "pergunta": "Identificar mudanças e permanências no cotidiano (moradia, alimentação, trabalho, lazer) em diferentes tempos e lugares.",
+      "sugestaoNao": "• Comparar imagens antigas e atuais do bairro/da cidade.\n• Tabelar mudanças/permanências.\n• Montar exposição \"antes e hoje\" com legendas.",
+      "sugestaoSimComMediacao": "• Justificar um exemplo de mudança e um de permanência, com mediação.\n• Recontar, com apoio, um relato de um idoso sobre o bairro.\n• Produzir frases-modelo sobre diferenças/semelhanças."
+    },
+    {
+      "id": "EF02HI03",
+      "tipo": "A comunidade e seus registros",
+      "pergunta": "Reconhecer papéis sociais em diferentes espaços (família, escola, comunidade) e responsabilidades associadas.",
+      "sugestaoNao": "• Listar papéis e responsabilidades; dramatizações de situações.\n• Cartões papel ↔ tarefa.\n• Painel de \"quem faz o quê\" na escola.",
+      "sugestaoSimComMediacao": "• Descrever um papel social com perguntas-guias.\n• Completar tabela (espaço/papel/tarefa), com mediação.\n• Registrar um compromisso pessoal para a semana, com apoio."
+    },
+    {
+      "id": "EF02HI04",
+      "tipo": "As formas de registrar as experiências da comunidade",
+      "pergunta": "Identificar diferentes grupos e tradições culturais da comunidade, valorizando o respeito à diversidade.",
+      "sugestaoNao": "• Mural de tradições locais (festas, comidas, músicas).\n• Convite a familiares para compartilhar costumes.\n• Registro de cantigas/brincadeiras tradicionais.",
+      "sugestaoSimComMediacao": "• Produzir, com mediação, um pequeno cartaz sobre uma tradição.\n• Relatar oralmente o que aprendeu com apoio do professor.\n• Comparar duas tradições, destacando respeito às diferenças."
+    },
+    {
+      "id": "EF02HI05",
+      "tipo": "As formas de registrar as experiências da comunidade",
+      "pergunta": "Reconhecer significados de comemorações cívicas e culturais e diferenciá-las de festas familiares.",
+      "sugestaoNao": "• Calendário de datas cívicas/culturais/familiares; classificação.\n• Pesquisa guiada sobre uma data (símbolos e significados).\n• Preparar pequeno roteiro de apresentação.",
+      "sugestaoSimComMediacao": "• Classificar exemplos com mediação (cívica × cultural × familiar).\n• Escrever/ditar legenda curta explicando a comemoração, com apoio.\n• Apresentar, com auxílio, para a turma."
+    },
+    {
+      "id": "EF02HI06",
+      "tipo": "As formas de registrar as experiências da comunidade",
+      "pergunta": "Identificar fontes de memória (fotografias, objetos, relatos) e usá-las para conhecer o passado.",
+      "sugestaoNao": "• Coletar objetos/fotos; montar \"museu da turma\".\n• Entrevistar um familiar; registrar o relato com desenho/escrita.\n• Comparar versões de uma mesma história.",
+      "sugestaoSimComMediacao": "• Descrever, com mediação, o que a fonte mostra e o que pode indicar.\n• Organizar as fontes por tema/tempo, com apoio.\n• Escrever pequena legenda para uma fotografia, com orientação."
+    },
+    {
+      "id": "EF02HI07",
+      "tipo": "A comunidade e seus registros",
+      "pergunta": "Relacionar histórias pessoais a acontecimentos do bairro/cidade, percebendo-se como sujeito histórico.",
+      "sugestaoNao": "• Linha do tempo que inclua um evento local (inauguração da praça, festa).\n• Mapa do bairro com eventos marcantes.\n• Roda de conversa: \"onde eu estava quando…\".",
+      "sugestaoSimComMediacao": "• Descrever, com mediação, um evento local e sua importância.\n• Conectar um fato pessoal a um fato local, com apoio.\n• Produzir uma frase explicando sua participação, com orientação."
+    },
+    {
+      "id": "EF02HI08",
+      "tipo": "As formas de registrar as experiências da comunidade",
+      "pergunta": "Elaborar regras de convivência e avaliar sua aplicação em diferentes espaços.",
+      "sugestaoNao": "• Construir combinados; dramatizações.\n• Painel de monitoria das regras.\n• Registro de situações de respeito/descumprimento.",
+      "sugestaoSimComMediacao": "• Revisar regras com mediação (clareza, justiça).\n• Propor melhoria e justificar, com apoio.\n• Apresentar síntese dos resultados para a turma, com orientação."
+    }
+  ]
+}

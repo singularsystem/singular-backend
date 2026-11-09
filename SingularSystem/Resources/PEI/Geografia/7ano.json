@@ -1,0 +1,118 @@
+{
+  "subject": "Geografia",
+  "serie": "7º Ano",
+  "questions": [
+    {
+      "id": "EF07GE01",
+      "pergunta": "Formas de relevo e estruturas geológicas do Brasil e do mundo (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de relevo mundial e brasileiro.\nRelacionar relevo a ocupação humana.\nEstudo de caso de região serrana/planície.",
+      "sugestaoNao": "Evitar confusão entre altitude e latitude.\nCitar fontes.\nChecar unidades."
+    },
+    {
+      "id": "EF07GE02",
+      "pergunta": "Climas da Terra e do Brasil: fatores e tipos (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de zonas climáticas.\nComparar climas de duas cidades.\nGráfico climático.",
+      "sugestaoNao": "Diferenciar clima × tempo.\nChecar escalas/unidades.\nEvitar explicações sem dados."
+    },
+    {
+      "id": "EF07GE03",
+      "pergunta": "Vegetações e biomas: dinâmicas naturais e pressões humanas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de biomas.\nEstudo de caso de desmatamento/recuperação.\nPlano de ação escolar.",
+      "sugestaoNao": "Evitar generalizações.\nCitar legislação e dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF07GE04",
+      "pergunta": "Hidrografia: bacias e usos da água; gestão e conflitos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de bacias.\nCaso local de uso/escassez.\nDebate mediado com atores.",
+      "sugestaoNao": "Diferenciar captação × tratamento.\nCitar fontes.\nEvitar simplificações."
+    },
+    {
+      "id": "EF07GE05",
+      "pergunta": "População mundial e brasileira: dinâmica e mobilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Pirâmides etárias de dois países.\nMapa de migrações.\nTexto: causas e consequências.",
+      "sugestaoNao": "Citar ano/fonte.\nEvitar determinismos.\nUsar termos corretos."
+    },
+    {
+      "id": "EF07GE06",
+      "pergunta": "Urbanização e metropolização: problemas e soluções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de áreas metropolitanas.\nLevantamento de problemas urbanos.\nProposta de mitigação.",
+      "sugestaoNao": "Diferenciar urbanização × metropolização.\nBasear propostas em dados.\nAvaliar viabilidade."
+    },
+    {
+      "id": "EF07GE07",
+      "pergunta": "Agricultura e indústria: modernização, cadeias e impactos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo da modernização agrícola.\nMapa de polos industriais.\nAnalisar impactos socioambientais.",
+      "sugestaoNao": "Evitar visão única.\nCitar dados.\nIndicar atores envolvidos."
+    },
+    {
+      "id": "EF07GE08",
+      "pergunta": "Redes e transportes: integração regional e global.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de modais e corredores.\nCaso de corredor de exportação.\nComparar custo/tempo por modal.",
+      "sugestaoNao": "Checar fontes.\nEvitar generalizações.\nConsiderar externalidades."
+    },
+    {
+      "id": "EF07GE09",
+      "pergunta": "Geopolítica básica: fronteiras, blocos regionais (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de blocos (Mercosul, UE).\nLer notícias e localizar no mapa.\nDebate: integração × soberania.",
+      "sugestaoNao": "Evitar simplificações geopolíticas.\nCitar acordos.\nChecar atualidade."
+    },
+    {
+      "id": "EF07GE10",
+      "pergunta": "Tecnologias, informação e cartografia digital.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar mapas colaborativos × oficiais.\nCriar mapa da turma (pontos de interesse).\nAnalisar vieses de dados.",
+      "sugestaoNao": "Garantir privacidade.\nCitar fontes de dados.\nIndicar limitações."
+    },
+    {
+      "id": "EF07GE11",
+      "pergunta": "Leitura crítica de mídias sobre temas territoriais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checagem de fatos em notícia local.\nComparar dois veículos.\nEscrever parecer crítico.",
+      "sugestaoNao": "Distinguir opinião × informação.\nIndicar autor e data.\nEvitar viés de confirmação."
+    },
+    {
+      "id": "EF07GE12",
+      "pergunta": "Projeto regional: síntese de um tema (meio ambiente, mobilidade, indústria).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar dados, mapear e comunicar.\nPropor ação e acompanhar.\nExpor resultados à comunidade.",
+      "sugestaoNao": "Definir indicadores.\nRegistrar responsabilidades.\nAvaliar resultados."
+    },
+    {
+      "id": "EF03–EF09/CARTOGRAFIA",
+      "pergunta": "Leitura e produção de mapas, croquis e gráficos com rigor.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar título, legenda, orientação e escala.\nComparar representações da mesma área.\nJustificar escolhas cartográficas.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nChecar fontes/datas.\nManter padrão visual."
+    },
+    {
+      "id": "EF03–EF09/FONTES",
+      "pergunta": "Uso crítico de mapas, fotos aéreas, imagens de satélite e relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise (quem/onde/quando/por quê).\nCruzar pelo menos duas fontes.\nRegistrar limitações das fontes.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria/licenças.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF03–EF09/CIDADANIA",
+      "pergunta": "Participação social e respeito aos espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico do entorno e plano de ação.\nDiálogo com órgãos públicos.\nCampanhas educativas com registro.",
+      "sugestaoNao": "Respeitar papéis institucionais.\nBasear proposta em dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA",
+      "pergunta": "Cartografia digital e letramento midiático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar apps/SIG educativos.\nChecar autoria e data de conteúdos.\nProduzir sínteses com referências.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar desinformação.\nCitar fontes corretamente."
+    }
+  ]
+}

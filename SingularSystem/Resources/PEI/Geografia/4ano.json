@@ -1,0 +1,118 @@
+{
+  "subject": "Geografia",
+  "serie": "4º Ano",
+  "questions": [
+    {
+      "id": "EF04GE01",
+      "pergunta": "Ampliar leitura de mapas: pontos cardeais e orientação por bússola/sol (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Rosa dos ventos da escola.\nMarcar norte/sul na quadra.\nUsar bússola do celular (com mediação).",
+      "sugestaoNao": "Corrigir orientação equivocada.\nRelacionar direção às ruas reais.\nRevisar legenda."
+    },
+    {
+      "id": "EF04GE02",
+      "pergunta": "Identificar tipos de paisagem no município/estado (natural, rural, urbana, industrial).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Álbum com fotos e classificação.\nMapa do município com manchas de uso.\nEntrevista sobre mudanças na paisagem.",
+      "sugestaoNao": "Evitar rótulos simplistas.\nCitar exemplos locais concretos.\nUsar vocabulário adequado."
+    },
+    {
+      "id": "EF04GE03",
+      "pergunta": "Ler mapas municipais/estaduais: limites, bairros, vias e hidrografia (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Marcar bairro da escola e vizinhos.\nTraçar rota segura até um serviço público.\nMapa temático: rios/lagos em azul.",
+      "sugestaoNao": "Identificar título/escala/legenda.\nConferir nomes corretos.\nAjustar rotas com referências."
+    },
+    {
+      "id": "EF04GE04",
+      "pergunta": "Reconhecer formas de relevo e corpos d’água próximos (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Observação de morros/planícies/vales locais.\nMapa de drenagem simples.\nRelato: 'como a água circula no meu bairro?'",
+      "sugestaoNao": "Evitar confundir relevo com construção.\nUsar termos corretos.\nCitar fontes/observações."
+    },
+    {
+      "id": "EF04GE05",
+      "pergunta": "Relacionar clima local a vestuário, atividades e moradia.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registro de temperatura diária por 1 semana.\nGráfico e conclusões.\nEntrevista: 'como nos preparamos para o clima?'",
+      "sugestaoNao": "Diferenciar clima × tempo.\nChecar unidades (°C).\nRevisar conclusões com dados."
+    },
+    {
+      "id": "EF04GE06",
+      "pergunta": "Entender circulação e mobilidade: transporte público, pedestre, bicicleta.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de linhas/rotas (quando houver).\nPlano de mobilidade escolar segura.\nCampanha de respeito à faixa.",
+      "sugestaoNao": "Distinguir modais.\nIndicar pontos de risco.\nAvaliar impacto da campanha."
+    },
+    {
+      "id": "EF04GE07",
+      "pergunta": "Usos do solo: moradia, comércio, serviços, lazer, agricultura.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de uso do solo do bairro (legenda por cores).\nCenso da rua da escola (tipos de atividade).\nRelatório com fotos/legendas.",
+      "sugestaoNao": "Evitar duplicidade de categorias.\nConferir endereços.\nCitar data do levantamento."
+    },
+    {
+      "id": "EF04GE08",
+      "pergunta": "Identificar agentes de transformação do espaço (poder público, empresas, moradores).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estudo de caso: obra local e seus impactos.\nEntrevista com morador/gestor.\nProposta de melhoria com justificativa.",
+      "sugestaoNao": "Distinguir responsabilidades.\nEvitar acusações sem base.\nIndicar fontes."
+    },
+    {
+      "id": "EF04GE09",
+      "pergunta": "Patrimônio ambiental e cultural local: reconhecimento e cuidado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de visita e checklist de preservação.\nRelato fotográfico antes/depois de uma ação.\nCarta à comunidade.",
+      "sugestaoNao": "Diferenciar patrimônio natural × construído.\nIndicar responsáveis legais.\nAvaliar resultados."
+    },
+    {
+      "id": "EF04GE10",
+      "pergunta": "Comunicação cartográfica: simbologia, cores e escalas (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Criar legenda padronizada para mapas da turma.\nRecolorir mapa com padrão comum.\nComparar dois mapas de mesma área.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nExplicar escolha de cores.\nManter padrão entre mapas."
+    },
+    {
+      "id": "EF04GE11",
+      "pergunta": "Fontes geográficas: fotos aéreas, mapas, aplicativos, relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar mapa de papel × app de mapa.\nAnalisar foto aérea da escola.\nEscrever o que cada fonte permite ver.",
+      "sugestaoNao": "Indicar limites de cada fonte.\nCitar data/autor.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF04GE12",
+      "pergunta": "Participação cidadã no espaço urbano.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reunião simulada sobre um problema do bairro.\nProposta escrita ao conselho/local.\nMutirão com registro.",
+      "sugestaoNao": "Manter tom respeitoso e objetivo.\nDefinir responsáveis/prazos.\nMedir impacto com indicadores simples."
+    },
+    {
+      "id": "EF03–EF09/CARTOGRAFIA",
+      "pergunta": "Leitura e produção de mapas, croquis e gráficos com rigor.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar título, legenda, orientação e escala.\nComparar representações da mesma área.\nJustificar escolhas cartográficas.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nChecar fontes/datas.\nManter padrão visual."
+    },
+    {
+      "id": "EF03–EF09/FONTES",
+      "pergunta": "Uso crítico de mapas, fotos aéreas, imagens de satélite e relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise (quem/onde/quando/por quê).\nCruzar pelo menos duas fontes.\nRegistrar limitações das fontes.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria/licenças.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF03–EF09/CIDADANIA",
+      "pergunta": "Participação social e respeito aos espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico do entorno e plano de ação.\nDiálogo com órgãos públicos.\nCampanhas educativas com registro.",
+      "sugestaoNao": "Respeitar papéis institucionais.\nBasear proposta em dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA",
+      "pergunta": "Cartografia digital e letramento midiático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar apps/SIG educativos.\nChecar autoria e data de conteúdos.\nProduzir sínteses com referências.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar desinformação.\nCitar fontes corretamente."
+    }
+  ]
+}

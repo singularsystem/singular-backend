@@ -1,0 +1,125 @@
+{
+  "subject": "Inglês",
+  "serie": "7º Ano",
+  "questions": [
+    {
+      "id": "EF07LI01",
+      "pergunta": "Compreender textos curtos autênticos/simplificados (anúncios, menus, perfis) localizando informação explícita e implícita simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Skimming e scanning com metas claras.\nQuadro KWL antes/depois da leitura.\nProdução de um cardápio/folheto realista.",
+      "sugestaoNao": "Pré‑ensino de vocabulário‑chave.\nAnotar cognatos e falsos cognatos.\nPerguntas graduadas (fácil→desafio)."
+    },
+    {
+      "id": "EF07LI02",
+      "pergunta": "Compreender áudios/vídeos curtos identificando ideias principais e detalhes previsíveis.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Escuta em três passes (global→detalhes→checagem).\nTarefas com picture support.\nDictogloss com lacunas.",
+      "sugestaoNao": "Ativar conhecimento prévio.\nRepetição segmentada.\nTranscrição parcial para foco em forma."
+    },
+    {
+      "id": "EF07LI03",
+      "pergunta": "Produzir parágrafos simples sobre rotina, preferências e experiências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Parágrafo‑modelo com marcadores (first, then…).\nDiário curto semanal.\nRevisão entre pares com checklist.",
+      "sugestaoNao": "Banco de frases‑modelo.\nCódigos de correção.\nRubrica clara de conteúdo e forma."
+    },
+    {
+      "id": "EF07LI04",
+      "pergunta": "Ampliar repertório de tempos verbais básicos (present simple/continuous; past simple – noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Timeline visual e cartões de verbos.\nTransformar frases de um tempo a outro.\nStory cubes para narrar no passado.",
+      "sugestaoNao": "Foco em uso comunicativo.\nQuadro de regulares/irregulares.\nFeedback sobre 3ª pessoa e -ed."
+    },
+    {
+      "id": "EF07LI05",
+      "pergunta": "Descrever pessoas, lugares e objetos (adjetivos, comparativos e superlativos – noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Perfil de personagem/celebridade.\nJogo de comparação (bigger than…, the most…).\nPoster 'My city vs. capital'.",
+      "sugestaoNao": "Listas de adjetivos frequentes.\nModelos de comparação corretos.\nAtenção a ortografia (bigger, happier)."
+    },
+    {
+      "id": "EF07LI06",
+      "pergunta": "Usar conectores básicos (and, but, because) para dar coesão às ideias.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reescrever frases curtas unindo com conectores.\nDebate simples com because/so.\nCartões de conectores na parede.",
+      "sugestaoNao": "Evitar frases muito longas sem pontuação.\nVariar conectores.\nRevisão focada em coesão."
+    },
+    {
+      "id": "EF07LI07",
+      "pergunta": "Interagir em situações do cotidiano (compras, pedidos, preferências).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Role‑plays com scripts e depois sem.\nQuadro de expressões úteis por situação.\nRubrica de fluência e adequação.",
+      "sugestaoNao": "Treinar turn‑taking.\nModelar entonação de perguntas.\nFeedback imediato e gentil."
+    },
+    {
+      "id": "EF07LI08",
+      "pergunta": "Pronúncia: acentuação de palavras/frases e terminações verbais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Clapping stress (b e au t i ful).\nShadowing de frases.\nGravar e comparar com modelo.",
+      "sugestaoNao": "Foco em inteligibilidade.\nSublinhar sílabas tônicas.\nAtividade com ritmo (chant)."
+    },
+    {
+      "id": "EF07LI09",
+      "pergunta": "Letramento digital: pesquisar, selecionar e citar fontes simples em inglês.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checklist de confiabilidade.\nMini‑pesquisa com 3 fontes.\nSlide com créditos e licença.",
+      "sugestaoNao": "Evitar copiar/colar.\nUsar buscadores seguros.\nComparar duas fontes."
+    },
+    {
+      "id": "EF07LI10",
+      "pergunta": "Interculturalidade: reconhecer variedades do inglês e costumes em contextos globais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de sotaques/variedades.\nVídeos curtos de saudações/costumes.\nShow and tell cultural com respeito.",
+      "sugestaoNao": "Evitar estereótipos.\nContextualizar diferenças.\nUsar linguagem respeitosa."
+    },
+    {
+      "id": "EF07LI11",
+      "pergunta": "Estratégias de aprendizagem: metas, autoavaliação e uso de glossários.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Metas SMART de língua.\nGlossário pessoal (digital ou papel).\nRoda de estratégias que funcionaram.",
+      "sugestaoNao": "Monitorar progresso.\nRevisitar metas.\nCelebrar avanços."
+    },
+    {
+      "id": "EF07LI12",
+      "pergunta": "Produzir multimodal (texto+imagem+áudio) para público real.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Cartaz digital sobre tema estudado.\nPodcast de 1 minuto.\nExposição para outra turma.",
+      "sugestaoNao": "Direitos autorais e consentimento.\nClareza e legibilidade.\nFeedback por pares com rubrica."
+    },
+    {
+      "id": "EF06–EF09/COMPREENSÃO",
+      "pergunta": "Leitura e escuta com estratégias (skimming, scanning, pre‑listening, tomar notas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Definir objetivo antes de ler/ouvir.\nUsar pistas visuais/títulos/subtítulos.\nTomar notas e verificar respostas em pares.",
+      "sugestaoNao": "Evitar tradução palavra‑por‑palavra.\nControlar tempo e ansiedade.\nReescuta/leitura com foco diferente."
+    },
+    {
+      "id": "EF06–EF09/PRODUÇÃO",
+      "pergunta": "Escrita e fala com planejamento, modelagem e revisão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar modelos/gêneros como referência.\nPlanejar com outline.\nRevisar com checklist e pares.",
+      "sugestaoNao": "Evitar publicar sem revisar.\nControlar extensão.\nCitar fontes quando usa dados."
+    },
+    {
+      "id": "EF06–EF09/INTERAÇÃO",
+      "pergunta": "Turn‑taking, mediação e colaboração.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Papéis claros (moderador, relator).\nFrases úteis para perguntar/ajudar.\nRubrica de colaboração.",
+      "sugestaoNao": "Evitar monopolizar a fala.\nEscuta ativa.\nFeedback respeitoso."
+    },
+    {
+      "id": "EF06–EF09/INTERCULTURALIDADE",
+      "pergunta": "Respeito à diversidade e análise de perspectivas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar costumes com contexto.\nRegistrar sem julgamentos.\nValorizar variedades do inglês.",
+      "sugestaoNao": "Evitar estereótipos.\nUsar fontes confiáveis.\nRefletir sobre o próprio ponto de vista."
+    },
+    {
+      "id": "EF06–EF09/TECNOLOGIA",
+      "pergunta": "Uso ético e produtivo de mídias e apps.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Produzir multimodal (texto/áudio/vídeo).\nUsar dicionários e corpora on‑line.\nCitar licenças e autores.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar plágio.\nChecar confiabilidade das fontes."
+    }
+  ]
+}

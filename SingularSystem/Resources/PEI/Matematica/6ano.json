@@ -1,0 +1,104 @@
+{
+  "subject": "Matemática",
+  "serie": "6º Ano",
+  "questions": [
+    {
+      "id": "EF06MA01",
+      "pergunta": "Ler, escrever e comparar naturais e inteiros; usar reta numérica e valor posicional.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Localizar números na reta; justificar posição.\nJogo de pares por extenso ↔ algarismos ↔ decomposição.\nOrdenar conjuntos próximos, explicando critérios.",
+      "sugestaoNao": "Quadro de valor de lugar com material base‑10.\nSequências graduadas com inteiros (−, +).\nAssociação número–situação (temperatura, saldo)."
+    },
+    {
+      "id": "EF06MA02",
+      "pergunta": "Compor/decompor números; usar propriedades para cálculo mental e escrito.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distributiva em 125×8; decomposição em somas úteis.\nResolver por duas estratégias e comparar eficiência.\nExplicar por escrito a escolha.",
+      "sugestaoNao": "Modelagem do algoritmo e checagem com inversa.\nChecklist de erros frequentes.\nExercícios focados em uma propriedade por vez."
+    },
+    {
+      "id": "EF06MA03",
+      "pergunta": "Resolver problemas com inteiros (ganhos/perdas, temperaturas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de resultados; estimativa antes do cálculo.\nCriar problema original e trocar com colega.\nChecar razoabilidade do resultado.",
+      "sugestaoNao": "Reta numérica: + direita, − esquerda.\nExplicar o significado do sinal no contexto.\nReescrever enunciado confuso."
+    },
+    {
+      "id": "EF06MA04",
+      "pergunta": "Multiplicar e dividir naturais (até 2 algarismos) em problemas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estimativa prévia; algoritmo e decomposição.\nVerificar resultado com inversa.\nRegistrar passo a passo.",
+      "sugestaoNao": "Treino graduado com correção comentada.\nChecar divisão com multiplicação + resto.\nComparar dois procedimentos."
+    },
+    {
+      "id": "EF06MA05",
+      "pergunta": "Frações como parte de inteiro, coleção e razão; marcar na reta.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Dobraduras e coleções; equivalências por partição.\nMarcar na reta e comparar.\nCriar situações para uma fração dada.",
+      "sugestaoNao": "Representar nos três modelos.\nExplicar por que 2/4 = 1/2.\nOrdenar frações simples."
+    },
+    {
+      "id": "EF06MA06",
+      "pergunta": "Comparar e ordenar frações; escolher operação adequada.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Denominador comum; justificar escolha.\nJogo de cartas de frações: ordenar.\nResolver problemas de comparação e explicar.",
+      "sugestaoNao": "Completar equivalências por ampliação/simplificação.\nConverter modelos visuais em sentenças.\nCorrigir comparações equivocadas."
+    },
+    {
+      "id": "EF06MA07",
+      "pergunta": "Decimais (até milésimos) e relação com medidas/dinheiro.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler e escrever etiquetas; ordenar por casas.\nConverter 0,1↔1/10; 0,01↔1/100; 0,001↔1/1000.\nResolver adição/subtração em preços.",
+      "sugestaoNao": "Alinhar casas decimais para operar.\nExplicar leitura correta.\nConstruir exemplos equivalentes."
+    },
+    {
+      "id": "EF06MA08",
+      "pergunta": "Grandezas e medidas: escolher unidade/instrumento; medir.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de medições reais; justificar unidade.\nComparar estimativa × medida e discutir erro.\nTabela de registros padronizados.",
+      "sugestaoNao": "Leitura correta de régua/recipiente.\nConverter unidades simples.\nCorrigir registros sem unidade."
+    },
+    {
+      "id": "EF06MA09",
+      "pergunta": "Geometria: ângulos, paralelas, perpendiculares; localização em malha/mapa.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça‑ângulos com esquadro.\nTraçar paralelas/perpendiculares em malha.\nPlanejar trajeto em planta.",
+      "sugestaoNao": "Identificar elementos em desenhos.\nCorrigir trajetos com referências.\nClassificar por presença de ângulo reto."
+    },
+    {
+      "id": "EF06MA10",
+      "pergunta": "Estatística: coletar dados, tabelar, graficar e interpretar.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Pergunta → ≤50 respostas; tabela e gráfico de colunas.\nEscrever 2 conclusões baseadas nos dados.\nApresentação oral curta.",
+      "sugestaoNao": "Ler gráfico/tabela e responder questões.\nComparar categorias com termos de frequência.\nRevisar legendas/títulos."
+    },
+    {
+      "id": "EF06–EF09/NÚMEROS",
+      "pergunta": "Cálculo mental, estimativas e verificação com inversas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver por duas estratégias e comparar.\nExplicar como estimou e checou.\nCriar problema que exija estimar.",
+      "sugestaoNao": "Sequências graduadas com feedback.\nChecklist de erros comuns.\nRefazer com outra estratégia."
+    },
+    {
+      "id": "EF06–EF09/ÁLGEBRA",
+      "pergunta": "Modelar com expressões, equações e proporções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Traduzir texto↔expressão e validar.\nResolver e checar equações.\nComparar modelos proporcionais × não proporcionais.",
+      "sugestaoNao": "Diferenciar variável/unidade.\nExplicar cada transformação.\nTestar plausibilidade com valores."
+    },
+    {
+      "id": "EF06–EF09/GEOMETRIA",
+      "pergunta": "Visualizar, decompor e justificar soluções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Esboçar e decompor em figuras básicas.\nValidar com maquetes/softwares.\nComunicar solução com unidades.",
+      "sugestaoNao": "Selecionar fórmula coerente.\nChecar consistência dimensional.\nCorrigir construções imprecisas."
+    },
+    {
+      "id": "EF06–EF09/DADOS",
+      "pergunta": "Planejar, coletar, representar e concluir; noções de probabilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa, tabular e graficar.\nSimular aleatoriedade e comparar com teoria.\nDiscutir limites de generalização.",
+      "sugestaoNao": "Escolher gráfico adequado.\nRotular eixos e indicar fonte.\nEvitar inferências sem suporte."
+    }
+  ]
+}

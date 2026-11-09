@@ -1,0 +1,202 @@
+{
+  "subject": "Matemática",
+  "serie": "4º Ano",
+  "questions": [
+    {
+      "id": "EF04MA01",
+      "pergunta": "Ler, escrever e ordenar números naturais até a ordem de dezenas de milhar.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Batalha de números: ordenar cartões até 99.999 e justificar com valor posicional.\nLinha numérica ampliada em rolo de papel: marcar marcos (0, 10 mil, 50 mil...).\nDitado cruzado: por extenso ↔ algarismos ↔ decomposição.",
+      "sugestaoNao": "Material base‑10 e quadro de valores para reforçar leitura e ordenação.\nSequências graduadas para comparar números próximos.\nPares 'por extenso ↔ algarismos' para associação."
+    },
+    {
+      "id": "EF04MA02",
+      "pergunta": "Mostrar, por decomposição e composição, que todo número natural pode ser escrito por meio de adições e multiplicações por potências de dez, para compreender o sistema de numeração decimal e desenvolver estratégias de cálculo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Banco do 10 (materiais base‑10): compor/decompor com potências de 10.\nQuebra‑cabeça de decomposição com cartões (ex.: 35.420).\nEscrever 3 decomposições diferentes para o mesmo número e comparar.",
+      "sugestaoNao": "Modelar decomposição com cartões de potências de 10.\nTrocas sucessivas no quadro valor de lugar.\nDitado estruturado de composição a partir da descrição (centenas/dezenas/unidades)."
+    },
+    {
+      "id": "EF04MA03",
+      "pergunta": "Resolver e elaborar problemas com números naturais envolvendo adição e subtração, utilizando estratégias diversas, como cálculo, cálculo mental e algoritmos, além de fazer estimativas do resultado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estações de problemas de +/− com estimativa prévia e checagem de razoabilidade.\nComparar cálculo mental × algoritmo convencional e registrar preferências.\nCriar um problema contextual e trocar com outra dupla para resolver.",
+      "sugestaoNao": "Resolver o mesmo problema por dois métodos e comparar.\nModelagem passo a passo do algoritmo padrão.\nLista de checagem de erros comuns (empréstimo/soma)."
+    },
+    {
+      "id": "EF04MA04",
+      "pergunta": "Utilizar as relações entre adição e subtração, bem como entre multiplicação e divisão, para ampliar as estratégias de cálculo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver conjuntos de problemas usando relações inversas (desfazer/checar).\nJogo de fatos relacionados (8+?=20 ↔ 20−8; 7×6 ↔ 42÷7).\nExplicar como a relação ajuda a verificar resultados.",
+      "sugestaoNao": "Exercícios dirigidos de verificar com a operação inversa.\nCompletar pares relacionados (× ↔ ÷, + ↔ −).\nExplicar oralmente a relação usada."
+    },
+    {
+      "id": "EF04MA05",
+      "pergunta": "Utilizar as propriedades das operações para desenvolver estratégias de cálculo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar comutatividade, associatividade, elemento neutro em situações reais.\nCálculo mental com propriedade distributiva (25×4 = 100; 27×5 = 135).\nRegistro em cartaz de 'propriedade usada e por quê'.",
+      "sugestaoNao": "Exercícios focados em uma propriedade por vez.\nCompletar expressões aplicando distributiva em casos simples.\nReescrever cálculos desorganizados evidenciando a propriedade."
+    },
+    {
+      "id": "EF04MA06",
+      "pergunta": "Resolver e elaborar problemas envolvendo diferentes significados da multiplicação (adição de parcelas iguais, organização retangular e proporcionalidade), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Arrays e retângulos no quadriculado; relacionar a problemas de proporcionalidade simples.\nEstimativa de produto antes do cálculo e comparação com resultado.\nAlgoritmo de multiplicação por 1 algarismo e por 2 (casos simples).",
+      "sugestaoNao": "Arrays pequenos e adições repetidas antes do algoritmo.\nProblemas contextualizados simples de proporcionalidade.\nTreino graduado de multiplicação por 1 e 2 algarismos."
+    },
+    {
+      "id": "EF04MA07",
+      "pergunta": "Resolver e elaborar problemas de divisão cujo divisor tenha no máximo dois algarismos, envolvendo os significados de repartição equitativa e de medida, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Divisão por repartição e por medida com materiais; registro das estratégias.\nResolver divisões com divisor até 2 algarismos usando estimativas sucessivas.\nRelacionar multiplicação e divisão para checagem de resposta.",
+      "sugestaoNao": "Divisões com material concreto e registros desenhados.\nEstimativas sucessivas do quociente e ajustes.\nChecagem com multiplicação e adição do resto."
+    },
+    {
+      "id": "EF04MA08",
+      "pergunta": "Resolver, com o suporte de imagem e/ou material manipulável, problemas simples de contagem, como a determinação do número de agrupamentos possíveis ao se combinar cada elemento de uma coleção com todos os elementos de outra, utilizando estratégias e formas de registro pessoais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Problemas de contagem com árvores de possibilidades (2 camisas × 3 calças).\nOrganizar casos em tabela e validar total por multiplicação.\nUsar material manipulável (tampinhas/cartões) para listar combinações.",
+      "sugestaoNao": "Listagem sistemática (tabela) das combinações.\nVerificar contagens incorretas com exemplos contra.\nRepresentar as combinações por diagrama de árvore."
+    },
+    {
+      "id": "EF04MA09",
+      "pergunta": "Reconhecer as frações unitárias mais usuais (1/2, 1/3, 1/4, 1/5, 1/10 e 1/100) como unidades de medida menores do que uma unidade, utilizando a reta numérica como recurso.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Marcar 1/2, 1/3, 1/4, 1/5, 1/10, 1/100 na reta numérica até 1.\nModelagem com dobraduras e partilhas em coleções.\nAssociar cada fração unitária a situações de medida.",
+      "sugestaoNao": "Partilhas físicas para consolidar unidade fracionária.\nMarcar frações unitárias em fitas/malhas.\nRelacionar cada fração a medidas do cotidiano."
+    },
+    {
+      "id": "EF04MA10",
+      "pergunta": "Reconhecer que as regras do sistema de numeração decimal podem ser estendidas para a representação decimal de um número racional e relacionar décimos e centésimos com a representação do sistema monetário brasileiro.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar décimos/centésimos com dinheiro (R$) e representações decimais.\nMontar fichas de equivalência 0,1 ↔ 1/10; 0,01 ↔ 1/100.\nComparar preços com dois decimais e explicar leitura.",
+      "sugestaoNao": "Ler e escrever números decimais com apoio do dinheiro.\nComparar 0,1 e 0,01 em contextos concretos.\nConverter representações fração ↔ decimal (décimos/centésimos)."
+    },
+    {
+      "id": "EF04MA11",
+      "pergunta": "Identificar regularidades em sequências numéricas compostas por múltiplos de um número natural.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Sequências por múltiplos: listar e identificar a regra (×3, ×5...).\nCompletar termos faltantes e justificar.\nCriar própria sequência de múltiplos e desafiar o colega.",
+      "sugestaoNao": "Completar sequências de múltiplos com apoio de multiplicação.\nDestacar múltiplo comum de dois números simples.\nCorrigir padrões incorretos e justificar."
+    },
+    {
+      "id": "EF04MA12",
+      "pergunta": "Reconhecer, por meio de investigações, que há grupos de números naturais para os quais as divisões por um determinado número resultam em restos iguais, identificando regularidades.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar restos em divisões por 2,3,4,... e registrar padrões (pares/ímpares).\nTabela 'dividir por n → resto' para números de uma lista.\nConcluir regularidades em grupos (ex.: múltiplos de 3 têm resto 0 ao ÷3).",
+      "sugestaoNao": "Tabela de restos para um divisor fixo.\nClassificar números por resto obtido.\nExplicar o padrão encontrado em linguagem simples."
+    },
+    {
+      "id": "EF04MA13",
+      "pergunta": "Reconhecer, por meio de investigações, utilizando a calculadora quando necessário, as relações inversas entre as operações de adição e de subtração e de multiplicação e de divisão, para aplicá-las na resolução de problemas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver problemas e usar a calculadora para verificar relações inversas.\nQuadro: operação ↔ operação inversa; exemplos comentados.\nEscrever como checar o resultado com a inversa.",
+      "sugestaoNao": "Resolver e verificar resultado com inversa sistematicamente.\nTrocar a operação para checar erros.\nExplicar por escrito a verificação."
+    },
+    {
+      "id": "EF04MA14",
+      "pergunta": "Reconhecer e mostrar, por meio de exemplos, que a relação de igualdade existente entre dois termos permanece quando se adiciona ou se subtrai um mesmo número a cada um desses termos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Balança de igualdade: mostrar que adicionar o mesmo número mantém a igualdade.\nCompletar igualdades mantendo o equilíbrio (ex.: 37+? = 40+12).\nCriar 2 exemplos próprios e explicar.",
+      "sugestaoNao": "Exercícios de manter igualdade adicionando/subtraindo o mesmo número.\nCompletar igualdades com lacunas.\nAutoexplicação do porquê do equilíbrio."
+    },
+    {
+      "id": "EF04MA15",
+      "pergunta": "Determinar o número desconhecido que torna verdadeira uma igualdade que envolve as operações fundamentais com números naturais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quebra‑cabeça de igualdades com incógnita em diferentes posições.\nResolver com tentativa inteligente e verificar com inversa.\nTrocar desafios entre duplas e justificar a solução.",
+      "sugestaoNao": "Resolver igualdades com incógnita em diferentes posições.\nChecar substituindo o valor encontrado.\nExplicar a estratégia escolhida."
+    },
+    {
+      "id": "EF04MA16",
+      "pergunta": "Descrever deslocamentos e localização de pessoas e de objetos no espaço, por meio de malhas quadriculadas e representações como desenhos, mapas, planta baixa e croquis, empregando termos como direita e esquerda, mudanças de direção e sentido, intersecção, transversais, paralelas e perpendiculares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Percurso em malha: seguir/setas; termos paralela, perpendicular, intersecção.\nCriar mapa simples da sala/escola e descrever trajetos.\nUsar planta baixa para planejar um caminho com mudanças de direção.",
+      "sugestaoNao": "Reproduzir trajetos a partir de instruções simples.\nIdentificar paralelas e perpendiculares em malha.\nCorrigir trajetos com base em pontos de referência."
+    },
+    {
+      "id": "EF04MA17",
+      "pergunta": "Associar prismas e pirâmides a suas planificações e analisar, nomear e comparar seus atributos, estabelecendo relações entre as representações planas e espaciais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Associar planificações a sólidos (prismas/pirâmides) e montar exemplos.\nContar faces/arestas/vértices e registrar atributos.\nComparar duas planificações do mesmo sólido e justificar.",
+      "sugestaoNao": "Montar planificações prontas e nomear sólidos.\nContar e registrar faces/arestas/vértices.\nDistinguir planificações que não fecham."
+    },
+    {
+      "id": "EF04MA18",
+      "pergunta": "Reconhecer ângulos retos e não retos em figuras poligonais com o uso de dobraduras, esquadros ou softwares de geometria.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Identificar ângulos retos/não retos com esquadro e dobraduras.\nCaça‑ângulos no ambiente; registrar com fotos/desenhos.\nClassificar figuras pelo tipo de ângulo predominante.",
+      "sugestaoNao": "Identificar ângulos reto/não reto em imagens.\nUsar esquadro para verificar ângulos duvidosos.\nClassificar por presença/ausência de ângulo reto."
+    },
+    {
+      "id": "EF04MA19",
+      "pergunta": "Reconhecer simetria de reflexão em figuras e em pares de figuras geométricas planas e utilizá-la na construção de figuras congruentes, com o uso de malhas quadriculadas e de softwares de geometria.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir a imagem refletida em malha quadriculada (simetria).\nDobraduras para detectar eixos de simetria.\nUsar software simples para refletir figuras.",
+      "sugestaoNao": "Traçar eixos de simetria e refletir manualmente.\nComparar figura e sua imagem refletida (congruência).\nCorrigir reflexões incorretas em malha."
+    },
+    {
+      "id": "EF04MA20",
+      "pergunta": "Medir e estimar comprimentos (incluindo perímetros), massas e capacidades, utilizando unidades de medida padronizadas mais usuais, valorizando e respeitando a cultura local.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Medição real de objetos (perímetro e comprimento) e de recipientes (capacidade).\nEscolher unidade adequada e justificar.\nComparar estimativa × medida real; registrar diferença.",
+      "sugestaoNao": "Escolher unidade/instrumento adequado em estudos de caso.\nReforçar leitura correta de régua/recipiente graduado.\nComparar medições repetidas e discutir variação."
+    },
+    {
+      "id": "EF04MA21",
+      "pergunta": "Medir, comparar e estimar área de figuras planas desenhadas em malha quadriculada, pela contagem dos quadradinhos ou de metades de quadradinho, reconhecendo que duas figuras com formatos diferentes podem ter a mesma medida de área.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calcular áreas por contagem de quadradinhos e metades.\nComparar áreas de formas diferentes com mesma contagem.\nCriar figura com mesma área de outra dada.",
+      "sugestaoNao": "Contar quadradinhos e metades com atenção ao contorno.\nConstruir nova figura com mesma área.\nExplicar por que figuras diferentes podem ter mesma área."
+    },
+    {
+      "id": "EF04MA22",
+      "pergunta": "Ler e registrar medidas e intervalos de tempo em horas, minutos e segundos em situações relacionadas ao seu cotidiano, como informar os horários de início e término de realização de uma tarefa e sua duração.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Agenda do dia: registrar início/fim/duração em h:min:s.\nProblemas com ultrapassagem de hora e conversões simples.\nConstruir linha do tempo de uma atividade.",
+      "sugestaoNao": "Escrever horários em analógico e digital para situações dadas.\nCalcular durações com linha do tempo.\nResolver problemas que atravessam a hora."
+    },
+    {
+      "id": "EF04MA23",
+      "pergunta": "Reconhecer temperatura como grandeza e o grau Celsius como unidade de medida a ela associada e utilizá-lo em comparações de temperaturas em diferentes regiões do Brasil ou no exterior ou, ainda, em discussões que envolvam problemas relacionados ao aquecimento global.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler termômetros (analógico/digital) e comparar temperaturas.\nDebater variações de temperatura em cidades brasileiras.\nResolver problemas envolvendo °C (diferenças, médias simples).",
+      "sugestaoNao": "Ler termômetros e registrar temperaturas em °C.\nComparar temperaturas de diferentes dias/locais.\nResolver diferenças de temperatura em problemas simples."
+    },
+    {
+      "id": "EF04MA24",
+      "pergunta": "Registrar as temperaturas máxima e mínima diárias, em locais do seu cotidiano, e elaborar gráficos de colunas com as variações diárias da temperatura, utilizando, inclusive, planilhas eletrônicas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar temperaturas mín./máx. por 1 semana e registrar.\nConstruir gráfico de colunas (em papel ou planilha).\nEscrever duas conclusões baseadas no gráfico.",
+      "sugestaoNao": "Registrar mín./máx. diárias e organizar tabela.\nDesenhar gráfico de colunas e rotular eixos.\nEscrever duas conclusões verdadeiras a partir do gráfico."
+    },
+    {
+      "id": "EF04MA25",
+      "pergunta": "Resolver e elaborar problemas que envolvam situações de compra e venda e formas de pagamento, utilizando termos como troco e desconto, enfatizando o consumo ético, consciente e responsável.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Feirinha: compra/venda com troco e desconto simples.\nComparar formas de pagamento e registrar vantagens.\nResolver encadeamentos (leve 3, pague 2; 10% off).",
+      "sugestaoNao": "Resolver situações de troco/desconto com apoio de dinheiro.\nComparar pagar à vista × parcelado (sem juros).\nReescrever problema mal formulado para torná‑lo claro."
+    },
+    {
+      "id": "EF04MA26",
+      "pergunta": "Identificar, entre eventos aleatórios cotidianos, aqueles que têm maior chance de ocorrência, reconhecendo características de resultados mais prováveis, sem utilizar frações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Julgar eventos como mais/menos prováveis e justificar sem frações.\nExperimentar (moeda/dado) e comparar previsão × resultado.\nCriar cenário próprio e explicar por que um resultado é mais provável.",
+      "sugestaoNao": "Listar resultados possíveis de eventos simples.\nJulgar maior/menor chance e justificar.\nComparar previsão com experimento."
+    },
+    {
+      "id": "EF04MA27",
+      "pergunta": "Analisar dados apresentados em tabelas simples ou de dupla entrada e em gráficos de colunas ou pictóricos, com base em informações das diferentes áreas do conhecimento, e produzir texto com a síntese de sua análise.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler e analisar tabelas/ gráficos (colunas/pictóricos) de outras áreas.\nResponder a perguntas e justificar com os dados.\nEscrever um parágrafo‑síntese com achados.",
+      "sugestaoNao": "Ler títulos, eixos, categorias de gráficos/tabelas.\nResponder perguntas literais e inferenciais.\nProduzir parágrafo‑síntese usando dados."
+    },
+    {
+      "id": "EF04MA28",
+      "pergunta": "Realizar pesquisa envolvendo variáveis categóricas e numéricas e organizar dados coletados por meio de tabelas e gráficos de colunas simples ou agrupadas, com e sem uso de tecnologias digitais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa (categóricas e numéricas), coletar e tabular dados.\nConstruir gráfico de colunas simples/agrupadas (papel/planilha).\nApresentar oralmente resultados e uma conclusão.",
+      "sugestaoNao": "Definir pergunta de pesquisa e variáveis.\nTabular dados de forma consistente.\nConstruir gráfico adequado ao tipo de dado."
+    }
+  ]
+}

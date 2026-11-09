@@ -1,0 +1,104 @@
+{
+  "subject": "Geografia",
+  "serie": "3º Ano",
+  "questions": [
+    {
+      "id": "EF03GE01",
+      "pergunta": "Reconhecer a escola e o entorno como espaços de vivência (salas, pátio, ruas próximas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caminhada guiada e mapa mental da escola.\nFotos dos espaços e legenda simples.\nOrganizar planta da sala com posições.",
+      "sugestaoNao": "Ligar espaço a função (biblioteca ↔ ler).\nCorrigir legendas com erros.\nRever percurso com pontos de referência."
+    },
+    {
+      "id": "EF03GE02",
+      "pergunta": "Localizar lugares usando referências (perto/longe; direita/esquerda) e trajetos simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Desenhar o caminho casa–escola com marcos (padaria, praça).\nJogo de instruções (avance 2 quadras, vire à direita).\nConstruir maquete simples do quarteirão.",
+      "sugestaoNao": "Usar setas e legenda básica.\nIdentificar erros de orientação e corrigir.\nNomear pontos de referência."
+    },
+    {
+      "id": "EF03GE03",
+      "pergunta": "Ler e produzir mapas e croquis básicos com título e legenda.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Criar mapa da sala e do pátio com símbolos da turma.\nComparar croqui ↔ foto aérea da escola.\nMontar legenda com 6 símbolos.",
+      "sugestaoNao": "Reforçar título/legenda/escala (noções).\nAjustar proporções de forma aproximada.\nRever símbolos duplicados."
+    },
+    {
+      "id": "EF03GE04",
+      "pergunta": "Identificar elementos naturais e construídos no entorno (árvores, rios, ruas, prédios).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Lista ilustrada de elementos do quarteirão.\nPasseio para marcar 'natural × construído'.\nMapa temático com cores (verde=natural).",
+      "sugestaoNao": "Corrigir classificações equivocadas.\nRegistrar cuidados necessários em cada tipo.\nIndicar quem cuida de cada espaço."
+    },
+    {
+      "id": "EF03GE05",
+      "pergunta": "Observar o tempo atmosférico local (sol, chuva, vento) e registrar em calendário.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diário do tempo por 2 semanas.\nGráfico simples (colunas) com dias de sol/chuva.\nPerguntas sobre como o tempo afetou a rotina.",
+      "sugestaoNao": "Diferenciar clima × tempo (noções).\nRever símbolos meteo.\nEscrever duas conclusões baseadas no gráfico."
+    },
+    {
+      "id": "EF03GE06",
+      "pergunta": "Reconhecer paisagens do município (rural/urbana) e diferenças de uso do espaço.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Sequência de imagens da cidade/campo: semelhanças e diferenças.\nTabela de usos (moradia, comércio, lazer, agricultura).\nRoda 'o que tem no meu bairro?'",
+      "sugestaoNao": "Evitar estereótipos (campo só tem…)\nLocalizar exemplos reais.\nRevisar termos específicos."
+    },
+    {
+      "id": "EF03GE07",
+      "pergunta": "Entender regras de convivência e cuidado com os espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Contrato de uso da praça/parque da escola.\nMutirão de limpeza e registro.\nCartazes de boas práticas.",
+      "sugestaoNao": "Definir responsáveis por tarefas.\nChecar tom respeitoso.\nAvaliar resultados da ação."
+    },
+    {
+      "id": "EF03GE08",
+      "pergunta": "Reconhecer diferentes meios de transporte e circulação no bairro.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Inventário de transportes usados pela turma.\nMapa das rotas de ônibus/ciclovias (se houver).\nSimulação de travessia segura.",
+      "sugestaoNao": "Diferenciar transporte individual/coletivo.\nReforçar regras de segurança.\nIdentificar pontos com risco."
+    },
+    {
+      "id": "EF03GE09",
+      "pergunta": "Usar diferentes fontes (mapas, fotos, relatos) para conhecer lugares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mesa de fontes e perguntas 'quem/onde/quando'.\nComparar foto antiga × atual do bairro.\nEscrever pequeno relato do lugar preferido.",
+      "sugestaoNao": "Indicar origem da informação.\nSeparar fato/opinião.\nRegistrar limitações da fonte."
+    },
+    {
+      "id": "EF03GE10",
+      "pergunta": "Construir noção de cidadania no espaço (respeito, inclusão, participação).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debate mediado sobre uso da praça.\nCarta da turma propondo melhoria local.\nRoda de escuta sobre acessibilidade.",
+      "sugestaoNao": "Evitar generalizações.\nBasear proposta em observações.\nDefinir próximos passos."
+    },
+    {
+      "id": "EF03–EF09/CARTOGRAFIA",
+      "pergunta": "Leitura e produção de mapas, croquis e gráficos com rigor.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar título, legenda, orientação e escala.\nComparar representações da mesma área.\nJustificar escolhas cartográficas.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nChecar fontes/datas.\nManter padrão visual."
+    },
+    {
+      "id": "EF03–EF09/FONTES",
+      "pergunta": "Uso crítico de mapas, fotos aéreas, imagens de satélite e relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise (quem/onde/quando/por quê).\nCruzar pelo menos duas fontes.\nRegistrar limitações das fontes.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria/licenças.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF03–EF09/CIDADANIA",
+      "pergunta": "Participação social e respeito aos espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico do entorno e plano de ação.\nDiálogo com órgãos públicos.\nCampanhas educativas com registro.",
+      "sugestaoNao": "Respeitar papéis institucionais.\nBasear proposta em dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA",
+      "pergunta": "Cartografia digital e letramento midiático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar apps/SIG educativos.\nChecar autoria e data de conteúdos.\nProduzir sínteses com referências.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar desinformação.\nCitar fontes corretamente."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "subject": "Ciências",
+  "serie": "7º Ano",
+  "questions": [
+    {
+      "id": "EF07CI01",
+      "pergunta": "Citologia: organelas e funções (noções); uso de lupa/microscópio.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Observar lâminas comerciais (folha/epitélio de cebola).\nDesenho científico com escala.\nJogo de organelas e funções.",
+      "sugestaoNao": "Não coletar material humano.\nHigienizar instrumentos.\nUsar legenda padronizada."
+    },
+    {
+      "id": "EF07CI02",
+      "pergunta": "Vírus, bactérias, protozoários e fungos: características e prevenção de doenças.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa mental de grupos e exemplos.\nEstudo de vacinas e antibióticos (noções).\nRoteiros de prevenção no cotidiano.",
+      "sugestaoNao": "Evitar confundir vírus × bactéria.\nUsar fontes confiáveis.\nLinguagem acessível e correta."
+    },
+    {
+      "id": "EF07CI03",
+      "pergunta": "Botânica: fotossíntese, transpiração e transporte de seiva (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimento com folhas cobertas/descobertas.\nCapilaridade em talos.\nRelatar variáveis e resultados.",
+      "sugestaoNao": "Controlar luz/água.\nEvitar conclusões sem controle.\nRegistrar tempo/condições."
+    },
+    {
+      "id": "EF07CI04",
+      "pergunta": "Zoologia (noções) e adaptações; relações tróficas em teias alimentares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir teia alimentar de bioma local.\nCaso de espécie‑chave.\nSimulação de impacto na teia.",
+      "sugestaoNao": "Evitar ciclos impossíveis.\nDiferenciar cadeia × teia.\nIndicar seta de energia."
+    },
+    {
+      "id": "EF07CI05",
+      "pergunta": "Fisiologia humana integrada: digestão, respiração, circulação e excreção (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de integração entre sistemas.\nMedições simples (pulso, frequência respiratória).\nAnalisar efeitos de atividade física.",
+      "sugestaoNao": "Respeitar limites de esforço.\nHigienizar materiais.\nNão coletar amostras biológicas."
+    },
+    {
+      "id": "EF07CI06",
+      "pergunta": "Matéria: partículas, estados e mudanças; reações (noções qualitativas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Evidências de reação: gás, temperatura, cor.\nComparar mudança física × química.\nRegistro fotográfico seguro.",
+      "sugestaoNao": "Não aquecer recipientes fechados.\nEvitar reagentes perigosos.\nVentilação adequada."
+    },
+    {
+      "id": "EF07CI07",
+      "pergunta": "Soluções: concentração qualitativa e fatores que influenciam dissolução.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tempo de dissolução com agitação/temperatura.\nTabela comparativa.\nHipóteses e conclusões.",
+      "sugestaoNao": "Usar água/sal/açúcar (seguros).\nRegistrar temperatura.\nEvitar ingestão."
+    },
+    {
+      "id": "EF07CI08",
+      "pergunta": "Calor, temperatura, dilatação e mudanças de estado (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimentos seguros de dilatação (metal/água).\nCurvas simples.\nRelato com unidades.",
+      "sugestaoNao": "Evitar queimaduras.\nUsar termômetros adequados.\nControle de variáveis."
+    },
+    {
+      "id": "EF07CI09",
+      "pergunta": "Luz e som: reflexão, refração e vibração (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Periscópio de papelão.\nCopo musical e cordas vibrantes.\nRelatar caminhos da luz/som.",
+      "sugestaoNao": "Não apontar luz intensa aos olhos.\nControle de volume.\nRegistrar materiais usados."
+    },
+    {
+      "id": "EF07CI10",
+      "pergunta": "Forças e máquinas simples (alavancas, roldanas, planos inclinados).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar máquinas simples com kits/recicláveis.\nMedições de força com dinamômetro caseiro.\nComparar vantagem mecânica qualitativa.",
+      "sugestaoNao": "Evitar sobrecarga/risco.\nUsar medidas com cuidado.\nRelatar limitações."
+    },
+    {
+      "id": "EF07CI11",
+      "pergunta": "Astronomia: movimento aparente do Sol; estações (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Relógio solar simples.\nMapa de sombras ao longo do dia.\nDebate: por que as estações ocorrem?",
+      "sugestaoNao": "Não confundir distância × inclinação da Terra.\nRegistrar horário/local.\nUsar diagramas corretos."
+    },
+    {
+      "id": "EF07CI12",
+      "pergunta": "Comunicar ciência: pôster, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Produzir pôster científico.\nRelatório com gráficos.\nApresentar para outra turma.",
+      "sugestaoNao": "Citar fontes.\nEvitar plágio.\nLinguagem clara."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}

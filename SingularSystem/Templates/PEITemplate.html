@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PAEE - {{StudentName}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif !important;
+            line-height: 1.6 !important;
+            color: #212529 !important;
+            max-width: 800px !important;
+            margin: 0 auto !important;
+        }
+
+        .header {
+            text-align: center !important;
+            margin-bottom: 2rem !important;
+            padding-bottom: 2rem !important;
+            border-bottom: 1px solid #e2e8f0 !important;
+        }
+
+        @page {
+            size: A4 !important;
+            margin: 3cm 2cm 2cm 2cm !important;
+        }
+
+        .footer {
+            text-align: center !important;
+            margin-top: 2rem !important;
+            padding-top: 1rem !important;
+            border-top: 1px solid #e2e8f0 !important;
+            font-size: 12px !important;
+            color: #718096 !important;
+        }
+
+        p, h1, h2, h3, h4, h5, h6,
+        .text-justify, .whitespace-pre-wrap,
+        .break-words, .signature-label,
+        .footer, .header, .space-y-2,
+        .space-y-6, .space-y-8 {
+            text-align: justify !important;
+            text-justify: inter-word !important;
+        }
+
+        .font-semibold {
+            font-weight: 600 !important;
+        }
+
+        .text-4xl {
+            font-size: 2.25rem !important;
+        }
+
+        .font-bold {
+            font-weight: 700 !important;
+        }
+
+        .leading-relaxed {
+            line-height: 1.625 !important;
+        }
+
+        .space-y-6 {
+            margin-top: 1.5rem !important;
+        }
+
+        .space-y-2 {
+            margin-top: 0.5rem !important;
+        }
+
+        .px-10 {
+            padding-left: 2.5rem !important;
+            padding-right: 2.5rem !important;
+        }
+
+        .my-4 {
+            margin-top: 1rem !important;
+            margin-bottom: 1rem !important;
+        }
+
+        .text-justify {
+            text-align: justify !important;
+        }
+
+        .text-xl {
+            font-size: 1.25rem !important;
+        }
+
+        .text-lg {
+            font-size: 1.125rem !important;
+        }
+
+        .text-base {
+            font-size: 1rem !important;
+        }
+
+        .text-muted-foreground {
+            color: #6b7280 !important;
+        }
+
+        .print-cards-grid {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 16px !important;
+        }
+
+        .print-card {
+            page-break-inside: avoid
+        }
+
+        .print-card .dot {
+            display: inline-block !important;
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 9999px !important;
+            flex: 0 0 auto !important;
+            margin-right: 6px !important;
+        }
+
+        .print-card .category-row {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .bg-amber-950 {
+            background-color: #451a03 !important;
+        }
+
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class='header'>
+        <h1 class="text-4xl font-bold leading-relaxed">Instituto Piauiense de Assistência, Auditoria e Gestão em Saúde</h1>
+    </div>
+
+    <div class='space-y-2'>
+        <h3 className="text-xl font-bold">Plano de Atendimento Educacional Especializado</h3>
+        <p className="text-muted-foreground">
+            Data: {{CreatedAt}}
+        </p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4>1. Identificação</h4>
+        <p>
+            <strong>Nome:</strong> {{StudentName}}<br />
+            <strong>Data de Nascimento:</strong> {{DateOfBirth}}<br />
+            <strong>Escola:</strong> {{SchoolName}}<br />
+            <strong>Série:</strong> {{Serie}}<br />
+            <strong>Município:</strong> {{SchoolCity}}
+        </p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4>2. Resumo da Avaliação</h4>
+        {{CardsGrid}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4>3. Histórico Escolar</h4>
+        <p>{{AcademicRecord}}</p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4>4. Tem Laudo Médico? Qual CID-10?</h4>
+        <p>{{MedicalReport}}</p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4>5. Usa Medicação? Quais?</h4>
+        <p>{{Medications}}</p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4>6. Faz Acompanhamento? Reabilitação?</h4>
+        <p>{{FollowUp}}</p>
+    </div>
+
+    <div class='space-y-2'>
+        {{Suggestions}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            8. Tipo de Atendimento Educacional Especializado
+        </h4>
+        {{OrganizationOfCare}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            9. Frequência Semanal
+        </h4>
+        <p>{{WeeklyFrequency}}</p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            10. Tempo de Atendimento por Sessão
+        </h4>
+        <p>
+            {{AssistingTimePerSession}}
+        </p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            11. Composição do Atendimento
+        </h4>
+        <p>
+            {{CompositionOfAssisting}}
+        </p>
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            12. Outros Profissionais Envolvidos
+        </h4>
+        {{OtherProfessionals}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            13. Atividades Diferenciadas
+        </h4>
+        {{DifferentiatedActivitiesInAEE}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            14. Metodologia de Trabalho
+        </h4>
+        {{WorkMethodology}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            15. Recursos Materiais e Equipamentos
+        </h4>
+        {{MaterialResourcesAndEquipment}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            16. Critérios de Avaliação
+        </h4>
+        {{CriteriaInEvaluation}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            17. Recursos e Estratégias
+        </h4>
+        {{ResourcesAndStrategies}}
+    </div>
+
+    <div class='space-y-2'>
+        <h4 class='text-lg font-semibold'>
+            18. Observações Adicionais
+        </h4>
+        <p>
+            {{AdditionalObservations}}
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>
+            Documento gerado em {{GeneratedDate}} às {{GeneratedTime}}
+        </p>
+        <p>Sistema AEE - IPAAGS</p>
+    </div>
+</body>
+</html>

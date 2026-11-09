@@ -1,0 +1,12 @@
+﻿namespace SingularSystem.DTOs.Portage
+{
+    public class PortageUpdateRequest
+    {
+        public Guid ID { get; set; }
+        public Guid StudentID { get; set; }
+        public Guid UserID { get; set; }
+        public string AgeRange { get; set; }
+        public Dictionary<string, PortageValueRequest> Responses { get; set; }
+
+    }
+}

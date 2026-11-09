@@ -1,0 +1,90 @@
+{
+  "subject": "História",
+  "serie": "4º Ano",
+  "questions": [
+    {
+      "id": "EF04HI01",
+      "pergunta": "Formação do município/estado, símbolos, datas cívicas e personagens locais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo do município (5 marcos).\nÁlbum dos símbolos (bandeira/hino/brasão).\nPerfil de personagem local com fonte.",
+      "sugestaoNao": "Ordenar marcos embaralhados.\nLigar símbolo ↔ significado.\nRevisar indicação de fonte."
+    },
+    {
+      "id": "EF04HI02",
+      "pergunta": "Modos de vida: campo × cidade em diferentes tempos (trabalho/transporte/moradia).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tabela comparativa com imagens e palavras‑chave.\nEntrevista sobre mudanças na mobilidade.\nMaquete de bairro (antes e agora).",
+      "sugestaoNao": "Classificar imagens em categorias corretas.\nRegistrar 2 permanências e 2 mudanças.\nRevisar vocabulário específico."
+    },
+    {
+      "id": "EF04HI03",
+      "pergunta": "Mapas antigos e atuais do município/estado: nomes e limites.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Sobrepor dois mapas e anotar diferenças.\nLegenda de cores para zonas.\nRota casa–escola com pontos de referência.",
+      "sugestaoNao": "Identificar título/legenda/escala (noções).\nCorrigir trajetos mal indicados.\nRevisar nomes de bairros/locais."
+    },
+    {
+      "id": "EF04HI04",
+      "pergunta": "Presenças indígenas, africanas e outros grupos na história local/regional e suas permanências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa cultural: territórios e quilombos (quando houver).\nOficina de palavras de origem indígena/africana.\nMostra cultural (músicas, comidas, brincadeiras).",
+      "sugestaoNao": "Citar fontes de cada dado.\nEvitar generalizações; nomear povos.\nRegistrar permanências hoje."
+    },
+    {
+      "id": "EF04HI05",
+      "pergunta": "Fontes históricas: tipos, perguntas e inferências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caixa‑museu da turma (objetos do bairro).\nRoteiro: o que é?/época?/uso?\nComparar duas fontes do mesmo tema.",
+      "sugestaoNao": "Separar fato de opinião.\nIndicar limitações de cada fonte.\nRegistrar data/local/autor."
+    },
+    {
+      "id": "EF04HI06",
+      "pergunta": "Produzir textos e linhas do tempo sobre patrimônios/festas/marcos locais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reportagem da turma sobre um patrimônio.\nLinha do tempo de festa tradicional.\nCartaz/convite com data/local/programação.",
+      "sugestaoNao": "Revisar coesão temporal.\nChecar informações essenciais.\nCitar fonte de imagens/relatos."
+    },
+    {
+      "id": "EF04HI07",
+      "pergunta": "Direitos humanos e participação cidadã na escola/comunidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roda de conversa sobre respeito/violação.\nProjeto de melhoria do entorno (lixo, trânsito).\nCarta da turma para órgão local.",
+      "sugestaoNao": "Definir responsáveis por ações.\nRevisar tom e clareza.\nRegistrar retorno do órgão."
+    },
+    {
+      "id": "EF04HI08",
+      "pergunta": "Agentes públicos locais (prefeitura/câmara/conselhos) e funções; problemas e soluções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa das instituições: quem faz o quê.\nSimulação de reunião com pauta e proposta.\nEntrevista guiada com representante.",
+      "sugestaoNao": "Distinguir esferas (município/estado/união).\nChecar viabilidade e especificidade.\nRegistrar fontes e aprendizados."
+    },
+    {
+      "id": "EF04HI09",
+      "pergunta": "Migrações internas e internacionais na história local/regional e seus impactos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo de fluxos migratórios com setas.\nRelatos de famílias migrantes da turma/comunidade.\nMapa de origem/destino com símbolos.",
+      "sugestaoNao": "Diferenciar chegada/partida.\nEvitar estereótipos; usar dados/fonte.\nConcluir impactos observados (trabalho/cultura)."
+    },
+    {
+      "id": "EF04HI10",
+      "pergunta": "Economia local: atividades de trabalho ontem e hoje (agricultura, comércio, serviços, indústria).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Entrevista com trabalhador local (mudanças no ofício).\nVisita técnica virtual/real e relatório ilustrado.\nTabela comparativa de atividades por época.",
+      "sugestaoNao": "Identificar termos técnicos corretos.\nRelacionar atividade ao espaço (mapa).\nCitar fonte de cada informação."
+    },
+    {
+      "id": "EF04HI11",
+      "pergunta": "Meios de comunicação e tecnologia: transformações no cotidiano local.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Exposição cronológica (cartas→rádio→TV→internet).\nComparar notícias de jornal impresso × portal local.\nOficina de segurança digital básica.",
+      "sugestaoNao": "Classificar vantagens/limites de cada meio.\nChecar data e autoria de notícias.\nRegistrar boas práticas online."
+    },
+    {
+      "id": "EF04HI12",
+      "pergunta": "Patrimônio natural local e sustentabilidade (rios, praças, parques).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de campo: observar, fotografar, registrar problemas.\nPlano de ação simples (limpeza, uso responsável).\nCampanha educativa na escola.",
+      "sugestaoNao": "Diferenciar patrimônio natural × construído.\nIndicar responsáveis pela manutenção.\nAvaliar resultados da campanha."
+    }
+  ]
+}

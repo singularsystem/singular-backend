@@ -1,0 +1,118 @@
+{
+  "subject": "História",
+  "serie": "7º Ano",
+  "questions": [
+    {
+      "id": "EF07HI01",
+      "pergunta": "Estados nacionais na Idade Moderna: centralização e absolutismo (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa da Europa com monarquias e datas aproximadas.\nQuadro de poderes (rei, nobreza, clero).\nDebate guiado: limites e críticas ao absolutismo.",
+      "sugestaoNao": "Evitar anacronismos políticos.\nCitar casos concretos.\nChecar cronologia."
+    },
+    {
+      "id": "EF07HI02",
+      "pergunta": "Expansão marítima, comércio mundial e colonizações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo das navegações.\nMapa de rotas e possessões.\nEstudo de caso do sistema colonial ibérico.",
+      "sugestaoNao": "Distinguir metrópole/colônia.\nEvitar narrativa de 'superioridade' cultural.\nIndicar fontes cartográficas."
+    },
+    {
+      "id": "EF07HI03",
+      "pergunta": "Escravidão africana nas Américas: economia, cultura e resistências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro de rotas e números aproximados.\nDossié de resistências (quilombos, sabotações).\nAnálise de documento histórico com mediação.",
+      "sugestaoNao": "Evitar termos eufemísticos.\nNomear agentes envolvidos.\nCitar fontes."
+    },
+    {
+      "id": "EF07HI04",
+      "pergunta": "Iluminismo e críticas ao absolutismo: ideias e circulação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de ideias (pensadores × conceitos).\nAnalisar trechos adaptados e relacionar a direitos.\nDebate: limites do Iluminismo (inclusões/exclusões).",
+      "sugestaoNao": "Contextualizar época e alcance social.\nEvitar generalizações.\nCitar fontes de trechos."
+    },
+    {
+      "id": "EF07HI05",
+      "pergunta": "Revoluções (EUA, França, Haiti) e seus impactos no mundo atlântico.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo comparada.\nQuadro de causas/objetivos/consequências.\nDestaque para a Revolução Haitiana.",
+      "sugestaoNao": "Evitar hierarquias valorativas.\nChecar datas e documentos.\nLigar impactos no Brasil."
+    },
+    {
+      "id": "EF07HI06",
+      "pergunta": "Independências na América Latina: semelhanças e diferenças.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa das independências e lideranças.\nComparar processos (méritos/limites).\nEscrever síntese relacionando ao Brasil.",
+      "sugestaoNao": "Citar fontes de mapas/datas.\nEvitar simplificações regionais.\nRevisar nomes próprios."
+    },
+    {
+      "id": "EF07HI07",
+      "pergunta": "Brasil no início do século XIX: vinda da Corte, transformações e independência.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo 1808–1822.\nMapear instituições criadas (Banco, Imprensa).\nAnalisar imagens do 'Grito' criticamente.",
+      "sugestaoNao": "Separar mito de fato.\nSituar interesses de grupos.\nCitar fontes."
+    },
+    {
+      "id": "EF07HI08",
+      "pergunta": "Primeiro Reinado e Regências: conflitos e projetos de Estado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa dos conflitos (Cabanagem, Balaiada etc.).\nQuadro de projetos (centralização × federalismo).\nEstudo de caso local/regional.",
+      "sugestaoNao": "Indicar causas e impactos.\nChecar datas.\nEvitar rótulos simplistas."
+    },
+    {
+      "id": "EF07HI09",
+      "pergunta": "Fontes jornalísticas do século XIX: leitura crítica.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Selecionar notícias de época e analisar linguagem.\nComparar jornal oficial × panfleto.\nEscrever nota explicativa.",
+      "sugestaoNao": "Contextualizar autoria/posição.\nChecar termos de época.\nEvitar anacronismos."
+    },
+    {
+      "id": "EF07HI10",
+      "pergunta": "Cidadania: escravidão, abolicionismo e lutas por direitos no Brasil.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Linha do tempo do abolicionismo.\nBiografia curta de abolicionistas/quilombolas.\nDebate mediado: direitos e exclusões.",
+      "sugestaoNao": "Evitar romantização.\nCitar fontes.\nLigar lutas do passado a agendas atuais."
+    },
+    {
+      "id": "EF07HI11",
+      "pergunta": "Produção de sínteses históricas com base em múltiplas fontes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar, selecionar e citar fontes.\nEscrever e revisar síntese.\nApresentar com evidências.",
+      "sugestaoNao": "Coesão temporal.\nCorreção de datas/nomes.\nReferências completas."
+    },
+    {
+      "id": "EF07HI12",
+      "pergunta": "Educação histórica: empatia e respeito à diversidade cultural.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar casos locais de intolerância e propor ações.\nCarta aberta fundamentada.\nCampanha educativa.",
+      "sugestaoNao": "Linguagem inclusiva.\nBasear-se em dados/relatos confiáveis.\nAvaliar resultados."
+    },
+    {
+      "id": "EF05–EF09/FONTES",
+      "pergunta": "Usar múltiplas fontes (orais, textuais, visuais, digitais) com criticidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro padrão de análise (quem/quando/onde/por quê).\nComparar duas fontes e apontar divergências.\nRegistrar limitações e lacunas.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria e contexto.\nEvitar uso de fontes sem verificação."
+    },
+    {
+      "id": "EF05–EF09/TEMPO",
+      "pergunta": "Trabalhar tempo histórico (duração, simultaneidade, permanência, mudança).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir e ler linhas do tempo comparadas.\nMarcar durações e simultaneidades.\nRever contagem de séculos.",
+      "sugestaoNao": "Checar datas em mais de uma fonte.\nEvitar anacronismos.\nCorrigir legendas imprecisas."
+    },
+    {
+      "id": "EF05–EF09/CIDADANIA",
+      "pergunta": "Direitos humanos e participação social.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debates mediados com regras de respeito.\nProjetos de intervenção local.\nCartas/documentos dirigidos a órgãos públicos.",
+      "sugestaoNao": "Basear propostas em dados.\nDefinir responsáveis/prazos.\nAvaliar impactos e comunicar resultados."
+    },
+    {
+      "id": "EF05–EF09/COMUNICAÇÃO",
+      "pergunta": "Letramento midiático e combate à desinformação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checar autoria/data/URL.\nComparar coberturas jornalísticas.\nProduzir síntese com referências.",
+      "sugestaoNao": "Evitar encaminhar conteúdo sem checagem.\nUsar linguagem clara e respeitosa.\nCitar fontes."
+    }
+  ]
+}

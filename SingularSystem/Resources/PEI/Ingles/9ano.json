@@ -1,0 +1,125 @@
+{
+  "subject": "Inglês",
+  "serie": "9º Ano",
+  "questions": [
+    {
+      "id": "EF09LI01",
+      "pergunta": "Ler textos de média extensão (reportagens curtas, reviews, artigos juvenis) inferindo significados e argumentos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Anotar evidências que sustentam a tese.\nMapa de argumentos e contra‑argumentos.\nResenha crítica curta.",
+      "sugestaoNao": "Analisar título, lead e conclusão.\nDestacar conectores argumentativos.\nCitar trechos com aspas."
+    },
+    {
+      "id": "EF09LI02",
+      "pergunta": "Ouvir diálogos/vídeos mais longos com foco em ideias, detalhes e inferências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Escuta com tarefas graduadas (global→detalhe→inferência).\nTomar notas com abreviações.\nTranscrição parcial seletiva.",
+      "sugestaoNao": "Pré‑listening com contexto.\nReescuta orientada.\nDiscussão guiada pós‑escuta."
+    },
+    {
+      "id": "EF09LI03",
+      "pergunta": "Escrever textos argumentativos/explicativos curtos com coesão e adequação ao propósito.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar com outline.\nEscrever 2 parágrafos com tese e evidências.\nRevisão por pares com rubrica.",
+      "sugestaoNao": "Evitar falácias.\nConectores de causa/contraste/condição.\nCitar fontes de dados."
+    },
+    {
+      "id": "EF09LI04",
+      "pergunta": "Usar tempos e estruturas com mais controle (present perfect, past perfect – noções; future forms).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Sequenciar eventos com past/present perfect.\nPlanejar com going to/will e present continuous futuro.\nDiário de experiências (have you ever…?).",
+      "sugestaoNao": "Foco no uso, não só na regra.\nLista de irregulares mais frequentes.\nFeedback em erro recorrente."
+    },
+    {
+      "id": "EF09LI05",
+      "pergunta": "Ler e produzir resumos, resenhas e sínteses.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Extrair ideias‑chave (who/what/why/how).\nEscrever resumo objetivo (sem opinião).\nResenha com avaliação justificativa.",
+      "sugestaoNao": "Evitar copiar frases do texto.\nUsar paráfrase adequada.\nManter limite de palavras."
+    },
+    {
+      "id": "EF09LI06",
+      "pergunta": "Participar de discussões com escuta ativa, turn‑taking e polidez.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debate estruturado (papéis claros).\nFrases para concordar/discordar com respeito.\nAutoavaliação da participação.",
+      "sugestaoNao": "Evitar interrupções.\nUsar perguntas abertas.\nCitar evidências."
+    },
+    {
+      "id": "EF09LI07",
+      "pergunta": "Pronúncia: entonação em perguntas/declarações; clareza em clusters consonantais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Prática de entonação com setas/cores.\nDrills de clusters (texts, tasks).\nGravação e feedback formativo.",
+      "sugestaoNao": "Foco em inteligibilidade.\nModelos auditivos variados.\nCorreção pontual, sem constrangimento."
+    },
+    {
+      "id": "EF09LI08",
+      "pergunta": "Vocabulário acadêmico e de mídia (noções) e collocations.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Listas por tema com exemplos autênticos.\nAtividades de collocations.\nGlossário colaborativo.",
+      "sugestaoNao": "Evitar listas sem contexto.\nRevisão espaçada.\nAplicar em produção real."
+    },
+    {
+      "id": "EF09LI09",
+      "pergunta": "Letramento midiático avançado: reconhecer vieses, framing e evidência.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar cobertura de um tema em 3 veículos.\nIdentificar linguagem carregada.\nRelatório de confiabilidade.",
+      "sugestaoNao": "Checar autor/data/financiador.\nCitar fontes.\nEvitar compartilhamento irrefletido."
+    },
+    {
+      "id": "EF09LI10",
+      "pergunta": "Projetos autorais multimodais dirigidos à comunidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Podcast/vídeo com roteiro e entrevistas.\nPublicação com legendas/descrições.\nColeta de feedback externo.",
+      "sugestaoNao": "Consentimento/ética.\nAcessibilidade.\nCitar referências."
+    },
+    {
+      "id": "EF09LI11",
+      "pergunta": "Interculturalidade: analisar identidades, perspectivas e estereótipos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar anúncios/filmes quanto a representações.\nDebate sobre estereótipos e impactos.\nProduzir guia de comunicação respeitosa.",
+      "sugestaoNao": "Evitar generalizações.\nValorizar diversidade.\nCitar exemplos concretos."
+    },
+    {
+      "id": "EF09LI12",
+      "pergunta": "Portfólio final com metas, produções e autoavaliação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Selecionar evidências de speaking/reading/writing/listening.\nReflexão guiada sobre avanços.\nPlano de continuidade para o Ensino Médio.",
+      "sugestaoNao": "Critérios claros e rubricados.\nMetas específicas.\nFeedback do professor e pares."
+    },
+    {
+      "id": "EF06–EF09/COMPREENSÃO",
+      "pergunta": "Leitura e escuta com estratégias (skimming, scanning, pre‑listening, tomar notas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Definir objetivo antes de ler/ouvir.\nUsar pistas visuais/títulos/subtítulos.\nTomar notas e verificar respostas em pares.",
+      "sugestaoNao": "Evitar tradução palavra‑por‑palavra.\nControlar tempo e ansiedade.\nReescuta/leitura com foco diferente."
+    },
+    {
+      "id": "EF06–EF09/PRODUÇÃO",
+      "pergunta": "Escrita e fala com planejamento, modelagem e revisão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar modelos/gêneros como referência.\nPlanejar com outline.\nRevisar com checklist e pares.",
+      "sugestaoNao": "Evitar publicar sem revisar.\nControlar extensão.\nCitar fontes quando usa dados."
+    },
+    {
+      "id": "EF06–EF09/INTERAÇÃO",
+      "pergunta": "Turn‑taking, mediação e colaboração.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Papéis claros (moderador, relator).\nFrases úteis para perguntar/ajudar.\nRubrica de colaboração.",
+      "sugestaoNao": "Evitar monopolizar a fala.\nEscuta ativa.\nFeedback respeitoso."
+    },
+    {
+      "id": "EF06–EF09/INTERCULTURALIDADE",
+      "pergunta": "Respeito à diversidade e análise de perspectivas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar costumes com contexto.\nRegistrar sem julgamentos.\nValorizar variedades do inglês.",
+      "sugestaoNao": "Evitar estereótipos.\nUsar fontes confiáveis.\nRefletir sobre o próprio ponto de vista."
+    },
+    {
+      "id": "EF06–EF09/TECNOLOGIA",
+      "pergunta": "Uso ético e produtivo de mídias e apps.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Produzir multimodal (texto/áudio/vídeo).\nUsar dicionários e corpora on‑line.\nCitar licenças e autores.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar plágio.\nChecar confiabilidade das fontes."
+    }
+  ]
+}

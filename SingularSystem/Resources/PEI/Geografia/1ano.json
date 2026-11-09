@@ -1,0 +1,83 @@
+{
+  "subject": "Geografia",
+  "serie": "1º Ano",
+  "questions": [
+    {
+      "id": "EF01GE01",
+      "tipo": "O sujeito e seu lugar no mundo",
+      "pergunta": "Descrever características observadas de seus lugares de vivência (moradia, escola etc.) e identificar semelhanças e diferenças entre esses lugares.",
+      "sugestaoNao": "Caminhada guiada pela escola para observar e registrar características (desenhos/fotos). Quadro comparativo simples entre casa e escola (o que é igual/diferente). Montar um mural com recortes de lugares da comunidade.",
+      "sugestaoSimComMediacao": "Comparar dois locais com perguntas orientadoras (o que é parecido? o que muda?). Preencher tabela com mediação (semelhanças/diferenças). Relatos orais curtos sobre o lugar, com apoio do professor."
+    },
+    {
+      "id": "EF01GE02",
+      "tipo": "O sujeito e seu lugar no mundo",
+      "pergunta": "Identificar semelhanças e diferenças entre jogos e brincadeiras de diferentes épocas e lugares.",
+      "sugestaoNao": "Entrevistar familiares sobre brincadeiras da infância e registrar em desenho/lista. Brincar de jogos tradicionais (pular corda, amarelinha) e registrar regras. Expor brinquedos antigos/atuais (fotos) para comparação.",
+      "sugestaoSimComMediacao": "Linha do tempo de brincadeiras com ajuda (ontem/hoje). Tabela mediada de semelhanças/diferenças. Relato oral curto comparando uma brincadeira antiga e uma atual."
+    },
+    {
+      "id": "EF01GE03",
+      "tipo": "O sujeito e seu lugar no mundo",
+      "pergunta": "Identificar e relatar semelhanças e diferenças de usos do espaço público (praças, parques) para o lazer e diferentes manifestações.",
+      "sugestaoNao": "Analisar fotos/vídeos de praças e parques locais; discutir usos (lazer, feiras, festas). Mapa simples da praça do bairro indicando usos com ícones. Roda de conversa sobre experiências no espaço público.",
+      "sugestaoSimComMediacao": "Relatar oralmente um uso observado com perguntas-guias. Completar quadro de usos (lazer, esportes, encontros) com mediação. Simular regras de convivência nesses espaços, com apoio."
+    },
+    {
+      "id": "EF01GE04",
+      "tipo": "Conexões e escalas",
+      "pergunta": "Discutir e elaborar, coletivamente, regras de convívio em diferentes espaços (sala de aula, escola etc.).",
+      "sugestaoNao": "Construir, em roda, lista de regras com exemplos concretos (falar baixo, respeitar fila). Dramatizar situações de bom/maus exemplos de convívio. Cartaz de combinados ilustrados para a sala.",
+      "sugestaoSimComMediacao": "Reescrever regras com apoio do professor (frases curtas). Eleger monitores da semana para lembrar combinados, com mediação. Registrar situações do dia em que as regras foram seguidas."
+    },
+    {
+      "id": "EF01GE05",
+      "tipo": "Mundo do trabalho",
+      "pergunta": "Observar e descrever ritmos naturais (dia e noite, variação de temperatura e umidade etc.) em diferentes escalas espaciais e temporais, comparando a sua realidade com outras.",
+      "sugestaoNao": "Diário do tempo (amanhecer/entardecer), variação de temperatura percebida. Experimentos simples: sombra ao longo do dia. Comparar fotos de lugares com climas distintos.",
+      "sugestaoSimComMediacao": "Preencher tabela de observações com ajuda (manhã/tarde/noite). Responder perguntas-guias (quando está mais quente?). Relacionar vestuário/atividades ao ritmo natural com mediação."
+    },
+    {
+      "id": "EF01GE06",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Descrever e comparar diferentes tipos de moradia ou objetos de uso cotidiano (brinquedos, roupas, mobiliários), considerando técnicas e materiais utilizados em sua produção.",
+      "sugestaoNao": "Sequência de imagens de moradias diversas (casa, apartamento, palafita) para observar materiais e formas. Comparar objetos (madeira, plástico, metal) e seus usos. Maquete simples de uma moradia com materiais recicláveis.",
+      "sugestaoSimComMediacao": "Quadro comparativo (tipo/material) com apoio. Relato mediado sobre por que certos materiais são usados. Exposição comentada das maquetes com perguntas orientadoras."
+    },
+    {
+      "id": "EF01GE07",
+      "tipo": "Mundo do trabalho",
+      "pergunta": "Descrever atividades de trabalho relacionadas com o dia a dia da sua comunidade.",
+      "sugestaoNao": "Entrevistas com funcionários da escola e familiares (tarefas, horários, ferramentas). Painel de profissões locais com fotos/desenhos. Jogo de associação ferramenta ↔ profissão.",
+      "sugestaoSimComMediacao": "Descrever oralmente uma profissão com roteiro mediado. Completar fichas de profissão (onde trabalha? o que usa?) com ajuda. Pequenas dramatizações com apoio do professor."
+    },
+    {
+      "id": "EF01GE08",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Criar mapas mentais e desenhos com base em itinerários, contos literários, histórias inventadas e brincadeiras.",
+      "sugestaoNao": "Desenhar o caminho de casa até a escola (mapa mental). Representar cenários de uma história lida em sala. Brincadeiras de percurso (caça ao tesouro) com pistas visuais.",
+      "sugestaoSimComMediacao": "Adicionar pontos de referência ao desenho com mediação. Legendar o mapa com símbolos simples e apoio do professor. Contar o itinerário desenhado com perguntas-guias."
+    },
+    {
+      "id": "EF01GE09",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Elaborar e utilizar mapas simples para localizar elementos do local de vivência, considerando referenciais espaciais (frente e atrás, esquerda e direita, em cima e embaixo, dentro e fora) e tendo o corpo como referência.",
+      "sugestaoNao": "Montar mapa simples da sala com carteiras/porta/janelas. Atividade de localizar objetos usando comandos espaciais. Jogo de percurso no mapa (siga as setas).",
+      "sugestaoSimComMediacao": "Usar setas/legenda com mediação do professor. Indicar posições relativas (à esquerda da porta) com apoio. Narrar o trajeto no mapa com perguntas orientadoras."
+    },
+    {
+      "id": "EF01GE10",
+      "tipo": "Natureza, ambientes e qualidade de vida",
+      "pergunta": "Descrever características de seus lugares de vivência relacionadas aos ritmos da natureza (chuva, vento, calor etc.).",
+      "sugestaoNao": "Observação diária do clima e registro em pictogramas. Roda de conversa sobre como o clima afeta as atividades do bairro. Painel 'como está o dia hoje?' com fotos/figuras.",
+      "sugestaoSimComMediacao": "Preencher tabela (sol/chuva/vento) com ajuda. Relatar com mediação um exemplo do bairro (vento forte na tarde). Relacionar fenômenos a roupas/objetos (guarda-chuva), com apoio."
+    },
+    {
+      "id": "EF01GE11",
+      "tipo": "Natureza, ambientes e qualidade de vida",
+      "pergunta": "Associar mudanças de vestuário e hábitos alimentares em sua comunidade ao longo do ano, decorrentes da variação de temperatura e umidade no ambiente.",
+      "sugestaoNao": "Sequenciar imagens de roupas por estação/tempo. Atividade 'cardápio do dia' considerando o clima. Montar mala/armário temático (frio/calor) com figuras.",
+      "sugestaoSimComMediacao": "Justificar escolhas com perguntas-guias (por que casaco hoje?). Quadro de hábitos por estação com mediação. Relatar oralmente uma mudança de hábito conforme o tempo, com apoio."
+    }
+  ]
+}

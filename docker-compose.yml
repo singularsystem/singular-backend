@@ -1,0 +1,31 @@
+services:
+  singular-system:
+    image: ${DOCKER_REGISTRY-}singularsystem
+    build:
+      context: SingularSystem
+      dockerfile: Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=${DefaultConnection}
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - JWTSecret=${JWTSecret}
+      - S3BucketAccessKey=${S3_AccessKey}
+      - S3BucketSecretKey=${S3_SecretKey}
+      - S3BucketName=${S3_BucketName}
+      - S3SignedDocumentsBucketName=${S3_SignedDocumentsBucketName}
+      - S3ServiceUrl=${S3_ServiceUrl}
+      - NeckSign__BaseUrl=${NeckSign_BaseUrl}
+      - NeckSign__ApiKey=${NeckSign_ApiKey}
+      - NeckSign__WebhookSecret=${NeckSign_WebhookSecret}
+      - NeckSign__WebhookUrl=${NeckSign_WebhookUrl}
+      - Smtp__Host=${Smtp_Host}
+      - Smtp__Port=${Smtp_Port:-587}
+      - Smtp__Username=${Smtp_Username}
+      - Smtp__Password=${Smtp_Password}
+      - Smtp__FromAddress=${Smtp_FromAddress}
+    volumes:
+      - aspnet-keys:/root/.aspnet/DataProtection-Keys
+
+volumes:
+  aspnet-keys:
+    driver: local

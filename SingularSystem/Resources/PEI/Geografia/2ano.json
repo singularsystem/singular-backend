@@ -1,0 +1,76 @@
+{
+  "subject": "Geografia",
+  "serie": "2º Ano",
+  "questions": [
+    {
+      "id": "EF02GE01",
+      "tipo": "O sujeito e seu lugar no mundo",
+      "pergunta": "Descrever elementos da paisagem do entorno (natural e construída) e compará-los com paisagens de outros lugares.",
+      "sugestaoNao": "• Observação guiada do entorno (árvores, prédios, ruas) e registro em desenho.\n• Quadro de comparação (o que existe aqui × em outra imagem).\n• Mural de paisagens com legendas simples.",
+      "sugestaoSimComMediacao": "• Descrever semelhanças/diferenças com perguntas-guias.\n• Completar tabela de elementos naturais/construídos com mediação.\n• Explicar uma mudança percebida na paisagem, com apoio."
+    },
+    {
+      "id": "EF02GE02",
+      "tipo": "Conexões e escalas",
+      "pergunta": "Identificar serviços e equipamentos públicos do bairro (escola, posto de saúde, praças) e suas funções.",
+      "sugestaoNao": "• Mapa simples do bairro com ícones de serviços; passeio virtual/real.\n• Entrevistas com funcionários locais; registro fotográfico/desenho.\n• Quadro \"para que serve?\".",
+      "sugestaoSimComMediacao": "• Localizar serviço no mapa com mediação.\n• Relatar função de um equipamento com frases-modelo.\n• Elaborar pequeno guia do bairro com apoio."
+    },
+    {
+      "id": "EF02GE03",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Usar referenciais espaciais (frente/atrás, esquerda/direita, perto/longe) para localizar-se e localizar objetos e lugares no espaço da sala/escola/bairro.",
+      "sugestaoNao": "• Jogos de percurso e caça ao tesouro com comandos espaciais.\n• Plantas simples da sala/escola com setas e legenda.\n• Atividades corporais de orientação (seguir pistas).",
+      "sugestaoSimComMediacao": "• Descrever trajetos com mediação (pontos de referência).\n• Completar instruções de caminho com apoio.\n• Recontar oralmente o percurso realizado, com orientação."
+    },
+    {
+      "id": "EF02GE04",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Produzir e interpretar mapas e croquis simples de ambientes familiares, com títulos, legendas e alguns símbolos convencionais.",
+      "sugestaoNao": "• Desenhar croqui de casa/escola com portas/janelas/entradas.\n• Criar legenda básica (símbolo ↔ significado).\n• Inserir título e orientar por setas.",
+      "sugestaoSimComMediacao": "• Comparar dois mapas e discutir clareza com apoio.\n• Corrigir legenda/título com mediação.\n• Explicar oralmente o mapa produzido, com roteiro."
+    },
+    {
+      "id": "EF02GE05",
+      "tipo": "Conexões e escalas",
+      "pergunta": "Reconhecer diferentes meios de transporte e comunicação presentes no cotidiano e suas relações com a organização do espaço.",
+      "sugestaoNao": "• Classificar meios de transporte (terrestre, aquático, aéreo) e usos.\n• Relacionar vias/ruas ao tipo de transporte (faixas, ciclovias).\n• Linha do tempo de comunicação (carta, telefone, mensagens).",
+      "sugestaoSimComMediacao": "• Justificar escolhas de meio de transporte para um trajeto, com apoio.\n• Relatar mudanças na comunicação com mediação.\n• Montar cartaz relacionando transporte/comunicação e espaço."
+    },
+    {
+      "id": "EF02GE06",
+      "tipo": "Natureza, ambientes e qualidade de vida",
+      "pergunta": "Observar ritmos da natureza (chuva, vento, temperatura) e suas influências nas atividades humanas locais.",
+      "sugestaoNao": "• Diário do tempo; gráfico semanal.\n• Planejar atividades da turma considerando o clima.\n• Discussão sobre adaptações (vestuário, horários).",
+      "sugestaoSimComMediacao": "• Comparar dois dias e justificar diferenças com mediação.\n• Elaborar aviso/recado considerando o clima, com apoio.\n• Relacionar clima com uso de espaços (praça, quadra), com orientação."
+    },
+    {
+      "id": "EF02GE07",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Identificar endereços e pontos de referência importantes para a orientação no bairro.",
+      "sugestaoNao": "• Montar cartõezinhos com endereço da escola/casa (sem dados sensíveis).\n• Marcar pontos de referência em mapa simples.\n• Brincadeira de \"encontre o local\" com pistas.",
+      "sugestaoSimComMediacao": "• Completar endereços com mediação (rua, número, bairro).\n• Dar instruções com apoio (perto de, ao lado de).\n• Explicar por que um ponto é referência útil, com apoio."
+    },
+    {
+      "id": "EF02GE08",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Reconhecer noções de escala informal (passos, quadras) em mapas e trajetos do cotidiano.",
+      "sugestaoNao": "• Medir distâncias com passos e registrar.\n• Comparar trajetos curtos/longos em croquis.\n• Estimar tempo de caminhada entre dois pontos.",
+      "sugestaoSimComMediacao": "• Ajustar estimativas com mediação.\n• Inserir \"escala de passos\" em croquis com apoio.\n• Relatar coerência entre tempo e distância, com orientação."
+    },
+    {
+      "id": "EF02GE09",
+      "tipo": "Formas de representação e pensamento espacial",
+      "pergunta": "Comparar modos de vida de diferentes grupos em diferentes lugares, valorizando a diversidade cultural.",
+      "sugestaoNao": "• Analisar imagens/vídeos de hábitos (alimentação, moradia, vestuário).\n• Quadro comparativo de costumes com respeito às diferenças.\n• Roda de conversa sobre tradições locais.",
+      "sugestaoSimComMediacao": "• Produzir pequeno relato com mediação sobre um costume observado.\n• Elaborar cartaz valorizando a diversidade, com apoio.\n• Explicar uma semelhança e uma diferença, com roteiro."
+    },
+    {
+      "id": "EF02GE10",
+      "tipo": "Natureza, ambientes e qualidade de vida",
+      "pergunta": "Elaborar regras de convivência para espaços comuns (sala, pátio, praça) e avaliar sua aplicação.",
+      "sugestaoNao": "• Construir combinados; dramatizações.\n• Painel de monitoria das regras.\n• Registro de situações de respeito/descumprimento.",
+      "sugestaoSimComMediacao": "• Revisar regras com mediação (clareza, aplicabilidade).\n• Propor melhoria para uma regra, com apoio.\n• Apresentar resultados de cumprimento das regras, com orientação."
+    }
+  ]
+}

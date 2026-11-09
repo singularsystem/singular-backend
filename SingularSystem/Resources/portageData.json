@@ -1,0 +1,3958 @@
+{
+  "0 a 1 ano": [
+    {
+      "Question": "A criança observa um rosto por 2 segundos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Posicione-se próximo ao rosto da criança, fale suavemente e aguarde o contato visual.",
+      "SuggestionWithAssistance": "Continue estimulando o contato visual em diferentes momentos do dia."
+    },
+    {
+      "Question": "A criança responde à voz humana parando de chorar ou movimentando-se?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Fale com a criança em tom calmo quando ela estiver agitada, observe suas reações.",
+      "SuggestionWithAssistance": "Varie o tom de voz e observe como a criança responde a diferentes entonações."
+    },
+    {
+      "Question": "A criança sorri em resposta ao rosto de um adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Passe tempo face a face com a criança, faça expressões exageradas e sorria.",
+      "SuggestionWithAssistance": "Continue interagindo face a face, aguarde a resposta da criança antes de continuar."
+    },
+    {
+      "Question": "A criança vocaliza em resposta à atenção do adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Converse com a criança, imite seus sons e aguarde sua resposta vocal.",
+      "SuggestionWithAssistance": "Crie 'conversas' de ida e volta, respondendo aos sons da criança."
+    },
+    {
+      "Question": "A criança sorri espontaneamente?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Observe a criança em momentos relaxados, estimule com brincadeiras suaves.",
+      "SuggestionWithAssistance": "Continue proporcionando momentos prazerosos para estimular sorrisos."
+    },
+    {
+      "Question": "A criança sorri em resposta à voz do adulto (sem ver o rosto)?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Fale com a criança quando ela não estiver vendo seu rosto, use tom alegre.",
+      "SuggestionWithAssistance": "Varie as situações onde você fala sem estar no campo visual da criança."
+    },
+    {
+      "Question": "A criança faz sons para chamar atenção?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Responda prontamente aos sons da criança, mostre que você a ouviu.",
+      "SuggestionWithAssistance": "Incentive a criança a fazer sons respondendo positivamente."
+    },
+    {
+      "Question": "A criança olha para suas próprias mãos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Coloque as mãos da criança em seu campo visual, mova-as suavemente.",
+      "SuggestionWithAssistance": "Estimule a observação das mãos com objetos coloridos nas mãos da criança."
+    },
+    {
+      "Question": "A criança sorri e vocaliza ao ver sua imagem no espelho?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use espelho durante brincadeiras, aponte para a imagem da criança.",
+      "SuggestionWithAssistance": "Brinque em frente ao espelho, nomeie partes do corpo da criança."
+    },
+    {
+      "Question": "A criança brinca sozinha por 10 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça brinquedos seguros, fique próximo mas permita exploração independente.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo de brincadeira independente."
+    },
+    {
+      "Question": "A criança procura contato social através de sorrisos, sons ou gestos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Responda positivamente a todas as tentativas de contato da criança.",
+      "SuggestionWithAssistance": "Incentive diferentes formas de comunicação social."
+    },
+    {
+      "Question": "A criança brinca imitando adulto por 2-3 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre ações simples e aguarde que a criança imite.",
+      "SuggestionWithAssistance": "Varie as ações imitativas e elogie as tentativas."
+    },
+    {
+      "Question": "A criança bate palmas imitando adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Bata palmas em frente à criança, guie suas mãos se necessário.",
+      "SuggestionWithAssistance": "Pratique bater palmas em diferentes contextos e ritmos."
+    },
+    {
+      "Question": "A criança acena 'tchau' imitando adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Acene 'tchau' frequentemente, guie a mão da criança se necessário.",
+      "SuggestionWithAssistance": "Pratique acenar em situações de despedida reais."
+    },
+    {
+      "Question": "A criança entende 'não' parando a atividade momentaneamente?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use 'não' com expressão facial clara, seja consistente.",
+      "SuggestionWithAssistance": "Combine 'não' com redirecionamento para atividade apropriada."
+    },
+    {
+      "Question": "A criança imita jogos simples quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre jogos simples como esconder o rosto, aguarde imitação.",
+      "SuggestionWithAssistance": "Varie os jogos imitativos e torne-os mais complexos gradualmente."
+    },
+    {
+      "Question": "A criança vem quando chamada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Chame a criança pelo nome, use tom alegre e gestos de 'vem cá'.",
+      "SuggestionWithAssistance": "Pratique em diferentes ambientes e distâncias."
+    },
+    {
+      "Question": "A criança abraça e beija pessoas conhecidas quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre abraços e beijos, não force, respeite o ritmo da criança.",
+      "SuggestionWithAssistance": "Incentive demonstrações de afeto em contextos apropriados."
+    },
+    {
+      "Question": "A criança responde quando chamada pelo nome olhando ou virando-se?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use o nome da criança frequentemente, aguarde resposta antes de continuar.",
+      "SuggestionWithAssistance": "Chame pelo nome em diferentes situações e ambientes."
+    },
+    {
+      "Question": "A criança aperta ou balança mãos quando cumprimentada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre cumprimentos, guie a mão da criança suavemente.",
+      "SuggestionWithAssistance": "Pratique cumprimentos com diferentes pessoas conhecidas."
+    },
+    {
+      "Question": "A criança ajuda em tarefas simples quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Inclua a criança em tarefas simples, guie suas ações.",
+      "SuggestionWithAssistance": "Aumente gradualmente a independência nas tarefas."
+    },
+    {
+      "Question": "A criança brinca com 2-3 crianças por períodos curtos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Organize encontros breves com outras crianças, supervise de perto.",
+      "SuggestionWithAssistance": "Facilite interações positivas e aumente gradualmente o tempo."
+    },
+    {
+      "Question": "A criança compartilha comida ou brinquedos quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre compartilhamento, elogie tentativas de dividir.",
+      "SuggestionWithAssistance": "Pratique compartilhamento em diferentes contextos."
+    },
+    {
+      "Question": "A criança cumprimenta pessoas conhecidas sem ser lembrada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele cumprimentos, lembre a criança inicialmente.",
+      "SuggestionWithAssistance": "Reduza gradualmente os lembretes para cumprimentar."
+    },
+    {
+      "Question": "A criança segue instruções simples acompanhadas de gestos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use gestos claros junto com palavras simples.",
+      "SuggestionWithAssistance": "Reduza gradualmente os gestos, mantendo apenas as palavras."
+    },
+    {
+      "Question": "A criança repete os mesmos sons frequentemente?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Imite os sons que a criança faz, crie 'conversas' sonoras.",
+      "SuggestionWithAssistance": "Expanda os sons da criança adicionando novos sons similares."
+    },
+    {
+      "Question": "A criança balbucia sons diferentes?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Converse frequentemente com a criança, varie os sons que você faz.",
+      "SuggestionWithAssistance": "Responda aos balbucios da criança com sons variados."
+    },
+    {
+      "Question": "A criança imita sons feitos pelo adulto?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça sons simples e aguarde que a criança tente imitar.",
+      "SuggestionWithAssistance": "Varie os sons e elogie todas as tentativas de imitação."
+    },
+    {
+      "Question": "A criança imita padrões de entonação da fala do adulto?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use entonações exageradas ao falar com a criança.",
+      "SuggestionWithAssistance": "Varie os padrões de entonação e observe as imitações."
+    },
+    {
+      "Question": "A criança usa uma palavra com significado?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Repita palavras simples constantemente, associe a objetos/ações.",
+      "SuggestionWithAssistance": "Expanda a palavra da criança em frases simples."
+    },
+    {
+      "Question": "A criança vocaliza em resposta à música?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Cante para a criança, use músicas simples e repetitivas.",
+      "SuggestionWithAssistance": "Incentive a criança a 'cantar' junto com você."
+    },
+    {
+      "Question": "A criança segue instruções simples acompanhadas de gestos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use gestos claros com palavras simples como 'vem', 'dá'.",
+      "SuggestionWithAssistance": "Reduza gradualmente os gestos mantendo as palavras."
+    },
+    {
+      "Question": "A criança fala 2 palavras além de 'mamã' e 'papá'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie objetos constantemente, repita palavras importantes.",
+      "SuggestionWithAssistance": "Expanda o vocabulário usando as palavras que a criança já conhece."
+    },
+    {
+      "Question": "A criança produz sons de animais ou ruídos de objetos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça sons de animais durante brincadeiras, use livros com animais.",
+      "SuggestionWithAssistance": "Incentive a criança a fazer os sons junto com você."
+    },
+    {
+      "Question": "A criança pede 'mais'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use a palavra 'mais' em situações apropriadas, aguarde resposta.",
+      "SuggestionWithAssistance": "Crie oportunidades para a criança pedir 'mais'."
+    },
+    {
+      "Question": "A criança diz 'não' balançando a cabeça?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele 'não' com gesto, respeite quando a criança recusar algo.",
+      "SuggestionWithAssistance": "Incentive o uso de 'não' em situações apropriadas."
+    },
+    {
+      "Question": "A criança faz perguntas mudando a entonação?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use entonação de pergunta ao falar com a criança.",
+      "SuggestionWithAssistance": "Responda às tentativas de pergunta da criança."
+    },
+    {
+      "Question": "A criança nomeia 5 membros da família ou animais de estimação?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use fotos da família, nomeie pessoas constantemente.",
+      "SuggestionWithAssistance": "Pratique nomeação com fotos e pessoas presentes."
+    },
+    {
+      "Question": "A criança usa frases de 2 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases simples, expanda palavras únicas em frases.",
+      "SuggestionWithAssistance": "Incentive frases mais longas fazendo perguntas."
+    },
+    {
+      "Question": "A criança nomeia 10 objetos familiares?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie objetos durante atividades diárias, use repetição.",
+      "SuggestionWithAssistance": "Faça jogos de nomeação com objetos conhecidos."
+    },
+    {
+      "Question": "A criança imita sons ambientais?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Chame atenção para sons do ambiente, imite-os junto com a criança.",
+      "SuggestionWithAssistance": "Crie jogos com sons ambientais."
+    },
+    {
+      "Question": "A criança pede ajuda usando palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Ensine palavras como 'ajuda', 'socorro' em situações apropriadas.",
+      "SuggestionWithAssistance": "Incentive pedidos verbais ao invés de gestos apenas."
+    },
+    {
+      "Question": "A criança combina palavras e gestos para comunicar?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele combinação de palavras com gestos apropriados.",
+      "SuggestionWithAssistance": "Incentive comunicação multimodal (palavras + gestos)."
+    },
+    {
+      "Question": "A criança usa 'meu' e 'minha'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use possessivos ao falar sobre objetos da criança.",
+      "SuggestionWithAssistance": "Corrija gentilmente e modele o uso correto."
+    },
+    {
+      "Question": "A criança nomeia ações em figuras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use livros com figuras de ações, nomeie o que as pessoas fazem.",
+      "SuggestionWithAssistance": "Faça perguntas sobre ações nas figuras."
+    },
+    {
+      "Question": "A criança faz perguntas de 2 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele perguntas simples como 'Que é?', 'Onde está?'.",
+      "SuggestionWithAssistance": "Incentive perguntas respondendo entusiasticamente."
+    },
+    {
+      "Question": "A criança usa formas verbais no gerúndio?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use gerúndio ao descrever ações: 'correndo', 'comendo'.",
+      "SuggestionWithAssistance": "Corrija gentilmente expandindo as tentativas da criança."
+    },
+    {
+      "Question": "A criança dá seu primeiro e último nome quando perguntada?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Pratique o nome completo da criança diariamente.",
+      "SuggestionWithAssistance": "Use jogos e músicas com o nome da criança."
+    },
+    {
+      "Question": "A criança responde a perguntas simples com 'sim' ou 'não'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas que requerem sim/não, aguarde resposta.",
+      "SuggestionWithAssistance": "Varie as perguntas e contextos para sim/não."
+    },
+    {
+      "Question": "A criança expressa necessidades usando frases curtas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases para expressar necessidades básicas.",
+      "SuggestionWithAssistance": "Incentive frases ao invés de gestos ou palavras isoladas."
+    },
+    {
+      "Question": "A criança remove um pano do rosto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Coloque pano leve no rosto da criança, ajude-a a remover inicialmente.",
+      "SuggestionWithAssistance": "Pratique com diferentes tecidos, reduza a ajuda gradualmente."
+    },
+    {
+      "Question": "A criança procura objeto que caiu?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Deixe objetos caírem propositalmente, ajude a criança a procurar.",
+      "SuggestionWithAssistance": "Incentive a busca independente por objetos que caem."
+    },
+    {
+      "Question": "A criança remove objeto de um recipiente imitando adulto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre tirando objetos de caixas, guie as mãos da criança.",
+      "SuggestionWithAssistance": "Use diferentes recipientes e objetos para praticar."
+    },
+    {
+      "Question": "A criança coloca objeto em recipiente imitando adulto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre colocando objetos em recipientes, guie a criança.",
+      "SuggestionWithAssistance": "Varie tamanhos de objetos e recipientes."
+    },
+    {
+      "Question": "A criança balança brinquedo que produz som?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Ofereça chocalhos e brinquedos sonoros, demonstre como usar.",
+      "SuggestionWithAssistance": "Varie os brinquedos sonoros e incentive exploração."
+    },
+    {
+      "Question": "A criança coloca 3 objetos em recipiente?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com 1 objeto, aumente gradualmente para 3.",
+      "SuggestionWithAssistance": "Use objetos atrativos e conte junto com a criança."
+    },
+    {
+      "Question": "A criança imita gestos simples quando solicitada?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre gestos simples como bater palmas, aguarde imitação.",
+      "SuggestionWithAssistance": "Varie os gestos e torne-os mais complexos gradualmente."
+    },
+    {
+      "Question": "A criança encontra objeto escondido sob recipiente?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Esconda objetos partially primeiro, depois completamente.",
+      "SuggestionWithAssistance": "Use diferentes recipientes e locais para esconder."
+    },
+    {
+      "Question": "A criança empurra brinquedo com rodas?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre empurrando carrinhos, guie as mãos da criança.",
+      "SuggestionWithAssistance": "Use diferentes brinquedos com rodas em várias superfícies."
+    },
+    {
+      "Question": "A criança faz torre de 2 blocos imitando adulto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use blocos grandes, demonstre empilhamento, ajude fisicamente.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de blocos e formas."
+    },
+    {
+      "Question": "A criança coloca 5 pinos em tabuleiro?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com pinos grandes e furos grandes, reduza dificuldade.",
+      "SuggestionWithAssistance": "Aumente gradualmente o número de pinos."
+    },
+    {
+      "Question": "A criança combina objetos similares?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos idênticos, demonstre combinação, guie a criança.",
+      "SuggestionWithAssistance": "Varie os objetos mantendo similaridades óbvias."
+    },
+    {
+      "Question": "A criança rabisca com lápis ou giz?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Ofereça giz grosso, demonstre rabiscos, guie a mão da criança.",
+      "SuggestionWithAssistance": "Use diferentes materiais para desenhar em várias superfícies."
+    },
+    {
+      "Question": "A criança aponta para uma parte do corpo quando nomeada?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Nomeie partes do corpo durante cuidados, aponte e toque.",
+      "SuggestionWithAssistance": "Use músicas sobre corpo, faça jogos de apontar partes."
+    },
+    {
+      "Question": "A criança empilha anéis em cone na ordem correta?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre empilhamento, comece com poucos anéis grandes.",
+      "SuggestionWithAssistance": "Aumente gradualmente o número de anéis."
+    },
+    {
+      "Question": "A criança identifica figuras em livro quando nomeadas?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros com figuras grandes e claras, aponte enquanto nomeia.",
+      "SuggestionWithAssistance": "Faça perguntas sobre as figuras nos livros."
+    },
+    {
+      "Question": "A criança vira páginas de livro (2-3 por vez)?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros com páginas grossas, demonstre como virar.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de livros."
+    },
+    {
+      "Question": "A criança faz torre de 4 blocos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com 2 blocos, aumente gradually até 4.",
+      "SuggestionWithAssistance": "Use blocos de diferentes tamanhos e texturas."
+    },
+    {
+      "Question": "A criança nomeia objetos em figuras?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Aponte figuras e nomeie repetidamente, aguarde tentativas.",
+      "SuggestionWithAssistance": "Faça perguntas 'O que é isso?' apontando figuras."
+    },
+    {
+      "Question": "A criança desenha linha vertical imitando adulto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha vertical, guie a mão da criança.",
+      "SuggestionWithAssistance": "Pratique linhas em diferentes superfícies e materiais."
+    },
+    {
+      "Question": "A criança desenha linha horizontal imitando adulto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha horizontal, guie a mão da criança.",
+      "SuggestionWithAssistance": "Alterne entre linhas verticais e horizontais."
+    },
+    {
+      "Question": "A criança copia círculo?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre círculos grandes, use movimento circular no ar primeiro.",
+      "SuggestionWithAssistance": "Pratique círculos em diferentes tamanhos e materiais."
+    },
+    {
+      "Question": "A criança suga e engole líquidos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Consulte profissional de saúde, pratique com líquidos engrossados se necessário.",
+      "SuggestionWithAssistance": "Varie texturas gradualmente conforme orientação profissional."
+    },
+    {
+      "Question": "A criança come alimentos semi-sólidos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Introduza texturas gradualmente, comece com purês mais grossos.",
+      "SuggestionWithAssistance": "Aumente gradualmente a consistência dos alimentos."
+    },
+    {
+      "Question": "A criança mastiga e engole alimentos sólidos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ofereça alimentos que se dissolvem na boca, supervise sempre.",
+      "SuggestionWithAssistance": "Introduza alimentos sólidos macios gradualmente."
+    },
+    {
+      "Question": "A criança bebe de copo com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use copo com bico ou canudo, ajude a segurar e inclinar.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ajuda para segurar o copo."
+    },
+    {
+      "Question": "A criança come com colher com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use colher adaptada, guie a mão da criança do prato à boca.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ajuda física."
+    },
+    {
+      "Question": "A criança come com os dedos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ofereça alimentos apropriados para comer com dedos, demonstre.",
+      "SuggestionWithAssistance": "Varie os alimentos finger foods."
+    },
+    {
+      "Question": "A criança bebe de copo sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use copo com duas alças, coloque pouco líquido inicialmente.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de copos."
+    },
+    {
+      "Question": "A criança come com colher sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use alimentos que grudam na colher, aceite sujeira inicial.",
+      "SuggestionWithAssistance": "Pratique com diferentes consistências de alimentos."
+    },
+    {
+      "Question": "A criança mastiga alimentos variados?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Introduza texturas variadas gradualmente, observe preferências.",
+      "SuggestionWithAssistance": "Continue expandindo variedade de texturas."
+    },
+    {
+      "Question": "A criança bebe líquido com canudo?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre sucção, use canudos curtos e grossos inicialmente.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de canudos."
+    },
+    {
+      "Question": "A criança come com garfo com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use garfo adaptado, comece com alimentos que espetam facilmente.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ajuda física."
+    },
+    {
+      "Question": "A criança obtém água da torneira sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use banquinho seguro, ensine a abrir torneira e usar copo.",
+      "SuggestionWithAssistance": "Supervise e reduza ajuda gradualmente."
+    },
+    {
+      "Question": "A criança come com garfo sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Pratique com alimentos macios que espetam facilmente.",
+      "SuggestionWithAssistance": "Varie os alimentos e pratique coordenação."
+    },
+    {
+      "Question": "A criança despeja líquido de jarra pequena?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use jarra pequena e leve, pratique com água, aceite derramamentos.",
+      "SuggestionWithAssistance": "Pratique controle de quantidade despejada."
+    },
+    {
+      "Question": "A criança abre geladeira e pega alimentos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine segurança, organize alimentos apropriados ao alcance.",
+      "SuggestionWithAssistance": "Estabeleça regras sobre quando e o que pegar."
+    },
+    {
+      "Question": "A criança usa faca para passar manteiga?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use faca sem corte, demonstre movimento, supervise sempre.",
+      "SuggestionWithAssistance": "Pratique com diferentes consistências para passar."
+    },
+    {
+      "Question": "A criança quebra ovos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre técnica, use ovos cozidos para prática inicial.",
+      "SuggestionWithAssistance": "Pratique com ovos crus sob supervisão."
+    },
+    {
+      "Question": "A criança prepara sanduíche simples?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre passo a passo, comece com ingredientes simples.",
+      "SuggestionWithAssistance": "Aumente complexidade dos sanduíches gradualmente."
+    },
+    {
+      "Question": "A criança serve-se à mesa?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use utensílios apropriados, demonstre porções adequadas.",
+      "SuggestionWithAssistance": "Pratique controle de quantidade ao se servir."
+    },
+    {
+      "Question": "A criança prepara cereal com leite?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre sequência: cereal primeiro, depois leite.",
+      "SuggestionWithAssistance": "Pratique controle de quantidades."
+    },
+    {
+      "Question": "A criança faz torrada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine segurança com torradeira, supervise sempre.",
+      "SuggestionWithAssistance": "Pratique diferentes níveis de tostagem."
+    },
+    {
+      "Question": "A criança prepara alimentos que requerem mistura?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Comece com misturas simples, demonstre técnica.",
+      "SuggestionWithAssistance": "Aumente complexidade das receitas gradualmente."
+    },
+    {
+      "Question": "A criança levanta a cabeça quando deitada de bruços?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Coloque a criança de bruços por períodos curtos, use brinquedos para motivar.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo de bruços."
+    },
+    {
+      "Question": "A criança levanta cabeça e peito quando de bruços?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use apoio sob o peito, coloque brinquedos interessantes à frente.",
+      "SuggestionWithAssistance": "Reduza gradualmente o apoio."
+    },
+    {
+      "Question": "A criança vira de bruços para de costas?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ajude o movimento inicialmente, use brinquedos como motivação.",
+      "SuggestionWithAssistance": "Reduza a ajuda, incentive movimento independente."
+    },
+    {
+      "Question": "A criança vira de costas para bruços?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre o movimento, ajude fisicamente no início.",
+      "SuggestionWithAssistance": "Pratique em superfícies seguras, reduza ajuda."
+    },
+    {
+      "Question": "A criança senta com apoio por 30 minutos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use almofadas para apoio, comece com períodos curtos.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo sentado."
+    },
+    {
+      "Question": "A criança senta sozinha por 30 segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique sentar com apoio mínimo, use brinquedos para motivar.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo sem apoio."
+    },
+    {
+      "Question": "A criança assume posição sentada sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre como se sentar, ajude fisicamente no movimento.",
+      "SuggestionWithAssistance": "Reduza ajuda, incentive tentativas independentes."
+    },
+    {
+      "Question": "A criança engatinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Coloque brinquedos fora do alcance, demonstre movimento.",
+      "SuggestionWithAssistance": "Crie percursos seguros para engatinhar."
+    },
+    {
+      "Question": "A criança puxa-se para ficar em pé?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ofereça apoios seguros, incentive movimento para cima.",
+      "SuggestionWithAssistance": "Varie os apoios e alturas."
+    },
+    {
+      "Question": "A criança fica em pé com apoio por 15 minutos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use apoios estáveis, comece com períodos curtos.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo em pé."
+    },
+    {
+      "Question": "A criança anda segurando em móveis?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Organize móveis seguros para apoio, incentive movimento lateral.",
+      "SuggestionWithAssistance": "Crie percursos seguros ao longo dos móveis."
+    },
+    {
+      "Question": "A criança fica em pé sozinha por 2 segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique equilíbrio com apoio mínimo, use motivação.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo sem apoio."
+    },
+    {
+      "Question": "A criança anda sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use brinquedos de empurrar, ofereça apoio das mãos.",
+      "SuggestionWithAssistance": "Reduza apoio gradualmente, incentive passos independentes."
+    },
+    {
+      "Question": "A criança sobe escadas engatinhando?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use escadas baixas e seguras, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique em diferentes tipos de escadas."
+    },
+    {
+      "Question": "A criança senta em cadeira pequena?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use cadeira apropriada ao tamanho, demonstre como sentar.",
+      "SuggestionWithAssistance": "Pratique sentar e levantar da cadeira."
+    },
+    {
+      "Question": "A criança sobe e desce escadas com ajuda?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Segure a mão da criança, ensine um degrau por vez.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ajuda física."
+    },
+    {
+      "Question": "A criança senta em cadeira pequena sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique movimento de sentar, use cadeiras estáveis.",
+      "SuggestionWithAssistance": "Varie tipos de cadeiras e alturas."
+    },
+    {
+      "Question": "A criança agacha e levanta sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre movimento, use brinquedos no chão como motivação.",
+      "SuggestionWithAssistance": "Pratique agachamento em diferentes situações."
+    },
+    {
+      "Question": "A criança empurra e puxa brinquedos grandes andando?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use brinquedos leves com rodas, demonstre movimento.",
+      "SuggestionWithAssistance": "Varie tipos de brinquedos e superfícies."
+    },
+    {
+      "Question": "A criança carrega objetos grandes andando?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Comece com objetos leves e grandes, como almofadas, e proponha que a criança os traga até você.",
+      "SuggestionWithAssistance": "Aumente gradualmente o peso — caixas vazias enchidas aos poucos — e elogie cada tentativa."
+    }
+  ],
+
+  "1 a 2 anos": [
+    {
+      "Question": "A criança imita adulto em tarefas simples?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre tarefas simples como varrer, aguarde imitação.",
+      "SuggestionWithAssistance": "Varie as tarefas imitativas e elogie tentativas."
+    },
+    {
+      "Question": "A criança brinca sozinha por 15-20 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça brinquedos variados, fique próximo mas permita independência.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo de brincadeira independente."
+    },
+    {
+      "Question": "A criança explora ativamente o ambiente?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Crie ambiente seguro para exploração, incentive curiosidade.",
+      "SuggestionWithAssistance": "Varie os ambientes e objetos disponíveis para exploração."
+    },
+    {
+      "Question": "A criança investiga objetos por 1 minuto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça objetos interessantes com texturas e sons variados.",
+      "SuggestionWithAssistance": "Faça perguntas sobre os objetos para manter interesse."
+    },
+    {
+      "Question": "A criança abraça e carrega boneca ou brinquedo macio?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça brinquedos macios, demonstre carinho com eles.",
+      "SuggestionWithAssistance": "Incentive cuidados com brinquedos como 'bebês'."
+    },
+    {
+      "Question": "A criança repete ações que produzem risos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ria de ações engraçadas da criança, incentive repetição.",
+      "SuggestionWithAssistance": "Crie situações divertidas e responda com alegria."
+    },
+    {
+      "Question": "A criança entrega livro para adulto ler?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Tenha livros acessíveis, responda positivamente quando trouxer.",
+      "SuggestionWithAssistance": "Estabeleça rotina de leitura, incentive pedidos."
+    },
+    {
+      "Question": "A criança puxa pessoa para mostrar ação ou objeto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Responda positivamente quando a criança tentar mostrar algo.",
+      "SuggestionWithAssistance": "Incentive compartilhamento de descobertas."
+    },
+    {
+      "Question": "A criança remove roupas simples quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Comece com roupas fáceis, ajude inicialmente.",
+      "SuggestionWithAssistance": "Pratique remoção de diferentes tipos de roupas."
+    },
+    {
+      "Question": "A criança brinca próxima a outras crianças?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Organize encontros breves, supervise interações.",
+      "SuggestionWithAssistance": "Facilite brincadeiras paralelas com outras crianças."
+    },
+    {
+      "Question": "A criança junta-se a outros em atividades por 2-5 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Inclua a criança em atividades familiares simples.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo de participação."
+    },
+    {
+      "Question": "A criança participa de jogos simples com adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Inicie jogos como esconder objetos, bater palmas.",
+      "SuggestionWithAssistance": "Varie os jogos e deixe a criança liderar às vezes."
+    },
+    {
+      "Question": "A criança cumprimenta pessoas familiares quando lembrada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele cumprimentos, lembre gentilmente.",
+      "SuggestionWithAssistance": "Reduza lembretes gradualmente."
+    },
+    {
+      "Question": "A criança segue rotinas familiares?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Estabeleça rotinas claras e consistentes.",
+      "SuggestionWithAssistance": "Envolva a criança ativamente nas rotinas."
+    },
+    {
+      "Question": "A criança indica necessidades apontando ou vocalizando?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Responda prontamente a tentativas de comunicação.",
+      "SuggestionWithAssistance": "Incentive comunicação mais específica."
+    },
+    {
+      "Question": "A criança busca ajuda quando necessário?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Crie situações onde a criança precise de ajuda, responda prontamente.",
+      "SuggestionWithAssistance": "Incentive pedidos de ajuda verbais."
+    },
+    {
+      "Question": "A criança demonstra afeto apropriadamente?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele demonstrações de afeto, aceite tentativas da criança.",
+      "SuggestionWithAssistance": "Ensine diferentes formas apropriadas de mostrar afeto."
+    },
+    {
+      "Question": "A criança diz 8-10 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie objetos constantemente, repita palavras importantes diariamente.",
+      "SuggestionWithAssistance": "Expanda vocabulário usando palavras que a criança já conhece."
+    },
+    {
+      "Question": "A criança pede 'mais' usando palavras ou gestos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use 'mais' em situações apropriadas, aguarde resposta da criança.",
+      "SuggestionWithAssistance": "Crie oportunidades para a criança pedir 'mais'."
+    },
+    {
+      "Question": "A criança diz 'não' e balança a cabeça?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele 'não' com gesto, respeite recusas apropriadas.",
+      "SuggestionWithAssistance": "Incentive uso de 'não' em situações adequadas."
+    },
+    {
+      "Question": "A criança faz perguntas mudando entonação?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use entonação de pergunta exagerada ao falar.",
+      "SuggestionWithAssistance": "Responda entusiasticamente às tentativas de pergunta."
+    },
+    {
+      "Question": "A criança nomeia 5 membros da família?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use fotos da família, nomeie pessoas constantemente.",
+      "SuggestionWithAssistance": "Faça jogos de identificação com fotos familiares."
+    },
+    {
+      "Question": "A criança nomeia 4 brinquedos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie brinquedos durante brincadeiras, repita frequentemente.",
+      "SuggestionWithAssistance": "Faça jogos de 'onde está o...' com brinquedos."
+    },
+    {
+      "Question": "A criança produz sons de animais?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use livros de animais, faça sons durante brincadeiras.",
+      "SuggestionWithAssistance": "Crie jogos de imitação de sons de animais."
+    },
+    {
+      "Question": "A criança pede comida nomeando-a?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie alimentos antes de oferecer, aguarde tentativas.",
+      "SuggestionWithAssistance": "Incentive nomeação antes de servir comida."
+    },
+    {
+      "Question": "A criança faz perguntas de uma palavra?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele perguntas simples como 'que?', 'onde?'.",
+      "SuggestionWithAssistance": "Responda perguntas e incentive mais Questionamentos."
+    },
+    {
+      "Question": "A criança nomeia 3 partes do corpo?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie partes do corpo durante cuidados diários.",
+      "SuggestionWithAssistance": "Use músicas e jogos sobre partes do corpo."
+    },
+    {
+      "Question": "A criança combina 2 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases de 2 palavras, expanda palavras únicas.",
+      "SuggestionWithAssistance": "Incentive combinações expandindo tentativas da criança."
+    },
+    {
+      "Question": "A criança nomeia objetos em figuras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use livros com figuras claras, aponte e nomeie repetidamente.",
+      "SuggestionWithAssistance": "Faça perguntas 'o que é isso?' com figuras."
+    },
+    {
+      "Question": "A criança nomeia ações familiares?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie ações durante atividades diárias.",
+      "SuggestionWithAssistance": "Use figuras de ações para praticar nomeação."
+    },
+    {
+      "Question": "A criança usa 'meu/minha'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use possessivos ao falar sobre objetos da criança.",
+      "SuggestionWithAssistance": "Corrija gentilmente modelando uso correto."
+    },
+    {
+      "Question": "A criança escuta histórias por 5 minutos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use livros com figuras interessantes, histórias curtas.",
+      "SuggestionWithAssistance": "Faça perguntas durante a história para manter atenção."
+    },
+    {
+      "Question": "A criança segue instruções de 2 partes?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Comece com instruções de 1 parte, use gestos visuais.",
+      "SuggestionWithAssistance": "Pratique instruções de 2 partes em contextos familiares."
+    },
+    {
+      "Question": "A criança tira 6 objetos de recipiente um por vez?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre tirando objetos, conte junto com a criança.",
+      "SuggestionWithAssistance": "Use objetos interessantes para motivar a atividade."
+    },
+    {
+      "Question": "A criança aponta para uma parte do corpo?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Nomeie e aponte partes do corpo durante cuidados.",
+      "SuggestionWithAssistance": "Use jogos de 'onde está o nariz?' etc."
+    },
+    {
+      "Question": "A criança empilha 3 blocos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com 2 blocos, demonstre empilhamento.",
+      "SuggestionWithAssistance": "Use blocos de diferentes tamanhos e cores."
+    },
+    {
+      "Question": "A criança combina objetos similares?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use pares de objetos idênticos, demonstre combinação.",
+      "SuggestionWithAssistance": "Varie objetos mantendo similaridades claras."
+    },
+    {
+      "Question": "A criança rabisca espontaneamente?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Ofereça materiais para desenhar, demonstre rabiscos.",
+      "SuggestionWithAssistance": "Varie materiais e superfícies para desenhar."
+    },
+    {
+      "Question": "A criança vira 2-3 páginas por vez?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros com páginas grossas, demonstre como virar.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de livros."
+    },
+    {
+      "Question": "A criança identifica figuras nomeadas?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use figuras grandes e claras, aponte enquanto nomeia.",
+      "SuggestionWithAssistance": "Faça perguntas sobre figuras conhecidas."
+    },
+    {
+      "Question": "A criança vira livro corretamente?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre posição correta do livro repetidamente.",
+      "SuggestionWithAssistance": "Corrija gentilmente quando necessário."
+    },
+    {
+      "Question": "A criança identifica partes do corpo em boneca?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use boneca grande, aponte e nomeie partes do corpo.",
+      "SuggestionWithAssistance": "Compare partes da boneca com partes da criança."
+    },
+    {
+      "Question": "A criança empilha anéis em cone?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre empilhamento, comece com poucos anéis.",
+      "SuggestionWithAssistance": "Aumente número de anéis gradualmente."
+    },
+    {
+      "Question": "A criança coloca formas simples em tabuleiro?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use formas grandes com encaixes óbvios.",
+      "SuggestionWithAssistance": "Aumente dificuldade com formas menores."
+    },
+    {
+      "Question": "A criança desenha linha imitando adulto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha simples, guie mão da criança.",
+      "SuggestionWithAssistance": "Pratique diferentes tipos de linhas."
+    },
+    {
+      "Question": "A criança encontra objeto escondido sob 1 de 3 copos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece escondendo partially, depois completely.",
+      "SuggestionWithAssistance": "Varie recipientes e objetos escondidos."
+    },
+    {
+      "Question": "A criança identifica-se em foto?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use fotos claras da criança, aponte e diga o nome.",
+      "SuggestionWithAssistance": "Compare fotos com espelho."
+    },
+    {
+      "Question": "A criança imita desenho de linha vertical?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha vertical, guie mão da criança.",
+      "SuggestionWithAssistance": "Pratique em diferentes superfícies."
+    },
+    {
+      "Question": "A criança imita desenho de linha horizontal?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha horizontal após dominar vertical.",
+      "SuggestionWithAssistance": "Alterne entre linhas verticais e horizontais."
+    },
+    {
+      "Question": "A criança copia círculo?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Faça movimentos circulares no ar primeiro, depois no papel.",
+      "SuggestionWithAssistance": "Pratique círculos de diferentes tamanhos."
+    },
+    {
+      "Question": "A criança suga e engole líquidos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Consulte profissional de saúde, pratique com líquidos engrossados se necessário.",
+      "SuggestionWithAssistance": "Varie texturas gradualmente conforme orientação profissional."
+    },
+    {
+      "Question": "A criança come alimentos semi-sólidos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Introduza texturas gradualmente, comece com purês mais grossos.",
+      "SuggestionWithAssistance": "Aumente gradualmente a consistência dos alimentos."
+    },
+    {
+      "Question": "A criança mastiga e engole alimentos sólidos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ofereça alimentos que se dissolvem na boca, supervise sempre.",
+      "SuggestionWithAssistance": "Introduza alimentos sólidos macios gradualmente."
+    },
+    {
+      "Question": "A criança bebe de copo com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use copo com bico ou canudo, ajude a segurar e inclinar.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ajuda para segurar o copo."
+    },
+    {
+      "Question": "A criança come com colher com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use colher adaptada, guie a mão da criança do prato à boca.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ajuda física."
+    },
+    {
+      "Question": "A criança come com os dedos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ofereça alimentos apropriados para comer com dedos, demonstre.",
+      "SuggestionWithAssistance": "Varie os alimentos finger foods."
+    },
+    {
+      "Question": "A criança bebe de copo sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use copo com duas alças, coloque pouco líquido inicialmente.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de copos."
+    },
+    {
+      "Question": "A criança come com colher sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use alimentos que grudam na colher, aceite sujeira inicial.",
+      "SuggestionWithAssistance": "Pratique com diferentes consistências de alimentos."
+    },
+    {
+      "Question": "A criança mastiga alimentos variados?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Introduza texturas variadas gradualmente, observe preferences.",
+      "SuggestionWithAssistance": "Continue expanding variedade de texturas."
+    },
+    {
+      "Question": "A criança bebe líquido con canudo?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre sucção, use canudos curtos e grossos inicialmente.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de canudos."
+    },
+    {
+      "Question": "A criança come con garfo con ayuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use garfo adaptado, comece con alimentos que espetam facilmente.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ayuda física."
+    },
+    {
+      "Question": "A criança obtém agua da torneira sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use banquinho seguro, ensine a abrir torneira e usar copo.",
+      "SuggestionWithAssistance": "Supervise e reduza ayuda gradualmente."
+    },
+    {
+      "Question": "A criança come con garfo sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Pratique con alimentos macios que espetam facilmente.",
+      "SuggestionWithAssistance": "Varie os alimentos e pratique coordenação."
+    },
+    {
+      "Question": "A criança despeja líquido de jarra pequena?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use jarra pequena e leve, pratique con agua, aceite derramamentos.",
+      "SuggestionWithAssistance": "Pratique controle de quantidade despejada."
+    },
+    {
+      "Question": "A criança abre geladeira e pega alimentos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine seguridad, organize alimentos apropriados ao alcance.",
+      "SuggestionWithAssistance": "Estabeleça reglas sobre cuando e o que pegar."
+    },
+    {
+      "Question": "A criança usa faca para passar manteiga?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use faca sem corte, demonstre movimento, supervise sempre.",
+      "SuggestionWithAssistance": "Pratique con diferentes consistencias para passar."
+    },
+    {
+      "Question": "A criança quebra ovos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre técnica, use ovos cozidos para prática inicial.",
+      "SuggestionWithAssistance": "Pratique con ovos crus sob supervisão."
+    },
+    {
+      "Question": "A criança prepara sanduíche simples?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre passo a passo, comece con ingredientes simples.",
+      "SuggestionWithAssistance": "Aumente complexidade dos sanduíches gradualmente."
+    },
+    {
+      "Question": "A criança serve-se à mesa?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use utensílios apropriados, demonstre porções adecuadas.",
+      "SuggestionWithAssistance": "Pratique controle de quantidade ao se servir."
+    },
+    {
+      "Question": "A criança prepara cereal con leite?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre secuencia: cereal primeiro, depois leite.",
+      "SuggestionWithAssistance": "Pratique controle de cantidades."
+    },
+    {
+      "Question": "A criança faz torrada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine seguridad con torradeira, supervise sempre.",
+      "SuggestionWithAssistance": "Pratique diferentes níveis de tostagem."
+    },
+    {
+      "Question": "A criança prepara alimentos que requerem mistura?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Comece con misturas simples, demonstre técnica.",
+      "SuggestionWithAssistance": "Aumente complexidade das recetas gradualmente."
+    },
+    {
+      "Question": "A criança levanta a cabeça quando deitada de bruços?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Coloque a criança de bruços por períodos curtos, use brinquedos para motivar.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo de bruços."
+    },
+    {
+      "Question": "A criança levanta cabeça e peito quando de bruços?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use apoio sob o peito, coloque brinquedos interessantes à frente.",
+      "SuggestionWithAssistance": "Reduza gradualmente o apoio."
+    },
+    {
+      "Question": "A criança vira de bruços para de costas?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ajude o movimento inicialmente, use brinquedos como motivação.",
+      "SuggestionWithAssistance": "Reduza a ayuda, incentive movimento independente."
+    },
+    {
+      "Question": "A criança vira de costas para bruços?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre o movimento, ajude fisicamente no início.",
+      "SuggestionWithAssistance": "Pratique em superfícies seguras, reduza ayuda."
+    },
+    {
+      "Question": "A criança senta con apoyo por 30 minutos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use almofadas para apoyo, comece con períodos curtos.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo sentado."
+    },
+    {
+      "Question": "A criança senta sozinha por 30 segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique sentar con apoyo mínimo, use brinquedos para motivar.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo sem apoyo."
+    },
+    {
+      "Question": "A criança assume posição sentada sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre como se sentar, ajude fisicamente no movimento.",
+      "SuggestionWithAssistance": "Reduza ayuda, incentive tentativas independentes."
+    },
+    {
+      "Question": "A criança engatinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Coloque brinquedos fora do alcance, demonstre movimento.",
+      "SuggestionWithAssistance": "Crie percursos seguros para engatinhar."
+    },
+    {
+      "Question": "A criança puxa-se para ficar em pé?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ofereça apoios seguros, incentive movimento para cima.",
+      "SuggestionWithAssistance": "Varie os apoios e alturas."
+    },
+    {
+      "Question": "A criança fica em pé con apoyo por 15 minutos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use apoios estáveis, comece con períodos curtos.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo em pé."
+    },
+    {
+      "Question": "A criança anda segurando em móveis?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Organize móveis seguros para apoyo, incentive movimento lateral.",
+      "SuggestionWithAssistance": "Crie percursos seguros ao longo dos móveis."
+    },
+    {
+      "Question": "A criança fica em pé sozinha por 2 segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique equilibrio con apoyo mínimo, use motivação.",
+      "SuggestionWithAssistance": "Aumente gradualmente o tempo sem apoyo."
+    },
+    {
+      "Question": "A criança anda sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use brinquedos de empurrar, ofereça apoyo das mãos.",
+      "SuggestionWithAssistance": "Reduza apoyo gradualmente, incentive passos independentes."
+    },
+    {
+      "Question": "A criança sobe escadas engatinhando?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use escadas baixas e seguras, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique em diferentes tipos de escadas."
+    },
+    {
+      "Question": "A criança senta em cadeira pequena?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use cadeira apropriada ao tamanho, demonstre como sentar.",
+      "SuggestionWithAssistance": "Pratique sentar e levantar da cadeira."
+    },
+    {
+      "Question": "A criança sobe e desce escadas con ayuda?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Segure a mão da criança, ensine um degrau por vez.",
+      "SuggestionWithAssistance": "Reduza gradualmente a ayuda física."
+    },
+    {
+      "Question": "A criança senta em cadeira pequena sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique movimento de sentar, use cadeiras estáveis.",
+      "SuggestionWithAssistance": "Varie tipos de cadeiras e alturas."
+    },
+    {
+      "Question": "A criança agacha e levanta sozinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre movimento, use brinquedos no chão como motivação.",
+      "SuggestionWithAssistance": "Pratique agachamento em diferentes situações."
+    },
+    {
+      "Question": "A criança empurra e puxa brinquedos grandes andando?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use brinquedos leves con rodas, demonstre movimento.",
+      "SuggestionWithAssistance": "Varie tipos de brinquedos e superfícies."
+    },
+    {
+      "Question": "A criança carrega objetos grandes andando?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Comece con objetos leves e grandes, como almofadas, e proponha que a criança os traga até você.",
+      "SuggestionWithAssistance": "Aumente gradualmente o peso — caixas vazias enchidas aos poucos — e elogie cada tentativa."
+    }
+  ],
+
+  "2 a 3 anos": [
+    {
+      "Question": "A criança imita adulto fazendo tarefas domésticas simples?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre tarefas simples como varrer, deixe a criança 'ajudar' com utensílios pequenos.",
+      "SuggestionWithAssistance": "Forneça ferramentas adequadas ao tamanho da criança para imitação."
+    },
+    {
+      "Question": "A criança brinca de faz de conta por períodos curtos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Disponibilize brinquedos que estimulem imaginação, participe das brincadeiras.",
+      "SuggestionWithAssistance": "Incentive dramatização de diferentes situações do cotidiano."
+    },
+    {
+      "Question": "A criança abraça e beija boneca ou brinquedo macio?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça brinquedos macios, demonstre carinho com eles.",
+      "SuggestionWithAssistance": "Incentive cuidados com brinquedos como se fossem 'bebês'."
+    },
+    {
+      "Question": "A criança ajuda a guardar brinquedos quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Torne a arrumação um jogo, ajude inicialmente.",
+      "SuggestionWithAssistance": "Crie rotina de organização, elogie participação."
+    },
+    {
+      "Question": "A criança imita trabalhos domésticos dos pais?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Permita participação em tarefas seguras, forneça utensílios apropriados.",
+      "SuggestionWithAssistance": "Valorize tentativas de ajuda, mesmo que imperfeitas."
+    },
+    {
+      "Question": "A criança brinca próxima a outras crianças fazendo atividade similar?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Organize encontros com outras crianças, facilite brincadeiras paralelas.",
+      "SuggestionWithAssistance": "Incentive interação gradual entre as crianças."
+    },
+    {
+      "Question": "A criança participa de jogos simples com outras crianças?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine jogos simples como roda, esconde-esconde.",
+      "SuggestionWithAssistance": "Facilite participação em grupo, explique reglas básicas."
+    },
+    {
+      "Question": "A criança defende seus brinquedos e posses?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine conceito de 'meu' e 'seu', respeite propriedade da criança.",
+      "SuggestionWithAssistance": "Balance protección de posses con aprendizado de compartilhamento."
+    },
+    {
+      "Question": "A criança usa 'por favor' cuando lembrada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele uso de 'por favor', lembre gentilmente.",
+      "SuggestionWithAssistance": "Reduza lembretes gradualmente, elogie uso espontâneo."
+    },
+    {
+      "Question": "A criança espera sua vez com ajuda?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use atividades com turnos claros, ensine conceito de espera.",
+      "SuggestionWithAssistance": "Pratique paciência em diferentes situações."
+    },
+    {
+      "Question": "A criança usa 'obrigado' quando lembrada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele agradecimentos, lembre quando apropriado.",
+      "SuggestionWithAssistance": "Incentive gratidão em diferentes contextos."
+    },
+    {
+      "Question": "A criança remove casaco e pendura quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre como tirar e pendurar, use ganchos baixos.",
+      "SuggestionWithAssistance": "Crie rotina de organização de roupas."
+    },
+    {
+      "Question": "A criança ouve histórias por 5-8 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use livros com figuras interessantes, histórias curtas.",
+      "SuggestionWithAssistance": "Faça perguntas durante a história para manter atenção."
+    },
+    {
+      "Question": "A criança diz nome e sobrenome quando perguntada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Pratique nome completo diariamente, use em jogos.",
+      "SuggestionWithAssistance": "Ensine quando é apropriado dizer nome completo."
+    },
+    {
+      "Question": "A criança responde a pergunta 'menino ou menina'?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine identidade de gênero de forma simples e clara.",
+      "SuggestionWithAssistance": "Reforce conceito em diferentes contextos."
+    },
+    {
+      "Question": "A criança canta canções simples?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Cante músicas repetitivas, incentive participação.",
+      "SuggestionWithAssistance": "Ensine canções com gestos e movimentos."
+    },
+    {
+      "Question": "A criança tenta consolar outros quando estão tristes?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele empatia, explique sentimentos de outros.",
+      "SuggestionWithAssistance": "Incentive gestos de cuidado apropriados."
+    },
+    {
+      "Question": "A criança participa de atividades em grupo por 10-15 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Comece com atividades curtas e interessantes.",
+      "SuggestionWithAssistance": "Aumente duração gradualmente, varie atividades."
+    },
+    {
+      "Question": "A criança identifica sentimentos em si mesma?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine vocabulário emocional básico, valide sentimentos.",
+      "SuggestionWithAssistance": "Ajude a nomear e expressar emoções."
+    },
+    {
+      "Question": "A criança compartilha brinquedos espontaneamente?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele compartilhamento, elogie tentativas.",
+      "SuggestionWithAssistance": "Crie oportunidades para praticar divisão."
+    },
+    {
+      "Question": "A criança combina substantivo com verbo em frases de 2 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases simples como 'papai foi', 'bebê dorme'.",
+      "SuggestionWithAssistance": "Expanda tentativas da criança em frases completas."
+    },
+    {
+      "Question": "A criança usa frases de 3 palavras regularmente?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases de 3 palavras, expanda palavras da criança.",
+      "SuggestionWithAssistance": "Incentive frases mais longas fazendo perguntas."
+    },
+    {
+      "Question": "A criança usa pronomes 'eu', 'mim', 'meu'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use pronomes consistentemente ao falar com a criança.",
+      "SuggestionWithAssistance": "Corrija gentilmente modelando uso correto."
+    },
+    {
+      "Question": "A criança usa formas verbais no presente?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele verbos no presente durante atividades diárias.",
+      "SuggestionWithAssistance": "Corrija gentilmente e pratique em contextos variados."
+    },
+    {
+      "Question": "A criança usa 'não' no início de frases?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele negativas bem formadas, aceite tentativas.",
+      "SuggestionWithAssistance": "Expanda negativas simples em frases completas."
+    },
+    {
+      "Question": "A criança faz perguntas de 2-3 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele perguntas simples, responda entusiasticamente.",
+      "SuggestionWithAssistance": "Incentive curiosidade respondendo perguntas."
+    },
+    {
+      "Question": "A criança usa preposições 'em', 'sobre'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use preposições durante atividades de posicionamento.",
+      "SuggestionWithAssistance": "Pratique com jogos de colocar objetos em lugares."
+    },
+    {
+      "Question": "A criança nomeia ações que vê em figuras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use livros com ações claras, aponte e nomeie atividades.",
+      "SuggestionWithAssistance": "Faça perguntas sobre o que pessoas fazem nas figuras."
+    },
+    {
+      "Question": "A criança usa adjetivos simples?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use adjetivos descritivos: grande, pequeno, bonito.",
+      "SuggestionWithAssistance": "Incentive descrições com múltiplos adjetivos."
+    },
+    {
+      "Question": "A criança conta até 5?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Pratique contagem com objetos concretos diariamente.",
+      "SuggestionWithAssistance": "Use contagem em atividades funcionais."
+    },
+    {
+      "Question": "A criança usa conjunção 'e' para conectar palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele uso de 'e' para conectar ideias simples.",
+      "SuggestionWithAssistance": "Incentive conexões entre palavras e ideias."
+    },
+    {
+      "Question": "A criança relata experiências recentes?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a contar o que fez recentemente.",
+      "SuggestionWithAssistance": "Faça perguntas para ajudar a organizar narrativas."
+    },
+    {
+      "Question": "A criança usa 'mais' para pedir repetição?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele uso de 'mais' em situações apropriadas.",
+      "SuggestionWithAssistance": "Crie oportunidades para pedir 'mais'."
+    },
+    {
+      "Question": "A criança nomeia 5 partes do corpo?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Nomeie partes do corpo durante cuidados diários.",
+      "SuggestionWithAssistance": "Use músicas e jogos sobre corpo."
+    },
+    {
+      "Question": "A criança usa tempo passado em algumas palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Fale sobre eventos passados, modele formas corretas.",
+      "SuggestionWithAssistance": "Corrija gentilmente e pratique em contextos variados."
+    },
+    {
+      "Question": "A criança nomeia objetos por categoria?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Agrupe objetos por categoria: comida, roupas, brinquedos.",
+      "SuggestionWithAssistance": "Faça jogos de classificação e nomeação."
+    },
+    {
+      "Question": "A criança usa 'aqui' e 'ali'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use palavras de localização durante atividades.",
+      "SuggestionWithAssistance": "Pratique conceitos espaciais com jogos."
+    },
+    {
+      "Question": "A criança faz comentários sobre atividades?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive comentários sobre o que está fazendo.",
+      "SuggestionWithAssistance": "Responda positivamente a tentativas de comunicação."
+    },
+    {
+      "Question": "A criança usa 'por que' em perguntas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele perguntas com 'por que', responda pacientemente.",
+      "SuggestionWithAssistance": "Incentive curiosidade sobre causa e efeito."
+    },
+    {
+      "Question": "A criança expressa necessidades com frases?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases para expressar necessidades básicas.",
+      "SuggestionWithAssistance": "Incentive frases ao invés de gestos apenas."
+    },
+    {
+      "Question": "A criança usa 'quando' em perguntas simples?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use conceitos temporais simples em conversas.",
+      "SuggestionWithAssistance": "Responda perguntas sobre tempo de forma simples."
+    },
+    {
+      "Question": "A criança nomeia cores primárias?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Pratique cores em atividades diárias.",
+      "SuggestionWithAssistance": "Use jogos de identificação de cores."
+    },
+    {
+      "Question": "A criança usa frases de 4 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases mais longas, expanda tentativas.",
+      "SuggestionWithAssistance": "Incentive elaboração de ideias em frases complexas."
+    },
+    {
+      "Question": "A criança canta músicas simples completas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Ensine músicas repetitivas e simples.",
+      "SuggestionWithAssistance": "Pratique músicas com gestos e movimentos."
+    },
+    {
+      "Question": "A criança encontra objetos que não estão em lugar habitual?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mude objetos de lugar ocasionalmente, ajude na busca.",
+      "SuggestionWithAssistance": "Incentive busca independente em locais lógicos."
+    },
+    {
+      "Question": "A criança identifica objetos pelo som?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos sonoros variados, faça jogos de adivinhação.",
+      "SuggestionWithAssistance": "Crie jogos de identificação auditiva."
+    },
+    {
+      "Question": "A criança empilha 5-6 blocos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com menos blocos, use blocos estáveis.",
+      "SuggestionWithAssistance": "Incentive construções mais altas e criativas."
+    },
+    {
+      "Question": "A criança identifica objetos pelo tato?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos com texturas diferentes em jogos táteis.",
+      "SuggestionWithAssistance": "Crie jogos de adivinhação pelo toque."
+    },
+    {
+      "Question": "A criança aponta para objetos nomeados em figuras?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros com figuras claras, aponte enquanto nomeia.",
+      "SuggestionWithAssistance": "Faça perguntas sobre localização de objetos."
+    },
+    {
+      "Question": "A criança vira páginas de livro uma por vez?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros com páginas grossas, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de livros."
+    },
+    {
+      "Question": "A criança identifica-se em espelho?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Brinque em frente ao espelho, aponte para criança.",
+      "SuggestionWithAssistance": "Use espelho para jogos de reconhecimento."
+    },
+    {
+      "Question": "A criança identifica partes do corpo em si mesma?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Nomeie partes do corpo, peça para criança apontar.",
+      "SuggestionWithAssistance": "Use jogos e músicas sobre corpo."
+    },
+    {
+      "Question": "A criança agrupa objetos por cor?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos coloridos, demonstre agrupamento.",
+      "SuggestionWithAssistance": "Crie jogos de classificação por cores."
+    },
+    {
+      "Question": "A criança agrupa objetos por forma?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use formas geométricas simples para classificação.",
+      "SuggestionWithAssistance": "Varie formas e contextos de classificação."
+    },
+    {
+      "Question": "A criança completa quebra-cabeça de 4-6 peças?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Comece com menos peças, use figuras familiares.",
+      "SuggestionWithAssistance": "Aumente complexidade gradualmente."
+    },
+    {
+      "Question": "A criança nomeia objetos grandes e pequenos?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Compare tamanhos usando objetos concretos.",
+      "SuggestionWithAssistance": "Use jogos de classificação por tamanho."
+    },
+    {
+      "Question": "A criança desenha círculo espontaneamente?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Ofereça materiais para desenhar, demonstre círculos.",
+      "SuggestionWithAssistance": "Incentive desenho livre e criativo."
+    },
+    {
+      "Question": "A criança combina objetos relacionados?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Use pares lógicos: sapato-meia, copo-prato.",
+      "SuggestionWithAssistance": "Explique relações entre objetos."
+    },
+    {
+      "Question": "A criança conta até 3 objetos corretamente?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Use objetos concretos, conte tocando cada um.",
+      "SuggestionWithAssistance": "Pratique contagem em diferentes contextos."
+    },
+    {
+      "Question": "A criança separa objetos por tamanho?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Use objetos com diferenças óbvias de tamanho.",
+      "SuggestionWithAssistance": "Crie jogos de classificação por tamanho."
+    },
+    {
+      "Question": "A criança desenha linha vertical e horizontal?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Demonstre linhas, guie mão da criança.",
+      "SuggestionWithAssistance": "Pratique em diferentes superfícies."
+    },
+    {
+      "Question": "A criança identifica objetos que faltam?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Remova objeto conhecido, pergunte o que falta.",
+      "SuggestionWithAssistance": "Use jogos de memória visual."
+    },
+    {
+      "Question": "A criança nomeia ações em curso?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Nomeie ações enquanto acontecem.",
+      "SuggestionWithAssistance": "Incentive descrição de atividades."
+    },
+    {
+      "Question": "A criança identifica objetos por função?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Explique para que servem os objetos.",
+      "SuggestionWithAssistance": "Faça perguntas sobre uso de objetos."
+    },
+    {
+      "Question": "A criança faz construções simples com blocos?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Demonstre construções, incentive criatividade.",
+      "SuggestionWithAssistance": "Varie tipos de construções e materiais."
+    },
+    {
+      "Question": "A criança identifica objetos em diferentes posições?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Mostre mesmo objeto em posições diferentes.",
+      "SuggestionWithAssistance": "Use jogos de reconhecimento visual."
+    },
+    {
+      "Question": "A criança resolve problemas simples?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Apresente problemas simples, ofereça dicas.",
+      "SuggestionWithAssistance": "Incentive tentativas de solução independente."
+    },
+    {
+      "Question": "A criança imita sequências de 2-3 ações?",
+      "Category": "Cognition",
+      "SuggestionNotYet": "Demonstre sequências simples, aguarde imitação.",
+      "SuggestionWithAssistance": "Aumente complexidade das sequências gradualmente."
+    },
+    {
+      "Question": "A criança come com garfo adequadamente?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use garfo adaptado, comece com alimentos fáceis de espetar.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de alimentos."
+    },
+    {
+      "Question": "A criança bebe de copo sem derramar?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use copo com duas alças, coloque pouco líquido.",
+      "SuggestionWithAssistance": "Pratique controle de inclinação do copo."
+    },
+    {
+      "Question": "A criança obtém água sozinha quando tem sede?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Deixe água acessível, ensine a pedir quando necessário.",
+      "SuggestionWithAssistance": "Incentive independência na hidratação."
+    },
+    {
+      "Question": "A criança lava mãos com sabão quando lembrada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre lavagem completa, torne rotina.",
+      "SuggestionWithAssistance": "Reduza lembretes gradualmente."
+    },
+    {
+      "Question": "A criança informa quando precisa usar banheiro?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Estabeleça sinais claros, responda prontamente.",
+      "SuggestionWithAssistance": "Incentive comunicação sobre necessidades."
+    },
+    {
+      "Question": "A criança permanece seca por períodos de 2 horas?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Estabeleça horários regulares para banheiro.",
+      "SuggestionWithAssistance": "Aumente intervalos gradualmente."
+    },
+    {
+      "Question": "A criança usa banheiro com ajuda mínima?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine todos os passos, reduza ajuda gradualmente.",
+      "SuggestionWithAssistance": "Supervise segurança, incentive independência."
+    },
+    {
+      "Question": "A criança obtém lenço quando necessário?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Mantenha lenços acessíveis, ensine quando usar.",
+      "SuggestionWithAssistance": "Incentive higiene nasal independente."
+    },
+    {
+      "Question": "A criança usa guardanapo durante refeições?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Coloque guardanapo visível, lembre gentilmente.",
+      "SuggestionWithAssistance": "Torne uso do guardanapo um hábito."
+    },
+    {
+      "Question": "A criança escova dentes com supervisão?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre técnica, supervise escovação.",
+      "SuggestionWithAssistance": "Aumente independência gradualmente."
+    },
+    {
+      "Question": "A criança lava rosto quando solicitada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre lavagem, use espelho para feedback.",
+      "SuggestionWithAssistance": "Ensine limpeza completa do rosto."
+    },
+    {
+      "Question": "A criança evita objetos perigosos quando alertada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine sobre perigos específicos, seja consistente.",
+      "SuggestionWithAssistance": "Reforce conceitos de segurança regularmente."
+    },
+    {
+      "Question": "A criança coloca sapatos (sem amarrar)?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use sapatos fáceis de calçar, demonstre técnica.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de calçados."
+    },
+    {
+      "Question": "A criança tira roupas simples sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Comece com roupas fáceis, demonstre sequência.",
+      "SuggestionWithAssistance": "Incentive independência no vestir."
+    },
+    {
+      "Question": "A criança coloca roupas simples com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Organize roupas em ordem, ajude inicialmente.",
+      "SuggestionWithAssistance": "Reduza ajuda gradualmente."
+    },
+    {
+      "Question": "A criança desabotoa botões grandes?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use roupas com botões grandes, demonstre técnica.",
+      "SuggestionWithAssistance": "Pratique coordenação motora fina."
+    },
+    {
+      "Question": "A criança fecha zíper grande?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use zíperes grandes, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de zíperes."
+    },
+    {
+      "Question": "A criança expressa quando está com frio ou calor?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine vocabulário sobre temperatura corporal.",
+      "SuggestionWithAssistance": "Incentive comunicação sobre conforto físico."
+    },
+    {
+      "Question": "A criança corre sem cair frequentemente?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique corrida em espaços seguros, demonstre técnica.",
+      "SuggestionWithAssistance": "Aumente velocidade e distância gradualmente."
+    },
+    {
+      "Question": "A criança sobe escadas alternando os pés?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre padrão alternado, use corrimão para apoio.",
+      "SuggestionWithAssistance": "Pratique até conseguir sem apoio das mãos."
+    },
+    {
+      "Question": "A criança desce escadas alternando os pés?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ensine padrão alternado, mantenha segurança.",
+      "SuggestionWithAssistance": "Reduza apoio gradualmente."
+    },
+    {
+      "Question": "A criança pula com ambos os pés juntos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre pulo, segure mãos inicialmente.",
+      "SuggestionWithAssistance": "Pratique pulos em diferentes superfícies."
+    },
+    {
+      "Question": "A criança pedala triciclo por 1,5 metros?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use triciclo apropriado, demonstre pedalada.",
+      "SuggestionWithAssistance": "Pratique coordenação e direção."
+    },
+    {
+      "Question": "A criança arremessa bola por cima da cabeça?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre movimento, use bola leve.",
+      "SuggestionWithAssistance": "Pratique mira e coordenação."
+    },
+    {
+      "Question": "A criança pega bola grande arremessada?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use bola grande, comece com distâncias curtas.",
+      "SuggestionWithAssistance": "Aumente distância e reduza tamanho da bola."
+    },
+    {
+      "Question": "A criança anda em linha reta por 3 metros?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use fita no chão como guia, demonstre.",
+      "SuggestionWithAssistance": "Pratique equilíbrio e coordenação."
+    },
+    {
+      "Question": "A criança fica em um pé só por 2 segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ofereça apoio inicial, pratique equilíbrio.",
+      "SuggestionWithAssistance": "Aumente tempo gradualmente."
+    },
+    {
+      "Question": "A criança caminha na ponta dos pés por 3 metros?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre caminhada, ofereça apoio inicial.",
+      "SuggestionWithAssistance": "Pratique equilíbrio e coordenação."
+    },
+    {
+      "Question": "A criança faz movimentos de dança simples?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Toque música, demonstre movimentos básicos.",
+      "SuggestionWithAssistance": "Incentive expressão através do movimento."
+    },
+    {
+      "Question": "A criança desenha círculos e linhas?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ofereça materiais adequados, demonstre movimentos.",
+      "SuggestionWithAssistance": "Pratique controle de lápis e coordenação."
+    },
+    {
+      "Question": "A criança usa tesoura para cortar papel?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use tesoura sem ponta, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique coordenação das duas mãos."
+    },
+    {
+      "Question": "A criança constrói torres de 6-8 blocos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use blocos estáveis, demonstre empilhamento.",
+      "SuggestionWithAssistance": "Incentive construções criativas."
+    },
+    {
+      "Question": "A criança vira páginas de livro individualmente?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use livros apropriados, demonstre movimento delicado.",
+      "SuggestionWithAssistance": "Pratique coordenação motora fina."
+    },
+    {
+      "Question": "A criança enrosca e desenrosca tampas?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use recipientes com tampas grandes, demonstre movimento.",
+      "SuggestionWithAssistance": "Varie tipos de tampas e recipientes."
+    }
+  ],
+
+  "3 a 4 anos": [
+    {
+      "Question": "A criança imita adulto fazendo tarefas domésticas?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Demonstre tarefas simples como varrer, deixe a criança 'ajudar' com utensílios pequenos.",
+      "SuggestionWithAssistance": "Forneça ferramentas adequadas ao tamanho da criança para imitação."
+    },
+    {
+      "Question": "A criança brinca vestindo roupas de adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Disponibilize roupas velhas de adultos para brincadeiras de faz de conta.",
+      "SuggestionWithAssistance": "Incentive dramatização de diferentes papéis sociais."
+    },
+    {
+      "Question": "A criança escolhe entre duas atividades?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça duas opções claras e aguarde a escolha da criança.",
+      "SuggestionWithAssistance": "Expanda para mais opções gradualmente."
+    },
+    {
+      "Question": "A criança mostra que quer independência fazendo coisas sozinha?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Permita tentativas independentes, ofereça ajuda apenas quando solicitado.",
+      "SuggestionWithAssistance": "Equilibre independência com segurança e orientação."
+    },
+    {
+      "Question": "A criança canta e dança ao ouvir música?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Toque músicas variadas, demonstre movimentos simples de dança.",
+      "SuggestionWithAssistance": "Incentive expressão criativa através da música e movimento."
+    },
+    {
+      "Question": "A criança segue regras em jogos dirigidos por adulto?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use jogos com regras muito simples, seja consistente na aplicação.",
+      "SuggestionWithAssistance": "Aumente complexidade das regras gradualmente."
+    },
+    {
+      "Question": "A criança brinca próxima e interage com outras crianças?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Facilite encontros com outras crianças, supervise interações positivas.",
+      "SuggestionWithAssistance": "Ensine Questions básicas de compartilhamento e cooperação."
+    },
+    {
+      "Question": "A criança cumprimenta adultos conhecidos sem ser lembrada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele cumprimentos consistentemente, elogie tentativas espontâneas.",
+      "SuggestionWithAssistance": "Pratique cumprimentos em diferentes situações sociais."
+    },
+    {
+      "Question": "A criança segue rotinas estabelecidas?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Estabeleça rotinas claras e visuais, seja consistente.",
+      "SuggestionWithAssistance": "Envolva a criança no planejamento e execução das rotinas."
+    },
+    {
+      "Question": "A criança demonstra cuidado com pessoas machucadas ou tristes?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele empatia, explique sentimentos de outras pessoas.",
+      "SuggestionWithAssistance": "Incentive gestos de cuidado e conforto apropriados."
+    },
+    {
+      "Question": "A criança participa de atividades em grupo por 5-10 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Comece com atividades curtas e interessantes para a criança.",
+      "SuggestionWithAssistance": "Aumente duração gradualmente, varie tipos de atividades."
+    },
+    {
+      "Question": "A criança espera sua vez em atividades?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use atividades com turnos claros, ensine conceito de 'vez'.",
+      "SuggestionWithAssistance": "Pratique espera em diferentes contextos e situações."
+    },
+    {
+      "Question": "A criança usa 'por favor' e 'obrigado' quando lembrada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele uso consistente, lembre gentilmente quando necessário.",
+      "SuggestionWithAssistance": "Reduza lembretes gradualmente, incentive uso espontâneo."
+    },
+    {
+      "Question": "A criança responde quando chamada de outro cômodo?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Chame pelo nome, aguarde resposta antes de repetir.",
+      "SuggestionWithAssistance": "Ensine respostas apropriadas como 'estou aqui' ou 'já vou'."
+    },
+    {
+      "Question": "A criança brinca cooperativamente com outras crianças?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Facilite brincadeiras simples que requerem cooperação.",
+      "SuggestionWithAssistance": "Ensine resolução básica de conflitos em brincadeiras."
+    },
+    {
+      "Question": "A criança permanece em área designada quando solicitada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Defina limites claros, explique razões para permanecer na área.",
+      "SuggestionWithAssistance": "Use lembretes visuais e elogios por seguir instruções."
+    },
+    {
+      "Question": "A criança expressa sentimentos verbalmente?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine vocabulário emocional básico, valide sentimentos expressos.",
+      "SuggestionWithAssistance": "Incentive expressão verbal ao invés de comportamentos inadequados."
+    },
+    {
+      "Question": "A criança oferece ajuda a adultos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Aceite ofertas de ajuda, mesmo que não seja perfeita.",
+      "SuggestionWithAssistance": "Crie oportunidades para a criança ajudar de forma significativa."
+    },
+    {
+      "Question": "A criança trabalha sozinha em atividade por 15-20 minutos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ofereça atividades adequadas ao interesse e nível da criança.",
+      "SuggestionWithAssistance": "Aumente tempo gradualmente, varie tipos de atividades."
+    },
+    {
+      "Question": "A criança pede desculpas quando faz algo errado?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele pedidos de desculpa, explique quando são apropriados.",
+      "SuggestionWithAssistance": "Ensine diferença entre acidentes e comportamentos intencionais."
+    },
+    {
+      "Question": "A criança combina substantivo ou adjetivo com substantivo em frases de 2 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele combinações simples como 'carro grande', 'boneca bonita'.",
+      "SuggestionWithAssistance": "Expanda tentativas da criança adicionando palavras descritivas."
+    },
+    {
+      "Question": "A criança faz frases negativas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases negativas simples como 'não quero', 'não gosto'.",
+      "SuggestionWithAssistance": "Incentive uso apropriado de negativas em diferentes contextos."
+    },
+    {
+      "Question": "A criança responde a perguntas simples de 'o que'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas sobre objetos visíveis, aguarde resposta.",
+      "SuggestionWithAssistance": "Varie contextos das perguntas, use figuras e objetos reais."
+    },
+    {
+      "Question": "A criança usa frases de 3 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases de 3 palavras, expanda tentativas da criança.",
+      "SuggestionWithAssistance": "Incentive elaboração de ideias em frases mais longas."
+    },
+    {
+      "Question": "A criança usa formas plurais?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use plurais consistentemente, enfatize diferença entre um e vários.",
+      "SuggestionWithAssistance": "Corrija gentilmente modelando forma correta."
+    },
+    {
+      "Question": "A criança usa formas verbais no passado?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Fale sobre eventos passados, modele formas verbais corretas.",
+      "SuggestionWithAssistance": "Corrija gentilmente e pratique em diferentes contextos."
+    },
+    {
+      "Question": "A criança diz nome completo quando perguntada?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Pratique nome completo diariamente, use em jogos e músicas.",
+      "SuggestionWithAssistance": "Ensine quando e onde é apropriado dizer nome completo."
+    },
+    {
+      "Question": "A criança responde a perguntas simples de 'quem'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas sobre pessoas conhecidas, use fotos como apoio.",
+      "SuggestionWithAssistance": "Varie contextos e pessoas nas perguntas."
+    },
+    {
+      "Question": "A criança responde a perguntas de 'onde'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas sobre localização de objetos e pessoas.",
+      "SuggestionWithAssistance": "Use jogos de esconder para praticar conceitos de localização."
+    },
+    {
+      "Question": "A criança usa artigos 'o', 'a', 'um', 'uma'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele uso correto de artigos em sua fala.",
+      "SuggestionWithAssistance": "Corrija gentilmente e pratique com diferentes substantivos."
+    },
+    {
+      "Question": "A criança usa alguns verbos no gerúndio?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use gerúndio ao descrever ações em andamento.",
+      "SuggestionWithAssistance": "Incentive descrição de ações usando gerúndio."
+    },
+    {
+      "Question": "A criança responde a perguntas simples de 'por que' com 'porque'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas simples de causa e efeito.",
+      "SuggestionWithAssistance": "Aceite respostas simples, expanda explicações gradualmente."
+    },
+    {
+      "Question": "A criança expressa intenção usando 'vou' + verbo?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele expressões de intenção, fale sobre planos.",
+      "SuggestionWithAssistance": "Incentive a criança a expressar seus planos e intenções."
+    },
+    {
+      "Question": "A criança muda apropriadamente o volume de voz?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele diferentes volumes, explique quando usar cada um.",
+      "SuggestionWithAssistance": "Pratique sussurrar, falar normal e falar alto em contextos apropriados."
+    },
+    {
+      "Question": "A criança usa imperativo ao dar ordens?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele pedidos educados, ensine diferença entre pedir e ordenar.",
+      "SuggestionWithAssistance": "Ensine formas polidas de fazer pedidos."
+    },
+    {
+      "Question": "A criança conta até 3?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Pratique contagem com objetos concretos diariamente.",
+      "SuggestionWithAssistance": "Use contagem em atividades funcionais e brincadeiras."
+    },
+    {
+      "Question": "A criança usa palavras de localização?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use preposições de lugar consistentemente: em, sobre, embaixo.",
+      "SuggestionWithAssistance": "Pratique com jogos de posicionamento de objetos."
+    },
+    {
+      "Question": "A criança nomeia ações em figuras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use livros com ações claras, aponte e nomeie o que pessoas fazem.",
+      "SuggestionWithAssistance": "Faça perguntas sobre ações nas figuras."
+    },
+    {
+      "Question": "A criança usa formas possessivas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use possessivos ao falar sobre objetos de pessoas.",
+      "SuggestionWithAssistance": "Corrija gentilmente e modele uso correto."
+    },
+    {
+      "Question": "A criança usa 'não' no início de frases?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele negativas bem formadas, aceite tentativas.",
+      "SuggestionWithAssistance": "Expanda negativas simples em frases mais completas."
+    },
+    {
+      "Question": "A criança responde a perguntas de 'de quem'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas sobre posse usando objetos familiares.",
+      "SuggestionWithAssistance": "Use jogos para praticar conceitos de posse."
+    },
+    {
+      "Question": "A criança usa frases com 4-5 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases mais longas, expanda tentativas da criança.",
+      "SuggestionWithAssistance": "Incentive elaboração de ideias em frases complexas."
+    },
+    {
+      "Question": "A criança usa conjunção 'e'?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele uso de 'e' para conectar ideias simples.",
+      "SuggestionWithAssistance": "Incentive conexões entre ideias usando 'e'."
+    },
+    {
+      "Question": "A criança relata experiências imediatas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a contar o que acabou de fazer.",
+      "SuggestionWithAssistance": "Faça perguntas para ajudar a organizar narrativas simples."
+    },
+    {
+      "Question": "A criança encontra livro específico quando solicitada?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Organize livros de forma acessível, pratique identificação por capa.",
+      "SuggestionWithAssistance": "Use características distintivas dos livros para facilitar busca."
+    },
+    {
+      "Question": "A criança completa quebra-cabeça de 3-4 peças?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com 2 peças, use quebra-cabeças com figuras familiares.",
+      "SuggestionWithAssistance": "Aumente número de peças gradualmente."
+    },
+    {
+      "Question": "A criança nomeia objetos grandes e pequenos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Compare tamanhos usando objetos concretos, enfatize diferenças.",
+      "SuggestionWithAssistance": "Use jogos de classificação por tamanho."
+    },
+    {
+      "Question": "A criança desenha linha vertical imitando adulto dentro de 30 graus?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha vertical, guie mão da criança inicialmente.",
+      "SuggestionWithAssistance": "Pratique em diferentes superfícies e materiais."
+    },
+    {
+      "Question": "A criança desenha linha horizontal imitando adulto dentro de 30 graus?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linha horizontal após dominar vertical.",
+      "SuggestionWithAssistance": "Alterne entre linhas verticais e horizontais."
+    },
+    {
+      "Question": "A criança copia círculo?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Faça movimentos circulares no ar primeiro, depois no papel.",
+      "SuggestionWithAssistance": "Pratique círculos de diferentes tamanhos."
+    },
+    {
+      "Question": "A criança desenha círculo espontaneamente?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Ofereça materiais para desenhar, demonstre círculos.",
+      "SuggestionWithAssistance": "Incentive desenho livre e criativo."
+    },
+    {
+      "Question": "A criança combina objetos relacionados?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use pares lógicos: sapato-meia, copo-prato.",
+      "SuggestionWithAssistance": "Explique relações entre objetos."
+    },
+    {
+      "Question": "A criança conta até 3 objetos corretamente?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos concretos, conte tocando cada um.",
+      "SuggestionWithAssistance": "Pratique contagem em diferentes contextos."
+    },
+    {
+      "Question": "A criança separa objetos por tamanho?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos com diferenças óbvias de tamanho.",
+      "SuggestionWithAssistance": "Crie jogos de classificação por tamanho."
+    },
+    {
+      "Question": "A criança desenha linha vertical e horizontal?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre linhas, guie mão da criança.",
+      "SuggestionWithAssistance": "Pratique em diferentes superfícies."
+    },
+    {
+      "Question": "A criança identifica objetos que faltam?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Remova objeto conhecido, pergunte o que falta.",
+      "SuggestionWithAssistance": "Use jogos de memória visual."
+    },
+    {
+      "Question": "A criança nomeia ações em curso?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Nomeie ações enquanto acontecem.",
+      "SuggestionWithAssistance": "Incentive descrição de atividades."
+    },
+    {
+      "Question": "A criança identifica objetos por função?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Explique para que servem os objetos.",
+      "SuggestionWithAssistance": "Faça perguntas sobre uso de objetos."
+    },
+    {
+      "Question": "A criança faz construções simples com blocos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre construções, incentive criatividade.",
+      "SuggestionWithAssistance": "Varie tipos de construções e materiais."
+    },
+    {
+      "Question": "A criança identifica objetos em diferentes posições?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostre mesmo objeto em posições diferentes.",
+      "SuggestionWithAssistance": "Use jogos de reconhecimento visual."
+    },
+    {
+      "Question": "A criança resolve problemas simples?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Apresente problemas simples, ofereça dicas.",
+      "SuggestionWithAssistance": "Incentive tentativas de solução independente."
+    },
+    {
+      "Question": "A criança imita sequências de 2-3 ações?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Demonstre sequências simples, aguarde imitação.",
+      "SuggestionWithAssistance": "Aumente complexidade das sequências gradualmente."
+    },
+    {
+      "Question": "A criança come com garfo adequadamente?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use garfo adaptado, comece com alimentos fáceis de espetar.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de alimentos."
+    },
+    {
+      "Question": "A criança bebe de copo sem derramar?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use copo com duas alças, coloque pouco líquido.",
+      "SuggestionWithAssistance": "Pratique controle de inclinação do copo."
+    },
+    {
+      "Question": "A criança obtém água sozinha quando tem sede?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Deixe água acessível, ensine a pedir quando necessário.",
+      "SuggestionWithAssistance": "Incentive independência na hidratação."
+    },
+    {
+      "Question": "A criança lava mãos com sabão quando lembrada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre lavagem completa, torne rotina.",
+      "SuggestionWithAssistance": "Reduza lembretes gradualmente."
+    },
+    {
+      "Question": "A criança informa quando precisa usar banheiro?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Estabeleça sinais claros, responda prontamente.",
+      "SuggestionWithAssistance": "Incentive comunicação sobre necessidades."
+    },
+    {
+      "Question": "A criança permanece seca por períodos de 2 horas?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Estabeleça horários regulares para banheiro.",
+      "SuggestionWithAssistance": "Aumente intervalos gradualmente."
+    },
+    {
+      "Question": "A criança usa banheiro com ajuda mínima?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine todos os passos, reduza ajuda gradualmente.",
+      "SuggestionWithAssistance": "Supervise segurança, incentive independência."
+    },
+    {
+      "Question": "A criança obtém lenço quando necessário?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Mantenha lenços acessíveis, ensine quando usar.",
+      "SuggestionWithAssistance": "Incentive higiene nasal independente."
+    },
+    {
+      "Question": "A criança usa guardanapo durante refeições?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Coloque guardanapo visível, lembre gentilmente.",
+      "SuggestionWithAssistance": "Torne uso do guardanapo um hábito."
+    },
+    {
+      "Question": "A criança escova dentes com supervisão?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre técnica, supervise escovação.",
+      "SuggestionWithAssistance": "Aumente independência gradualmente."
+    },
+    {
+      "Question": "A criança lava rosto quando solicitada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Demonstre lavagem, use espelho para feedback.",
+      "SuggestionWithAssistance": "Ensine limpeza completa do rosto."
+    },
+    {
+      "Question": "A criança evita objetos perigosos quando alertada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine sobre perigos específicos, seja consistente.",
+      "SuggestionWithAssistance": "Reforce conceitos de segurança regularmente."
+    },
+    {
+      "Question": "A criança coloca sapatos (sem amarrar)?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use sapatos fáceis de calçar, demonstre técnica.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de calçados."
+    },
+    {
+      "Question": "A criança tira roupas simples sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Comece com roupas fáceis, demonstre sequência.",
+      "SuggestionWithAssistance": "Incentive independência no vestir."
+    },
+    {
+      "Question": "A criança coloca roupas simples com ajuda?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Organize roupas em ordem, ajude inicialmente.",
+      "SuggestionWithAssistance": "Reduza ajuda gradualmente."
+    },
+    {
+      "Question": "A criança desabotoa botões grandes?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use roupas com botões grandes, demonstre técnica.",
+      "SuggestionWithAssistance": "Pratique coordenação motora fina."
+    },
+    {
+      "Question": "A criança fecha zíper grande?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Use zíperes grandes, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique com diferentes tipos de zíperes."
+    },
+    {
+      "Question": "A criança expressa quando está com frio ou calor?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine vocabulário sobre temperatura corporal.",
+      "SuggestionWithAssistance": "Incentive comunicação sobre conforto físico."
+    },
+    {
+      "Question": "A criança corre sem cair frequentemente?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique corrida em espaços seguros, demonstre técnica.",
+      "SuggestionWithAssistance": "Aumente velocidade e distância gradualmente."
+    },
+    {
+      "Question": "A criança sobe escadas alternando os pés?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre padrão alternado, use corrimão para apoio.",
+      "SuggestionWithAssistance": "Pratique até conseguir sem apoio das mãos."
+    },
+    {
+      "Question": "A criança desce escadas alternando os pés?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ensine padrão alternado, mantenha segurança.",
+      "SuggestionWithAssistance": "Reduza apoio gradualmente."
+    },
+    {
+      "Question": "A criança pula com ambos os pés juntos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre pulo, segure mãos inicialmente.",
+      "SuggestionWithAssistance": "Pratique pulos em diferentes superfícies."
+    },
+    {
+      "Question": "A criança pedala triciclo por 1,5 metros?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use triciclo apropriado, demonstre pedalada.",
+      "SuggestionWithAssistance": "Pratique coordenação e direção."
+    },
+    {
+      "Question": "A criança arremessa bola por cima da cabeça?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre movimento, use bola leve.",
+      "SuggestionWithAssistance": "Pratique mira e coordenação."
+    },
+    {
+      "Question": "A criança pega bola grande arremessada?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use bola grande, comece com distâncias curtas.",
+      "SuggestionWithAssistance": "Aumente distância e reduza tamanho da bola."
+    },
+    {
+      "Question": "A criança anda em linha reta por 3 metros?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use fita no chão como guia, demonstre.",
+      "SuggestionWithAssistance": "Pratique equilíbrio e coordenação."
+    },
+    {
+      "Question": "A criança fica em um pé só por 2 segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ofereça apoio inicial, pratique equilíbrio.",
+      "SuggestionWithAssistance": "Aumente tempo gradualmente."
+    },
+    {
+      "Question": "A criança caminha na ponta dos pés por 3 metros?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre caminhada, ofereça apoio inicial.",
+      "SuggestionWithAssistance": "Pratique equilíbrio e coordenação."
+    },
+    {
+      "Question": "A criança faz movimentos de dança simples?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Toque música, demonstre movimentos básicos.",
+      "SuggestionWithAssistance": "Incentive expressão através do movimento."
+    },
+    {
+      "Question": "A criança desenha círculos e linhas?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ofereça materiais adequados, demonstre movimentos.",
+      "SuggestionWithAssistance": "Pratique controle de lápis e coordenação."
+    },
+    {
+      "Question": "A criança usa tesoura para cortar papel?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use tesoura sem ponta, demonstre movimento.",
+      "SuggestionWithAssistance": "Pratique coordenação das duas mãos."
+    },
+    {
+      "Question": "A criança constrói torres de 6-8 blocos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use blocos estáveis, demonstre empilhamento.",
+      "SuggestionWithAssistance": "Incentive construções criativas."
+    },
+    {
+      "Question": "A criança vira páginas de livro individualmente?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use livros apropriados, demonstre movimento delicado.",
+      "SuggestionWithAssistance": "Pratique coordenação motora fina."
+    },
+    {
+      "Question": "A criança enrosca e desenrosca tampas?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Use recipientes com tampas grandes, demonstre movimento.",
+      "SuggestionWithAssistance": "Varie tipos de tampas e recipientes."
+    }
+  ],
+
+  "4 a 5 anos": [
+    {
+      "Question": "A criança brinca de 'casinha' ou outras brincadeiras de faz de conta?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Disponibilize fantasias e acessórios para brincadeiras de faz de conta.",
+      "SuggestionWithAssistance": "Incentive a criação de histórias e papéis diferentes."
+    },
+    {
+      "Question": "A criança segue regras em jogos de grupo?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use jogos com regras simples e claras, explique as regras antes de começar.",
+      "SuggestionWithAssistance": "Incentive a criança a ajudar a criar novas regras para os jogos."
+    },
+    {
+      "Question": "A criança compartilha brinquedos e materiais com outras crianças?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Incentive o compartilhamento, explique os benefícios de dividir com os outros.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela compartilha espontaneamente."
+    },
+    {
+      "Question": "A criança espera a sua vez em jogos e atividades?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Use atividades com turnos claros, ensine o conceito de 'esperar a vez'.",
+      "SuggestionWithAssistance": "Incentive a criança a ser paciente e a respeitar a vez dos outros."
+    },
+    {
+      "Question": "A criança ajuda outras crianças quando elas precisam?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele o comportamento de ajuda, explique como ajudar os outros.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela ajuda os outros espontaneamente."
+    },
+    {
+      "Question": "A criança expressa seus sentimentos de forma apropriada?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine o vocabulário emocional básico, valide os sentimentos da criança.",
+      "SuggestionWithAssistance": "Incentive a criança a expressar seus sentimentos verbalmente, em vez de agir."
+    },
+    {
+      "Question": "A criança resolve conflitos com outras crianças de forma pacífica?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine estratégias de resolução de conflitos, como conversar e negociar.",
+      "SuggestionWithAssistance": "Ajude a criança a encontrar soluções para os conflitos, em vez de brigar."
+    },
+    {
+      "Question": "A criança segue instruções simples dadas por adultos?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Dê instruções claras e concisas, certifique-se de que a criança entendeu.",
+      "SuggestionWithAssistance": "Use lembretes visuais e elogios para incentivar a criança a seguir as instruções."
+    },
+    {
+      "Question": "A criança segue as regras da casa e da escola?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Explique as regras de forma clara e consistente, explique os motivos por trás das regras.",
+      "SuggestionWithAssistance": "Use consequências lógicas para quando a criança não segue as regras."
+    },
+    {
+      "Question": "A criança cuida de seus pertences?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine a criança a guardar seus brinquedos e materiais, explique a importância de cuidar de suas coisas.",
+      "SuggestionWithAssistance": "Use um sistema de recompensas para incentivar a criança a cuidar de seus pertences."
+    },
+    {
+      "Question": "A criança pede ajuda quando precisa?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Incentive a criança a pedir ajuda quando ela está com dificuldades, explique que não há problema em pedir ajuda.",
+      "SuggestionWithAssistance": "Responda prontamente aos pedidos de ajuda da criança."
+    },
+    {
+      "Question": "A criança se veste e se despe sozinha?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Dê roupas fáceis de vestir e despir, ensine a criança a sequência correta.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela se veste e se despe sozinha."
+    },
+    {
+      "Question": "A criança vai ao banheiro sozinha?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Certifique-se de que a criança sabe como usar o banheiro corretamente, deixe a criança ir ao banheiro quando precisar.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela vai ao banheiro sozinha."
+    },
+    {
+      "Question": "A criança lava as mãos sozinha?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine a criança a lavar as mãos corretamente, certifique-se de que a criança tem acesso a água e sabão.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela lava as mãos sozinha."
+    },
+    {
+      "Question": "A criança escova os dentes sozinha?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ensine a criança a escovar os dentes corretamente, certifique-se de que a criança tem acesso a escova e pasta de dente.",
+      "SuggestionWithAssistance": "Supervisione a escovação dos dentes da criança, elogie a criança quando ela escova os dentes sozinha."
+    },
+    {
+      "Question": "A criança come sozinha usando talheres?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Dê talheres adequados para a idade da criança, ensine a criança a usar os talheres corretamente.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela come sozinha usando talheres."
+    },
+    {
+      "Question": "A criança se oferece para ajudar em tarefas domésticas?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Incentive a criança a ajudar em tarefas domésticas, explique os benefícios de ajudar em casa.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela se oferece para ajudar em tarefas domésticas."
+    },
+    {
+      "Question": "A criança demonstra empatia por outras pessoas?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele o comportamento de empatia, explique como se colocar no lugar dos outros.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela demonstra empatia por outras pessoas."
+    },
+    {
+      "Question": "A criança respeita as diferenças entre as pessoas?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Explique que todas as pessoas são diferentes e que devemos respeitar as diferenças.",
+      "SuggestionWithAssistance": "Corrija a criança quando ela faz comentários desrespeitosos sobre outras pessoas."
+    },
+    {
+      "Question": "A criança expressa gratidão?",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Modele o comportamento de gratidão, explique a importância de agradecer pelas coisas boas.",
+      "SuggestionWithAssistance": "Incentive a criança a agradecer pelas coisas boas que acontecem em sua vida."
+    },
+    {
+      "Question": "A criança usa frases com 5-6 palavras?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Modele frases mais longas, expanda as tentativas da criança.",
+      "SuggestionWithAssistance": "Incentive a elaboração de ideias em frases complexas."
+    },
+    {
+      "Question": "A criança conta histórias simples?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a contar o que fez durante o dia, ajude a organizar a história.",
+      "SuggestionWithAssistance": "Faça perguntas para ajudar a criança a elaborar a história."
+    },
+    {
+      "Question": "A criança responde a perguntas complexas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Faça perguntas que exigem mais do que uma resposta simples, dê tempo para a criança pensar.",
+      "SuggestionWithAssistance": "Ajude a criança a encontrar as palavras certas para responder à pergunta."
+    },
+    {
+      "Question": "A criança usa o tempo futuro?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Fale sobre planos para o futuro, use o tempo futuro em suas frases.",
+      "SuggestionWithAssistance": "Incentive a criança a falar sobre seus planos para o futuro."
+    },
+    {
+      "Question": "A criança usa o tempo condicional?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use frases condicionais em suas conversas, explique o que significa 'se'.",
+      "SuggestionWithAssistance": "Incentive a criança a usar frases condicionais em suas conversas."
+    },
+    {
+      "Question": "A criança usa pronomes possessivos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use pronomes possessivos em suas frases, explique o que significa 'meu', 'seu', 'dele', 'dela'.",
+      "SuggestionWithAssistance": "Incentive a criança a usar pronomes possessivos em suas frases."
+    },
+    {
+      "Question": "A criança usa preposições complexas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use preposições complexas em suas frases, explique o que significa 'através', 'em cima de', 'em baixo de'.",
+      "SuggestionWithAssistance": "Incentive a criança a usar preposições complexas em suas frases."
+    },
+    {
+      "Question": "A criança usa conjunções complexas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Use conjunções complexas em suas frases, explique o que significa 'porque', 'mas', 'se', 'então'.",
+      "SuggestionWithAssistance": "Incentive a criança a usar conjunções complexas em suas frases."
+    },
+    {
+      "Question": "A criança descreve objetos em detalhes?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Peça para a criança descrever objetos, ajude a encontrar as palavras certas.",
+      "SuggestionWithAssistance": "Incentive a criança a usar adjetivos e outros detalhes para descrever os objetos."
+    },
+    {
+      "Question": "A criança segue instruções de 3 passos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Dê instruções claras e concisas, certifique-se de que a criança entendeu.",
+      "SuggestionWithAssistance": "Use lembretes visuais e elogios para incentivar a criança a seguir as instruções."
+    },
+    {
+      "Question": "A criança responde a perguntas sobre histórias?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Leia histórias para a criança, faça perguntas sobre os personagens, o enredo e o cenário.",
+      "SuggestionWithAssistance": "Incentive a criança a fazer perguntas sobre as histórias."
+    },
+    {
+      "Question": "A criança usa palavras para expressar suas necessidades e desejos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a usar palavras para expressar suas necessidades e desejos, ajude a encontrar as palavras certas.",
+      "SuggestionWithAssistance": "Responda prontamente aos pedidos da criança."
+    },
+    {
+      "Question": "A criança usa palavras para descrever seus sentimentos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Ensine o vocabulário emocional básico, valide os sentimentos da criança.",
+      "SuggestionWithAssistance": "Incentive a criança a usar palavras para descrever seus sentimentos."
+    },
+    {
+      "Question": "A criança usa palavras para fazer perguntas?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a fazer perguntas, responda às perguntas da criança de forma clara e concisa.",
+      "SuggestionWithAssistance": "Faça perguntas para estimular a curiosidade da criança."
+    },
+    {
+      "Question": "A criança usa palavras para contar histórias?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a contar histórias, ajude a organizar a história.",
+      "SuggestionWithAssistance": "Faça perguntas para ajudar a criança a elaborar a história."
+    },
+    {
+      "Question": "A criança usa palavras para expressar sua opinião?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Incentive a criança a expressar sua opinião, explique que todas as opiniões são válidas.",
+      "SuggestionWithAssistance": "Respeite a opinião da criança, mesmo que você não concorde."
+    },
+    {
+      "Question": "A criança usa palavras para resolver conflitos?",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Ensine estratégias de resolução de conflitos, como conversar e negociar.",
+      "SuggestionWithAssistance": "Ajude a criança a encontrar soluções para os conflitos, em vez de brigar."
+    },
+    {
+      "Question": "A criança reconhece e nomeia as cores primárias e secundárias?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos coloridos, faça jogos de identificação de cores.",
+      "SuggestionWithAssistance": "Incentive a criança a usar as cores para descrever objetos e desenhos."
+    },
+    {
+      "Question": "A criança reconhece e nomeia as formas geométricas básicas?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use objetos com formas geométricas diferentes, faça jogos de identificação de formas.",
+      "SuggestionWithAssistance": "Incentive a criança a usar as formas geométricas para desenhar e construir."
+    },
+    {
+      "Question": "A criança conta até 10?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Pratique a contagem com objetos concretos, use jogos e músicas para tornar a contagem mais divertida.",
+      "SuggestionWithAssistance": "Incentive a criança a usar a contagem em situações cotidianas."
+    },
+    {
+      "Question": "A criança reconhece os números de 1 a 10?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use cartões com números, faça jogos de identificação de números.",
+      "SuggestionWithAssistance": "Incentive a criança a usar os números para identificar quantidades e medidas."
+    },
+    {
+      "Question": "A criança entende os conceitos de 'maior' e 'menor'?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Compare objetos de tamanhos diferentes, use palavras como 'maior' e 'menor' em suas frases.",
+      "SuggestionWithAssistance": "Incentive a criança a usar os conceitos de 'maior' e 'menor' para comparar objetos e quantidades."
+    },
+    {
+      "Question": "A criança entende os conceitos de 'mais' e 'menos'?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Adicione e remova objetos de um grupo, use palavras como 'mais' e 'menos' em suas frases.",
+      "SuggestionWithAssistance": "Incentive a criança a usar os conceitos de 'mais' e 'menos' para comparar quantidades."
+    },
+    {
+      "Question": "A criança entende os conceitos de 'cheio' e 'vazio'?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Encha e esvazie recipientes, use palavras como 'cheio' e 'vazio' em suas frases.",
+      "SuggestionWithAssistance": "Incentive a criança a usar os conceitos de 'cheio' e 'vazio' para descrever recipientes e quantidades."
+    },
+    {
+      "Question": "A criança entende os conceitos de 'em cima', 'em baixo' e 'ao lado'?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Coloque objetos em diferentes posições, use palavras como 'em cima', 'em baixo' e 'ao lado' em suas frases.",
+      "SuggestionWithAssistance": "Incentive a criança a usar os conceitos de 'em cima', 'em baixo' e 'ao lado' para descrever a posição de objetos."
+    },
+    {
+      "Question": "A criança consegue seguir uma sequência de 3 instruções?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Dê instruções claras e concisas, certifique-se de que a criança entendeu.",
+      "SuggestionWithAssistance": "Use lembretes visuais e elogios para incentivar a criança a seguir as instruções."
+    },
+    {
+      "Question": "A criança consegue resolver quebra-cabeças simples?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Comece com quebra-cabeças de poucas peças, aumente a dificuldade gradualmente.",
+      "SuggestionWithAssistance": "Ajude a criança a encontrar as peças certas, elogie a criança quando ela completa o quebra-cabeça."
+    },
+    {
+      "Question": "A criança consegue identificar as partes do corpo?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use um boneco ou um espelho, aponte para as partes do corpo e diga o nome.",
+      "SuggestionWithAssistance": "Faça jogos de identificação das partes do corpo."
+    },
+    {
+      "Question": "A criança consegue identificar os animais?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros e brinquedos com animais, faça os sons dos animais.",
+      "SuggestionWithAssistance": "Leve a criança ao zoológico ou a uma fazenda."
+    },
+    {
+      "Question": "A criança consegue identificar os alimentos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use alimentos de verdade ou brinquedos de comida, diga o nome dos alimentos.",
+      "SuggestionWithAssistance": "Leve a criança ao supermercado ou à feira."
+    },
+    {
+      "Question": "A criança consegue identificar as roupas?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use roupas de verdade ou desenhos de roupas, diga o nome das roupas.",
+      "SuggestionWithAssistance": "Peça para a criança ajudar a guardar as roupas."
+    },
+    {
+      "Question": "A criança consegue identificar os meios de transporte?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use livros e brinquedos com meios de transporte, faça os sons dos meios de transporte.",
+      "SuggestionWithAssistance": "Leve a criança para ver os meios de transporte de perto."
+    },
+    {
+      "Question": "A criança consegue imitar desenhos simples?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Desenhe formas simples, peça para a criança imitar.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela imita os desenhos."
+    },
+    {
+      "Question": "A criança consegue copiar letras e números?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Escreva letras e números, peça para a criança copiar.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela copia as letras e os números."
+    },
+    {
+      "Question": "A criança consegue recortar com tesoura?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use tesoura sem ponta, ensine a criança a recortar corretamente.",
+      "SuggestionWithAssistance": "Supervisione a criança enquanto ela recorta."
+    },
+    {
+      "Question": "A criança consegue colar?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use cola bastão, ensine a criança a colar corretamente.",
+      "SuggestionWithAssistance": "Supervisione a criança enquanto ela cola."
+    },
+    {
+      "Question": "A criança consegue modelar com massinha?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use massinha de modelar, ensine a criança a modelar diferentes formas.",
+      "SuggestionWithAssistance": "Incentive a criança a usar a imaginação para criar diferentes objetos com a massinha."
+    },
+    {
+      "Question": "A criança consegue amarrar os sapatos?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use cadarços grossos, ensine a criança a amarrar os sapatos passo a passo.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela amarra os sapatos sozinha."
+    },
+    {
+      "Question": "A criança consegue abotoar e desabotoar botões?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use roupas com botões grandes, ensine a criança a abotoar e desabotoar os botões passo a passo.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela abotoa e desabotoa os botões sozinha."
+    },
+    {
+      "Question": "A criança consegue fechar e abrir zíperes?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use roupas com zíperes grandes, ensine a criança a fechar e abrir os zíperes passo a passo.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela fecha e abre os zíperes sozinha."
+    },
+    {
+      "Question": "A criança consegue identificar as horas em um relógio analógico?",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Use um relógio com ponteiros grandes, ensine a criança a identificar as horas.",
+      "SuggestionWithAssistance": "Incentive a criança a usar o relógio para marcar o tempo."
+    },
+    {
+      "Question": "A criança come sozinha usando garfo e faca?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Dê talheres adequados para a idade da criança, ensine a criança a usar os talheres corretamente.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela come sozinha usando garfo e faca."
+    },
+    {
+      "Question": "A criança serve-se sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Coloque os alimentos em recipientes acessíveis para a criança, ensine a criança a servir-se sozinha.",
+      "SuggestionWithAssistance": "Supervisione a criança enquanto ela se serve, para evitar que ela derrame ou pegue comida demais."
+    },
+    {
+      "Question": "A criança bebe água sozinha quando tem sede?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Deixe água acessível para a criança, ensine a criança a pedir água quando tiver sede.",
+      "SuggestionWithAssistance": "Incentive a criança a beber água regularmente."
+    },
+    {
+      "Question": "A criança lava as mãos sozinha com sabão?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a lavar as mãos corretamente, certifique-se de que a criança tem acesso a água e sabão.",
+      "SuggestionWithAssistance": "Lembre a criança de lavar as mãos antes das refeições e depois de usar o banheiro."
+    },
+    {
+      "Question": "A criança escova os dentes sozinha com pasta?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a escovar os dentes corretamente, certifique-se de que a criança tem acesso a escova e pasta de dente.",
+      "SuggestionWithAssistance": "Supervisione a escovação dos dentes da criança, para garantir que ela está escovando corretamente."
+    },
+    {
+      "Question": "A criança penteia o cabelo sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Dê um pente adequado para a idade da criança, ensine a criança a pentear o cabelo corretamente.",
+      "SuggestionWithAssistance": "Ajude a criança a desembaraçar o cabelo, se necessário."
+    },
+    {
+      "Question": "A criança se veste e se despe sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Dê roupas fáceis de vestir e despir, ensine a criança a sequência correta.",
+      "SuggestionWithAssistance": "Ajude a criança a abotoar e desabotoar botões, se necessário."
+    },
+    {
+      "Question": "A criança vai ao banheiro sozinha e se limpa?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Certifique-se de que a criança sabe como usar o banheiro corretamente, ensine a criança a se limpar corretamente.",
+      "SuggestionWithAssistance": "Supervisione a criança no banheiro, para garantir que ela está se limpando corretamente."
+    },
+    {
+      "Question": "A criança toma banho sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Certifique-se de que a criança sabe como tomar banho corretamente, deixe a criança tomar banho quando precisar.",
+      "SuggestionWithAssistance": "Supervisione a criança no banho, para garantir que ela está se lavando corretamente."
+    },
+    {
+      "Question": "A criança assoa o nariz sozinha?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a assoar o nariz corretamente, certifique-se de que a criança tem acesso a lenços de papel.",
+      "SuggestionWithAssistance": "Lembre a criança de assoar o nariz regularmente."
+    },
+    {
+      "Question": "A criança cobre a boca ao tossir ou espirrar?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a cobrir a boca ao tossir ou espirrar, explique a importância de evitar a propagação de germes.",
+      "SuggestionWithAssistance": "Lembre a criança de cobrir a boca ao tossir ou espirrar."
+    },
+    {
+      "Question": "A criança evita objetos perigosos?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança sobre os perigos de objetos afiados, quentes e tóxicos.",
+      "SuggestionWithAssistance": "Mantenha objetos perigosos fora do alcance da criança."
+    },
+    {
+      "Question": "A criança atravessa a rua com segurança?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a olhar para os dois lados antes de atravessar a rua, explique a importância de atravessar na faixa de pedestres.",
+      "SuggestionWithAssistance": "Supervisione a criança ao atravessar a rua."
+    },
+    {
+      "Question": "A criança pede ajuda em caso de emergência?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a ligar para o número de emergência, explique o que dizer em caso de emergência.",
+      "SuggestionWithAssistance": "Mantenha o número de emergência em um local visível."
+    },
+    {
+      "Question": "A criança conhece seu nome completo, endereço e telefone?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança seu nome completo, endereço e telefone, repita as informações regularmente.",
+      "SuggestionWithAssistance": "Mantenha as informações em um local visível."
+    },
+    {
+      "Question": "A criança sabe o que fazer se estiver perdida?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a procurar um adulto de confiança, explique que ela não deve ir com estranhos.",
+      "SuggestionWithAssistance": "Pratique situações em que a criança está perdida."
+    },
+    {
+      "Question": "A criança sabe o que fazer se alguém a tocar de forma inadequada?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança sobre toques seguros e inseguros, explique que ela tem o direito de dizer não.",
+      "SuggestionWithAssistance": "Incentive a criança a contar para um adulto de confiança se alguém a tocar de forma inadequada."
+    },
+    {
+      "Question": "A criança sabe o que fazer se alguém tentar levá-la embora?",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensine a criança a gritar por ajuda, explique que ela deve correr para um local seguro.",
+      "SuggestionWithAssistance": "Pratique situações em que alguém tenta levar a criança embora."
+    },
+    {
+      "Question": "A criança corre com facilidade e sem cair?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Pratique corrida em espaços seguros, incentive a criança a correr mais rápido.",
+      "SuggestionWithAssistance": "Crie jogos de corrida para tornar a atividade mais divertida."
+    },
+    {
+      "Question": "A criança pula com os dois pés juntos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre o pulo, incentive a criança a pular mais alto.",
+      "SuggestionWithAssistance": "Crie jogos de pular para tornar a atividade mais divertida."
+    },
+    {
+      "Question": "A criança sobe e desce escadas alternando os pés?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Supervisione a criança ao subir e descer escadas, incentive a criança a alternar os pés.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela sobe e desce escadas corretamente."
+    },
+    {
+      "Question": "A criança pedala um triciclo ou bicicleta?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Dê um triciclo ou bicicleta adequada para a idade da criança, ensine a criança a pedalar.",
+      "SuggestionWithAssistance": "Supervisione a criança enquanto ela pedala."
+    },
+    {
+      "Question": "A criança arremessa uma bola com precisão?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre o arremesso, incentive a criança a arremessar a bola em um alvo.",
+      "SuggestionWithAssistance": "Crie jogos de arremesso para tornar a atividade mais divertida."
+    },
+    {
+      "Question": "A criança pega uma bola arremessada?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Arremesse a bola para a criança, incentive a criança a pegar a bola.",
+      "SuggestionWithAssistance": "Comece com distâncias curtas, aumente a distância gradualmente."
+    },
+    {
+      "Question": "A criança chuta uma bola com precisão?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre o chute, incentive a criança a chutar a bola em um alvo.",
+      "SuggestionWithAssistance": "Crie jogos de chute para tornar a atividade mais divertida."
+    },
+    {
+      "Question": "A criança consegue ficar em um pé só por alguns segundos?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Incentive a criança a praticar o equilíbrio, segure a mão da criança no início.",
+      "SuggestionWithAssistance": "Elogie a criança quando ela consegue ficar em um pé só."
+    },
+    {
+      "Question": "A criança consegue andar na ponta dos pés?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre a caminhada na ponta dos pés, incentive a criança a praticar.",
+      "SuggestionWithAssistance": "Crie jogos de caminhada na ponta dos pés para tornar a atividade mais divertida."
+    },
+    {
+      "Question": "A criança consegue pular corda?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Demonstre o pulo de corda, incentive a criança a praticar.",
+      "SuggestionWithAssistance": "Comece com a corda parada, aumente a velocidade gradualmente."
+    },
+    {
+      "Question": "A criança consegue dançar?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Toque música, incentive a criança a se mover livremente.",
+      "SuggestionWithAssistance": "Ensine alguns passos de dança simples."
+    },
+    {
+      "Question": "A criança consegue desenhar?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Dê materiais para desenho, incentive a criança a usar a imaginação.",
+      "SuggestionWithAssistance": "Elogie os desenhos da criança."
+    },
+    {
+      "Question": "A criança consegue pintar?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Dê materiais para pintura, incentive a criança a usar a imaginação.",
+      "SuggestionWithAssistance": "Elogie as pinturas da criança."
+    },
+    {
+      "Question": "A criança consegue modelar com massinha?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Dê massinha de modelar, incentive a criança a usar a imaginação.",
+      "SuggestionWithAssistance": "Elogie as criações da criança com massinha."
+    },
+    {
+      "Question": "A criança consegue recortar com tesoura?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Dê tesoura sem ponta, ensine a criança a recortar corretamente.",
+      "SuggestionWithAssistance": "Supervisione a criança enquanto ela recorta."
+    },
+    {
+      "Question": "A criança consegue colar?",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Dê cola bastão, ensine a criança a colar corretamente.",
+      "SuggestionWithAssistance": "Supervisione a criança enquanto ela cola."
+    }
+  ],
+
+  "5 a 6 anos": [
+    {
+      "Question": "Manifesta seus sentimentos",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Nomear emoções em diferentes situações, usar livros e histórias para ilustrar.",
+      "SuggestionWithAssistance": "Sugerir palavras para expressar, elogiar quando tentar."
+    },
+    {
+      "Question": "Brinca com 4 a 5 crianças em atividade de cooperação por 20 min, sem supervisão.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Facilitar encontros em pequenos grupos, modelar regras de cooperação.",
+      "SuggestionWithAssistance": "Acompanhar inicialmente, reforçar turnos e divisão de tarefas."
+    },
+    {
+      "Question": "Explica aos outros as regras do jogo ou atividade.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Jogar junto, incentivar a criança a dizer o que lembra das regras.",
+      "SuggestionWithAssistance": "Sugerir frases curtas, ajudar a recordar durante o jogo."
+    },
+    {
+      "Question": "Imita papéis de adulto.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Propor brincadeiras de faz-de-conta com fantasias, bonecos ou objetos do cotidiano.",
+      "SuggestionWithAssistance": "Participar inicialmente, modelar falas e atitudes."
+    },
+    {
+      "Question": "Colabora para a conversa durante as refeições.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Fazer perguntas simples durante as refeições, valorizar cada contribuição.",
+      "SuggestionWithAssistance": "Ajudar a iniciar fala, elogiar participação."
+    },
+    {
+      "Question": "Segue regras de jogo que envolva raciocínio verbal.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Jogar juntos jogos de tabuleiro simples, explicar as regras de forma clara.",
+      "SuggestionWithAssistance": "Reforçar regras verbalmente durante o jogo, ajudar na vez da criança."
+    },
+    {
+      "Question": "Conforta colegas tristes.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Falar sobre empatia em histórias ou rodas de conversa.",
+      "SuggestionWithAssistance": "Sugerir frases para confortar, elogiar quando demonstrar cuidado."
+    },
+    {
+      "Question": "Escolhe seus próprios amigos.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Permitir brincar com pares que escolher, supervisionar para mediar conflitos.",
+      "SuggestionWithAssistance": "Incentivar iniciativa de aproximação, reforçar amizade saudável."
+    },
+    {
+      "Question": "Planeja e constrói usando ferramentas simples.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Oferecer materiais seguros (papel, fita, tesoura sem ponta), modelar uso.",
+      "SuggestionWithAssistance": "Ajudar a pensar etapas do projeto, reforçar cada conquista."
+    },
+    {
+      "Question": "Dramatiza histórias usando fantoches ou encenando papéis.",
+      "Category": "Socialização",
+      "SuggestionNotYet": "Ler histórias e sugerir dramatizações, disponibilizar fantoches.",
+      "SuggestionWithAssistance": "Auxiliar no começo da encenação, reforçar positivamente."
+    },
+    {
+      "Question": "Indica alguns, muitos, vários elementos.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Contar objetos em sala, perguntar “quantos tem?”.",
+      "SuggestionWithAssistance": "Repetir junto, reforçar verbalmente a quantidade."
+    },
+    {
+      "Question": "Diz seu endereço.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Repetir diariamente, criar música ou rima com endereço.",
+      "SuggestionWithAssistance": "Ajudar a lembrar, reforçar cada tentativa."
+    },
+    {
+      "Question": "Diz número de telefone.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Brincar de “telefone de mentirinha”, repetir número com ritmo.",
+      "SuggestionWithAssistance": "Guiar a fala, elogiar ao acertar."
+    },
+    {
+      "Question": "Aponta conjunto com mais, menos ou poucos elementos.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Usar blocos coloridos, perguntar “qual tem mais?”.",
+      "SuggestionWithAssistance": "Reforçar resposta correta, ajudar a contar."
+    },
+    {
+      "Question": "Conta piadas simples.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Contar piadas curtas, incentivar a repetir.",
+      "SuggestionWithAssistance": "Ajudar a lembrar piada, reforçar cada tentativa."
+    },
+    {
+      "Question": "Relata experiências diárias.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Perguntar “o que fez hoje?”, incentivar a falar em sequência.",
+      "SuggestionWithAssistance": "Ajudar a lembrar etapas, reforçar verbalmente."
+    },
+    {
+      "Question": "Descreve local ou movimento: através, longe, por cima.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Brincar de percorrer caminhos, nomear direções.",
+      "SuggestionWithAssistance": "Reforçar cada expressão, repetir junto."
+    },
+    {
+      "Question": "Responde “por quê” com explicação.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Fazer perguntas “por quê?” em situações do cotidiano.",
+      "SuggestionWithAssistance": "Sugerir resposta, reforçar verbalmente."
+    },
+    {
+      "Question": "Ordena e conta história em sequência.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Usar figuras de histórias simples, pedir para ordenar.",
+      "SuggestionWithAssistance": "Ajudar na sequência, elogiar progresso."
+    },
+    {
+      "Question": "Define palavras.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Perguntar “o que é...?”, ajudar a criar definições curtas.",
+      "SuggestionWithAssistance": "Modelar definição, reforçar cada tentativa."
+    },
+    {
+      "Question": "Responde “qual o contrário de...?”.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Brincar de opostos, perguntar frequentemente.",
+      "SuggestionWithAssistance": "Sugerir resposta, elogiar cada acerto."
+    },
+    {
+      "Question": "Responde “o que acontece se...?”.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Contar histórias com hipóteses.",
+      "SuggestionWithAssistance": "Ajudar a imaginar, reforçar cada resposta."
+    },
+    {
+      "Question": "Usa “ontem” e “amanhã” corretamente.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Falar de planos e eventos passados, reforçar palavras.",
+      "SuggestionWithAssistance": "Corrigir suavemente, elogiar cada uso."
+    },
+    {
+      "Question": "Pergunta significado de palavras.",
+      "Category": "Linguagem",
+      "SuggestionNotYet": "Explicar pacientemente, usar exemplos.",
+      "SuggestionWithAssistance": "Reforçar curiosidade, elogiar pergunta."
+    },
+    {
+      "Question": "Conta até 20 objetos e responde “quantos?”.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Contar brinquedos juntos, perguntar número ao final.",
+      "SuggestionWithAssistance": "Ajudar a apontar cada objeto, reforçar resposta."
+    },
+    {
+      "Question": "Nomeia 10 numerais.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar cartões com números, nomear junto.",
+      "SuggestionWithAssistance": "Repetir nomes, elogiar cada acerto."
+    },
+    {
+      "Question": "Identifica esquerda e direita.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Brincar de levantar mão esquerda/direita, usar pulseira colorida para marcar.",
+      "SuggestionWithAssistance": "Ajudar a nomear, reforçar durante o dia."
+    },
+    {
+      "Question": "Diz vogais em ordem.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Cantar música do alfabeto, mostrar fichas.",
+      "SuggestionWithAssistance": "Repetir junto, elogiar cada avanço."
+    },
+    {
+      "Question": "Escreve nome com letras de forma.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar modelo do nome, guiar mão na escrita.",
+      "SuggestionWithAssistance": "Ajudar na coordenação, reforçar cada letra."
+    },
+    {
+      "Question": "Nomeia 5 letras do alfabeto.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Apresentar fichas, perguntar nomes.",
+      "SuggestionWithAssistance": "Sugerir resposta, repetir junto."
+    },
+    {
+      "Question": "Ordena objetos por comprimento/largura.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Oferecer palitos ou fitas de tamanhos diferentes.",
+      "SuggestionWithAssistance": "Guiar ordenação, reforçar verbalmente."
+    },
+    {
+      "Question": "Nomeia letras maiúsculas.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar letras, perguntar nomes.",
+      "SuggestionWithAssistance": "Ajudar a lembrar, repetir junto."
+    },
+    {
+      "Question": "Coloca numerais de 1 a 10 na ordem.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Dar cartões embaralhados, pedir para arrumar.",
+      "SuggestionWithAssistance": "Guiar sequência, elogiar cada passo."
+    },
+    {
+      "Question": "Identifica posição em 1º, 2º e 3º lugar.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Brincar de corrida de brinquedos, perguntar colocação.",
+      "SuggestionWithAssistance": "Apontar lugar, reforçar nome."
+    },
+    {
+      "Question": "Nomeia letras maiúsculas/minúsculas.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar fichas, perguntar nome.",
+      "SuggestionWithAssistance": "Ajudar lembrar, reforçar acerto."
+    },
+    {
+      "Question": "Emparelha letras maiúsculas/minúsculas.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar pares, perguntar “qual combina?”.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada par."
+    },
+    {
+      "Question": "Aponta numerais de 1 a 25.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar números, perguntar “onde está?”.",
+      "SuggestionWithAssistance": "Ajudar apontar, reforçar cada número."
+    },
+    {
+      "Question": "Copia losango.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar forma devagar, traçar junto.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada traço."
+    },
+    {
+      "Question": "Completa labirinto simples.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Traçar caminho devagar, elogiar progresso.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada curva."
+    },
+    {
+      "Question": "Diz dias da semana na ordem.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Cantar dias, repetir diariamente.",
+      "SuggestionWithAssistance": "Ajudar lembrar, reforçar cada dia."
+    },
+    {
+      "Question": "Soma/subtrai combinações de até 3 elementos.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Contar objetos, perguntar resultado.",
+      "SuggestionWithAssistance": "Guiar contagem, reforçar operação."
+    },
+    {
+      "Question": "Diz mês/dia de aniversário.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Repetir sempre, cantar parabéns.",
+      "SuggestionWithAssistance": "Ajudar lembrar, reforçar cada resposta."
+    },
+    {
+      "Question": "Lê 10 palavras impressas.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar fichas, perguntar palavra.",
+      "SuggestionWithAssistance": "Repetir junto, reforçar leitura."
+    },
+    {
+      "Question": "Prediz o que vai acontecer.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Contar história curta, perguntar final.",
+      "SuggestionWithAssistance": "Sugerir resposta, reforçar previsão."
+    },
+    {
+      "Question": "Aponta objetos inteiros/partidos.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Mostrar figuras, perguntar “inteiro ou partido?”.",
+      "SuggestionWithAssistance": "Guiar resposta, elogiar."
+    },
+    {
+      "Question": "Conta de memória até 100.",
+      "Category": "Cognição",
+      "SuggestionNotYet": "Contar em etapas, reforçar cada dezena.",
+      "SuggestionWithAssistance": "Ajudar lembrar, elogiar cada progresso."
+    },
+    {
+      "Question": "É responsável por uma tarefa semanal e a executa ao ser lembrado.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Criar quadro de tarefas visível, lembrar de forma positiva.",
+      "SuggestionWithAssistance": "Acompanhar no início, reforçando o valor de ajudar."
+    },
+    {
+      "Question": "Seleciona roupas apropriadas ao clima e ocasião.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Nomear as diferenças de roupas e clima, mostrar exemplos.",
+      "SuggestionWithAssistance": "Sugerir combinações e orientar a escolha com elogios."
+    },
+    {
+      "Question": "Pára no passeio, olha para os dois lados, atravessa a rua sem ser lembrado.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensinar regras de segurança em simulações, reforçar sempre que sair.",
+      "SuggestionWithAssistance": "Acompanhar de perto nas primeiras vezes, elogiando o comportamento seguro."
+    },
+    {
+      "Question": "Serve-se à mesa e passa aos demais a panela de comida.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensinar como segurar e passar com cuidado, praticar em momentos de brincadeira.",
+      "SuggestionWithAssistance": "Ajudar segurando junto, orientar com paciência."
+    },
+    {
+      "Question": "Prepara sua própria caneca de café com leite.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Mostrar cada passo de forma simples, usar recipientes leves.",
+      "SuggestionWithAssistance": "Supervisionar de perto, reforçar cada conquista."
+    },
+    {
+      "Question": "É responsável por uma tarefa diária em casa.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Fazer combinados claros e elogiar cada tarefa concluída.",
+      "SuggestionWithAssistance": "Ajudar a lembrar, supervisionar até virar rotina."
+    },
+    {
+      "Question": "Ajusta a temperatura da água para o banho.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Mostrar como virar a torneira, explicar sobre risco de queimaduras.",
+      "SuggestionWithAssistance": "Acompanhar as primeiras vezes, corrigir se necessário."
+    },
+    {
+      "Question": "Prepara seu próprio lanche.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Oferecer alimentos de fácil manuseio, mostrar como montar.",
+      "SuggestionWithAssistance": "Ajudar nos primeiros passos, reforçando a autonomia."
+    },
+    {
+      "Question": "Anda sozinho até 2 quadras de casa.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensinar o caminho, reforçar cuidados com trânsito e estranhos.",
+      "SuggestionWithAssistance": "Acompanhar inicialmente, reforçando combinações de segurança."
+    },
+    {
+      "Question": "Corta alimentos tenros com faca.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Usar faca infantil sem ponta, mostrar como segurar.",
+      "SuggestionWithAssistance": "Guiar a mão da criança, reforçando cada progresso."
+    },
+    {
+      "Question": "É responsável por tarefa semanal (lembrado).",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Criar quadro de tarefas, elogiar cada vez.",
+      "SuggestionWithAssistance": "Ajudar lembrar, reforçar responsabilidade."
+    },
+    {
+      "Question": "Seleciona roupa adequada para clima.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Explicar clima, mostrar exemplos.",
+      "SuggestionWithAssistance": "Sugerir escolha, elogiar decisão."
+    },
+    {
+      "Question": "Pára na calçada e olha para atravessar.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensinar regras de trânsito, praticar juntos.",
+      "SuggestionWithAssistance": "Acompanhar, reforçar cada ação segura."
+    },
+    {
+      "Question": "Serve-se à mesa, passa panela aos outros.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Mostrar como segurar, supervisionar.",
+      "SuggestionWithAssistance": "Guiar mãos, elogiar cuidado."
+    },
+    {
+      "Question": "Prepara própria caneca de café/leite.",
+      "Category": "Auto-cuidados",
+      "SuggestionNotYet": "Ensinar passo a passo, supervisionar.",
+      "SuggestionWithAssistance": "Ajudar primeiras vezes, reforçar autonomia."
+    },
+    {
+      "Question": "Escreve letras de forma maiúsculas isoladas.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar traçado devagar, usar modelo visual.",
+      "SuggestionWithAssistance": "Guiar mão na escrita, reforçar cada letra."
+    },
+    {
+      "Question": "Anda sobre tábua para trás/frente/lados.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Brincar de equilibrar, segurar mãos no início.",
+      "SuggestionWithAssistance": "Soltar devagar, elogiar equilíbrio."
+    },
+    {
+      "Question": "Caminha saltitando.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar salto alternando pés, cantar música curta.",
+      "SuggestionWithAssistance": "Segurar mão, reforçar ritmo."
+    },
+    {
+      "Question": "Balança iniciando movimento.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ensinar impulsionar pernas, empurrar devagar.",
+      "SuggestionWithAssistance": "Segurar costas, reforçar coordenação."
+    },
+    {
+      "Question": "Toca cada dedo com polegar.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar devagar, cantar “um, dois, três...”.",
+      "SuggestionWithAssistance": "Guiar dedos, elogiar coordenação."
+    },
+    {
+      "Question": "Copia letras maiúsculas.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Desenhar modelo grande, repetir junto.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar traçado."
+    },
+    {
+      "Question": "Sobe escada de 3 m.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Segurar cintura, mostrar apoio nos degraus.",
+      "SuggestionWithAssistance": "Soltar devagar, elogiar coragem."
+    },
+    {
+      "Question": "Bate em prego com martelo.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar como segurar martelo, usar prego grande.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar força."
+    },
+    {
+      "Question": "Rebate bola andando.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar como bater bola, andar devagar.",
+      "SuggestionWithAssistance": "Guiar movimento, reforçar controle."
+    },
+    {
+      "Question": "Colore dentro da margem 95% das vezes.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar linha do desenho, usar lápis grosso.",
+      "SuggestionWithAssistance": "Ajudar a segurar, elogiar cada cor."
+    },
+    {
+      "Question": "Desenha quadrado.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Traçar modelo, ajudar mãos.",
+      "SuggestionWithAssistance": "Guiar traço, reforçar forma."
+    },
+    {
+      "Question": "Copia triângulo.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar modelo, praticar junto.",
+      "SuggestionWithAssistance": "Guiar mão, elogiar progresso."
+    },
+    {
+      "Question": "Fica em um pé 8 seg.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Brincar de estátua, reforçar equilíbrio.",
+      "SuggestionWithAssistance": "Soltar devagar, reforçar cada segundo."
+    },
+    {
+      "Question": "Anda sobre viga mantendo equilíbrio.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar como olhar à frente, segurar mãos.",
+      "SuggestionWithAssistance": "Soltar aos poucos, reforçar cada passo."
+    },
+    {
+      "Question": "Pula corda sem ajuda.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar movimento, praticar devagar.",
+      "SuggestionWithAssistance": "Segurar corda juntos, reforçar salto."
+    },
+    {
+      "Question": "Faz sequência de saltos alternados.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Brincar de “pular como sapo”, supervisionar.",
+      "SuggestionWithAssistance": "Segurar leve, reforçar ritmo."
+    },
+    {
+      "Question": "Pedala bicicleta com rodinhas 5 m.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar como pedalar, segurar costas.",
+      "SuggestionWithAssistance": "Guiar pés, reforçar coordenação."
+    },
+    {
+      "Question": "Prende botões pequenos sozinho.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar movimento, praticar em brinquedos.",
+      "SuggestionWithAssistance": "Guiar dedos, elogiar cada botão."
+    },
+    {
+      "Question": "Corta ao longo de linha curva.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Traçar linha, usar tesoura infantil.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada corte."
+    },
+    {
+      "Question": "Escreve nome com letras grandes.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar modelo, praticar devagar.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada letra."
+    },
+    {
+      "Question": "Dobra papel em duas partes iguais.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar movimento, supervisionar.",
+      "SuggestionWithAssistance": "Guiar mãos, elogiar cada dobra."
+    },
+    {
+      "Question": "Desenha figura humana com detalhes.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Apontar partes, incentivar traço.",
+      "SuggestionWithAssistance": "Ajudar lembrar partes, reforçar desenho."
+    },
+    {
+      "Question": "Rebate bola com bastão.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar movimento, segurar bastão juntos.",
+      "SuggestionWithAssistance": "Guiar braço, reforçar cada rebatida."
+    },
+    {
+      "Question": "Chuta bola em movimento.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Rolar bola devagar, incentivar chute.",
+      "SuggestionWithAssistance": "Guiar perna, elogiar cada acerto."
+    },
+    {
+      "Question": "Coloca fecho de roupa sozinho.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar movimento devagar, praticar.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar paciência."
+    },
+    {
+      "Question": "Salta sobre corda baixa.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Colocar corda no chão, mostrar salto.",
+      "SuggestionWithAssistance": "Segurar mãos, reforçar cada pulo."
+    },
+    {
+      "Question": "Pedala bicicleta sem rodinhas.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Ensinar equilíbrio, supervisionar.",
+      "SuggestionWithAssistance": "Ajudar segurar guidão, reforçar progresso."
+    },
+    {
+      "Question": "Copia losango.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Traçar modelo, mostrar devagar.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada traço."
+    },
+    {
+      "Question": "Junta peças pequenas em brinquedo de montar.",
+      "Category": "Desenvolvimento Motor",
+      "SuggestionNotYet": "Mostrar encaixe, usar peças grandes no início.",
+      "SuggestionWithAssistance": "Guiar mão, reforçar cada encaixe."
+    }
+  ],
+
+  "7 anos ou mais": [
+    {
+      "Question": "Resolve atividades que exijam habilidades de percepção analítica, identificação e discriminação visual.",
+      "Category": "Percepção",
+      "SuggestionNotYet": "Utilizar jogos com figuras e quebra-cabeças simples. Estimular discriminação visual com cartões e imagens variadas.",
+      "SuggestionWithAssistance": "Aumentar a complexidade gradualmente, reforçando com pistas visuais e verbalizações."
+    },
+    {
+      "question": "Resolve atividades que exijam habilidades percepção analítica identificação e discriminação auditiva.",
+      "category": "Percepção",
+      "SuggestionNotYet": "Fazer jogos de sons com objetos, gravar e reproduzir sons do cotidiano para identificação.",
+      "SuggestionWithAssistance": "Repetir instruções com clareza e reforço sonoro. Associar som à imagem."
+    },
+    {
+      "question": "Consegue fazer atividades que exijam percepção cinestésica (percepção dos movimentos corporais ou das sensações corporais).",
+      "category": "Percepção",
+      "SuggestionNotYet": "Propor brincadeiras de movimento (ex: mímica, yoga infantil). Estimular percepção do corpo no espaço.",
+      "SuggestionWithAssistance": "Orientar verbalmente os movimentos. Dar feedbacks imediatos sobre postura e deslocamento."
+    },
+    {
+      "question": "Consegue fazer atividades que exijam percepção espacial e temporal.",
+      "category": "Percepção",
+      "SuggestionNotYet": "Usar jogos de montar com sequência e direção. Atividades com rotina diária organizada visualmente.",
+      "SuggestionWithAssistance": "Auxiliar com pistas visuais e verbais. Fazer perguntas sobre o antes e depois."
+    },
+    {
+      "question": "Consegue fazer atividades que exijam percepção tátil.",
+      "category": "Percepção",
+      "SuggestionNotYet": "Estimular atividades com diferentes texturas, pesos, temperaturas (ex: caixas sensoriais).",
+      "SuggestionWithAssistance": "Fazer a mediação verbal das sensações. Pedir para relatar como se sente com determinado estímulo."
+    },
+    {
+      "question": "Demonstra habilidade de seleção e manutenção de foco em atividades que exijam atenção concentrada e alternada.",
+      "category": "Atenção",
+      "SuggestionNotYet": "Usar jogos curtos com tempo determinado e reforço positivo imediato. Eliminar estímulos excessivos.",
+      "SuggestionWithAssistance": "Diminuir tempo da atividade e dividir em etapas curtas. Dar reforço verbal a cada foco mantido."
+    },
+    {
+      "question": "Demonstra concentração nas atividades.",
+      "category": "Atenção",
+      "SuggestionNotYet": "Iniciar com atividades lúdicas de 3-5 minutos. Estimular com materiais concretos e visuais.",
+      "SuggestionWithAssistance": "Reforçar verbalmente o esforço de concentração. Dar intervalos controlados entre tarefas."
+    },
+    {
+      "question": "Demonstra compreensão de ordens.",
+      "category": "Atenção",
+      "SuggestionNotYet": "Utilizar comandos simples, uma ordem por vez. Representar com gestos e imagens.",
+      "SuggestionWithAssistance": "Dar apoio verbal ou físico leve. Repetir e reforçar cada etapa concluída."
+    },
+    {
+      "question": "Demonstra interesse por histórias contadas ou lidas.",
+      "category": "Atenção",
+      "SuggestionNotYet": "Contar histórias com imagens, usar fantoches. Repetir personagens com frequência.",
+      "SuggestionWithAssistance": "Reforçar com perguntas simples (quem é esse?) e oferecer escolhas."
+    },
+    {
+      "question": "Demonstra memória auditiva e verbal.",
+      "category": "Memória",
+      "SuggestionNotYet": "Utilizar jogos de repetição com palavras e números (ex: jogo da memória). Iniciar com 2 ou 3 estímulos.",
+      "SuggestionWithAssistance": "Repetir estímulos verbalmente. Reforçar uso de pistas visuais e auditivas."
+    },
+    {
+      "question": "Demonstra memória visual.",
+      "category": "Memória",
+      "SuggestionNotYet": "Usar jogos de memória visual com cartas, figuras e objetos. Começar com poucos elementos.",
+      "SuggestionWithAssistance": "Dar pistas visuais e verbais. Permitir mais tempo para observação antes de esconder objetos."
+    },
+    {
+      "question": "Demonstra memória de fatos cotidianos.",
+      "category": "Memória",
+      "SuggestionNotYet": "Estimular evocação de fatos do cotidiano com imagens e conversas. Criar diário com colagens.",
+      "SuggestionWithAssistance": "Oferecer pistas de contexto (tempo, lugar). Estimular reconto com apoio visual."
+    },
+    {
+      "question": "Demonstra memória de sequência temporal.",
+      "category": "Memória",
+      "SuggestionNotYet": "Utilizar histórias curtas com imagens embaralhadas. Trabalhar rotinas em sequência.",
+      "SuggestionWithAssistance": "Ajudar com perguntas do tipo o que aconteceu depois?. Reforçar uso de marcadores temporais."
+    },
+    {
+      "question": "Demonstra habilidade de compreensão da língua portuguesa oral.",
+      "category": "Linguagem",
+      "SuggestionNotYet": "Dar instruções com poucas palavras. Reforçar com gestos e imagens.",
+      "SuggestionWithAssistance": "Repetir instruções devagar. Confirmar compreensão com perguntas simples."
+    },
+    {
+      "question": "Demonstra habilidade de expressão da língua portuguesa oral.",
+      "category": "Linguagem",
+      "SuggestionNotYet": "Estimular fala com jogos de perguntas/respostas. Usar histórias e reconto com apoio visual.",
+      "SuggestionWithAssistance": "Completar frases, incentivar a continuidade da fala. Reforçar verbalmente cada tentativa."
+    },
+    {
+      "question": "Demonstra habilidade de compreensão da língua portuguesa escrita.",
+      "category": "Linguagem",
+      "SuggestionNotYet": "Utilizar textos curtos com apoio de imagens. Trabalhar vocabulário antes da leitura.",
+      "SuggestionWithAssistance": "Ler em voz alta com o aluno. Parar a leitura para reforçar significados."
+    },
+    {
+      "question": "Demonstra habilidade de expressão da língua portuguesa escrita.",
+      "category": "Linguagem",
+      "SuggestionNotYet": "Trabalhar escrita de palavras-chave. Usar desenhos como ponto de partida para produção de frases.",
+      "SuggestionWithAssistance": "Oferecer modelos de frases. Corrigir com reforço positivo e sugestão de melhoria."
+    },
+    {
+      "question": "Demonstra compreensão nas atividades que envolvam relações de igualdade e diferença.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Usar jogos de classificação com objetos concretos. Trabalhar com pares e diferenças visuais.",
+      "SuggestionWithAssistance": "Apoiar com pistas verbais e demonstrações. Reforçar cada acerto com feedback positivo."
+    },
+    {
+      "question": "Manifesta reação de reconhecimento de absurdos.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Apresentar situações absurdas em histórias e imagens. Estimular o questionamento.",
+      "SuggestionWithAssistance": "Fazer perguntas direcionadas sobre o que está errado. Dar pistas sobre inconsistências."
+    },
+    {
+      "question": "Demonstra habilidade para fazer conclusões lógicas.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Usar situações problema simples do cotidiano. Trabalhar causa e consequência com exemplos concretos.",
+      "SuggestionWithAssistance": "Guiar o raciocínio com perguntas sequenciais. Oferecer alternativas para escolha."
+    },
+    {
+      "question": "Compreende ordens ou enunciados lidos pelo professor.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Simplificar comandos e usar apoio visual. Repetir instruções de forma clara e pausada.",
+      "SuggestionWithAssistance": "Verificar compreensão a cada etapa. Reformular instruções quando necessário."
+    },
+    {
+      "question": "Resolve problemas do cotidiano ou situações-problema propostas pelo professor.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Apresentar problemas simples com materiais concretos. Usar situações familiares ao aluno.",
+      "SuggestionWithAssistance": "Dividir o problema em etapas menores. Oferecer pistas e orientações durante o processo."
+    },
+    {
+      "question": "Discute problemas e fatos ocorridos na atualidade (do mundo que o cerca).",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Usar notícias simples e adequadas à idade. Relacionar com experiências pessoais do aluno.",
+      "SuggestionWithAssistance": "Fazer perguntas direcionadas sobre o tema. Oferecer diferentes pontos de vista."
+    },
+    {
+      "question": "Compreende relação de causalidade.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Trabalhar com sequências de causa e efeito usando imagens. Usar exemplos do dia a dia.",
+      "SuggestionWithAssistance": "Explicar as relações verbalmente. Usar conectivos como 'porque', 'então', 'por isso'."
+    },
+    {
+      "question": "Organiza sequência lógica conforme critério dado pelo professor.",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Usar cartões com sequências temporais simples. Começar com 3 elementos apenas.",
+      "SuggestionWithAssistance": "Dar pistas sobre a ordem correta. Explicar o critério de organização."
+    },
+    {
+      "question": "Demonstra habilidade de antecipar, planejar, controlar impulsos, inibir respostas inadequadas, flexibilizar pensamentos e ações para apresentar soluções estratégicas (funções executivas).",
+      "category": "Raciocínio Lógico",
+      "SuggestionNotYet": "Usar jogos que exijam planejamento simples. Trabalhar com rotinas estruturadas.",
+      "SuggestionWithAssistance": "Verbalizar estratégias antes da ação. Dar tempo para reflexão antes das respostas."
+    },
+    {
+      "question": "Diferencia letras do alfabeto dos numerais e outros sinais gráficos.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar jogos de classificação com letras, números e símbolos. Trabalhar com cores diferentes.",
+      "SuggestionWithAssistance": "Apontar diferenças específicas. Usar pistas visuais para destacar características."
+    },
+    {
+      "question": "Nomeia/identifica letras do alfabeto e os diferentes tipos de letras.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar alfabeto móvel e jogos de identificação. Trabalhar uma letra por vez.",
+      "SuggestionWithAssistance": "Dar pistas sonoras e visuais. Associar letra ao som e a palavras conhecidas."
+    },
+    {
+      "question": "Demonstra correta orientação espacial na leitura e na escrita.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar setas e marcadores visuais. Treinar direção da escrita com atividades motoras.",
+      "SuggestionWithAssistance": "Guiar fisicamente a direção. Usar pistas verbais constantes sobre direção."
+    },
+    {
+      "question": "Reconhece e compõe seu próprio nome.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Trabalhar com crachá e letras móveis do nome. Usar espelho e identificação pessoal.",
+      "SuggestionWithAssistance": "Completar o nome com letras faltantes. Dar pistas sobre a sequência correta."
+    },
+    {
+      "question": "Estabelece relação entre palavra e figuras correspondentes.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar jogos de associação palavra-imagem. Começar com palavras simples e familiares.",
+      "SuggestionWithAssistance": "Ler a palavra em voz alta. Dar pistas sobre o significado da palavra."
+    },
+    {
+      "question": "Mantém permanência de hipótese na leitura e escrita.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Estimular a leitura de palavras conhecidas em diferentes contextos. Usar textos repetitivos.",
+      "SuggestionWithAssistance": "Reforçar hipóteses corretas. Questionar gentilmente hipóteses inadequadas."
+    },
+    {
+      "question": "Demonstra fluência na leitura de palavras com sílabas simples e complexas.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Praticar leitura de sílabas isoladas antes de palavras. Usar palavras com padrões silábicos regulares.",
+      "SuggestionWithAssistance": "Ler junto com o aluno. Dar tempo extra para decodificação."
+    },
+    {
+      "question": "Faz leitura de textos memorizados (refrão de música conhecida).",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar músicas e parlendas conhecidas. Acompanhar com o dedo durante a leitura.",
+      "SuggestionWithAssistance": "Cantar junto e depois ler. Apontar palavras durante a leitura."
+    },
+    {
+      "question": "Lê com compreensão, ritmo, entonação e fluência.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar textos curtos e adequados ao nível. Trabalhar expressividade com modelagem.",
+      "SuggestionWithAssistance": "Ler como modelo primeiro. Dar feedback sobre ritmo e entonação."
+    },
+    {
+      "question": "Identifica o assunto em um texto com apoio de elementos textuais, mesmo sem saber ler convencionalmente.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar textos com muitas imagens. Explorar título, ilustrações e elementos gráficos.",
+      "SuggestionWithAssistance": "Fazer perguntas sobre as imagens. Relacionar elementos visuais com possível conteúdo."
+    },
+    {
+      "question": "Escreve espontaneamente palavras e frases, utilizando corretamente a folha com pauta simples.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar folhas com pautas destacadas. Treinar coordenação motora com exercícios preparatórios.",
+      "SuggestionWithAssistance": "Guiar a mão inicialmente. Dar feedback sobre posicionamento na pauta."
+    },
+    {
+      "question": "Interpreta e reconta oralmente uma história lida pelo aplicador.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Usar histórias curtas com sequência clara. Fazer perguntas durante a leitura.",
+      "SuggestionWithAssistance": "Oferecer pistas sobre elementos da história. Usar imagens como apoio para reconto."
+    },
+    {
+      "question": "Faz o reconto escrito de uma narrativa lida pelo aplicador.",
+      "category": "Leitura e Escrita",
+      "SuggestionNotYet": "Começar com frases simples sobre a história. Usar desenhos como ponto de partida.",
+      "SuggestionWithAssistance": "Oferecer início de frases para completar. Aceitar diferentes formas de registro."
+    },
+    {
+      "question": "Tem noção de conservação e reversibilidade em diferentes situações.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar materiais concretos para demonstrar transformações. Trabalhar com líquidos, massinha, objetos.",
+      "SuggestionWithAssistance": "Verbalizar as transformações. Fazer perguntas sobre o que mudou e o que permaneceu igual."
+    },
+    {
+      "question": "Tem noção de conservação de número.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar objetos para contar e recontar. Trabalhar correspondência um a um.",
+      "SuggestionWithAssistance": "Contar junto com o aluno. Mostrar que a quantidade não muda com a disposição."
+    },
+    {
+      "question": "Tem noção de conservação de líquido.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar recipientes transparentes de diferentes formas. Fazer experimentos com água colorida.",
+      "SuggestionWithAssistance": "Questionar sobre a quantidade antes e depois. Demonstrar voltando ao recipiente original."
+    },
+    {
+      "question": "Tem noção de conservação de quantidade da matéria.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar massinha ou argila para modelar diferentes formas. Pesar antes e depois.",
+      "SuggestionWithAssistance": "Enfatizar que nada foi tirado ou acrescentado. Mostrar a reversibilidade da transformação."
+    },
+    {
+      "question": "Tem noção de conservação de comprimento alterando percurso ou forma.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar cordas ou fitas para fazer diferentes formas. Medir com régua.",
+      "SuggestionWithAssistance": "Mostrar que o comprimento total não muda. Usar medição como comprovação."
+    },
+    {
+      "question": "Tem noção de conservação de peso.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar balança para pesar objetos em diferentes formas. Trabalhar com massinha.",
+      "SuggestionWithAssistance": "Pesar antes e depois da transformação. Explicar que o peso não muda."
+    },
+    {
+      "question": "Tem noção de conservação de massa.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Trabalhar com diferentes materiais (areia, água, massinha). Usar recipientes variados.",
+      "SuggestionWithAssistance": "Demonstrar com medidas. Explicar a diferença entre aparência e quantidade real."
+    },
+    {
+      "question": "Tem noção de conservação de volume.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar objetos que ocupam espaço em recipientes. Trabalhar com deslocamento de água.",
+      "SuggestionWithAssistance": "Mostrar o nível da água antes e depois. Explicar que o volume do objeto não muda."
+    },
+    {
+      "question": "Faz seriação de elementos dados.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar objetos de diferentes tamanhos para ordenar. Começar com poucos elementos.",
+      "SuggestionWithAssistance": "Dar pistas sobre o critério de ordenação. Ajudar a encontrar o próximo elemento da série."
+    },
+    {
+      "question": "Tem noção de modificação espacial.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar quebra-cabeças e jogos de encaixe. Trabalhar rotação e translação de objetos.",
+      "SuggestionWithAssistance": "Mostrar as transformações passo a passo. Usar linguagem espacial (girar, mover, virar)."
+    },
+    {
+      "question": "Tem noção de conservação de superfície.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar papel para recortar e reorganizar formas. Trabalhar com tangram simples.",
+      "SuggestionWithAssistance": "Mostrar que a área total não muda. Usar sobreposição para comprovar."
+    },
+    {
+      "question": "Faz classificações (conjuntos), utilizando mudança de critério conforme orientação do aplicador.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar objetos variados para classificar por cor, forma, tamanho. Começar com um critério.",
+      "SuggestionWithAssistance": "Explicar o critério claramente. Ajudar a reorganizar quando o critério muda."
+    },
+    {
+      "question": "Compreende inclusão de classes.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Trabalhar com conjuntos e subconjuntos concretos. Usar animais, frutas, brinquedos.",
+      "SuggestionWithAssistance": "Explicar as relações de pertencimento. Usar diagramas simples para visualizar."
+    },
+    {
+      "question": "Faz classificações aplicando regras para inclusão de classes.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Dar regras claras para classificação. Usar exemplos e contra-exemplos.",
+      "SuggestionWithAssistance": "Verificar compreensão da regra. Dar feedback imediato sobre acertos e erros."
+    },
+    {
+      "question": "Compreende interseção de classes.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar diagramas de Venn simples com objetos concretos. Trabalhar características comuns.",
+      "SuggestionWithAssistance": "Explicar o que significa ter as duas características. Usar exemplos visuais."
+    },
+    {
+      "question": "Faz classificações aplicando regras para interseção de classes.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Praticar com objetos que têm múltiplas características. Usar tabelas simples.",
+      "SuggestionWithAssistance": "Ajudar a identificar características comuns. Usar marcadores visuais."
+    },
+    {
+      "question": "Faz combinações de fichas estabelecendo critérios lógicos (pensamento formal).",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar fichas coloridas para fazer diferentes combinações. Começar com poucas variáveis.",
+      "SuggestionWithAssistance": "Mostrar sistematização das combinações. Usar tabelas ou esquemas organizadores."
+    },
+    {
+      "question": "Faz permutações-substituições, trocas (pensamento formal).",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Trabalhar com sequências simples de objetos. Praticar trocas de posição.",
+      "SuggestionWithAssistance": "Explicar o conceito de permutação. Mostrar diferentes possibilidades sistematicamente."
+    },
+    {
+      "question": "Faz previsão lógica - pensamento formal.",
+      "category": "Pensamento Operatório",
+      "SuggestionNotYet": "Usar sequências e padrões para prever próximos elementos. Trabalhar com regularidades.",
+      "SuggestionWithAssistance": "Ajudar a identificar o padrão. Verbalizar a lógica da sequência."
+    },
+    {
+      "question": "Demonstra capacidade de tônus (contração muscular em repouso), postura e equilíbrio em movimentos habituais com o mínimo de fadiga muscular.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Propor exercícios de fortalecimento muscular lúdicos. Trabalhar postura com jogos de equilíbrio.",
+      "SuggestionWithAssistance": "Dar apoio físico quando necessário. Fazer pausas frequentes para descanso."
+    },
+    {
+      "question": "Apresenta dominância lateral esquerda em atividades de chutar e segurar.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Respeitar a dominância natural. Oferecer atividades que fortaleçam o lado dominante.",
+      "SuggestionWithAssistance": "Não forçar mudança de dominância. Adaptar materiais para facilitar o uso."
+    },
+    {
+      "question": "Apresenta dominância lateral direita em atividades de chutar ou manipular e segurar objetos.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Respeitar a dominância natural. Oferecer atividades que fortaleçam o lado dominante.",
+      "SuggestionWithAssistance": "Não forçar mudança de dominância. Adaptar materiais para facilitar o uso."
+    },
+    {
+      "question": "Demonstra consciência de corpo e das possibilidades de expressão corporal em atividades práticas (funcionais) identificando a função de cada membro, locomovendo-se em espaço determinado e respeitando um limite de tempo dado por comando sonoro (apito).",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Trabalhar esquema corporal com músicas e movimentos. Usar espelhos para autoconhecimento.",
+      "SuggestionWithAssistance": "Nomear partes do corpo durante atividades. Dar comandos claros e demonstrar movimentos."
+    },
+    {
+      "question": "Demonstra consciência de seu corpo em relação ao espaço, aos objetos que o rodeiam e às pessoas nas atividades em que deve se posicionar ao lado, dentro, fora, em frente, etc.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Usar jogos de posicionamento espacial. Trabalhar conceitos espaciais com brincadeiras.",
+      "SuggestionWithAssistance": "Usar linguagem espacial constante. Demonstrar posições corporalmente."
+    },
+    {
+      "question": "Demonstra agilidade e rapidez na mobilidade e locomoção.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Propor circuitos motores simples. Trabalhar coordenação com obstáculos.",
+      "SuggestionWithAssistance": "Diminuir velocidade exigida. Dar mais tempo para execução dos movimentos."
+    },
+    {
+      "question": "Demonstra harmonia nos movimentos corporais.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Trabalhar ritmo com música e dança. Usar atividades de coordenação bilateral.",
+      "SuggestionWithAssistance": "Fazer movimentos junto com o aluno. Usar música para marcar o ritmo."
+    },
+    {
+      "question": "Realiza atividades que exijam praxia global.",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Propor atividades de coordenação ampla. Usar jogos que envolvam todo o corpo.",
+      "SuggestionWithAssistance": "Demonstrar movimentos complexos em etapas. Dar apoio físico quando necessário."
+    },
+    {
+      "question": "Realiza atividades que exijam praxia fina (segurar, pinçar).",
+      "category": "Funções Psicomotoras",
+      "SuggestionNotYet": "Trabalhar coordenação fina com materiais variados. Usar atividades de pinça e preensão.",
+      "SuggestionWithAssistance": "Adaptar materiais para facilitar preensão. Fortalecer musculatura das mãos gradualmente."
+    }
+  ]
+}

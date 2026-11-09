@@ -1,0 +1,48 @@
+{
+  "subject": "Ciências",
+  "serie": "1º Ano",
+  "questions": [
+    {
+      "id": "EF01CI01",
+      "tipo": "Matéria e Energia",
+      "pergunta": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua utilização e propondo usos alternativos.",
+      "sugestaoNao": "Observação e comparação prática de materiais (papel, plástico, vidro, metal). Criar um 'cantinho dos materiais' na sala. Propor novos usos para objetos descartáveis.",
+      "sugestaoSimComMediacao": "Conduzir comparações com perguntas orientadoras ('qual é mais duro?'). Registrar com apoio (tabela de observação com ícones). Incentivar criação de novos usos com mediação do professor."
+    },
+    {
+      "id": "EF01CI02",
+      "tipo": "Vida e Evolução",
+      "pergunta": "Identificar as necessidades básicas dos seres vivos (alimentação, água, ar, abrigo e reprodução) e comparar essas necessidades às do ser humano.",
+      "sugestaoNao": "Exibição de imagens e vídeos de animais e plantas. Montar cartazes 'o que precisamos para viver'. Jogos de associação entre seres vivos e suas necessidades.",
+      "sugestaoSimComMediacao": "Atividades em duplas comparando humanos e animais com roteiro guiado. Mural de figuras com legendas assistidas. Explicações orais com apoio do professor."
+    },
+    {
+      "id": "EF01CI03",
+      "tipo": "Vida e Evolução",
+      "pergunta": "Identificar e descrever ações do cotidiano que contribuem para a manutenção da saúde (higiene, alimentação, sono, atividade física).",
+      "sugestaoNao": "Dramatizações (escovar dentes, lavar mãos). Sequência de figuras sobre cuidados diários. Música ou jogo da rotina saudável.",
+      "sugestaoSimComMediacao": "Registro desenhado de hábitos saudáveis com ajuda. Explicações guiadas ('por que é importante dormir?'). Criar 'diário da saúde' com apoio do professor."
+    },
+    {
+      "id": "EF01CI04",
+      "tipo": "Terra e Universo",
+      "pergunta": "Observar e descrever a posição aparente do Sol em diferentes momentos do dia e relacioná-la à variação de sombras e à duração do dia.",
+      "sugestaoNao": "Observação no pátio em horários distintos. Marcar sombra com giz no chão. Desenhar o tamanho da sombra em cada horário.",
+      "sugestaoSimComMediacao": "Comparar com perguntas orientadas ('a sombra cresceu?'). Utilizar fotos sequenciais com mediação. Construir pequeno diário solar guiado."
+    },
+    {
+      "id": "EF01CI05",
+      "tipo": "Terra e Universo",
+      "pergunta": "Observar variações no ambiente ao longo do tempo, reconhecendo a ocorrência de fenômenos meteorológicos e mudanças diárias e sazonais.",
+      "sugestaoNao": "Registrar o tempo (sol, chuva, vento) diariamente. Criar gráfico do clima da semana. Conversar sobre roupas e atividades de acordo com o tempo.",
+      "sugestaoSimComMediacao": "Registrar com ajuda (pictogramas ou desenhos). Comparar dias com mediação ('ontem choveu, hoje fez sol'). Criar calendário meteorológico coletivo com apoio."
+    },
+    {
+      "id": "EF01CI06",
+      "tipo": "Terra e Universo",
+      "pergunta": "Identificar e discutir ações do cotidiano que contribuam para a conservação do ambiente.",
+      "sugestaoNao": "Analisar imagens de atitudes corretas/incorretas (lixo, água, árvores). Promover campanhas de limpeza escolar. Criar murais sobre economia de água e energia.",
+      "sugestaoSimComMediacao": "Discussão mediada sobre boas práticas ambientais. Registro de ações sustentáveis com apoio verbal e pictórico. Elaborar regras coletivas para preservação com mediação."
+    }
+  ]
+}

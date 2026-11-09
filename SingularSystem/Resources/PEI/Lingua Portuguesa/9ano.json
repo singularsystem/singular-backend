@@ -1,0 +1,230 @@
+{
+  "subject": "Língua Portuguesa",
+  "serie": "9º Ano",
+  "questions": [
+    {
+      "id": "EF89LP01",
+      "pergunta": "Ler textos extensos de diferentes gêneros (reportagem aprofundada, artigo de opinião, crônica, conto, ensaio, verbete enciclopédico, post multimodal), identificando tese/ideia central, organização e inferências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Guia de leitura avançado (tese/ideia central; estratégia; evidências).\nMapa de argumentos (tese → 3 argumentos → evidências) com citações.\nResumo estruturado em 6 frases: contexto, tese, 3 evidências, conclusão.",
+      "sugestaoNao": "Leitura modelada com elaboração de inferências e checagem de pistas.\nV/F/Inferência com obrigação de citar linhas/trechos.\nSegmentar o texto em seções e titular cada parte."
+    },
+    {
+      "id": "EF89LP02",
+      "pergunta": "Comparar a organização e os efeitos de sentido de gêneros jornalísticos e de opinião (notícia, reportagem, editorial, artigo, resenha), identificando posicionamentos, modalizações e estratégias de persuasão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro comparativo (finalidade, estrutura, marcas, posicionamento).\nAnálise de ethos, pathos e logos em dois editoriais.\nMarcar operadores argumentativos e modalizadores; discutir força retórica.",
+      "sugestaoNao": "Classificação guiada de recortes reais com justificativa das escolhas.\nReescrever título/manchete sensacionalista em versão informativa.\nIdentificar conflitos entre fato e opinião; propor correções."
+    },
+    {
+      "id": "EF89LP03",
+      "pergunta": "Analisar recursos multissemióticos em textos multimodais, avaliando como escolhas de imagens, gráficos, áudio, vídeo, tipografia e layout constroem sentidos e posicionamentos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Leitura de infográfico complexo: extrair 4 conclusões fundamentadas.\nComparar duas capas/miniaturas com fotos distintas (framing).\nRefazer um post com hierarquia visual e legendas acessíveis (alt‑text).",
+      "sugestaoNao": "Associar imagem ↔ trecho correspondente e justificar pertinência.\nDetectar manipulações visuais (corte, saturação, escala) e efeito.\nCriar versão multimodal de parágrafo expositivo e justificar escolhas."
+    },
+    {
+      "id": "EF89LP04",
+      "pergunta": "Planejar e produzir textos expositivos-explicativos (relato de pesquisa, verbete, artigo de divulgação) com coesão, coerência, paragrafação, terminologia adequada e referências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejamento (pergunta, hipótese, fontes, estrutura); rascunho por seções.\nRevisão por pares com rubrica (clareza, terminologia, coesão e referências).\nIncluir gráfico/tabela/figura com legenda e chamada no texto.",
+      "sugestaoNao": "Produção dirigida por parágrafos com frases‑guia para cada seção.\nBanco de conectores (definição, exemplificação, comparação, causa/efeito).\nCorreção coletiva de problemas recorrentes (ambiguidade, falta de referência)."
+    },
+    {
+      "id": "EF89LP05",
+      "pergunta": "Planejar e produzir textos argumentativos (artigo, carta aberta, comentário fundamentado), apresentando tese explícita, argumentos sustentados por dados/vozes de autoridade, contra‑argumentos e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro (tese, 3 argumentos, evidência, contra‑argumento, conclusão).\nCitação/paráfrase corretas (autor‑data) e uso de fonte confiável.\nRevisão focada em modalizadores e operadores argumentativos.",
+      "sugestaoNao": "Fortalecer argumentos fracos com dados comparáveis e exemplos verificáveis.\nReescrever parágrafo para tornar a tese precisa e verificável.\nPitch oral de 2 min defendendo a tese e respondendo a 2 perguntas críticas."
+    },
+    {
+      "id": "EF89LP06",
+      "pergunta": "Revisar e editar textos próprios e de colegas quanto a ortografia, concordância, regência, pontuação, coesão e adequação vocabular ao gênero e público.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de revisão por foco (ortografia → pontuação → coesão → estilo).\nLeitura em voz alta para detectar cortes e vírgulas indevidas.\nUso de dicionário/gramática; lista de dúvidas resolvidas.",
+      "sugestaoNao": "Reescrita orientada de parágrafos com problemas típicos.\nExercícios de concordância/regência ancorados no texto do aluno.\nCorreção coletiva com justificativa e exemplo de melhora."
+    },
+    {
+      "id": "EF89LP07",
+      "pergunta": "Planejar e realizar seminários, mesas redondas e debates regrados, adequando registro, entonação, postura, recursos visuais e tempo de fala; considerar a audiência e a finalidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro (abertura, desenvolvimento, fechamento) com marcações de ênfase.\nEnsaio cronometrado; observador usa rubrica (clareza, evidências, tempo).\nSlides legíveis (regra 1‑3‑6) e checagem técnica (som, projeção).",
+      "sugestaoNao": "Treino de projeção/respiração e manejo de pausas.\nCartões de transição (primeiro, além disso, por fim) para fluidez.\nRegravação de trecho após feedback para comparar evolução."
+    },
+    {
+      "id": "EF89LP08",
+      "pergunta": "Avaliar criticamente exposições e debates, identificando tese, argumentos, evidências, falácias e posicionamentos; formular perguntas pertinentes e respeitosas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planilha de escuta (tese, 2 argumentos, 1 evidência, 1 falácia, 1 pergunta).\nMarcar falácias (falso dilema, ad hominem, generalização apressada).\nDebrief em trio: apresentador, avaliador e mediador trocam papéis.",
+      "sugestaoNao": "Paráfrase obrigatória antes de refutar (garantia de compreensão).\nTransformar perguntas vagas em abertas, específicas e investigáveis.\nRubrica de respeito ao contraditório e manejo do tempo."
+    },
+    {
+      "id": "EF89LP09",
+      "pergunta": "Analisar efeitos de sentido de escolhas lexicais, modalizadores e operadores; empregar recursos de coesão (referenciação, elipse, substituições, conectores) com precisão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Destacar modalizadores/operadores e discutir força argumentativa.\nResolver ambiguidades pronominais e elipses com reescrita.\nComparar versões do mesmo parágrafo variando conectores (oposição, causa, conclusão).",
+      "sugestaoNao": "Exercício 'quem é quem?': desambiguar pronomes e referentes.\nTabela de conectores por relação semântica; escolher o mais adequado.\nReduzir redundâncias mantendo informatividade."
+    },
+    {
+      "id": "EF89LP10",
+      "pergunta": "Empregar classes de palavras, tempos e modos verbais, concordância nominal e verbal, regência e pontuação em contextos de uso (períodos compostos, discurso direto/indireto, enumerações, apostos, vocativo).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Revisão aplicada em texto autoral: marcar classes/tempos e corrigir falhas.\nPontuar diálogos e transformar direto ↔ indireto.\nProduzir parágrafo com enumeração, aposto e vocativo.",
+      "sugestaoNao": "Ditados estruturais para inserir pontuação e justificar escolhas.\nLeitura coral marcando pausas (guia para vírgulas).\nCorreção comentada de erros recorrentes."
+    },
+    {
+      "id": "EF89LP11",
+      "pergunta": "Reconhecer processos de formação de palavras e relações semânticas (sinonímia, antonímia, polissemia, homonímia, paronímia) para ampliar vocabulário e inferir sentidos no contexto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de família lexical a partir de radical; registrar efeitos semânticos.\nJogo de afixos: criar palavras e testá‑las em frases coerentes.\nColetar polissemias em textos jornalísticos e científicos.",
+      "sugestaoNao": "Completar lacunas com afixos/termos que mantenham coerência.\nDestacar relações semânticas em textos de estudo.\nMiniavaliação aplicada a produção textual."
+    },
+    {
+      "id": "EF89LP12",
+      "pergunta": "Apropriar-se de convenções ortográficas e de acentuação, recorrendo a fontes de consulta e comparando homônimos/parônimos quando necessário.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Lista de verificação por tipo acentual; pares mínimos (por/pôr, tem/têm).\nMural de aprendizagem com erros recorrentes e solução.\nConsulta dirigida a dicionário/gramática com registro de dúvidas resolvidas.",
+      "sugestaoNao": "Exercícios de contraste semântico por acentuação/grafia (sessão/seção/cessão).\nProduzir frases que evidenciem diferença de sentido.\nBingo de acentuação e grafia por categorias."
+    },
+    {
+      "id": "EF89LP13",
+      "pergunta": "Buscar, selecionar, comparar e referenciar informações de fontes impressas e digitais, avaliando confiabilidade, pertinência e viés; produzir parágrafos com citação/paráfrase adequadas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checklist de confiabilidade (autor, data, evidência, domínio, viés).\nQuadro de anotações (citação curta, referência autor‑data, link).\nParágrafo com dado + explicação + referência; checagem por pares.",
+      "sugestaoNao": "Evitar plágio: exercícios de paráfrase fiel com referência.\nComparar duas fontes sobre o mesmo tema e justificar escolha.\nRegistrar créditos de imagens/áudios (licenças)."
+    },
+    {
+      "id": "EF89LP14",
+      "pergunta": "Comparar coberturas e discursos sobre o mesmo fato em diferentes mídias, identificando enquadramentos, estratégias de linguagem e posicionamentos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tabela (título, fontes, dados, adjetivação, enquadramento).\nDetectar adjetivos avaliativos e ausência de dados verificáveis.\nEscrever conclusão justificando qual cobertura é mais equilibrada.",
+      "sugestaoNao": "Apontar inconsistências e formular perguntas de checagem.\nReescrever manchete sensacionalista para versão informativa.\nApresentar síntese oral com evidências coletadas."
+    },
+    {
+      "id": "EF89LP15",
+      "pergunta": "Compreender e produzir textos em ambientes digitais (postagens, comentários, threads, tutoriais), observando etiqueta, coesão, concisão, hipermodalidade e acessibilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar postagem com objetivo e público; revisar tom e clareza.\nProduzir tutorial curto (passo a passo com imagens/ícones e alt‑text).\nSimular thread com sequência lógica e links úteis.",
+      "sugestaoNao": "Reescrever comentário inadequado para versão respeitosa e clara.\nChecklist de acessibilidade (título, alt de imagem, contraste, legibilidade).\nAjustar a mesma mensagem para e‑mail, post e chat."
+    },
+    {
+      "id": "EF89LP16",
+      "pergunta": "Ler e apreciar narrativas literárias de diferentes tradições e períodos, analisando enredo, tempo, espaço, narrador, personagens e efeitos de estilo e de ponto de vista.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ficha de leitura com foco em estratégias de construção de personagem.\nReescrever trecho mudando narrador/foco e discutir efeitos.\nDebate sobre estilo (descrição, ritmo, elipse, diálogo).",
+      "sugestaoNao": "Linha do tempo dos eventos e justificativas.\nComparar narradores (1ª × 3ª pessoa) e efeito na interpretação.\nResenha literária com citação comentada."
+    },
+    {
+      "id": "EF89LP17",
+      "pergunta": "Ler e analisar poemas de diferentes épocas e estilos, reconhecendo recursos sonoros e semânticos (rimas, aliterações, metáforas, metonímias, antíteses) e seus efeitos de sentido; declamar com marcações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Marcar recursos e explicar efeito de sentido em 3 exemplos.\nTransformar verso literal em figura de linguagem (e vice‑versa).\nDeclamar com marcação de pausa/ênfase; gravar e autoavaliar.",
+      "sugestaoNao": "Produzir poema com pelo menos 3 recursos identificados.\nIlustrar metáfora e explicar a interpretação.\nReescrever estrofe alterando esquema de rimas e comentar efeito."
+    },
+    {
+      "id": "EF89LP18",
+      "pergunta": "Ler e analisar textos dramáticos (cenas, esquetes), identificando rubricas, falas e indicações de cena; experimentar encenação com foco nas marcas do texto dramático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler cena destacando rubricas e falas; planejar encenação simples.\nExercício de marcação de palco, entradas e saídas.\nDiscutir efeitos de rubricas na interpretação.",
+      "sugestaoNao": "Converter narrativa curta em cena dialogada com rubricas.\nEnsaiar e apresentar microcena com avaliação por rubrica.\nRevisar pontuação e marcas de fala."
+    },
+    {
+      "id": "EF89LP19",
+      "pergunta": "Adotar postura ética em interações textuais e orais (presenciais e digitais), respeitando diferenças, combatendo preconceitos linguísticos e verificando informações antes de compartilhar.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar comentários anônimos e reescrever para versão respeitosa e fundamentada.\nElaborar código de conduta textual da turma (netiqueta).\nChecklist de verificação antes de publicar/compartilhar.",
+      "sugestaoNao": "Debates curtos com rubrica de respeito ao contraditório.\nPrática de escuta ativa e paráfrase antes de responder.\nRegistro de exemplos de linguagem inclusiva e verificação de fatos."
+    },
+    {
+      "id": "EF89LP20",
+      "pergunta": "Empregar modalizadores, operadores argumentativos e marcas avaliativas para expressar posicionamento com clareza, precisão e respeito.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar modalizadores (talvez, certamente) e discutir força.\nReescrever parágrafo reduzindo avaliações vagas e reforçando com dados.\nSubstituir adjetivos avaliativos por argumentos fundamentados.",
+      "sugestaoNao": "Trocar marcadores inadequados por operadores mais precisos.\nComparar parágrafos (opinativo raso × fundamentado) e justificar.\nChecklist de linguagem respeitosa e precisa."
+    },
+    {
+      "id": "EF09LP01",
+      "pergunta": "Ler, com autonomia, textos complexos de diferentes gêneros, reconhecendo tese/ideia central, estratégias de organização e efeitos de sentido; realizar inferências sustentadas por evidências do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Guia de leitura avançado (tese/ideia central; estratégia; evidências) preenchido em dupla com checagem por pares.\nMapa de argumentos (tese → argumentos → evidências) citando linhas/trechos.\nResumo crítico (contexto, tese, 3 evidências, limitação) com revisão por pares.",
+      "sugestaoNao": "Leitura modelada com explicitação das pistas de inferência pelo professor.\nV/F/Inferência com citação obrigatória do trecho de prova.\nSegmentar o texto em seções e criar títulos funcionais para cada uma."
+    },
+    {
+      "id": "EF09LP02",
+      "pergunta": "Comparar a organização e os efeitos de sentido de gêneros jornalísticos e de opinião (reportagem, editorial, artigo, resenha), identificando posicionamentos, estratégias retóricas (ethos, pathos, logos) e recursos linguísticos (modalizadores, operadores).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro comparativo (finalidade, estrutura, marcas, posicionamento).\nMarcar modalizadores/operadores e discutir força persuasiva.\nEscrever parágrafo analisando a construção de ethos de um editorial.",
+      "sugestaoNao": "Classificação guiada de recortes com justificativa dos critérios.\nReescrever título sensacionalista para versão informativa.\nIdentificar mistura inadequada de fato e opinião e corrigir."
+    },
+    {
+      "id": "EF09LP03",
+      "pergunta": "Analisar criticamente recursos multissemióticos em textos multimodais (infográficos, reportagens digitais, posts), avaliando como imagens, gráficos, áudio, vídeo e tipografia constroem sentidos e enquadramentos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Leitura de infográfico complexo: extrair 4 conclusões sustentadas por dados.\nComparar duas capas/miniaturas com fotos distintas e discutir framing.\nRefazer um post com hierarquia visual e legendas acessíveis (alt‑text).",
+      "sugestaoNao": "Associar imagem ↔ trecho correspondente e justificar pertinência.\nDetectar manipulações visuais (corte, saturação, escala) e efeito.\nCriar versão multimodal de um parágrafo expositivo e justificar escolhas."
+    },
+    {
+      "id": "EF09LP04",
+      "pergunta": "Planejar e produzir textos expositivos-explicativos (relato de pesquisa, verbete, artigo de divulgação), com coesão, coerência, terminologia adequada, paragrafação e referências bibliográficas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejamento (pergunta, hipótese, fontes, estrutura) e rascunho por seções.\nRevisão por pares com rubrica (clareza, terminologia, coesão e referências).\nIncluir gráfico/tabela com legenda e chamada no texto.",
+      "sugestaoNao": "Produção dirigida com frases‑guia para cada seção.\nAplicar conectores de definição, exemplificação, comparação e causa/efeito.\nCorreção coletiva de problemas recorrentes (ambiguidade, referência)."
+    },
+    {
+      "id": "EF09LP05",
+      "pergunta": "Planejar e produzir textos argumentativos (artigo, carta aberta, comentário fundamentado), com tese explícita, argumentos sustentados por dados/vozes de autoridade, contra‑argumentos e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro (tese, 3 argumentos, evidência, contra‑argumento, conclusão).\nCitar/parafrasear fontes confiáveis (autor‑data) corretamente.\nRevisão focada em modalizadores e operadores argumentativos.",
+      "sugestaoNao": "Fortalecer argumentos fracos com dados comparáveis e exemplos verificáveis.\nReescrever parágrafo para tornar a tese precisa e mensurável.\nPitch oral de 2 min defendendo a tese e respondendo a perguntas críticas."
+    },
+    {
+      "id": "EF09LP06",
+      "pergunta": "Revisar e editar textos próprios e de colegas quanto a ortografia, concordância, regência, pontuação, coesão e adequação vocabular ao gênero e ao público-alvo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de revisão por foco (ortografia → pontuação → coesão → estilo).\nLeitura em voz alta para detectar cortes e vírgulas indevidas.\nUso de dicionário/gramática com lista de dúvidas resolvidas.",
+      "sugestaoNao": "Reescrita de parágrafos com problemas recorrentes da turma.\nExercícios de concordância/regência ancorados no texto do aluno.\nCorreção coletiva com justificativa e exemplo de melhora."
+    },
+    {
+      "id": "EF09LP07",
+      "pergunta": "Planejar e realizar seminários, mesas redondas e debates regrados, adequando registro, entonação, postura, recursos visuais e tempo de fala; considerar a audiência e a finalidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro (abertura, desenvolvimento, fechamento) com marcações de ênfase.\nEnsaio cronometrado com rubrica (clareza, evidências, tempo).\nSlides legíveis (regra 1‑3‑6) e checagem técnica (som, projeção).",
+      "sugestaoNao": "Treino de projeção/respiração e manejo de pausas.\nCartões de transição (primeiro, além disso, por fim) para fluidez.\nRegravação de trecho após feedback para comparar evolução."
+    },
+    {
+      "id": "EF09LP08",
+      "pergunta": "Avaliar criticamente exposições e debates, identificando tese, argumentos, evidências, falácias e posicionamentos; formular perguntas pertinentes e respeitosas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planilha de escuta (tese, 2 argumentos, 1 evidência, 1 falácia, 1 pergunta).\nMarcar falácias (falso dilema, ad hominem, generalização apressada).\nDebrief em trio com alternância de papéis (apresentador, avaliador, mediador).",
+      "sugestaoNao": "Paráfrase obrigatória antes de refutar (garantia de compreensão).\nTransformar perguntas vagas em abertas, específicas e investigáveis.\nRubrica de respeito ao contraditório e manejo do tempo."
+    },
+    {
+      "id": "EF09LP09",
+      "pergunta": "Analisar efeitos de sentido de escolhas lexicais, modalizadores e operadores; empregar recursos de coesão (referenciação, elipse, substituições, conectores) com precisão em textos próprios.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Destacar modalizadores/operadores e discutir força argumentativa.\nResolver ambiguidades pronominais e elipses com reescrita.\nComparar versões do mesmo parágrafo variando conectores (oposição, causa, conclusão).",
+      "sugestaoNao": "Atividade 'quem é quem?': desambiguar pronomes e referentes.\nTabela de conectores por relação semântica; escolher o mais adequado.\nReduzir redundâncias mantendo informatividade."
+    },
+    {
+      "id": "EF09LP10",
+      "pergunta": "Empregar classes de palavras, tempos e modos verbais, concordância nominal e verbal, regência e pontuação em contextos de uso (períodos compostos, discurso direto/indireto, enumerações, apostos, vocativo).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Revisão aplicada em texto autoral: marcar classes/tempos e corrigir falhas.\nPontuar diálogos e transformar direto ↔ indireto.\nProduzir parágrafo com enumeração, aposto e vocativo.",
+      "sugestaoNao": "Ditados estruturais para inserir pontuação e justificar escolhas.\nLeitura coral marcando pausas (guia para vírgulas).\nCorreção comentada de erros recorrentes."
+    },
+    {
+      "id": "EF09LP11",
+      "pergunta": "Reconhecer processos de formação de palavras e relações semânticas (sinonímia, antonímia, polissemia, homonímia, paronímia) para ampliar vocabulário e inferir sentidos no contexto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de família lexical a partir de radical; registrar efeitos semânticos.\nJogo de afixos: criar palavras e testá‑las em frases coerentes.\nColetar polissemias em textos jornalísticos e científicos.",
+      "sugestaoNao": "Completar lacunas com afixos/termos que mantenham coerência.\nDestacar relações semânticas em textos de estudo.\nMiniavaliação aplicada a produção textual."
+    },
+    {
+      "id": "EF09LP12",
+      "pergunta": "Apropriar-se de convenções ortográficas e de acentuação, recorrendo a fontes de consulta e comparando homônimos/parônimos quando necessário.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Lista de verificação por tipo acentual; pares mínimos (por/pôr, tem/têm).\nMural de aprendizagem com erros recorrentes e solução.\nConsulta dirigida a dicionário/gramática com registro de dúvidas resolvidas.",
+      "sugestaoNao": "Exercícios de contraste semântico por acentuação/grafia (sessão/seção/cessão).\nProduzir frases que evidenciem diferença de sentido.\nBingo de acentuação e grafia por categorias."
+    }
+  ]
+}

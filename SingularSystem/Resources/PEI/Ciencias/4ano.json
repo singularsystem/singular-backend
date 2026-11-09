@@ -1,0 +1,132 @@
+{
+  "subject": "Ciências",
+  "serie": "4º Ano",
+  "questions": [
+    {
+      "id": "EF04CI01",
+      "pergunta": "Ecossistemas locais: componentes bióticos e abióticos; relações simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Inventário do pátio (sol, solo, água, seres vivos).\nMapa de micro‑habitats.\nRelatar interações observadas.",
+      "sugestaoNao": "Evitar confundir ambiente × espécie.\nUsar termos biótico/abiótico.\nCitar exemplos locais."
+    },
+    {
+      "id": "EF04CI02",
+      "pergunta": "Cadeias alimentares simples e papéis (produtor, consumidor, decompositor).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar cadeias com figuras.\nJogo 'quem come quem?'\nObservar decomposição segura (composteira).",
+      "sugestaoNao": "Evitar sequência impossível.\nIdentificar nível trófico.\nRegistrar setas (energia)."
+    },
+    {
+      "id": "EF04CI03",
+      "pergunta": "Corpo humano: sistemas digestório e respiratório (noções) e hábitos de saúde.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelo de pulmão com garrafa.\nRoteiro da digestão de uma refeição.\nExercício respiratório consciente.",
+      "sugestaoNao": "Evitar mitos (estômago 'pensa').\nUsar vocabulário correto.\nRelacionar hábitos ao sistema."
+    },
+    {
+      "id": "EF04CI04",
+      "pergunta": "Plantas: partes e funções; reprodução (sementes/dispersão).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Desmontar flor (com cuidado) e identificar partes.\nExperimento de germinação.\nMapa de dispersores locais.",
+      "sugestaoNao": "Não arrancar espécies protegidas.\nRegistrar tempo e condições.\nCitar fontes."
+    },
+    {
+      "id": "EF04CI05",
+      "pergunta": "Animais: grupos e adaptações ao ambiente (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Classificar por critérios (locomoção/cobertura corporal).\nExemplos de adaptações.\nProduzir cartaz de uma espécie local.",
+      "sugestaoNao": "Evitar antropomorfismo.\nUsar nomes populares e científicos (quando possível).\nCitar habitat."
+    },
+    {
+      "id": "EF04CI06",
+      "pergunta": "Matéria e mistura: materiais, estados e separação simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Peneirar, decantar, filtrar com segurança.\nClassificar materiais por propriedades.\nTabela de resultados.",
+      "sugestaoNao": "Usar EPI simples.\nNão misturar substâncias perigosas.\nDescarte correto."
+    },
+    {
+      "id": "EF04CI07",
+      "pergunta": "Água: ciclo, uso e tratamento básico.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelo do ciclo da água.\nRoteiro de economia na escola.\nEstudo de etapa do tratamento (vídeo/visita).",
+      "sugestaoNao": "Diferenciar potável × mineral.\nEvitar desperdício.\nRegistrar etapas do tratamento."
+    },
+    {
+      "id": "EF04CI08",
+      "pergunta": "Solo: formação, componentes e conservação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Frascos com camadas (areia/argila/humus).\nTeste de infiltração.\nPlano antierosão na horta.",
+      "sugestaoNao": "Evitar retirada de solo sem autorização.\nCitar local de coleta.\nRegistrar tempo/clima."
+    },
+    {
+      "id": "EF04CI09",
+      "pergunta": "Clima local: temperatura e chuva; leitura de gráficos simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Termômetro e pluviômetro caseiros.\nGráfico semanal/mensal.\nConexões com rotina/vestuário.",
+      "sugestaoNao": "Registrar unidades (°C, mm).\nDiferenciar clima × tempo.\nBasear conclusões nos dados."
+    },
+    {
+      "id": "EF04CI10",
+      "pergunta": "Energia: fontes e uso consciente (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Inventário de consumo na escola.\nCampanha de uso eficiente.\nMaquete de energia renovável.",
+      "sugestaoNao": "Evitar comparações sem unidade.\nCitar potência (noções).\nAvaliar impacto da campanha."
+    },
+    {
+      "id": "EF04CI11",
+      "pergunta": "Tecnologia e sociedade: usos responsáveis.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Código de segurança para experiências.\nAnalisar rótulos e símbolos de perigo.\nRelato de tecnologia local útil.",
+      "sugestaoNao": "Respeitar regras e avisos.\nRegistrar riscos e como evitá-los.\nConsiderar acessibilidade."
+    },
+    {
+      "id": "EF04CI12",
+      "pergunta": "Linguagem científica: registrar, argumentar e comunicar resultados.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caderno com protocolo simples.\nTabela/gráfico com legenda.\nApresentação para outra turma.",
+      "sugestaoNao": "Citar data/local/material.\nEvitar cópia sem análise.\nRevisar clareza do texto."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}

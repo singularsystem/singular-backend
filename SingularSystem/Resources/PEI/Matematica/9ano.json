@@ -1,0 +1,105 @@
+{
+  "subject": "Matemática",
+  "serie": "9º Ano",
+  "questions": [
+    {
+      "id": "EF09MA01",
+      "pergunta": "Números: operar com racionais e reais (inclui raiz quadrada e notação científica) em problemas do cotidiano.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver o mesmo problema por duas estratégias (fatoração/estimativa/algoritmo) e comparar.\nConverter entre fração, decimal, potência e notação científica (ordem de grandeza).\nVerificar plausibilidade por arredondamentos e intervalos.",
+      "sugestaoNao": "Reescrever cálculos alinhando casas e unidades.\nExplicar por que escolheu uma forma (decimal/fração).\nChecar com operação inversa ou aproximação."
+    },
+    {
+      "id": "EF09MA02",
+      "pergunta": "Razão, proporção e porcentagem: taxas, índices e juros simples/compostos em situações financeiras.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tabela de porcentagens acumuladas (aumento/ desconto sucessivo) e comparação com fator.\nSimular compras/parcelamentos e registrar escolha fundamentada.\nProblemas de taxa (km/h, R$/kg) interpretando a grandeza.",
+      "sugestaoNao": "Evitar somar percentuais sucessivos; usar fator multiplicativo.\nChecar resultados com estimativa e sentido econômico.\nExplicar a base de cálculo usada em cada etapa."
+    },
+    {
+      "id": "EF09MA03",
+      "pergunta": "Álgebra: expressões com potências e raízes; produtos notáveis e fatoração simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Expandir e reduzir expressões usando produtos notáveis.\nFatorar expressões simples e verificar por multiplicação.\nTabelar valores para comparar equivalência de expressões.",
+      "sugestaoNao": "Distinguir termo, coeficiente e expoente.\nJustificar cada transformação algébrica.\nConferir equivalência por substituição."
+    },
+    {
+      "id": "EF09MA04",
+      "pergunta": "Equações e sistemas: resolver e interpretar sistemas lineares (2×2) e equações do 2º grau em contextos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver sistema por substituição e por eliminação e comparar métodos.\nModelar um problema real em sistema 2×2 (preço/quantidade) e resolver.\nResolver quadrática por fórmula de Bhaskara e verificar raízes.",
+      "sugestaoNao": "Checar solução substituindo no enunciado.\nDiscutir número de soluções (uma, duas, nenhuma).\nInterpretar o significado das soluções no contexto."
+    },
+    {
+      "id": "EF09MA05",
+      "pergunta": "Funções: reconhecer e analisar funções afim (linear) e quadrática em tabelas, expressões e gráficos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir tabela (x,y), esboçar o gráfico e interpretar coeficientes (inclinação/intercepto; concavidade/vértice).\nExplorar efeitos de alterar parâmetros (a, b, c).\nLer e responder a perguntas do gráfico no contexto.",
+      "sugestaoNao": "Rotular eixos e unidades corretamente.\nEscolher escala coerente para leitura de pontos.\nChecar simetria do gráfico da quadrática."
+    },
+    {
+      "id": "EF09MA06",
+      "pergunta": "Geometria: teorema de Tales e semelhança em problemas de medidas indiretas e escala.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver problemas de sombras/escala usando razões proporcionais.\nConstruir desenho em escala e converter unidades.\nComparar métodos: Tales × semelhança de triângulos.",
+      "sugestaoNao": "Verificar paralelismo e ângulos correspondentes.\nEvitar confundir 1:k com k:1.\nJustificar a escolha da escala."
+    },
+    {
+      "id": "EF09MA07",
+      "pergunta": "Trigonometria no triângulo retângulo: razões seno, cosseno e tangente para calcular medidas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Identificar cateto oposto/adjacente e aplicar razão correta.\nResolver problemas com inclinações, rampas e alturas inacessíveis.\nChecar resultados com Pitágoras quando possível.",
+      "sugestaoNao": "Escolher a razão adequada ao par de medidas conhecido.\nConferir se o ângulo é compatível com o valor obtido.\nRegistrar unidades e arredondamentos corretos."
+    },
+    {
+      "id": "EF09MA08",
+      "pergunta": "Geometria plana: polígonos, circunferência e círculo; perímetro e áreas (composição e decomposição).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calcular áreas de figuras compostas e setores simples.\nUsar π≈3,14 e justificar arredondamentos.\nModelar situações (pintura, piso) e estimar antes do cálculo.",
+      "sugestaoNao": "Selecionar fórmula adequada e identificar variáveis.\nChecar coerência dimensional (cm, cm²).\nRevisar substituições e casas decimais."
+    },
+    {
+      "id": "EF09MA09",
+      "pergunta": "Probabilidade: eventos compostos simples e contagem (diagrama de árvore) em espaços equiprováveis.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Listar espaço amostral de 2 etapas (ex.: moeda+dado) e calcular probabilidades.\nComparar probabilidades de cenários alternativos.\nValidar por simulação rápida (contagens repetidas).",
+      "sugestaoNao": "Diferenciar probabilidade teórica × frequência observada.\nChecar se casos listados são exaustivos e exclusivos.\nRever contagens duplicadas."
+    },
+    {
+      "id": "EF09MA10",
+      "pergunta": "Estatística: comparar conjuntos de dados com medidas de tendência e dispersão (média, mediana, moda, amplitude).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calcular e interpretar média, mediana, moda e amplitude; discutir qual representa melhor.\nConstruir gráfico apropriado (colunas/linhas) e concluir com evidências.\nAnalisar efeito de outliers nas medidas.",
+      "sugestaoNao": "Escolher representação adequada a cada tipo de dado.\nRotular eixos e indicar fonte/tempo.\nEvitar conclusões que não se sustentam nos dados."
+    },
+    {
+      "id": "EF06–EF09/NÚMEROS",
+      "pergunta": "Cálculo mental, estimativas e verificação com inversas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver por duas estratégias e comparar.\nExplicar como estimou e checou.\nCriar problema que exija estimar.",
+      "sugestaoNao": "Sequências graduadas com feedback.\nChecklist de erros comuns.\nRefazer com outra estratégia."
+    },
+    {
+      "id": "EF06–EF09/ÁLGEBRA",
+      "pergunta": "Modelar com expressões, equações e proporções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Traduzir texto↔expressão e validar.\nResolver e checar equações.\nComparar modelos proporcionais × não proporcionais.",
+      "sugestaoNao": "Diferenciar variável/unidade.\nExplicar cada transformação.\nTestar plausibilidade com valores."
+    },
+    {
+      "id": "EF06–EF09/GEOMETRIA",
+      "pergunta": "Visualizar, decompor e justificar soluções.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Esboçar e decompor em figuras básicas.\nValidar com maquetes/softwares.\nComunicar solução com unidades.",
+      "sugestaoNao": "Selecionar fórmula coerente.\nChecar consistência dimensional.\nCorrigir construções imprecisas."
+    },
+    {
+      "id": "EF06–EF09/DADOS",
+      "pergunta": "Planejar, coletar, representar e concluir; noções de probabilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa, tabular e graficar.\nSimular aleatoriedade e comparar com teoria.\nDiscutir limites de generalização.",
+      "sugestaoNao": "Escolher gráfico adequado.\nRotular eixos e indicar fonte.\nEvitar inferências sem suporte."
+    }
+  ]
+}
+

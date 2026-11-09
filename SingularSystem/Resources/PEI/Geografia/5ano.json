@@ -1,0 +1,118 @@
+{
+  "subject": "Geografia",
+  "serie": "5º Ano",
+  "questions": [
+    {
+      "id": "EF05GE01",
+      "pergunta": "Localizar o Brasil no mundo (continentes, oceanos) e na América do Sul.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa-múndi com continentes/oceanos.\nDestacar América do Sul e países vizinhos.\nLocalizar Brasil: capitais e regiões.",
+      "sugestaoNao": "Corrigir posições equivocadas.\nRevisar legenda e título.\nMarcar escala aproximada."
+    },
+    {
+      "id": "EF05GE02",
+      "pergunta": "Regiões do Brasil: características naturais e socioeconômicas (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro comparativo das 5 regiões.\nMapa temático de clima/vegetação.\nApresentação curta por equipe/ região.",
+      "sugestaoNao": "Evitar estereótipos regionais.\nCitar dados/fonte.\nConferir nomes/capitais."
+    },
+    {
+      "id": "EF05GE03",
+      "pergunta": "Relevo, hidrografia e climas do Brasil: reconhecer e relacionar a usos do espaço.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de bacias hidrográficas.\nIdentificar formas de relevo principais.\nRelacionar clima a atividades econômicas.",
+      "sugestaoNao": "Evitar confusões de termos.\nChecar unidades e legendas.\nCitar fonte cartográfica."
+    },
+    {
+      "id": "EF05GE04",
+      "pergunta": "População: crescimento, migração interna e distribuição.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Gráfico simples com população regional.\nMapa de densidade (noções).\nRelato de migrações na turma.",
+      "sugestaoNao": "Diferenciar migração/pendularidade.\nEvitar generalizações.\nCitar dados/ano."
+    },
+    {
+      "id": "EF05GE05",
+      "pergunta": "Urbanização e redes de cidades (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de hierarquia urbana.\nEstudo de mobilidade entre bairros/cidades.\nComparar serviços disponíveis.",
+      "sugestaoNao": "Evitar hierarquias valorativas.\nChecar fontes.\nRevisar escala e legenda."
+    },
+    {
+      "id": "EF05GE06",
+      "pergunta": "Atividades econômicas: agropecuária, indústria, serviços.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa temático por setor.\nEstudo de caso local.\nFluxo insumos→produto→destino.",
+      "sugestaoNao": "Evitar simplificações.\nRegistrar fontes.\nUsar termos técnicos corretamente."
+    },
+    {
+      "id": "EF05GE07",
+      "pergunta": "Ambiente e sustentabilidade: biomas do Brasil e cuidados.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de biomas.\nDiagnóstico local (lixo, água, verde).\nPlano de ação com metas.",
+      "sugestaoNao": "Diferenciar bioma × UC.\nCitar legislação (noções).\nAvaliar ações."
+    },
+    {
+      "id": "EF05GE08",
+      "pergunta": "Cartografia digital básica: ler apps de mapa, camadas e rotas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar trajetos e estimar tempo.\nAtivar camadas (trânsito/terreno).\nCapturar tela e legendar.",
+      "sugestaoNao": "Checar orientação e escala.\nEvitar dados pessoais.\nCriticar limitações do app."
+    },
+    {
+      "id": "EF05GE09",
+      "pergunta": "Clima e tempo: fenômenos e variações regionais (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de massas de ar (noções).\nComparar dados locais com outra cidade.\nGráfico de clima simples.",
+      "sugestaoNao": "Diferenciar clima × tempo.\nChecar unidades.\nEvitar explicações sem dado."
+    },
+    {
+      "id": "EF05GE10",
+      "pergunta": "Cidadania territorial: direitos, deveres e participação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Levantamento de problemas do bairro.\nPriorizar com matriz simples.\nPlano de ação realista.",
+      "sugestaoNao": "Distinguir esferas de governo.\nBasear proposta em dados.\nPrever acompanhamento."
+    },
+    {
+      "id": "EF05GE11",
+      "pergunta": "Fontes e linguagens geográficas: mapas, gráficos, tabelas, imagens.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Traduzir um gráfico em parágrafo.\nProduzir infográfico simples.\nComparar duas linguagens para o mesmo tema.",
+      "sugestaoNao": "Evitar conclusões sem dado.\nRotular e citar fonte.\nRevisar clareza visual."
+    },
+    {
+      "id": "EF05GE12",
+      "pergunta": "Projeto de síntese: 'Meu lugar no Brasil'.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa e texto articulando localização, paisagem e vida cotidiana.\nExposição final para a comunidade.\nAutoavaliação com rubrica.",
+      "sugestaoNao": "Citar fontes de dados e imagens.\nManter coesão e ortografia.\nGarantir acessibilidade do material."
+    },
+    {
+      "id": "EF03–EF09/CARTOGRAFIA",
+      "pergunta": "Leitura e produção de mapas, croquis e gráficos com rigor.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar título, legenda, orientação e escala.\nComparar representações da mesma área.\nJustificar escolhas cartográficas.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nChecar fontes/datas.\nManter padrão visual."
+    },
+    {
+      "id": "EF03–EF09/FONTES",
+      "pergunta": "Uso crítico de mapas, fotos aéreas, imagens de satélite e relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise (quem/onde/quando/por quê).\nCruzar pelo menos duas fontes.\nRegistrar limitações das fontes.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria/licenças.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF03–EF09/CIDADANIA",
+      "pergunta": "Participação social e respeito aos espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico do entorno e plano de ação.\nDiálogo com órgãos públicos.\nCampanhas educativas com registro.",
+      "sugestaoNao": "Respeitar papéis institucionais.\nBasear proposta em dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA",
+      "pergunta": "Cartografia digital e letramento midiático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar apps/SIG educativos.\nChecar autoria e data de conteúdos.\nProduzir sínteses com referências.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar desinformação.\nCitar fontes corretamente."
+    }
+  ]
+}

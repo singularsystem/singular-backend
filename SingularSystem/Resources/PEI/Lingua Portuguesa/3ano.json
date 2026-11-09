@@ -1,0 +1,188 @@
+{
+  "subject": "Língua Portuguesa",
+  "serie": "3º Ano",
+  "questions": [
+    {
+      "id": "EF03LP01",
+      "tipo": "Escrita",
+      "pergunta": "Ler e escrever palavras com correspondências regulares contextuais entre grafemas e fonemas – c/qu; g/gu; r/rr; o (e não u) e e (e não i) em sílaba átona em final de palavra – e com marcas de nasalidade (til, m, n).",
+      "sugestaoNao": "• Leitura compartilhada diária (15–20 min) com modelagem de estratégias e rotina previsível.\n• Pré-ensino de vocabulário e uso de suportes visuais (cartazes, banco de palavras).\n• Consciência fonológica: rimas, aliterações, segmentação silábica/fonêmica com blocos.\n• Jogos de correspondência grafema–fonema e porta-palavras pessoal.\n• Acessibilidade: fonte ampliada/áudio quando necessário.",
+      "sugestaoSimComMediacao": "• Leitura guiada em pequenos grupos promovendo antecipações e inferências.\n• Registro das estratégias de leitura e retirada gradual dos apoios (andaimagem).\n• Releituras para fluência (eco-leitura/coral) e monitoramento semanal.\n• Ampliação de vocabulário com glossário ilustrado/dicionário escolar.\n• Metas de autonomia: escolher textos e justificar preferências."
+    },
+    {
+      "id": "EF03LP02",
+      "tipo": "Escrita",
+      "pergunta": "Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, VC, VV, CVV, identificando que existem vogais em todas as sílabas.",
+      "sugestaoNao": "• Leitura compartilhada diária (15–20 min) com modelagem de estratégias e rotina previsível.\n• Pré-ensino de vocabulário e uso de suportes visuais (cartazes, banco de palavras).\n• Consciência fonológica: rimas, aliterações, segmentação silábica/fonêmica com blocos.\n• Jogos de correspondência grafema–fonema e porta-palavras pessoal.\n• Acessibilidade: fonte ampliada/áudio quando necessário.",
+      "sugestaoSimComMediacao": "• Leitura guiada em pequenos grupos promovendo antecipações e inferências.\n• Registro das estratégias de leitura e retirada gradual dos apoios (andaimagem).\n• Releituras para fluência (eco-leitura/coral) e monitoramento semanal.\n• Ampliação de vocabulário com glossário ilustrado/dicionário escolar.\n• Metas de autonomia: escolher textos e justificar preferências."
+    },
+    {
+      "id": "EF03LP03",
+      "tipo": "Escrita",
+      "pergunta": "Ler e escrever corretamente palavras com os dígrafos lh, nh, ch.",
+      "sugestaoNao": "• Leitura compartilhada diária (15–20 min) com modelagem de estratégias e rotina previsível.\n• Pré-ensino de vocabulário e uso de suportes visuais (cartazes, banco de palavras).\n• Consciência fonológica: rimas, aliterações, segmentação silábica/fonêmica com blocos.\n• Jogos de correspondência grafema–fonema e porta-palavras pessoal.\n• Acessibilidade: fonte ampliada/áudio quando necessário.",
+      "sugestaoSimComMediacao": "• Leitura guiada em pequenos grupos promovendo antecipações e inferências.\n• Registro das estratégias de leitura e retirada gradual dos apoios (andaimagem).\n• Releituras para fluência (eco-leitura/coral) e monitoramento semanal.\n• Ampliação de vocabulário com glossário ilustrado/dicionário escolar.\n• Metas de autonomia: escolher textos e justificar preferências."
+    },
+    {
+      "id": "EF03LP04",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Usar acento gráfico (agudo ou circunflexo) em monossílabos tônicos terminados em a, e, o e em palavras oxítonas terminadas em a, e, o, seguidas ou não de s.",
+      "sugestaoNao": "• Modelagem explícita com exemplos e quadro-âncora.\n• Prática guiada com exercícios curtos e correção imediata.\n• Jogos/ditados focados no conteúdo alvo.",
+      "sugestaoSimComMediacao": "• Revisão orientada de textos próprios com lista de checagem.\n• Produção de frases/minitextos aplicando a habilidade.\n• Autoavaliação e feedback entre pares."
+    },
+    {
+      "id": "EF03LP05",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar o número de sílabas de palavras, classificando-as em monossílabas, dissílabas, trissílabas e polissílabas.",
+      "sugestaoNao": "• Modelagem explícita com exemplos e quadro-âncora.\n• Prática guiada com exercícios curtos e correção imediata.\n• Jogos/ditados focados no conteúdo alvo.",
+      "sugestaoSimComMediacao": "• Revisão orientada de textos próprios com lista de checagem.\n• Produção de frases/minitextos aplicando a habilidade.\n• Autoavaliação e feedback entre pares."
+    },
+    {
+      "id": "EF03LP06",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar a sílaba tônica em palavras, classificando-as em oxítonas, paroxítonas e proparoxítonas.",
+      "sugestaoNao": "• Modelagem explícita com exemplos e quadro-âncora.\n• Prática guiada com exercícios curtos e correção imediata.\n• Jogos/ditados focados no conteúdo alvo.",
+      "sugestaoSimComMediacao": "• Revisão orientada de textos próprios com lista de checagem.\n• Produção de frases/minitextos aplicando a habilidade.\n• Autoavaliação e feedback entre pares."
+    },
+    {
+      "id": "EF03LP07",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar a função na leitura e usar ponto final, ponto de interrogação, ponto de exclamação e, em diálogos (discurso direto), dois-pontos e travessão.",
+      "sugestaoNao": "• Modelagem explícita com exemplos e quadro-âncora.\n• Prática guiada com exercícios curtos e correção imediata.\n• Jogos/ditados focados no conteúdo alvo.",
+      "sugestaoSimComMediacao": "• Revisão orientada de textos próprios com lista de checagem.\n• Produção de frases/minitextos aplicando a habilidade.\n• Autoavaliação e feedback entre pares."
+    },
+    {
+      "id": "EF03LP08",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar e diferenciar, em textos, substantivos e verbos e suas funções na oração: agente, ação, objeto da ação.",
+      "sugestaoNao": "• Modelagem explícita com exemplos e quadro-âncora.\n• Prática guiada com exercícios curtos e correção imediata.\n• Jogos/ditados focados no conteúdo alvo.",
+      "sugestaoSimComMediacao": "• Revisão orientada de textos próprios com lista de checagem.\n• Produção de frases/minitextos aplicando a habilidade.\n• Autoavaliação e feedback entre pares."
+    },
+    {
+      "id": "EF35LP01",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Ler e compreender, silenciosamente e, em seguida, em voz alta, com autonomia e fluência, textos curtos com nível de textualidade adequado.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP02",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Selecionar livros da biblioteca e/ou do cantinho de leitura da sala de aula e/ou disponíveis em meios digitais para leitura individual, justificando a escolha e compartilhando com os colegas sua opinião, após a leitura.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP03",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Identificar a ideia central do texto, demonstrando compreensão global.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP04",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Inferir informações implícitas nos textos lidos.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP05",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Inferir o sentido de palavras ou expressões desconhecidas em textos, com base no contexto da frase ou do texto.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP06",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Recuperar relações entre partes de um texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos – pessoais, possessivos, demonstrativos) que contribuem para a continuidade do texto.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP07",
+      "tipo": "Escrita",
+      "pergunta": "Utilizar, ao produzir um texto, conhecimentos linguísticos e gramaticais, tais como ortografia, regras básicas de concordância nominal e verbal, pontuação (ponto final, ponto de exclamação, ponto de interrogação, vírgulas em enumerações) e pontuação do discurso direto, quando for o caso.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP21",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Ler e compreender, com autonomia, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP22",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP23",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrões e seu efeito de sentido.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP24",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP25",
+      "tipo": "Escrita",
+      "pergunta": "Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP26",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP27",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP28",
+      "tipo": "Oralidade",
+      "pergunta": "Declamar poemas, com entonação, postura e interpretação adequadas.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP29",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Identificar, em narrativas, cenário, personagem central, conflito gerador, resolução e o ponto de vista com base no qual histórias são narradas, diferenciando narrativas em primeira e terceira pessoas.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP30",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Diferenciar discurso indireto e discurso direto, determinando o efeito de sentido de verbos de enunciação e explicando o uso de variedades linguísticas no discurso direto, quando for o caso.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    },
+    {
+      "id": "EF35LP31",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Identificar, em textos versificados, efeitos de sentido decorrentes do uso de recursos rítmicos e sonoros e de metáforas.",
+      "sugestaoNao": "• Ativar conhecimentos prévios; organizadores gráficos (mapa de história, KWL).\n• Modelagem de estratégia (inferir, ideia central) com pensar-alto.\n• Prática guiada com feedback imediato; reensino em microgrupos.",
+      "sugestaoSimComMediacao": "• Tarefas de complexidade crescente com retirada de apoios.\n• Justificar respostas citando o texto; produzir sínteses orais/escritas.\n• Autoavaliação e metas de leitura."
+    }
+  ]
+}

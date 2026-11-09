@@ -1,0 +1,202 @@
+{
+  "subject": "Matemática",
+  "serie": "5º Ano",
+  "questions": [
+    {
+      "id": "EF05MA01",
+      "pergunta": "Ler, escrever e ordenar números naturais até a ordem de milhões, reconhecendo a importância do valor posicional e diferentes formas de representação (algorítmica e por extenso).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Batalha de números até 1.000.000 com justificativa de valor posicional.\nLinha numérica ampliada (0 → 1 milhão) em papel kraft; marcar marcos e números dados.\nDitado cruzado: por extenso ↔ algarismos ↔ decomposição.",
+      "sugestaoNao": "Reforçar leitura e ordenação com quadro de valores e material base‑10.\nSequências graduadas e comparação de números próximos.\nAssociação por extenso ↔ algarismos."
+    },
+    {
+      "id": "EF05MA02",
+      "pergunta": "Compreender e empregar a composição e a decomposição de números naturais por meio de adições e multiplicações por potências de dez, desenvolvendo estratégias de cálculo no sistema de numeração decimal.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Banco do 10 com potências (U,D,C,UM,DM,CM): compor/decompor números grandes.\nEscrever 3 decomposições diferentes para o mesmo número e comparar.\nResolver cálculos usando decomposição (ex.: 304.500 + 2.350).",
+      "sugestaoNao": "Modelar decomposição com cartões de potências de 10.\nTrocas sucessivas no quadro de valor de lugar.\nDitado estruturado de composição a partir de descrição."
+    },
+    {
+      "id": "EF05MA03",
+      "pergunta": "Resolver e elaborar problemas com números naturais envolvendo as quatro operações, utilizando diferentes estratégias (estimativa, cálculo mental e algoritmos convencionais) e avaliando a razoabilidade dos resultados.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estações de problemas das 4 operações com estimativa prévia.\nEscolher estratégia (mental, algoritmo, propriedade) e justificar.\nChecagem de razoabilidade comparando com estimativas.",
+      "sugestaoNao": "Resolver o mesmo problema por dois métodos e comparar eficiência.\nModelagem passo a passo de algoritmos necessários.\nLista de checagem de erros comuns e correção guiada."
+    },
+    {
+      "id": "EF05MA04",
+      "pergunta": "Utilizar relações entre as operações e propriedades (comutativa, associativa, distributiva e elemento neutro) para ampliar estratégias de cálculo e verificação de resultados.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro das propriedades com exemplos comentados de uso.\nAplicar distributiva em cálculos como 27×15 e explicar.\nVerificar resultados com operação inversa.",
+      "sugestaoNao": "Exercícios focados em cada propriedade isoladamente.\nCompletar expressões aplicando distributiva em casos simples.\nExplicar oralmente qual propriedade foi usada e por quê."
+    },
+    {
+      "id": "EF05MA05",
+      "pergunta": "Resolver e elaborar problemas de multiplicação envolvendo fatores de dois ou mais algarismos, utilizando estratégias diversas (decomposição, estimativas, cálculo mental e algoritmo).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver multiplicações por 2 algarismos com decomposição (parcial) e algoritmo.\nEstimativa (arredondamento) antes de calcular e comparar.\nProblemas contextualizados que exigem multiplicação por 2 algarismos.",
+      "sugestaoNao": "Treino graduado de multiplicação por 2 algarismos.\nEstimativas antes do algoritmo, com comparação.\nCorreção comentada de erros (alinhamento, retenções)."
+    },
+    {
+      "id": "EF05MA06",
+      "pergunta": "Resolver e elaborar problemas de divisão por números de até dois algarismos, com resto zero e diferente de zero, envolvendo os significados de repartição equitativa e de medida, utilizando estratégias e algoritmos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Divisões por 2 algarismos: estimativas sucessivas e checagem com multiplicação.\nResolver por medida e por partilha; representar com desenhos.\nExplicar a escolha do procedimento e o tratamento do resto.",
+      "sugestaoNao": "Divisão por 2 algarismos com estimativas sucessivas.\nChecar quociente com multiplicação + resto.\nRegistrar o procedimento em passos claros."
+    },
+    {
+      "id": "EF05MA07",
+      "pergunta": "Resolver problemas simples de contagem (princípio multiplicativo) envolvendo combinação de elementos de duas ou mais coleções, utilizando estratégias pessoais, tabelas ou diagramas de árvore.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir diagrama de árvore para 2×3×2 opções e contar resultados.\nOrganizar combinações em tabela e validar por multiplicação.\nCriar um problema de contagem e trocar com a dupla.",
+      "sugestaoNao": "Listar combinações sistematicamente em tabela.\nUsar diagrama de árvore para não omitir casos.\nValidar a contagem com multiplicação."
+    },
+    {
+      "id": "EF05MA08",
+      "pergunta": "Reconhecer, representar e comparar frações (maneiras de escrever partes de inteiros e de coleções), inclusive frações equivalentes, usando a reta numérica como recurso.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelar frações como partes de inteiros/coleções; marcar na reta.\nConstruir equivalências com dobraduras/quadriculado.\nComparar representações (área, coleção, reta).",
+      "sugestaoNao": "Representar frações em modelos (área/coleção/reta).\nEncontrar frações equivalentes por ampliação/simplificação.\nOrdenar frações com apoio visual."
+    },
+    {
+      "id": "EF05MA09",
+      "pergunta": "Comparar e ordenar frações com denominadores iguais ou diferentes, reconhecendo equivalências e utilizando estratégias como ampliação e simplificação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar frações por denominador comum/ ampliação/simplificação.\nOrdenar conjuntos de frações com justificativa na reta.\nProblemas de partilha comparando frações diferentes.",
+      "sugestaoNao": "Representar frações em modelos (área/coleção/reta).\nEncontrar frações equivalentes por ampliação/simplificação.\nOrdenar frações com apoio visual."
+    },
+    {
+      "id": "EF05MA10",
+      "pergunta": "Ler, escrever, comparar e ordenar números racionais na representação decimal (até milésimos), estabelecendo relações com o sistema monetário brasileiro.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler/preencher etiquetas de preços (decimais até milésimos).\nOrdenar decimais e justificar com valor posicional.\nRelacionar 0,1/0,01/0,001 a R$ 0,10/0,01/0,001.",
+      "sugestaoNao": "Comparar decimais alinhando casas (décimos, centésimos, milésimos).\nResolver adição/subtração com decimais em contextos simples.\nExplicar leitura correta de decimais e relação com R$."
+    },
+    {
+      "id": "EF05MA11",
+      "pergunta": "Resolver e elaborar problemas que envolvam valores monetários, incluindo cálculos com números decimais (adição e subtração) em contextos de compra, venda, troco e descontos simples.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simular compras com troco e desconto; registrar operações decimais.\nComparar formas de pagamento e justificar escolha.\nElaborar problema com preços e decimais e resolver em dupla.",
+      "sugestaoNao": "Comparar decimais alinhando casas (décimos, centésimos, milésimos).\nResolver adição/subtração com decimais em contextos simples.\nExplicar leitura correta de decimais e relação com R$."
+    },
+    {
+      "id": "EF05MA12",
+      "pergunta": "Identificar e descrever padrões e regularidades numéricas (incluindo múltiplos e divisores), formulando e testando regras de formação de sequências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Investigar múltiplos/divisores de números até 100; registrar padrões.\nCompletar e criar sequências com regra; explicar a lei de formação.\nProblemas que envolvam múltiplos comuns simples.",
+      "sugestaoNao": "Completar sequências e identificar múltiplos/divisores.\nClassificar números por múltiplos comuns simples.\nCorrigir padrões incorretos."
+    },
+    {
+      "id": "EF05MA13",
+      "pergunta": "Resolver problemas que envolvam a determinação de um termo desconhecido em uma igualdade, utilizando as propriedades das operações e o significado da igualdade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quebra‑cabeça de igualdades com incógnita; verificar com inversa.\nCompletar lacunas mantendo a igualdade verdadeira.\nExplicar em texto curto a estratégia usada.",
+      "sugestaoNao": "Resolver igualdades com incógnita em diferentes posições.\nChecar substituindo o valor encontrado.\nExplicar a estratégia escolhida."
+    },
+    {
+      "id": "EF05MA14",
+      "pergunta": "Descrever e representar deslocamentos e localização em mapas, croquis, plantas e malhas quadriculadas, utilizando vocabulário apropriado (direita/esquerda, paralelas, perpendiculares, interseções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapear e descrever trajetos em planta da escola/bairro.\nUsar malhas para indicar paralelas/perpendiculares.\nCriar croqui e orientar um colega até um ponto.",
+      "sugestaoNao": "Seguir instruções de trajeto em malha/mapa.\nIdentificar paralelas/perpendiculares.\nCorrigir trajetos com base em pontos de referência."
+    },
+    {
+      "id": "EF05MA15",
+      "pergunta": "Reconhecer, analisar e comparar prismas e pirâmides em diferentes representações (objeto, desenho, planificação), nomeando e relacionando seus elementos (faces, arestas e vértices).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Identificar prismas/pirâmides em objetos; contar faces/arestas/vértices.\nRelacionar sólido ↔ planificação; montar exemplos.\nComparar sólidos por atributos e justificar.",
+      "sugestaoNao": "Relacionar sólido ↔ planificação e nomear.\nContar faces/arestas/vértices com registro.\nDistinguir planificações que não fecham."
+    },
+    {
+      "id": "EF05MA16",
+      "pergunta": "Reconhecer, classificar e comparar polígonos (triângulos e quadriláteros), com base em lados, ângulos e simetria, utilizando malhas e instrumentos de desenho.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Classificar triângulos/quadriláteros por lados/ângulos.\nConstruir figuras em malha e verificar simetria.\nDominó de propriedades (retângulo, losango, trapézio).",
+      "sugestaoNao": "Classificar polígonos por propriedades essenciais.\nMarcar e medir ângulos com esquadro/transferidor (quando couber).\nCorrigir classificações equivocadas."
+    },
+    {
+      "id": "EF05MA17",
+      "pergunta": "Reconhecer circunferência e círculo, seus elementos (raio, diâmetro, centro) e relações entre eles, por meio de construções e explorações práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Construir circunferências com compasso; marcar raio/diâmetro/centro.\nExplorar relações: diâmetro = 2×raio.\nIdentificar elementos em objetos do cotidiano.",
+      "sugestaoNao": "Identificar raio/diâmetro/centro em figuras e objetos.\nConstruir circunferências simples.\nExplicar a relação diâmetro = 2×raio."
+    },
+    {
+      "id": "EF05MA18",
+      "pergunta": "Medir e estimar comprimentos (incluindo perímetros), massas e capacidades em situações do cotidiano, escolhendo unidades e instrumentos adequados e registrando as medidas obtidas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Medições reais (perímetro/comprimento/massa/capacidade) e registro.\nEscolha justificada de unidade/instrumento.\nComparar estimativa × medida e discutir erro.",
+      "sugestaoNao": "Escolher unidade/instrumento em estudos de caso.\nLer corretamente régua/recipiente graduado.\nComparar medições repetidas e discutir variação."
+    },
+    {
+      "id": "EF05MA19",
+      "pergunta": "Estimar e calcular áreas de figuras planas desenhadas em malha quadriculada, relacionando unidades de área e reconhecendo que figuras diferentes podem ter a mesma medida de área.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estimativa de áreas em malha; contar quadradinhos e metades.\nCriar figura com mesma área que outra.\nComparar figuras diferentes com mesma área.",
+      "sugestaoNao": "Contar quadradinhos/metades com atenção ao contorno.\nConstruir outra figura com mesma área.\nExplicar por que áreas iguais podem ter formas diferentes."
+    },
+    {
+      "id": "EF05MA20",
+      "pergunta": "Ler e registrar medidas e intervalos de tempo (horas, minutos e segundos) e resolver problemas envolvendo duração de eventos e relações entre unidades de tempo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler horários em analógico/digital; calcular duração.\nProblemas com mudança de hora e conversões.\nLinha do tempo de um evento escolar.",
+      "sugestaoNao": "Escrever horários em analógico/digital para situações dadas.\nCalcular durações com linha do tempo.\nResolver problemas que atravessam a hora."
+    },
+    {
+      "id": "EF05MA21",
+      "pergunta": "Resolver problemas que envolvam temperatura em graus Celsius, lendo e comparando valores e interpretando variações em diferentes contextos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler e comparar temperaturas (°C) de diferentes locais/dias.\nRegistrar variação diária e discutir tendências.\nResolver problemas envolvendo diferenças de temperatura.",
+      "sugestaoNao": "Ler termômetros e registrar °C.\nComparar temperaturas de dias/locais.\nResolver diferenças de temperatura."
+    },
+    {
+      "id": "EF05MA22",
+      "pergunta": "Resolver e elaborar problemas que envolvam o sistema monetário, incluindo descontos e acréscimos simples e comparações de preços e formas de pagamento.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simular compras com troco e desconto; registrar operações decimais.\nComparar formas de pagamento e justificar escolha.\nElaborar problema com preços e decimais e resolver em dupla.",
+      "sugestaoNao": "Resolver compras com troco/desconto com números decimais.\nComparar preços e formas de pagamento.\nReescrever problema mal formulado."
+    },
+    {
+      "id": "EF05MA23",
+      "pergunta": "Identificar e comparar chances de ocorrência de eventos aleatórios cotidianos, reconhecendo resultados mais ou menos prováveis e justificando as previsões.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Julgar eventos mais/menos prováveis; justificar.\nExperimentar (moedas/dados) e comparar previsão × resultado.\nCriar cenário de probabilidade e explicar.",
+      "sugestaoNao": "Listar resultados possíveis e julgar probabilidades.\nConferir previsão com experimento.\nCorrigir justificativas inconsistentes."
+    },
+    {
+      "id": "EF05MA24",
+      "pergunta": "Coletar, organizar e representar dados por meio de tabelas e gráficos (colunas, barras, pictóricos e de linhas simples), com e sem uso de tecnologias digitais, e interpretar informações apresentadas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar dados, organizar em tabela e construir gráfico adequado.\nInterpretar um gráfico e escrever 2 conclusões.\nComparar dois gráficos e justificar diferenças.",
+      "sugestaoNao": "Ler títulos, eixos, categorias de gráficos/tabelas.\nResponder perguntas literais e inferenciais.\nProduzir parágrafo‑síntese com dados."
+    },
+    {
+      "id": "EF05MA25",
+      "pergunta": "Comparar conjuntos de dados apresentados em diferentes representações, identificando tendências, variações e conclusões possíveis.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar dados, organizar em tabela e construir gráfico adequado.\nInterpretar um gráfico e escrever 2 conclusões.\nComparar dois gráficos e justificar diferenças.",
+      "sugestaoNao": "Ler títulos, eixos, categorias de gráficos/tabelas.\nResponder perguntas literais e inferenciais.\nProduzir parágrafo‑síntese com dados."
+    },
+    {
+      "id": "EF05MA26",
+      "pergunta": "Calcular e interpretar a média aritmética simples em contextos significativos, avaliando sua pertinência como medida de tendência central.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calcular média de pequenos conjuntos (idades/tempos).\nDiscutir quando a média representa bem o conjunto.\nComparar média com valores extremos (outliers).",
+      "sugestaoNao": "Calcular média de pequenos conjuntos.\nComparar média com valores extremos.\nDiscutir quando a média não é adequada."
+    },
+    {
+      "id": "EF05MA27",
+      "pergunta": "Planejar e realizar pesquisas com variáveis categóricas e numéricas, organizar os dados coletados em tabelas e gráficos adequados e comunicar conclusões de forma escrita e oral.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa (pergunta, população, variáveis).\nTabular dados e escolher o gráfico mais adequado.\nApresentar oralmente resultados com conclusões.",
+      "sugestaoNao": "Definir pergunta de pesquisa e variáveis.\nTabular dados de forma consistente.\nConstruir gráfico adequado ao tipo de dado."
+    },
+    {
+      "id": "EF05MA28",
+      "pergunta": "Resolver problemas que envolvam leitura, interpretação e comparação de dados em tabelas e gráficos, incluindo situações de tomada de decisão com base nas informações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coletar dados, organizar em tabela e construir gráfico adequado.\nInterpretar um gráfico e escrever 2 conclusões.\nComparar dois gráficos e justificar diferenças.",
+      "sugestaoNao": "Ler títulos, eixos, categorias de gráficos/tabelas.\nResponder perguntas literais e inferenciais.\nProduzir parágrafo‑síntese com dados."
+    }
+  ]
+}

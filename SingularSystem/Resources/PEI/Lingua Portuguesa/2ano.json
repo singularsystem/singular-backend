@@ -1,0 +1,209 @@
+{
+  "subject": "Língua Portuguesa",
+  "serie": "2º Ano",
+  "questions": [
+    {
+      "id": "EF02LP01",
+      "tipo": "Escrita",
+      "pergunta": "Utilizar, ao produzir o texto, grafia correta de palavras conhecidas ou com estruturas silábicas já dominadas, letras maiúsculas em início de frases e em substantivos próprios, segmentação entre as palavras, ponto final, ponto de interrogação e ponto de exclamação.",
+      "sugestaoNao": "• Revisitar palavras conhecidas em listas temáticas; ditado de frases curtas focando segmentação e pontuação.\n• Jogos de ordenar palavras para formar frases; destacar maiúsculas e sinais.\n• Reescrita guiada de bilhetes/legendas com modelo à vista.",
+      "sugestaoSimComMediacao": "• Revisão dirigida marcando maiúsculas/pontuação; checklist de itens a revisar.\n• Produzir frases curtas com banco de palavras, com mediação do professor.\n• Reescrever um pequeno texto corrigindo segmentação, com apoio."
+    },
+    {
+      "id": "EF02LP02",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Segmentar palavras em sílabas e remover e substituir sílabas iniciais, mediais ou finais para criar novas palavras.",
+      "sugestaoNao": "• Atividades de bater palmas para sílabas; jogos de montar/desmontar palavras com cartões de sílabas.\n• Troca de sílabas para formar novas palavras (baralho silábico).\n• Ditado silábico com apoio visual.",
+      "sugestaoSimComMediacao": "• Completar lacunas de sílabas em palavras conhecidas, com apoio.\n• Produzir listas de famílias silábicas com mediação.\n• Jogos de rimas envolvendo substituição de sílabas, com orientação."
+    },
+    {
+      "id": "EF02LP03",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Ler e escrever corretamente palavras com correspondências regulares diretas entre letras e fonemas (f, v, t, d, p, b) e correspondências regulares contextuais (c e q; e e o, em posição átona em final de palavra).",
+      "sugestaoNao": "• Listas de palavras por som/letra; jogos de classificação por grafema.\n• Atividades de completar palavras com c/qu; e/o átonos em final.\n• Leitura em voz alta de palavras/frasinhas com os padrões.",
+      "sugestaoSimComMediacao": "• Produzir frases com palavras-alvo, com apoio.\n• Ditado guiado com foco nas regularidades; quadro de apoio (regras).\n• Jogos digitais ou cartões para treinar grafemas com mediação."
+    },
+    {
+      "id": "EF02LP04",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, identificando que existem vogais em todas as sílabas.",
+      "sugestaoNao": "• Quebra-cabeça de sílabas para montar palavras (CV/V/CVC/CCV).\n• Atividades de destacar a vogal em cada sílaba; cartazes de famílias silábicas.\n• Leitura de listas organizadas por estrutura silábica.",
+      "sugestaoSimComMediacao": "• Produção de frases com palavras dos diferentes padrões, com apoio.\n• Ditado orientado destacando a vogal em cada sílaba.\n• Jogos de bingo silábico com mediação."
+    },
+    {
+      "id": "EF02LP05",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Ler e escrever corretamente palavras com marcas de nasalidade (til, m, n).",
+      "sugestaoNao": "• Atividades de percepção auditiva de nasalidade; sublinhar ~, m, n em palavras.\n• Cartazes com exemplos (pão, mãe, bom, fim).\n• Ditado visual com imagens contendo nasal.",
+      "sugestaoSimComMediacao": "• Produção de pequenas listas/frases com palavras nasais, com apoio.\n• Jogo de memória (imagem ↔ palavra nasal) com mediação.\n• Revisão guiada destacando a marca de nasalidade."
+    },
+    {
+      "id": "EF02LP06",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Perceber o princípio acrofônico que opera nos nomes das letras do alfabeto.",
+      "sugestaoNao": "• Jogo \"nome da letra começa com…?\" (B de bola, F de faca).\n• Cartazes relacionando nome da letra e som inicial de palavras.\n• Atividades de caça de palavras que começam com o som do nome da letra.",
+      "sugestaoSimComMediacao": "• Completar listas com palavras do mesmo som inicial, com mediação.\n• Ditado de figuras (dizer a letra pelo som inicial), com apoio.\n• Bingo do acrofônico orientado pelo professor."
+    },
+    {
+      "id": "EF02LP07",
+      "tipo": "Escrita",
+      "pergunta": "Escrever palavras, frases, textos curtos nas formas imprensa e cursiva.",
+      "sugestaoNao": "• Traçado de cursiva em linhas pontilhadas; copiar pequenas frases em cursiva e imprensa.\n• Alternar registros (imprensa↔cursiva) de legendas curtas.\n• Exercícios de caligrafia funcional com palavras do cotidiano.",
+      "sugestaoSimComMediacao": "• Produzir bilhetes e listas alternando tipos de letra, com orientação.\n• Revisar legibilidade e regularidade do traço com feedback mediado.\n• Copiar pequenos textos mantendo forma e alinhamento, com apoio."
+    },
+    {
+      "id": "EF02LP08",
+      "tipo": "Escrita",
+      "pergunta": "Segmentar corretamente as palavras ao escrever frases e textos.",
+      "sugestaoNao": "• Recortar e ordenar palavras para formar frases; uso de tiras de papel.\n• Reescrita de frases sem espaços inserindo segmentação correta.\n• Leitura em voz alta marcando pausas entre palavras.",
+      "sugestaoSimComMediacao": "• Produzir frases curtas com banco de palavras, com mediação.\n• Revisar a própria escrita usando régua/marcador para ver espaços.\n• Atividades de autocorreção com checklist guiado."
+    },
+    {
+      "id": "EF02LP09",
+      "tipo": "Escrita",
+      "pergunta": "Usar adequadamente ponto final, ponto de interrogação e ponto de exclamação.",
+      "sugestaoNao": "• Leitura de tiras/diálogos para identificar sinais; dramatização de entonação.\n• Reescrita inserindo o sinal adequado conforme o sentido.\n• Cartazes com exemplos e funções dos sinais.",
+      "sugestaoSimComMediacao": "• Produzir 3 frases (afirmativa, pergunta, exclamação) com apoio.\n• Revisar um texto sublinhando onde cabem os sinais, com mediação.\n• Jogos de cartões (frase ↔ sinal) com orientação."
+    },
+    {
+      "id": "EF02LP10",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar sinônimos de palavras de texto lido, determinando a diferença de sentido entre eles, e formar antônimos de palavras encontradas em texto lido pelo acréscimo do prefixo de negação in-/im-.",
+      "sugestaoNao": "• Atividades de substituir palavras por sinônimos em frases simples.\n• Caça-palavras de antônimos com in-/im- (possível/impossível).\n• Quadro de sinônimos próximos vs. distantes (nuances) com exemplos.",
+      "sugestaoSimComMediacao": "• Reescrever frase trocando uma palavra por sinônimo adequado, com mediação.\n• Formar antônimos com cartões de prefixos, com apoio.\n• Discussão orientada sobre diferença de sentido entre sinônimos."
+    },
+    {
+      "id": "EF02LP11",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Formar o aumentativo e o diminutivo de palavras com os sufixos -ão e -inho/-zinho.",
+      "sugestaoNao": "• Jogos de formar palavras (casa→casinha; bola→bolão).\n• Cartazes com pares base↔derivada; completar lacunas de sufixo.\n• Produção de frases usando aumentativo/diminutivo.",
+      "sugestaoSimComMediacao": "• Reescrita de frases trocando tamanho/afeto via sufixo, com mediação.\n• Ditado guiado de palavras e suas variações.\n• Atividades em pares para justificar a escolha do sufixo."
+    },
+    {
+      "id": "EF02LP12",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Ler e compreender com certa autonomia cantigas, letras de canção, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.",
+      "sugestaoNao": "• Leitura coletiva de cantigas/letras; marcar refrão e rimas.\n• Atividades de ordenar versos/estrofes; completar lacunas.\n• Cantar e apontar onde está lendo no texto.",
+      "sugestaoSimComMediacao": "• Leitura em duplas com roteiro de compreensão, com apoio.\n• Relacionar partes do texto à finalidade (informar/encantar), com mediação.\n• Produzir pequena legenda explicando a cantiga, com orientação."
+    },
+    {
+      "id": "EF02LP13",
+      "tipo": "Escrita",
+      "pergunta": "Planejar e produzir bilhetes e cartas, em meio impresso e/ou digital, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.",
+      "sugestaoNao": "• Modelos de bilhete/carta; preencher destinatário, saudação e despedida.\n• Produzir bilhetes simples (recado à família) com campos guiados.\n• Revisar clareza e cortesia com lista de verificação.",
+      "sugestaoSimComMediacao": "• Escrever carta curta com apoio de um roteiro (quem, para quem, por quê).\n• Troca de bilhetes entre colegas com mediação do professor.\n• Digitarem versão em ferramenta simples com orientação."
+    },
+    {
+      "id": "EF02LP14",
+      "tipo": "Escrita",
+      "pergunta": "Planejar e produzir pequenos relatos de observação de processos, de fatos, de experiências pessoais, mantendo as características do gênero, considerando a situação comunicativa e o tema/assunto do texto.",
+      "sugestaoNao": "• Relato de experiência (experimento simples/visita); sequência de imagens para ordenar.\n• Entrelinhar marcadores temporais (hoje, ontem, depois).\n• Ditado ao professor antes da escrita autônoma.",
+      "sugestaoSimComMediacao": "• Redigir relato curto com quadro de planejamento (início–meio–fim), com mediação.\n• Revisão guiada de temporalidade e clareza.\n• Compartilhar oralmente o relato com apoio visual."
+    },
+    {
+      "id": "EF02LP15",
+      "tipo": "Oralidade",
+      "pergunta": "Cantar cantigas e canções, obedecendo ao ritmo e à melodia.",
+      "sugestaoNao": "• Ensaiar canções com palmas/movimentos marcando o ritmo.\n• Repetir trechos para internalizar melodia; uso de karaokê escolar.\n• Associar imagens aos versos para apoio de memória.",
+      "sugestaoSimComMediacao": "• Cantar em pequenos grupos com regência do professor.\n• Conduzir entrada/saída de vozes em cânones simples com mediação.\n• Introduzir instrumentos de percussão escolar com apoio."
+    },
+    {
+      "id": "EF02LP16",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar e reproduzir, em bilhetes, recados, avisos, cartas, e-mails, receitas (modo de fazer), relatos (digitais ou impressos), a formatação e diagramação específica de cada um desses gêneros.",
+      "sugestaoNao": "• Analisar exemplos autênticos; circular elementos (título, destinatário, data).\n• Montar maquetes de textos (recortar e colar partes) para compreender o layout.\n• Reproduzir o formato em fichas-modelo.",
+      "sugestaoSimComMediacao": "• Produzir um exemplar de cada gênero com roteiro e modelos, com mediação.\n• Revisar formatação com checklist guiado.\n• Comparar dois gêneros, destacando diferenças, com apoio."
+    },
+    {
+      "id": "EF02LP17",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar e reproduzir, em relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, digitais ou impressos, a sequência dos fatos, utilizando expressões que marquem a passagem do tempo (\"antes\", \"depois\", \"ontem\", \"hoje\", \"amanhã\", \"outro dia\", \"antigamente\", \"há muito tempo\" etc.), e o nível de informatividade necessário.",
+      "sugestaoNao": "• Ordenar tiras com cenas; incluir marcadores temporais.\n• Exercícios de completar frases com expressões de tempo.\n• Recontar oralmente um dia especial usando cartões de tempo.",
+      "sugestaoSimComMediacao": "• Escrever pequeno relato inserindo marcadores, com mediação.\n• Revisão guiada para adequar informatividade (nem de menos, nem de mais).\n• Ler o próprio texto para um colega com roteiro de checagem."
+    },
+    {
+      "id": "EF02LP18",
+      "tipo": "Escrita",
+      "pergunta": "Planejar e produzir cartazes e folhetos para divulgar eventos da escola ou da comunidade, utilizando linguagem persuasiva e elementos textuais e visuais (tamanho da letra, leiaute, imagens) adequados ao gênero, considerando a situação comunicativa e o tema/assunto do texto.",
+      "sugestaoNao": "• Analisar cartazes reais; identificar título, imagem, informações essenciais.\n• Planejar cartaz com esboço (wireframe) em papel quadriculado.\n• Selecionar imagens e escrever chamadas curtas.",
+      "sugestaoSimComMediacao": "• Produzir cartaz em dupla com rubrica de avaliação mediada.\n• Revisar persuasão (verbo no imperativo, apelo) com checklist.\n• Expor e explicar escolhas de design com apoio do professor."
+    },
+    {
+      "id": "EF01LP19",
+      "tipo": "Escrita",
+      "pergunta": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, notícias curtas para público infantil, para compor jornal falado que possa ser repassado oralmente ou em meio digital, em áudio ou vídeo, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.",
+      "sugestaoNao": "• Assistir a modelos de jornal falado; identificar partes (abertura, notícia, encerramento).\n• Planejar pauta simples (quem, o quê, onde, quando).\n• Ensaiar leitura em voz alta com clareza.",
+      "sugestaoSimComMediacao": "• Escrever roteiro de notícia curta com mediação.\n• Gravar áudio/vídeo guiado pelo professor.\n• Apresentar para a turma com feedback orientado."
+    },
+    {
+      "id": "EF02LP20",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Reconhecer a função de textos utilizados para apresentar informações coletadas em atividades de pesquisa (enquetes, pequenas entrevistas, registros de experimentações).",
+      "sugestaoNao": "• Analisar exemplos de textos de pesquisa; identificar partes (pergunta, dados, conclusão).\n• Simular pequena enquete na turma e registrar resultados.\n• Comparar textos informativos e de pesquisa.",
+      "sugestaoSimComMediacao": "• Explicar, com mediação, para que serve cada parte do texto de pesquisa.\n• Produzir pequeno texto com dados coletados, com apoio.\n• Apresentar oralmente os resultados com roteiro guiado."
+    },
+    {
+      "id": "EF02LP21",
+      "tipo": "Escrita",
+      "pergunta": "Explorar, com a mediação do professor, textos informativos de diferentes ambientes digitais de pesquisa, conhecendo suas possibilidades.",
+      "sugestaoNao": "• Navegação guiada em sites educativos; identificar elementos (menu, busca, links).\n• Comparar texto impresso e digital (semelhanças/diferenças).\n• Atividade de busca orientada por palavras-chave.",
+      "sugestaoSimComMediacao": "• Localizar informações específicas com mediação do professor.\n• Registrar descobertas em fichas com apoio.\n• Discutir confiabilidade de fontes com orientação."
+    },
+    {
+      "id": "EF02LP22",
+      "tipo": "Escrita",
+      "pergunta": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, relatos de experimentos, registros de observação, entrevistas, dentre outros gêneros do campo investigativo, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.",
+      "sugestaoNao": "• Planejar com roteiro (o que vamos escrever? para quem? por quê?).\n• Produzir em duplas com modelos à vista.\n• Revisar coletivamente com checklist de gênero.",
+      "sugestaoSimComMediacao": "• Escrever com apoio de banco de palavras e frases-modelo.\n• Revisar formatação e conteúdo com mediação.\n• Apresentar o texto produzido com auxílio do professor."
+    },
+    {
+      "id": "EF02LP23",
+      "tipo": "Oralidade",
+      "pergunta": "Planejar e produzir, com certa autonomia, pequenos registros de observação de resultados de pesquisa, coerentes com um tema investigado.",
+      "sugestaoNao": "• Observar experimento simples e registrar em etapas (antes/durante/depois).\n• Usar tabelas/desenhos para organizar dados.\n• Ditado coletivo antes da escrita individual.",
+      "sugestaoSimComMediacao": "• Produzir registro com quadro de apoio (o que observei/o que aprendi), com mediação.\n• Revisar coerência com o tema, com ajuda.\n• Compartilhar oralmente com roteiro de apresentação."
+    },
+    {
+      "id": "EF02LP24",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, relatos de experimentos, registros de observação, entrevistas, dentre outros gêneros do campo investigativo, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.",
+      "sugestaoNao": "• Planejar roteiro de apresentação oral (introdução, desenvolvimento, conclusão).\n• Ensaiar com apoio de cartões/imagens.\n• Gravar áudio/vídeo curto com orientação.",
+      "sugestaoSimComMediacao": "• Produzir roteiro com frases-modelo, com mediação.\n• Revisar clareza e sequência com feedback do professor.\n• Apresentar com apoio visual e orientação."
+    },
+    {
+      "id": "EF02LP25",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Identificar e reproduzir, em relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, digitais ou impressos, a formatação e diagramação específica desse gênero, inclusive em suas versões orais.",
+      "sugestaoNao": "• Ler exemplos; circular partes (título, pergunta, resposta, passos, definições).\n• Montar esquemas de layout para cada gênero.\n• Reproduzir modelos com campos guiados.",
+      "sugestaoSimComMediacao": "• Produzir um verbete/entrevista/relato com roteiro e mediação.\n• Revisar se o formato está adequado, com checklist.\n• Apresentar oralmente a estrutura do texto produzido, com apoio."
+    },
+    {
+      "id": "EF02LP26",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Ler e compreender, com certa autonomia, textos literários de diferentes gêneros e extensões, desenvolvendo o gosto pela leitura.",
+      "sugestaoNao": "• Roda de leitura com livros variados; escolha livre.\n• Reconto oral ou desenho sobre a história lida.\n• Cantinho de leitura com acervo diversificado.",
+      "sugestaoSimComMediacao": "• Leitura em duplas com roteiro de compreensão, com apoio.\n• Relacionar história a experiências pessoais, com mediação.\n• Produzir pequena resenha oral com perguntas-guias."
+    },
+    {
+      "id": "EF02LP27",
+      "tipo": "Escrita",
+      "pergunta": "Reescrever textos narrativos literários lidos pelo professor.",
+      "sugestaoNao": "• Elaborar sequência de cenas com imagens; ditar ao professor antes da escrita autônoma.\n• Reconto oral em grupos, registrando palavras-chave.\n• Atividade de completar trechos com base no texto lido.",
+      "sugestaoSimComMediacao": "• Reescrita guiada observando personagens, enredo, tempo, espaço.\n• Revisão mediada de coerência e ordem dos eventos.\n• Leitura comparada (original vs. reescrita) com apoio."
+    },
+    {
+      "id": "EF02LP28",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Reconhecer o conflito gerador de uma narrativa ficcional e sua resolução, além de palavras, expressões e frases que caracterizam personagens e ambientes.",
+      "sugestaoNao": "• Mapear início–problema–desfecho com fichas visuais.\n• Destacar palavras que mostram características (valente, assustador).\n• Identificar ambiente a partir de pistas do texto.",
+      "sugestaoSimComMediacao": "• Completar quadro de análise (personagens/conflito/ambiente), com mediação.\n• Justificar a identificação do conflito com trechos do texto, com apoio.\n• Produzir frases caracterizando personagem/ambiente, com orientação."
+    },
+    {
+      "id": "EF02LP29",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Observar, em poemas visuais, o formato do texto na página, as ilustrações e outros efeitos visuais.",
+      "sugestaoNao": "• Explorar poemas visuais/concretos; localizar elementos gráficos (formas, disposição).\n• Reproduzir um poema visual simples a partir de modelo.\n• Relacionar imagem-palavra em colagens.",
+      "sugestaoSimComMediacao": "• Produzir um pequeno poema visual em dupla com mediação (escolha de palavras e arranjo).\n• Apresentar e explicar o efeito visual escolhido, com apoio.\n• Revisar legibilidade e organização do layout com checklist guiado."
+    }
+  ]
+}

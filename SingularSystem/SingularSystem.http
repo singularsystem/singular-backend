@@ -1,0 +1,6 @@
+﻿@SingularSystem_HostAddress = http://localhost:5008
+
+# GET {{SingularSystem_HostAddress}}/weatherforecast/
+# Accept: application/json
+
+###

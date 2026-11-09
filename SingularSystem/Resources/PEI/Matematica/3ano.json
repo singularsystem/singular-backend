@@ -1,0 +1,202 @@
+{
+  "subject": "Matemática",
+  "serie": "3º Ano",
+  "questions": [
+    {
+      "id": "EF03MA01",
+      "pergunta": "Ler, escrever e comparar números naturais de até a ordem de unidade de milhar, estabelecendo relações entre os registros numéricos e em língua materna.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Jogo de cartas: ordenar e comparar números até 9.999 em rodada relâmpago (>, <, =).\nLinha numérica humana: estudantes posicionam placas com números conforme ditado.\nDitado expandido: escrever por extenso e em algarismos, conferindo equivalência.",
+      "sugestaoNao": "Material base‑10 para comparar valor posicional (milhar, centena, dezena, unidade).\nSequência graduada: ordenar conjuntos de números com apoio de reta numérica.\nJogo de pares: número ↔ escrita por extenso."
+    },
+    {
+      "id": "EF03MA02",
+      "pergunta": "Identificar características do sistema de numeração decimal, utilizando a composição e a decomposição de número natural de até quatro ordens.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Decomposição com blocos base‑10 (DMU): representar números e registrar composição/decomposição.\nJogo 'banco do 10': trocar 10 unidades → 1 dezena; 10 dezenas → 1 centena etc.\nCartões-alvo: formar um número pedido usando diferentes composições.",
+      "sugestaoNao": "Quebra‑cabeça de decomposição (ex.: 3.524 = 3.000+500+20+4).\nTrocas sucessivas no quadro de valor de lugar (U↔D↔C↔UM).\nDictado de composição a partir de descrição oral ('3 centenas, 2 dezenas...')."
+    },
+    {
+      "id": "EF03MA03",
+      "pergunta": "Construir e utilizar fatos básicos da adição e da multiplicação para o cálculo mental ou escrito.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Memorização inteligente: completar tabelas de fatos (5+?=, 3×?=) com estratégias.\nConstrução de reticulados de multiplicação (arrays) até 10×10.\nDesafio de cálculo mental com timers e explicação da estratégia usada.",
+      "sugestaoNao": "Cartões de fatos fundamentais com estratégia desenhada (dúzias, dobrar, near‑doubles).\nConstrução de tabelas parciais de adição/multiplicação e preenchimento guiado.\nJogos digitais/manipulativos focados em fatos pouco consolidados."
+    },
+    {
+      "id": "EF03MA04",
+      "pergunta": "Estabelecer a relação entre números naturais e pontos da reta numérica para utilizá-la na ordenação dos números naturais e também na construção de fatos da adição e da subtração, relacionando-os com deslocamentos para a direita ou para a esquerda.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reta numérica no chão: saltos para direita/esquerda simulando +/−.\nLocalizar números dados e justificar posição relativa com marcos (0, 500, 1000).\nConstruir fatos de +/− a partir de deslocamentos equivalentes.",
+      "sugestaoNao": "Marcar múltiplos de 10/100 na reta e localizar números intermediários.\nDeslocamentos pequenos (±1, ±10, ±100) para fortalecer vizinhanças numéricas.\nTrilhas de +/− com registro dos passos."
+    },
+    {
+      "id": "EF03MA05",
+      "pergunta": "Utilizar diferentes procedimentos de cálculo mental e escrito, inclusive os convencionais, para resolver problemas significativos envolvendo adição e subtração com números naturais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Menu de estratégias: decomposição, compensação, arredondamento; escolher e registrar.\nCálculo escrito convencional e comparação com estratégia mental usada.\nCorrida de algoritmos: grupos resolvem o mesmo problema por procedimentos diferentes.",
+      "sugestaoNao": "Resolver os mesmos problemas por duas estratégias e comparar eficiência.\nModelagem de algoritmo convencional passo a passo com números próximos.\nQuadro de erros comuns (empréstimos/sobras) e correção guiada."
+    },
+    {
+      "id": "EF03MA06",
+      "pergunta": "Resolver e elaborar problemas de adição e subtração com os significados de juntar, acrescentar, separar, retirar, comparar e completar quantidades, utilizando diferentes estratégias de cálculo exato ou aproximado, incluindo cálculo mental.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estação de problemas por significado (juntar, retirar, comparar etc.) com rótulos claros.\nEscrita de problemas originais e troca entre duplas para resolver e validar significado.\nEstimativa antes do cálculo e checagem de razoabilidade.",
+      "sugestaoNao": "Cards com a palavra‑chave do significado (juntar, retirar etc.) para classificar problemas.\nEscolher a operação adequada e justificar a seleção.\nReescrever enunciado confuso para deixá‑lo resolúvel."
+    },
+    {
+      "id": "EF03MA07",
+      "pergunta": "Resolver e elaborar problemas de multiplicação (por 2, 3, 4, 5 e 10) com os significados de adição de parcelas iguais e elementos apresentados em disposição retangular, utilizando diferentes estratégias de cálculo e registros.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Arrays com tampinhas/quadriculado para 2,3,4,5,10; registro de sentenças.\nProblemas de configuração retangular (linhas×colunas) com contextos reais.\nExplorar padrões da tabuada do 10, 5, 2 e suas relações.",
+      "sugestaoNao": "Montar arrays pequenos e escrever a multiplicação correspondente.\nUsar adições repetidas para consolidar o sentido.\nExplorar regularidades (par × ímpar; dobrar e metade)."
+    },
+    {
+      "id": "EF03MA08",
+      "pergunta": "Resolver e elaborar problemas de divisão de um número natural por outro (até 10), com resto zero e com resto diferente de zero, com os significados de repartição equitativa e de medida, por meio de estratégias e registros pessoais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Situações de repartir/medir com materiais (palitos, blocos); registrar com resto.\nCriar e resolver histórias de divisão até 10; validar com desenho ou agrupamento.\nTabela de quocientes conhecidos usando fatos da multiplicação.",
+      "sugestaoNao": "Resolver divisões por agrupamento concreto antes de simbolizar.\nRelacionar multiplicação/divisão como operações inversas em exemplos.\nRegistrar com desenhos e sentenças completas."
+    },
+    {
+      "id": "EF03MA09",
+      "pergunta": "Associar o quociente de uma divisão com resto zero de um número natural por 2, 3, 4, 5 e 10 às ideias de metade, terça, quarta, quinta e décima partes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar metades/terços/quartos/quintos/décimos ligando a divisão por 2,3,4,5,10.\nDobrar/dividir coleções reais e registrar a parte correspondente.\nJogo de equivalências: escolher a fração que representa o quociente dado.",
+      "sugestaoNao": "Representar partes do todo com dobraduras/desenhos (1/2, 1/3, 1/4, 1/5, 1/10).\nRelacionar a fração ao quociente correspondente.\nProblemas de partilha iguais com diferentes tamanhos de conjuntos."
+    },
+    {
+      "id": "EF03MA10",
+      "pergunta": "Identificar regularidades em sequências ordenadas de números naturais, resultantes da realização de adições ou subtrações sucessivas, por um mesmo número, descrever uma regra de formação da sequência e determinar elementos faltantes ou seguintes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Sequências por +/− n fixo; enunciar a regra e prever próximos/anteriores.\nDescobrir elementos faltantes em sequências; explicar o padrão.\nCriar sequência própria e desafiar colegas a identificar a regra.",
+      "sugestaoNao": "Completar sequências com apoio de linha numérica e contagem oral.\nDestacar a diferença constante entre termos.\nIdentificar padrões incorretos e corrigi‑los."
+    },
+    {
+      "id": "EF03MA11",
+      "pergunta": "Compreender a ideia de igualdade para escrever diferentes sentenças de adições ou de subtrações de dois números naturais que resultem na mesma soma ou diferença.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Balança numérica: diferentes pares de parcelas para a mesma soma; registrar igualdades.\nJogo 'alvos de soma/diferença': construir expressões que atinjam um valor dado.\nExplorar trocas equivalentes (ex.: 700=300+400=200+500).",
+      "sugestaoNao": "Balança visual: completar sentenças de igualdade com lacunas.\nExplorar trocas equivalentes (ex.: 200+?=350).\nJogo de cartelas de equivalências de soma/diferença."
+    },
+    {
+      "id": "EF03MA12",
+      "pergunta": "Descrever e representar, por meio de esboços de trajetos ou utilizando croquis e maquetes, a movimentação de pessoas ou de objetos no espaço, incluindo mudanças de direção e sentido, com base em diferentes pontos de referência.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapear trajeto da sala à biblioteca; usar setas e pontos de referência.\nLer/produzir croquis simples com mudanças de direção e sentido.\nMaquete de percurso com lego/blocos e descrição oral do caminho.",
+      "sugestaoNao": "Traçar rotas simples usando setas (↑↓→←) com início/fim dados.\nSeguir instruções verbais curtas para deslocamentos na sala.\nCorrigir percursos com base em pontos de referência."
+    },
+    {
+      "id": "EF03MA13",
+      "pergunta": "Associar figuras geométricas espaciais (cubo, bloco retangular, pirâmide, cone, cilindro e esfera) a objetos do mundo físico e nomear essas figuras.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça‑formas no cotidiano: associar objetos às figuras espaciais e fotografar.\nEstação de manipulação: montar/identificar cubo, cilindro, cone etc.\nJogo de pistas: adivinhar a figura pelo conjunto de características.",
+      "sugestaoNao": "Manipular sólidos reais e nomeá‑los sem apoio visual prévio.\nJogo de adivinhação com pistas graduadas sobre o sólido.\nPareamento sólido ↔ imagens de objetos do cotidiano."
+    },
+    {
+      "id": "EF03MA14",
+      "pergunta": "Descrever características de algumas figuras geométricas espaciais (prismas retos, pirâmides, cilindros, cones), relacionando-as com suas planificações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar planificações e montar sólidos; relacionar faces, arestas e vértices.\nComparar planificações corretas e incorretas, justificando.\nProduzir planificação de um prisma reto simples e testar a montagem.",
+      "sugestaoNao": "Recortar/montar planificações prontas; identificar figura correspondente.\nMarcar faces/arestas/vértices durante a montagem.\nDistinguir planificações que não fecham."
+    },
+    {
+      "id": "EF03MA15",
+      "pergunta": "Classificar e comparar figuras planas (triângulo, quadrado, retângulo, trapézio e paralelogramo) em relação a seus lados (quantidade, posições relativas e comprimento) e vértices.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Classificar figuras pelo número de lados/vértices e posições relativas (paralelos).\nConstruir figuras no papel quadriculado variando lado e ângulos.\nJogo de dominó de propriedades (triângulo–3 lados; quadrado–lados iguais).",
+      "sugestaoNao": "Colorir lados/vértices; contar e registrar propriedades.\nSeparar por categorias (triângulos, quadriláteros) e justificar.\nCorrigir classificações equivocadas com argumentos."
+    },
+    {
+      "id": "EF03MA16",
+      "pergunta": "Reconhecer figuras congruentes, usando sobreposição e desenhos em malhas quadriculadas ou triangulares, incluindo o uso de tecnologias digitais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Sobrepor recortes/acetatos para verificar congruência.\nUsar malha quadriculada/triangular para desenhar figuras congruentes.\nAplicar ferramenta digital simples para copiar/transladar figuras.",
+      "sugestaoNao": "Recortar e sobrepor figuras; verificar coincidência ponto a ponto.\nDesenhar cópias usando malha quadriculada.\nExplorar transformações simples (translação) mantendo congruência."
+    },
+    {
+      "id": "EF03MA17",
+      "pergunta": "Reconhecer que o resultado de uma medida depende da unidade de medida utilizada.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Trocar a unidade (cm ↔ mm) e discutir a mudança no número medido.\nEstimativa com diferentes unidades; comparar resultados.\nJogo 'qual unidade cabe melhor?' para cada situação.",
+      "sugestaoNao": "Comparar a mesma grandeza em unidades diferentes para perceber o efeito.\nClassificar situações pela unidade mais adequada.\nSequência de estimativas com feedback imediato de unidade correta."
+    },
+    {
+      "id": "EF03MA18",
+      "pergunta": "Escolher a unidade de medida e o instrumento mais apropriado para medições de comprimento, tempo e capacidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Selecionar instrumento adequado (régua, trena, copo medidor, relógio).\nEstudo de caso: qual instrumento/usabilidade para cada medição proposta.\nJustificar a escolha da unidade em pequenos relatórios.",
+      "sugestaoNao": "Mostruário de instrumentos e unidades; escolher o par correto.\nDebater escolhas inadequadas e corrigir.\nFichas‑desafio de seleção de instrumento/unidade."
+    },
+    {
+      "id": "EF03MA19",
+      "pergunta": "Estimar, medir e comparar comprimentos, utilizando unidades de medida não padronizadas e padronizadas mais usuais (metro, centímetro e milímetro) e diversos instrumentos de medida.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Medições reais de objetos da sala em cm/mm e registro em tabela.\nEstimativa antes de medir; erro absoluto e discussão de precisão.\nMedir com diferentes instrumentos e comparar variações.",
+      "sugestaoNao": "Medir a mesma peça com régua de cm e fita de mm; comparar.\nRevisar leitura correta da régua (início no zero).\nTreinar registros padronizados com unidade."
+    },
+    {
+      "id": "EF03MA20",
+      "pergunta": "Estimar e medir capacidade e massa, utilizando unidades de medida não padronizadas e padronizadas mais usuais (litro, mililitro, quilograma, grama e miligrama), reconhecendo-as em leitura de rótulos e embalagens, entre outros.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Leitura de rótulos para identificar unidades (L, mL, kg, g, mg).\nEstação de capacidade/massa: medir e anotar em recipientes e balanças.\nEstimativas de massa/capacidade de itens do cotidiano e verificação.",
+      "sugestaoNao": "Medir volumes com copos medidores e massas com balança escolar.\nLer rótulos e converter para a unidade pedida quando possível.\nCorrigir estimativas com medições reais."
+    },
+    {
+      "id": "EF03MA21",
+      "pergunta": "Comparar, visualmente ou por superposição, áreas de faces de objetos, de figuras planas ou de desenhos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar áreas por recobrimento com quadradinhos (superposição).\nUsar figuras de mesma forma/tamanho para decidir maior área.\nExplorar que figuras de contorno diferente podem ter área semelhante.",
+      "sugestaoNao": "Superposição com papel quadriculado para decidir maior área.\nComparar áreas mantendo forma vs. mudando forma.\nDiscutir casos contraintuitivos (contornos longos × áreas pequenas)."
+    },
+    {
+      "id": "EF03MA22",
+      "pergunta": "Ler e registrar medidas e intervalos de tempo, utilizando relógios (analógico e digital) para informar os horários de início e término de realização de uma atividade e sua duração.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar cronograma de uma atividade (início, fim, duração).\nLer horas em relógios analógico/digital em situações de rotina.\nRegistrar intervalos de tempo com linha do tempo.",
+      "sugestaoNao": "Escrever horários em formato analógico e digital para mesmas situações.\nCalcular duração com linha do tempo.\nResolver problemas de início‑término com e sem ultrapassar a hora."
+    },
+    {
+      "id": "EF03MA23",
+      "pergunta": "Ler horas em relógios digitais e em relógios analógicos e reconhecer a relação entre hora e minutos e entre minuto e segundos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Jogo do relógio: corresponder horas/minutos/segundos.\nAjustar ponteiros em relógios de papel conforme horários ditados.\nConverter medidas de tempo em pequenos desafios (ex.: 120 s = 2 min).",
+      "sugestaoNao": "Relacionar 60 min = 1 h; 60 s = 1 min com exercícios rápidos.\nAjustar ponteiros em relógios de cartolina.\nResponder 'que horas serão em…' adicionando minutos."
+    },
+    {
+      "id": "EF03MA24",
+      "pergunta": "Resolver e elaborar problemas que envolvam a comparação e a equivalência de valores monetários do sistema brasileiro em situações de compra, venda e troca.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simulação de feirinha com cédulas/moedas; troco e equivalências.\nResolver encadeamentos de compra/venda com comparação de preços.\nDesafio de montar o mesmo valor com diferentes combinações.",
+      "sugestaoNao": "Contar troco com sequência de cédulas/moedas.\nUsar cartões com preços e simular compras.\nRegistrar equivalências de um valor com diferentes combinações."
+    },
+    {
+      "id": "EF03MA25",
+      "pergunta": "Identificar, em eventos familiares aleatórios, todos os resultados possíveis, estimando os que têm maiores ou menores chances de ocorrência.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar espaços amostrais simples (lançar 1 dado, 2 moedas).\nEstimar chances (mais/menos provável) e checar por experimentação.\nRegistrar resultados em tabelas e discutir variação.",
+      "sugestaoNao": "Listar resultados possíveis antes de experimentar.\nJulgar eventos como mais/menos prováveis e verificar.\nComparar previsões com resultados obtidos."
+    },
+    {
+      "id": "EF03MA26",
+      "pergunta": "Resolver problemas cujos dados estão apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Resolver questões com dados em dupla entrada/barras/colunas.\nExtrair informações específicas e comparar categorias.\nEscrever uma pergunta que o gráfico responde e outra que não.",
+      "sugestaoNao": "Ler títulos, eixos e categorias antes de responder.\nPreencher lacunas em uma tabela de dupla entrada.\nTransformar tabela em gráfico de barras/colunas."
+    },
+    {
+      "id": "EF03MA27",
+      "pergunta": "Ler, interpretar e comparar dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas, utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler e interpretar gráficos/tabelas de pesquisas da turma; usar termos de frequência.\nComparar duas categorias e justificar 'maior/menor frequência'.\nProduzir mini-relatório com 2 conclusões baseadas nos dados.",
+      "sugestaoNao": "Sublinhar 'maior/menor frequência' e justificar com números.\nComparar duas categorias próximas e concluir corretamente.\nEscrever duas frases verdadeiras sobre o gráfico/tabela."
+    },
+    {
+      "id": "EF03MA28",
+      "pergunta": "Realizar pesquisa envolvendo variáveis categóricas em um universo de até 50 elementos, organizar os dados coletados utilizando listas, tabelas simples ou de dupla entrada e representá-los em gráficos de colunas simples, com e sem uso de tecnologias digitais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pesquisa com até 50 respostas; definir variáveis categóricas.\nColetar, tabular em lista/tabela (simples ou dupla) e construir gráfico de colunas.\nApresentar os resultados oralmente com uma conclusão.",
+      "sugestaoNao": "Definir pergunta de pesquisa clara e categorias mutuamente exclusivas.\nConferir consistência dos registros na tabela.\nRefazer o gráfico quando categorias estiverem inadequadas."
+    }
+  ]
+}

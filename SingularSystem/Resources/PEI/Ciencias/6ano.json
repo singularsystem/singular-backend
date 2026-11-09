@@ -1,0 +1,132 @@
+{
+  "subject": "Ciências",
+  "serie": "6º Ano",
+  "questions": [
+    {
+      "id": "EF06CI01",
+      "pergunta": "Método científico inicial e segurança no laboratório.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Formular pergunta testável.\nPlanejar e executar experimento simples.\nChecklist de segurança.",
+      "sugestaoNao": "Diferenciar hipótese × opinião.\nRegistrar variáveis/controladas.\nAvaliar limites do experimento."
+    },
+    {
+      "id": "EF06CI02",
+      "pergunta": "Células: teoria celular; diferenças básico entre células animais e vegetais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Observação de lâmina de cebola (microscópio/lupa).\nDesenho científico com legenda.\nQuadro comparativo animal × vegetal.",
+      "sugestaoNao": "Higienizar materiais.\nNão coletar amostras humanas.\nUsar escala no desenho."
+    },
+    {
+      "id": "EF06CI03",
+      "pergunta": "Tecidos e órgãos (noções) e organização do corpo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa corpo‑sistemas.\nJogo de pareamento órgão↔função.\nRelato de como sistemas se relacionam.",
+      "sugestaoNao": "Evitar simplificações (órgão faz 'uma coisa só').\nUsar termos corretos.\nChecar fontes."
+    },
+    {
+      "id": "EF06CI04",
+      "pergunta": "Reinos da vida (noções) e diversidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Galeria de exemplos por reino.\nChave de identificação simples.\nDiscussão sobre diversidade local.",
+      "sugestaoNao": "Evitar hierarquizar reinos.\nCitar nomes científicos corretamente.\nRespeitar ética de coleta."
+    },
+    {
+      "id": "EF06CI05",
+      "pergunta": "Ecologia: população, comunidade e ecossistema; ciclos da água e do carbono (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelos com setas de fluxo.\nEstudo de caso do entorno.\nMapa de serviços ecossistêmicos.",
+      "sugestaoNao": "Evitar teleologia.\nCitar fontes.\nIndicar limites do modelo."
+    },
+    {
+      "id": "EF06CI06",
+      "pergunta": "Genética (noções): herança e variabilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimento com características simples (rolo de língua, lóbulos).\nÁrvore familiar (respeito/consentimento).\nSimulação de cruzamentos com cartas.",
+      "sugestaoNao": "Não expor dados sensíveis.\nEvitar determinismos biológicos.\nUsar linguagem inclusiva."
+    },
+    {
+      "id": "EF06CI07",
+      "pergunta": "Misturas e separação de componentes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Filtração, decantação e imantação seguras.\nTabela de resultados.\nHipóteses sobre melhor método.",
+      "sugestaoNao": "Não aquecer solventes inflamáveis.\nUsar EPI simples.\nDescarte correto."
+    },
+    {
+      "id": "EF06CI08",
+      "pergunta": "Estados físicos, mudanças e calor (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Curvas simples de aquecimento/resfriamento.\nExperimentos seguros de mudança de estado.\nRelato com unidades.",
+      "sugestaoNao": "Evitar recipientes inadequados.\nNão inalar vapores.\nUsar medidas padronizadas."
+    },
+    {
+      "id": "EF06CI09",
+      "pergunta": "Energia: formas e transformações (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Brinquedos que transformam energia.\nQuadro de entradas→saídas (perdas em calor).\nRelato de eficiência qualitativa.",
+      "sugestaoNao": "Evitar confundir energia × força.\nUsar linguagem adequada.\nRelatar limitações."
+    },
+    {
+      "id": "EF06CI10",
+      "pergunta": "Terra: estrutura, rochas e placas tectônicas (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelo com camadas da Terra.\nMapa de placas e vulcões.\nEstudo de terremotos noticiados (com cuidado).",
+      "sugestaoNao": "Citar fontes confiáveis.\nEvitar alarmismo.\nDiferenciar escala local × global."
+    },
+    {
+      "id": "EF06CI11",
+      "pergunta": "Tempo atmosférico × clima; leitura de dados locais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coleta por 2 semanas.\nGráficos e conclusões.\nComparar com série histórica (quando disponível).",
+      "sugestaoNao": "Usar unidades.\nCitar fonte.\nEvitar conclusões sem dado."
+    },
+    {
+      "id": "EF06CI12",
+      "pergunta": "Comunicar ciência: relatório, pôster e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Estruturar relatório completo.\nPôster com dados e gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Citar referências.\nEvitar plágio.\nRevisar clareza e linguagem."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}

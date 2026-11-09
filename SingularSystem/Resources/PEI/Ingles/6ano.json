@@ -1,0 +1,125 @@
+{
+  "subject": "Inglês",
+  "serie": "6º Ano",
+  "questions": [
+    {
+      "id": "EF06LI01",
+      "pergunta": "Compreender instruções e comandos simples em inglês em contextos de sala/rotina.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Rotina de classroom language (stand up, open your book…).\nJogo Simon Says com vocabulário alvo.\nCartazes de comandos com ícones.",
+      "sugestaoNao": "Modelagem com gestos e repetição espaçada.\nCorreções imediatas com reforço positivo.\nListas de verificação visuais individuais."
+    },
+    {
+      "id": "EF06LI02",
+      "pergunta": "Identificar palavras e expressões de saudações, apresentação e informações pessoais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Role‑play de cumprimentos e apresentações.\nCartões 'name/age/city' para troca em pares.\nGravar áudio curto se apresentando.",
+      "sugestaoNao": "Quadros de frases‑modelo (I am…, I’m from…).\nBanco de nomes/países para apoio.\nFeedback individual de pronúncia."
+    },
+    {
+      "id": "EF06LI03",
+      "pergunta": "Ler e localizar informações explícitas em textos curtos (cartazes, perfis, horários).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça‑detalhes em panfletos reais/simulados.\nEstação de leitura com perguntas objetivas.\nCriação de um mini‑cartaz da escola.",
+      "sugestaoNao": "Sublinhar palavras‑chave.\nTabelar dados (who/what/when/where).\nMedir tempo de leitura sem pressionar."
+    },
+    {
+      "id": "EF06LI04",
+      "pergunta": "Ouvir e identificar informações principais em áudios curtos (cumprimentos, rotinas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Escuta guiada com 2 passes (geral→detalhe).\nBingo de palavras do áudio.\nDictogloss simplificado.",
+      "sugestaoNao": "Ativar pré‑escuta (imagens/tema).\nPausas estratégicas e repetição.\nRoteiro de palavras‑alvo."
+    },
+    {
+      "id": "EF06LI05",
+      "pergunta": "Produzir frases simples sobre si, família e rotina (presente simples).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Escrever 5 frases sobre a rotina com apoio visual.\nEntrevista em pares (Yes/No e Wh‑).\nCartaz 'About me'.",
+      "sugestaoNao": "Quadros de verbos e 3ª pessoa.\nCorreção por códigos (VT, SP).\nModelos com exemplos reais."
+    },
+    {
+      "id": "EF06LI06",
+      "pergunta": "Usar vocabulário de sala, escola, cores, números, tempo e calendário.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Jogos de flashcards/quiz.\nCalendário da turma em inglês.\nMapa da sala com labels.",
+      "sugestaoNao": "Listas por temas.\nRepetição espaçada.\nAtividades de pareamento imagem‑palavra."
+    },
+    {
+      "id": "EF06LI07",
+      "pergunta": "Reconhecer estrutura básica de frases afirmativas, negativas e interrogativas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reescrever frases mudando afirmação↔negação↔pergunta.\nJogo de cartas (auxiliares do/does).\nQuadro interativo com exemplos.",
+      "sugestaoNao": "Destacar ordem das palavras.\nSinalizar uso de do/does/did (noções).\nCorreção guiada."
+    },
+    {
+      "id": "EF06LI08",
+      "pergunta": "Descrever lugares e objetos próximos usando there is/there are e preposições básicas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça ao tesouro na sala com clues.\nDescrever a minha casa/quarto (desenho + frases).\nJogo 'Find someone who…' com objetos.",
+      "sugestaoNao": "Listas de preposições (in/on/under…).\nModelagem com figuras.\nFeedback sobre concordância singular/plural."
+    },
+    {
+      "id": "EF06LI09",
+      "pergunta": "Praticar pronúncia básica: alfabeto, finais de palavras, sons problemáticos (/θ/, /ð/).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Spelling bee de nomes e objetos.\nDrills de minimal pairs.\nGravação e autoavaliação com rubrica simples.",
+      "sugestaoNao": "Foco em inteligibilidade, não acento perfeito.\nModelos de boca/língua em imagens.\nRepetição em compassos curtos."
+    },
+    {
+      "id": "EF06LI10",
+      "pergunta": "Ampliar repertório multicultural sobre países falantes de inglês (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de países e bandeiras.\nMini‑pesquisa sobre curiosidades.\nShow and tell com objeto/imagem.",
+      "sugestaoNao": "Evitar estereótipos.\nCitar fontes simples.\nValorizar variedades do inglês."
+    },
+    {
+      "id": "EF06LI11",
+      "pergunta": "Usar recursos digitais básicos para praticar inglês com segurança.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Criar glossário digital da turma.\nPraticar com áudio/vídeo curtos.\nComentário respeitoso em fórum protegido.",
+      "sugestaoNao": "Regras de segurança on‑line.\nCitar origem do material.\nEvitar dados pessoais."
+    },
+    {
+      "id": "EF06LI12",
+      "pergunta": "Participar de interações simples com cooperação (turn‑taking e pedidos de ajuda).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de expressões de interação (Can you repeat?, Please…).\nJogos de informação incompleta.\nRubrica de colaboração em pares.",
+      "sugestaoNao": "Modelar turn‑taking.\nFeedback sobre interrupções.\nTreino de escuta ativa."
+    },
+    {
+      "id": "EF06–EF09/COMPREENSÃO",
+      "pergunta": "Leitura e escuta com estratégias (skimming, scanning, pre‑listening, tomar notas).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Definir objetivo antes de ler/ouvir.\nUsar pistas visuais/títulos/subtítulos.\nTomar notas e verificar respostas em pares.",
+      "sugestaoNao": "Evitar tradução palavra‑por‑palavra.\nControlar tempo e ansiedade.\nReescuta/leitura com foco diferente."
+    },
+    {
+      "id": "EF06–EF09/PRODUÇÃO",
+      "pergunta": "Escrita e fala com planejamento, modelagem e revisão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar modelos/gêneros como referência.\nPlanejar com outline.\nRevisar com checklist e pares.",
+      "sugestaoNao": "Evitar publicar sem revisar.\nControlar extensão.\nCitar fontes quando usa dados."
+    },
+    {
+      "id": "EF06–EF09/INTERAÇÃO",
+      "pergunta": "Turn‑taking, mediação e colaboração.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Papéis claros (moderador, relator).\nFrases úteis para perguntar/ajudar.\nRubrica de colaboração.",
+      "sugestaoNao": "Evitar monopolizar a fala.\nEscuta ativa.\nFeedback respeitoso."
+    },
+    {
+      "id": "EF06–EF09/INTERCULTURALIDADE",
+      "pergunta": "Respeito à diversidade e análise de perspectivas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Comparar costumes com contexto.\nRegistrar sem julgamentos.\nValorizar variedades do inglês.",
+      "sugestaoNao": "Evitar estereótipos.\nUsar fontes confiáveis.\nRefletir sobre o próprio ponto de vista."
+    },
+    {
+      "id": "EF06–EF09/TECNOLOGIA",
+      "pergunta": "Uso ético e produtivo de mídias e apps.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Produzir multimodal (texto/áudio/vídeo).\nUsar dicionários e corpora on‑line.\nCitar licenças e autores.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar plágio.\nChecar confiabilidade das fontes."
+    }
+  ]
+}

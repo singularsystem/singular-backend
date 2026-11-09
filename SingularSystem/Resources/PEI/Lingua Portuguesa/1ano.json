@@ -1,0 +1,48 @@
+{
+  "subject": "Língua Portuguesa",
+  "serie": "1º Ano",
+  "questions": [
+    {
+      "id": "lp1_leitura_1",
+      "tipo": "Leitura/Escuta",
+      "pergunta": "Reconhecer que textos são lidos da esquerda para a direita e de cima para baixo?",
+      "sugestaoNao": "Retomar atividades com materiais concretos (livros de figuras, cartazes) reforçando a direção da leitura; usar recursos visuais e digitais de apoio; realizar leituras coletivas e apontar a ordem do texto com o dedo ou régua.",
+      "sugestaoSimComMediacao": "Propor leituras compartilhadas, permitindo que o aluno acompanhe com ajuda; estimular que aponte palavras conhecidas; usar jogos de leitura guiada para fortalecer a autonomia."
+    },
+    {
+      "id": "lp1_escrita_1",
+      "tipo": "Escrita",
+      "pergunta": "Escreve palavras e frases de forma alfabética, usando letras que representem fonemas?",
+      "sugestaoNao": "Trabalhar com alfabetos móveis, ditados curtos e cópias de palavras significativas; usar apoio multisensorial (sons, imagens, letras móveis).",
+      "sugestaoSimComMediacao": "Incentivar escrita espontânea em pequenos bilhetes/listas com apoio do professor; ampliar vocabulário gradualmente; promover revisões guiadas de textos curtos."
+    },
+    {
+      "id": "lp1_analise_1",
+      "tipo": "Análise linguística/semiótica",
+      "pergunta": "Distingue letras do alfabeto de outros sinais gráficos; identificar fonemas?",
+      "sugestaoNao": "Desenvolver jogos de identificação de letras; exercícios com imagens e letras; uso de canções e rimas para percepção sonora.",
+      "sugestaoSimComMediacao": "Incentivar o aluno a segmentar palavras em sílabas oralmente; reforçar com leitura compartilhada de parlendas e jogos de 'qual letra começa?'."
+    },
+    {
+      "id": "lp1_oralidade_1",
+      "tipo": "Oralidade",
+      "pergunta": "Expressa-se em situações de intercâmbio oral com clareza?",
+      "sugestaoNao": "Propor rodas de conversa guiadas; incentivar que repita frases modelo; apoiar-se em dramatizações e músicas.",
+      "sugestaoSimComMediacao": "Permitir que se expresse em grupos pequenos com apoio; oferecer perguntas orientadoras; promover apresentações curtas com feedback positivo."
+    },
+    {
+      "id": "lp1_vida_cotidiana_1",
+      "tipo": "Campo da vida cotidiana",
+      "pergunta": "Ler e compreender cantigas, quadras e parlendas com apoio?",
+      "sugestaoNao": "Utilizar cantigas e parlendas com gestos; reforçar repetições e ritmo; usar vídeos ou gravações de áudio.",
+      "sugestaoSimComMediacao": "Estimular leitura colaborativa em pares; propor desafios de completar versos; associar cantigas a brincadeiras de roda."
+    },
+    {
+      "id": "lp1_artistico_literario_1",
+      "tipo": "Campo artístico-literário",
+      "pergunta": "Reconta oralmente textos lidos pelo professor?",
+      "sugestaoNao": "Usar reconto coletivo com apoio de imagens; dramatizar a história; promover reconto com perguntas guiadas.",
+      "sugestaoSimComMediacao": "Incentivar reconto em dupla; apoiar com sequência de figuras; propor reconto com mediação, estimulando mais autonomia."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "subject": "Geografia",
+  "serie": "8º Ano",
+  "questions": [
+    {
+      "id": "EF08GE01",
+      "pergunta": "Globalização: redes, fluxos e desigualdades.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de fluxos.\nCadeia de um produto.\nDebate: benefícios × custos locais.",
+      "sugestaoNao": "Evitar determinismos.\nCitar fontes.\nConsiderar escalas."
+    },
+    {
+      "id": "EF08GE02",
+      "pergunta": "Indústria contemporânea e serviços avançados.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de polos tecnológicos.\nCaso de logística e e‑commerce.\nQuadro de empregos e qualificações.",
+      "sugestaoNao": "Evitar generalizações.\nChecar dados.\nIncluir impactos territoriais."
+    },
+    {
+      "id": "EF08GE03",
+      "pergunta": "Agronegócio e agricultura familiar: comparações e interações.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quadro comparativo.\nMapa de produção por cultura.\nEntrevista com produtores (quando possível).",
+      "sugestaoNao": "Evitar estereótipos.\nCitar fontes.\nÉtica em entrevistas."
+    },
+    {
+      "id": "EF08GE04",
+      "pergunta": "Energia e recursos naturais: matrizes e transição.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de usinas/recursos.\nEstudo de caso local.\nSimular matriz ideal com justificativa.",
+      "sugestaoNao": "Checar dados e unidades.\nConsiderar impactos.\nEvitar soluções mágicas."
+    },
+    {
+      "id": "EF08GE05",
+      "pergunta": "Urbanização recente: expansão, segregação e mobilidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de expansão (satélite).\nAcessibilidade a serviços.\nProposta de mobilidade.",
+      "sugestaoNao": "Citar fontes.\nConsiderar grupos vulneráveis.\nAvaliar viabilidade."
+    },
+    {
+      "id": "EF08GE06",
+      "pergunta": "Riscos e mudanças climáticas (noções): adaptação e mitigação local.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de risco climático.\nPlano de adaptação escolar.\nMonitoramento (chuva/temperatura).",
+      "sugestaoNao": "Citar bases oficiais.\nEvitar alarmismo.\nDefinir indicadores."
+    },
+    {
+      "id": "EF08GE07",
+      "pergunta": "Cultura e território: identidades e patrimônios.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Inventário cultural.\nMapa afetivo.\nExposição com fontes e relatos.",
+      "sugestaoNao": "Respeitar diversidade.\nEvitar apropriação indevida.\nCitar fontes."
+    },
+    {
+      "id": "EF08GE08",
+      "pergunta": "Geopolítica contemporânea: conflitos, cooperação e blocos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de conflitos e organismos.\nAnálise de notícias.\nDebate mediado.",
+      "sugestaoNao": "Checar factualidade.\nEvitar simplificações.\nCitar fontes."
+    },
+    {
+      "id": "EF08GE09",
+      "pergunta": "Tecnologias geo: sensoriamento remoto, SIG (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Interpretar imagem de satélite.\nCriar mapa temático com dados públicos.\nRelatar limitações do dado.",
+      "sugestaoNao": "Garantir licenças/direitos.\nChecar resolução/escala.\nIndicar fonte/ano."
+    },
+    {
+      "id": "EF08GE10",
+      "pergunta": "Turismo e paisagens: impactos e planejamento.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de atrativos e fluxos.\nPlano de turismo responsável.\nRelato de impacto.",
+      "sugestaoNao": "Evitar estereótipos.\nCitar dados.\nPropor medidas mitigadoras."
+    },
+    {
+      "id": "EF08GE11",
+      "pergunta": "Leitura crítica e comunicação pública do conhecimento geográfico.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Produzir reportagem com mapas.\nApresentação multimídia.\nRevisão por pares.",
+      "sugestaoNao": "Citar fontes.\nEvitar cherry‑picking.\nRevisar acessibilidade."
+    },
+    {
+      "id": "EF08GE12",
+      "pergunta": "Projeto de síntese: tema urbano/ambiental regional.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Definir problema, coletar dados e mapear.\nPropor ação conjunta.\nAvaliar e comunicar resultados.",
+      "sugestaoNao": "Definir indicadores.\nResponsabilidades.\nAcompanhamento contínuo."
+    },
+    {
+      "id": "EF03–EF09/CARTOGRAFIA",
+      "pergunta": "Leitura e produção de mapas, croquis e gráficos com rigor.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar título, legenda, orientação e escala.\nComparar representações da mesma área.\nJustificar escolhas cartográficas.",
+      "sugestaoNao": "Evitar símbolos ambíguos.\nChecar fontes/datas.\nManter padrão visual."
+    },
+    {
+      "id": "EF03–EF09/FONTES",
+      "pergunta": "Uso crítico de mapas, fotos aéreas, imagens de satélite e relatos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de análise (quem/onde/quando/por quê).\nCruzar pelo menos duas fontes.\nRegistrar limitações das fontes.",
+      "sugestaoNao": "Separar fato/opinião.\nIndicar autoria/licenças.\nEvitar confiar em uma única fonte."
+    },
+    {
+      "id": "EF03–EF09/CIDADANIA",
+      "pergunta": "Participação social e respeito aos espaços comuns.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico do entorno e plano de ação.\nDiálogo com órgãos públicos.\nCampanhas educativas com registro.",
+      "sugestaoNao": "Respeitar papéis institucionais.\nBasear proposta em dados.\nAvaliar impactos."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA",
+      "pergunta": "Cartografia digital e letramento midiático.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar apps/SIG educativos.\nChecar autoria e data de conteúdos.\nProduzir sínteses com referências.",
+      "sugestaoNao": "Proteger dados pessoais.\nEvitar desinformação.\nCitar fontes corretamente."
+    }
+  ]
+}

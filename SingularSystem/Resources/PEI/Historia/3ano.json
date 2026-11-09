@@ -1,0 +1,83 @@
+{
+  "subject": "História",
+  "serie": "3º Ano",
+  "questions": [
+    {
+      "id": "EF03HI01",
+      "pergunta": "Memórias familiares e laços de parentesco: mudanças e permanências.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Árvore genealógica simples com fotos/nomes.\nEntrevista com familiar: registrar quando/onde/quem.\nLinha do tempo pessoal com 4 marcos.",
+      "sugestaoNao": "Cartões de vocabulário temporal.\nOrdenar 4 imagens de uma mesma família em épocas.\nRecontar a entrevista do colega."
+    },
+    {
+      "id": "EF03HI02",
+      "pergunta": "Costumes do passado e do presente na comunidade (brincadeiras, comidas, vestuário).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mostra de brincadeiras antigas e registro de regras.\nCardápio do passado × hoje (permanências/mudanças).\nPainel 'antes e agora' com fotos/relatos.",
+      "sugestaoNao": "Classificar imagens (passado/presente) com justificativa.\nCompletar frases 'Antes… hoje…'.\nLegendar foto antiga/atual corretamente."
+    },
+    {
+      "id": "EF03HI03",
+      "pergunta": "Lugares de memória do bairro/cidade e sua importância.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa do bairro marcando praças/igrejas/mercados antigos.\nRoteiro fotográfico de placas e monumentos.\nMini‑museu com objeto/relato local.",
+      "sugestaoNao": "Roteiro de observação (o que é? quem usa? quando?).\nDescrever oralmente um lugar visitado.\nEscrever legenda curta e correta."
+    },
+    {
+      "id": "EF03HI04",
+      "pergunta": "Calendário e linhas do tempo simples de festas e eventos da comunidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Calendário de festas locais com símbolos/datas.\nLinha do tempo do ano letivo (início, projetos, feiras, férias).\nConvite com data/local/horário.",
+      "sugestaoNao": "Ligar evento a mês/estação.\nPreencher lacunas em linha do tempo.\nChecklist das informações do convite."
+    },
+    {
+      "id": "EF03HI05",
+      "pergunta": "Diversidade de grupos na comunidade (indígenas, africanos, migrantes) e contribuições.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Painel de contribuições (palavras, comidas, festas).\nRodas de leitura de histórias de diferentes origens.\nConvidado da comunidade para compartilhar costume.",
+      "sugestaoNao": "Mapa das origens com setas simples.\nAssociar item cultural à origem.\nEscrever 'o que aprendi' sobre um costume."
+    },
+    {
+      "id": "EF03HI06",
+      "pergunta": "Regras de convivência, direitos e deveres na escola/comunidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Contrato de convivência com desenhos e assinaturas.\nRole‑play de conflitos e soluções respeitosas.\nEscala de responsabilidades semanais.",
+      "sugestaoNao": "Cartões‑lembrete de regras.\nChecklist de direitos/deveres em casos.\nDiário coletivo de cuidados realizados."
+    },
+    {
+      "id": "EF03HI07",
+      "pergunta": "Fontes históricas: fotos, objetos, relatos e canções (fato × opinião).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mesa de fontes: observar e inferir com pistas.\nComparar foto × relato do mesmo evento.\nCanção antiga e discussão do que ela conta.",
+      "sugestaoNao": "Quadro 'vejo/penso/confirmo' para cada fonte.\nSublinhar opinião × informação.\nRecontar história com duas fontes."
+    },
+    {
+      "id": "EF03HI08",
+      "pergunta": "Produzir relatos históricos simples a partir de fontes locais.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Relato com início–meio–fim usando fotos coletadas.\nLegendas corretas para 3 imagens do bairro.\nApresentação oral do relato.",
+      "sugestaoNao": "Roteiro de perguntas (quem/onde/quando/o que mudou?).\nRevisar ordem temporal e pronomes.\nIndicar a fonte de cada informação."
+    },
+    {
+      "id": "EF03HI09",
+      "pergunta": "Cartografia inicial: orientações simples (referências da escola e do bairro).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Percurso casa–escola em mapa simples.\nPlanta da sala com posições dos grupos.\nLegenda básica com símbolos da turma.",
+      "sugestaoNao": "Ligar lugares a símbolos corretos.\nCorrigir percurso com base em referência.\nUsar setas e termos (perto/longe)."
+    },
+    {
+      "id": "EF03HI10",
+      "pergunta": "Patrimônio natural e cultural local: reconhecimento e cuidado.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Lista de patrimônios próximos (praça, rio, festa) e por que cuidar.\nCampanha de preservação com cartaz.\nRoda de conversa: 'o que já fazemos para cuidar?'",
+      "sugestaoNao": "Separar o que é patrimônio de uso comum.\nIndicar risco/ameaça e como evitar.\nRegistrar quem cuida de cada espaço."
+    },
+    {
+      "id": "EF03HI11",
+      "pergunta": "Comunicação e tecnologias: mudanças no modo de se informar na comunidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Exposição 'ontem e hoje' (cartas, rádio, TV, internet).\nEntrevista com idoso sobre como se informava.\nLinha do tempo dos meios de comunicação locais.",
+      "sugestaoNao": "Classificar meios antigos/atuais.\nCompletar tabela de vantagens e limites.\nEscrever conclusão: o que mudou e o que permaneceu."
+    }
+  ]
+}

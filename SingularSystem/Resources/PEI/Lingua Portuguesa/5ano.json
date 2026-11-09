@@ -1,0 +1,265 @@
+{
+  "subject": "Língua Portuguesa",
+  "serie": "5º Ano",
+  "questions": [
+    {
+      "id": "EF05LP01",
+      "pergunta": "Grafar palavras utilizando regras de correspondência fonema-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Dictado inteligente com banco de palavras da turma; sublinhar padrões (rr, ss, ção/ção) e justificar a escolha.\nCaça-palavras temático: alunos criam e trocam caça-palavras usando famílias morfológicas (informar, informação, informativo).\nRevisão de texto da turma: localizar e corrigir grafias com apoio de regras registradas no mural de ortografia.",
+      "sugestaoNao": "Jogo de trilha de ortografia com cartas 'aplique a regra' (c/qu; g/gu; s/ss/ç).\nMemória auditiva: professor dita sílabas problemáticas; alunos montam palavras possíveis com cartões.\nEstação de consulta rápida: montar mini-dicionários pessoais com 'palavras armadilhas' da semana."
+    },
+    {
+      "id": "EF05LP02",
+      "pergunta": "Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Quiz contextual: projetar frases com a palavra 'célula', 'cadeia', 'canal'; a turma escolhe sentidos e explica o contexto.\nConstruir um 'mapa de sentidos' em cartaz para 3 palavras polissêmicas escolhidas pelos alunos.\nColeta de usos reais: buscar em notícias e em um texto científico infantil a mesma palavra e comparar sentidos.",
+      "sugestaoNao": "Cartas de contexto: cada dupla recebe uma palavra e 4 microcontextos; precisam encaixar a palavra com o sentido correto.\nDominó de sentidos: ligar definição ao exemplo; discutir por que outras ligações estão erradas.\nOficina 'troca de registro': reescrever frase científica em linguagem cotidiana mantendo o sentido."
+    },
+    {
+      "id": "EF05LP07",
+      "pergunta": "Identificar, em textos, o uso de conjunções e a relação que estabelecem entre partes do texto: adição, oposição, tempo, causa, condição, finalidade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Marcar em cores cada tipo de relação em um texto curto; criar legenda da turma.\nJogo 'complete a ligação': fornecer duas frases e um conjunto de conjunções para formar sentidos diferentes.\nReescrita orientada: substituir conectores mantendo o sentido; quando mudar, explicar o efeito.",
+      "sugestaoNao": "Bingo de conectores: o professor lê relações (ex.: causa); alunos marcam conjunção adequada na cartela.\nCaça-conectores em notícia infantil: sublinhar e classificar; construir tabela de exemplos.\nQuebra-cabeça textual: ordenar parágrafos com pistas de conectores."
+    },
+    {
+      "id": "EF05LP08",
+      "pergunta": "Diferenciar palavras primitivas, derivadas e compostas, e derivadas por adição de prefixo e de sufixo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Oficina de morfemas: montar palavras com blocos (radical + prefixo/sufixo) e explicar o sentido criado.\nMapa de família: escolher uma palavra primitiva e expandir a árvore (derivadas/compostas).\nDesafio 'anti/hiper/re-': criar frases que mostrem a mudança de sentido ao aplicar prefixos.",
+      "sugestaoNao": "Jogo 'radical em fuga': o professor apresenta palavras; alunos destacam o radical com caneta marca-texto.\nDominó morfológico: ligar prefixo/sufixo a função de sentido (negação, intensidade, repetição).\nProdução rápida: escrever minicrônicas usando 5 palavras compostas diferentes."
+    },
+    {
+      "id": "EF05LP09",
+      "pergunta": "Ler e compreender, com autonomia, textos instrucional de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Leitura guiada de um manual de jogo conhecido; marcar materiais, objetivo, passos e condições de vitória.\nTeste de instruções: seguir um manual curto escrito por outra dupla e avaliar clareza com checklist.\nComparar dois conjuntos de regras do mesmo jogo (impresso e digital) e discutir formatação e clareza.",
+      "sugestaoNao": "Sequência de passos embaralhados: ordenar corretamente e justificar.\nCompletar lacunas com verbos no imperativo ou conectores de sequência.\nPrototipar um mini-jogo na sala e redigir as regras essenciais em 6 linhas."
+    },
+    {
+      "id": "EF05LP10",
+      "pergunta": "Ler e compreender, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Analisar onde está o humor (trocadilho, ironia, ruptura de expectativa).\nLocalizar elementos de linguagem não verbal no cartum (balões, onomatopeias, traços de movimento).\nReescrever a mesma piada mudando o cenário sem perder o efeito.",
+      "sugestaoNao": "Sequência 'setup→punchline': separar as partes e reconstruir.\nTroca de modalização: transformar linguagem muito informal para neutra e discutir o efeito no humor.\nClassificar piadas por tipo de mecanismo de humor e dar exemplos."
+    },
+    {
+      "id": "EF05LP11",
+      "pergunta": "Registrar, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Produzir cartum em duplas com enredo curto e final surpresa; revisar legenda e balões.\nGravar áudio contando uma anedota com ritmo e entonação; colegas avaliam com rubrica.\nEscrever três piadas mudando o mecanismo (trocadilho, ambiguidade, exagero).",
+      "sugestaoNao": "Quadro de planejamento do cartum (personagens, cenário, conflito, surpresa).\nRoteiro oral: treinar entonação de perguntas e pausas para efeito cômico.\nChecklist de convenções (balão, assinatura, enquadramento, bordas)."
+    },
+    {
+      "id": "EF05LP12",
+      "pergunta": "Planejar e produzir, com autonomia, textos instrucionais de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Escrever regras de um jogo inventado; colegas testam e devolvem feedback.\nIncluir ícones ou listas numeradas e revisar verbos no imperativo.\nAdicionar seção 'erros comuns' após teste na turma.",
+      "sugestaoNao": "Modelos de referência: observar 2 manuais e extrair estrutura comum.\nReescrita com foco em coesão de sequência (depois, em seguida, por fim).\nGravar vídeo curto explicando as regras como tutorial."
+    },
+    {
+      "id": "EF05LP13",
+      "pergunta": "Assistir, em vídeo digital, a postagem de vlog infantil de críticas de brinquedos e livros de literatura infantil e, a partir dele, planejar e produzir resenhas digitais em áudio ou vídeo.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Elaborar roteiro com apresentação do item, pontos positivos/negativos e veredicto.\nComparar duas resenhas (uma escrita, uma em vídeo) e apontar recursos específicos de cada mídia.\nPublicar resenha em áudio de 1 minuto com vinheta inicial e chamada à audiência.",
+      "sugestaoNao": "Planilha de critérios: utilidade, qualidade, faixa etária; dar notas justificadas.\nExercício de síntese: transformar resenha longa em script de 60 segundos.\nTreino de linguagem adequada (evitar spoilers, respeitar marcas/autor)."
+    },
+    {
+      "id": "EF05LP14",
+      "pergunta": "Identificar e reproduzir, em textos de resenha crítica de brinquedos ou livros de literatura infantil, a formatação própria desses textos (apresentação e avaliação do produto).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Destacar no texto: identificação do produto, resumo, avaliação, recomendação.\nUsar modelo de parágrafos (introdução – análise – conclusão) para reescrita.\nComparar uma resenha de livro e uma de brinquedo: o que muda nos critérios?",
+      "sugestaoNao": "Montar ficha de formatação (título, ficha técnica, avaliação com estrelas).\nTransformar anotações em parágrafos coesos com conectores de opinião.\nRevisar modalizadores (acho que, considero, provavelmente) para adequação."
+    },
+    {
+      "id": "EF05LP15",
+      "pergunta": "Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Anotar 5W2H de uma notícia (o quê, quem, quando, onde, por quê, como, quanto).\nIdentificar diferença entre notícia e reportagem (profundidade, entrevistas, opinião).\nElaborar resumo informativo com título adequado.",
+      "sugestaoNao": "Caça-estrutura: localizar manchete, lide, corpo e créditos.\nAtividade de checagem: confirmar um dado em outra fonte infantil confiável.\nMapa de fontes citadas e sua função no texto."
+    },
+    {
+      "id": "EF05LP16",
+      "pergunta": "Comparar informações sobre um mesmo fato veiculadas em diferentes mídias e concluir sobre qual é mais confiável e por quê.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Tabela comparativa (fonte, data, evidências, linguagem) para duas notícias.\nDetectar vieses: identificar adjetivos avaliativos e ausência de dados.\nRedigir conclusão justificando a fonte mais confiável.",
+      "sugestaoNao": "Checklist de confiabilidade (autor, data, evidência, URL).\nExercício de títulos: comparar títulos sensacionalistas vs. informativos.\nApontar trechos que exigem verificação adicional."
+    },
+    {
+      "id": "EF05LP17",
+      "pergunta": "Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejar pauta (tema, objetivo, perguntas-chave, fontes).\nStoryboard com cenas, falas e créditos.\nDefinir direitos de uso de imagens/áudios e registrar créditos.",
+      "sugestaoNao": "Construir lead (lide) de 2 linhas e 3 perguntas de entrevista.\nEscrever off de narrador para uma passagem do vídeo.\nSelecionar trilha e efeitos livres para uso."
+    },
+    {
+      "id": "EF05LP18",
+      "pergunta": "Roteirizar, produzir e editar vídeo para vlogs argumentativos sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto/finalidade do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Checklist de gravação (luz, som, enquadramento, script).\nSelecionar 3 argumentos e 1 contra-argumento sobre o produto analisado.\nEdição básica: corte seco, inserção de título e créditos.",
+      "sugestaoNao": "Roteiro com abertura, tese, argumentos, conclusão e call-to-action.\nGravar trecho piloto de 30s e autoavaliar com rubrica.\nIncluir exemplo/trecho curto do produto (respeitando direitos)."
+    },
+    {
+      "id": "EF05LP19",
+      "pergunta": "Argumentar oralmente sobre acontecimentos de interesse social, com base em conhecimentos sobre fatos divulgados em TV, rádio, mídia impressa e digital, respeitando pontos de vista diferentes.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Debate regrado em pequenos grupos com papéis (apresentador, debatedores, plateia).\nRoda de argumentos: cada aluno traz um fato e defende uma posição com evidências.\nRegistro de contra-argumentos em quadro coletivo.",
+      "sugestaoNao": "Fichas de apoio: dados, fonte e citação curta.\nExercício de escuta ativa: parafrasear a fala do colega antes de responder.\nRubrica de respeito ao contraditório e tempo de fala."
+    },
+    {
+      "id": "EF05LP20",
+      "pergunta": "Analisar a validade e força de argumentos em argumentações sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Classificar argumentos como fato/opinião/exemplo/autoridade.\nMarcar falácias comuns (genérica, apelo à popularidade) em trechos.\nReescrever um argumento fraco tornando-o mais sólido com evidência.",
+      "sugestaoNao": "Cartões de critérios (relevância, suficiência, confiabilidade).\nComparar duas resenhas: identificar qual argumenta melhor e por quê.\nCriar checklist de boa argumentação da turma."
+    },
+    {
+      "id": "EF05LP21",
+      "pergunta": "Analisar o padrão entonacional, a expressão facial e corporal e as escolhas de variedade e registro linguísticos de vloggers de vlogs opinativos ou argumentativos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Análise de 2 vídeos: notar entonação de ênfase, pausas e linguagem corporal.\nRegravar um trecho imitando o padrão e depois propondo um ajuste para maior clareza.\nDiscussão sobre adequação de registro (gírias x linguagem formal).",
+      "sugestaoNao": "Roteiro de marcações (↑ entonação, ↘ pausa, gesto).\nExercício de câmera: olhar, postura e distância do microfone.\nLista de expressões-âncora para organizar fala (primeiro, além disso, por fim)."
+    },
+    {
+      "id": "EF05LP22",
+      "pergunta": "Ler e compreender verbetes de dicionário, identificando a estrutura, as informações gramaticais (significado de abreviaturas) e as informações semânticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Explorar a estrutura (lema, classe, etimologia, abrev.).\nCaça ao verbete: localizar rapidamente uma palavra por ordem alfabética e por entrada derivada.\nCriar 'miniverbete' de palavra estudada com campos essenciais.",
+      "sugestaoNao": "Jogo 'ache a classe': professor lê definição; alunos marcam classe gramatical.\nComparar verbetes de dicionários impressos e digitais.\nAtividade com abreviaturas: expandir e explicar 8 abreviaturas frequentes."
+    },
+    {
+      "id": "EF05LP23",
+      "pergunta": "Comparar informações apresentadas em gráficos ou tabelas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler um gráfico/tabela da turma e escrever 3 conclusões com números.\nTransformar tabela em parágrafo explicativo com conectores (cresceu, diminuiu, manteve-se).\nCriar gráfico de barras a partir de dados coletados na sala.",
+      "sugestaoNao": "Jogo 'afirmação verdadeira ou falsa' com base no gráfico apresentado.\nCompletar legenda/título faltantes corretamente.\nIdentificar informações irrelevantes ou enganosas em um gráfico."
+    },
+    {
+      "id": "EF05LP24",
+      "pergunta": "Planejar e produzir texto sobre tema de interesse, organizando resultados de pesquisa em fontes de informação impressas ou digitais, incluindo imagens e gráficos ou tabelas, considerando a situação comunicativa e o tema/assunto do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejamento com quadro (tese, tópicos, fontes, imagens).\nEscrita por partes: introdução, desenvolvimento, conclusão; inserir e referenciar um gráfico.\nRevisão por pares com foco em coesão e uso de fontes.",
+      "sugestaoNao": "Esboço de parágrafo com dado + explicação + exemplo.\nSelecionar duas fontes confiáveis e anotar as referências.\nLegendar corretamente figuras e tabelas utilizadas."
+    },
+    {
+      "id": "EF05LP25",
+      "pergunta": "Planejar e produzir, com certa autonomia, verbetes de dicionário, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Escolher 5 palavras do projeto e redigir verbetes com classe, definição e exemplo.\nPadronizar formatação (lema em negrito, subdivisões, exemplos).\nPublicar coletânea de verbetes da turma (impresso ou digital).",
+      "sugestaoNao": "Modelar a partir de exemplos do dicionário escolar.\nExercício de definição: evitar circularidade, usar gênero próximo + diferenças específicas.\nIncluir etiqueta de uso (formal, coloquial, regional)."
+    },
+    {
+      "id": "EF05LP26",
+      "pergunta": "Utilizar, ao produzir o texto, conhecimentos linguísticos e gramaticais: regras sintáticas de concordância nominal e verbal, convenções de escrita de citações, pontuação (ponto final, dois-pontos, vírgulas em enumerações) e regras ortográficas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Minioficina de revisão: localizar e corrigir 6 problemas em texto-modelo.\nAtividade de pontuação: inserir vírgulas em enumerações e justificar.\nRevisar concordância em frases com sujeitos compostos.",
+      "sugestaoNao": "Lista de verificação de citação (aspas, referência, pontuação).\nTransformar discurso direto em indireto respeitando concordâncias.\nReescrita de parágrafos focando coesão e concordância."
+    },
+    {
+      "id": "EF05LP27",
+      "pergunta": "Utilizar, ao produzir o texto, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível adequado de informatividade.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Reescrita substituindo repetição por pronomes adequados.\nBanco de conectores: escolher e justificar o mais adequado para cada relação.\nProduzir parágrafo com tese, dois argumentos e conclusão, usando conectores variados.",
+      "sugestaoNao": "Atividade 'Quem é quem?': garantir referência clara de pronomes em texto ambíguo.\nRevisão por pares sublinhando articuladores usados e efeito no texto.\nExercício de redução de redundância mantendo informatividade."
+    },
+    {
+      "id": "EF35LP21",
+      "pergunta": "Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Clube do livro: escolha livre orientada e diário de leitura com preferências registradas.\nRoda de indicação: cada aluno apresenta um livro/livro digital e justifica sua escolha.\nMapa de gêneros preferidos da turma (gráfico simples).",
+      "sugestaoNao": "Leitura compartilhada de um conto sem ilustrações com perguntas de inferência.\nCriação de 'fichas de leitor' com autores e temas favoritos.\nDesafio de leitura domiciliar com metas realistas."
+    },
+    {
+      "id": "EF35LP22",
+      "pergunta": "Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça aos verbos de dizer e seus efeitos (sussurrou, gritou, ironizou).\nReescrita mudando verbos de enunciação e comparando o efeito.\nIdentificar marcas de fala coloquial/variedades no discurso direto.",
+      "sugestaoNao": "Pontuar corretamente falas e travessões em um diálogo curto.\nQuadro de equivalências: dizer × afirmar × retrucar × suplicar.\nDramatização de uma cena com mudanças de entonação."
+    },
+    {
+      "id": "EF35LP23",
+      "pergunta": "Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrões e seu efeito de sentido.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Marcar rimas e aliterações; discutir efeito de sonoridade.\nRecriar um poema trocando o esquema de rimas.\nCompor quadrinhas ou cordel curto em grupos.",
+      "sugestaoNao": "Leitura em coral com ritmo e pausa marcados.\nCaça a refrões e sua função no sentido global.\nProdução de um poema visual simples (disposição no papel)."
+    },
+    {
+      "id": "EF35LP24",
+      "pergunta": "Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Ler roteiro curto e destacar rubricas de cena e falas.\nPlanejar uma cena com marcações de entrada/saída e cenário.\nRegistrar elenco e rubricas para apresentação em sala.",
+      "sugestaoNao": "Converter um conto curto em cena dialogada.\nMarcar tempo e espaço em roteiro de 1 página.\nExercício de rubrica: indicar ações sem narrador."
+    },
+    {
+      "id": "EF35LP25",
+      "pergunta": "Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Planejamento com ficha (personagem, objetivo, obstáculo, clímax).\nProduzir narrativa com parágrafos bem marcados por conectores temporais.\nRevisão focada em descrições sensoriais (visão, som, cheiro).",
+      "sugestaoNao": "Sequência de imagens: ordenar e escrever narrativa coerente.\nAtividade de 'mostrar, não contar' com adjetivos e verbos precisos.\nChecklist de elementos narrativos (enredo, narrador, cenário)."
+    },
+    {
+      "id": "EF35LP26",
+      "pergunta": "Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de enredo (situação inicial, conflito, clímax, desfecho).\nIdentificar narrador e ponto de vista; reescrever um trecho mudando o foco.\nQuadro comparativo direto × indireto.",
+      "sugestaoNao": "Linha do tempo dos eventos principais da narrativa.\nPerguntas de inferência sobre motivos das personagens.\nLeitura em duplas destacando marcas de tempo e espaço."
+    },
+    {
+      "id": "EF35LP27",
+      "pergunta": "Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Coleção de metáforas do poema lido e reescrita com comparações próprias.\nJogo de aliteração: criar trava-línguas a partir de um tema da turma.\nIlustrar o poema destacando imagem poética central.",
+      "sugestaoNao": "Identificar onomatopeias e efeitos sonoros.\nMarcar versos/estrofes e comentar o ritmo.\nTransformar poema em áudio-poema com trilha simples."
+    },
+    {
+      "id": "EF35LP28",
+      "pergunta": "Declamar poemas, com entonação, postura e interpretação adequadas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Treino de projeção de voz e pausa; gravação e autoavaliação.\nApresentação para outra turma com feedback via rubrica curta.\nVariação interpretativa: ler o mesmo poema com duas intenções opostas.",
+      "sugestaoNao": "Exercícios de respiração e postura antes da declamação.\nMarcar no texto pausas e ênfases (sublinhar).\nEnsaiar com microfone/sem microfone e ajustar distância."
+    },
+    {
+      "id": "EF35LP12",
+      "pergunta": "Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Atividade de busca: encontrar 6 palavras 'armadilhas' e registrar grafia correta.\nDicionário de aula: lista compartilhada de palavras pesquisadas por tema.\nMarcar no caderno abreviaturas e convenções do verbete.",
+      "sugestaoNao": "Exercício 'antes de perguntar, procure': registrar o caminho de busca no dicionário.\nComparar grafias corretas/erradas e justificar regra.\nLigar palavra ao significado correto entre três opções."
+    },
+    {
+      "id": "EF35LP13",
+      "pergunta": "Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Jogo rápido 'ditado estourado' com foco nas irregulares da lista da turma.\nCartões Anki/flashcards com revisão espaçada de 5 em 5 dias.\nCompetição de revisão: corrigir um texto com 15 grafias irregulares.",
+      "sugestaoNao": "Quadro 'palavras do dia' com 3 ocorrências em frases.\nCaça-palavras contendo apenas grafias corretas para reforço visual.\nProdução de frases que usem as 10 palavras-da-semana."
+    },
+    {
+      "id": "EF35LP14",
+      "pergunta": "Identificar em textos e usar na produção textual pronomes pessoais, possessivos e demonstrativos, como recurso coesivo anafórico.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Caça-pronomes e setas ligando ao referente.\nReescrever parágrafo reduzindo repetições com pronomes adequados.\nJogo 'referente misterioso': descobrir a quem o pronome se refere.",
+      "sugestaoNao": "Tabela de pronomes por função (pessoa, posse, demonstração).\nExercício de substituição: trocar nomes por pronomes mantendo clareza.\nPlanejar revisão final focada em coesão pronominal."
+    },
+    {
+      "id": "EF35LP18",
+      "pergunta": "Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Roteiro de perguntas (como?, por quê?, o que faltou?).\nRegistro de 2 elogios e 1 sugestão após cada apresentação.\nRole-play de audiência ativa em seminários curtos.",
+      "sugestaoNao": "Cartões de 'perguntas gatilho' para apoiar quem tem dificuldade.\nPrática de levantar a mão, aguardar, agradecer e discordar com respeito.\nAnotar respostas-chave do colega para registrar aprendizados."
+    },
+    {
+      "id": "EF35LP19",
+      "pergunta": "Recuperar as ideias principais em situações formais de escuta de exposições, apresentações e palestras.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Preencher organizador gráfico (tópicos e detalhes).\nResumir oralmente em 30 segundos (elevator pitch do que ouviu).\nAnotar 3 palavras-chave e explicar por que são centrais.",
+      "sugestaoNao": "Checklist de sinais do orador que marcam ideia principal.\nComparar resumos de dois colegas e unificar os pontos comuns.\nCriar perguntas de checagem sobre a exposição."
+    },
+    {
+      "id": "EF35LP20",
+      "pergunta": "Expor trabalhos ou pesquisas escolares, em sala de aula, com apoio de recursos multissemióticos (imagens, diagrama, tabelas etc.), orientando-se por roteiro escrito, planejando o tempo de fala e adequando a linguagem à situação comunicativa.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar slides com regra 1-3-6 (1 ideia, 3 tópicos, até 6 linhas).\nTreino com cronômetro para caber no tempo definido.\nEnsaiar abertura, transições e fechamento com chamada à ação.",
+      "sugestaoNao": "Checagem técnica (projetor, som, materiais).\nPreparar versão impressa/resumo para a audiência.\nRevisar tom de voz e postura com colega observador."
+    }
+  ]
+}

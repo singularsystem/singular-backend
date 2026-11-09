@@ -1,0 +1,121 @@
+{
+  "mchatr_respostas": [
+    {
+      "question": 1,
+      "answer": "Sim"
+    },
+    {
+      "question": 2,
+      "answer": "Não"
+    },
+    {
+      "question": 3,
+      "answer": "Sim"
+    },
+    {
+      "question": 4,
+      "answer": "Sim"
+    },
+    {
+      "question": 5,
+      "answer": "Não"
+    },
+    {
+      "question": 6,
+      "answer": "Sim"
+    },
+    {
+      "question": 7,
+      "answer": "Sim"
+    },
+    {
+      "question": 8,
+      "answer": "Sim"
+    },
+    {
+      "question": 9,
+      "answer": "Sim"
+    },
+    {
+      "question": 10,
+      "answer": "Sim"
+    },
+    {
+      "question": 11,
+      "answer": "Sim"
+    },
+    {
+      "question": 12,
+      "answer": "Não"
+    },
+    {
+      "question": 13,
+      "answer": "Sim"
+    },
+    {
+      "question": 14,
+      "answer": "Sim"
+    },
+    {
+      "question": 15,
+      "answer": "Sim"
+    },
+    {
+      "question": 16,
+      "answer": "Sim"
+    },
+    {
+      "question": 17,
+      "answer": "Sim"
+    },
+    {
+      "question": 18,
+      "answer": "Sim"
+    },
+    {
+      "question": 19,
+      "answer": "Sim"
+    },
+    {
+      "question": 20,
+      "answer": "Sim"
+    }
+  ],
+  "cars_respostas": [
+    {
+      "min": 15,
+      "max": 30,
+      "label": "sem autismo"
+    },
+    {
+      "min": 30.01,
+      "max": 36,
+      "label": "autismo leve-moderado"
+    },
+    {
+      "min": 36.01,
+      "max": 60,
+      "label": "autismo grave"
+    }
+  ],
+  "snap_iv_respostas": {
+    "1": "BASTANTE",
+    "2": "DEMAIS",
+    "3": "UM POUCO",
+    "4": "BASTANTE",
+    "5": "NUNCA",
+    "6": "DEMAIS",
+    "7": "BASTANTE",
+    "8": "BASTANTE",
+    "9": "UM POUCO",
+    "10": "BASTANTE",
+    "11": "DEMAIS",
+    "12": "UM POUCO",
+    "13": "DEMAIS",
+    "14": "BASTANTE",
+    "15": "BASTANTE",
+    "16": "NUNCA",
+    "17": "UM POUCO",
+    "18": "DEMAIS"
+  }
+}

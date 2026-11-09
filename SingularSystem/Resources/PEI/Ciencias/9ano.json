@@ -1,0 +1,132 @@
+{
+  "subject": "Ciências",
+  "serie": "9º Ano",
+  "questions": [
+    {
+      "id": "EF09CI01",
+      "pergunta": "Genética e evolução: variabilidade, seleção natural e adaptação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simulação de seleção com 'ambiente' mudando.\nEstudo de caso de resistência bacteriana (noções).\nÁrvore filogenética simplificada.",
+      "sugestaoNao": "Evitar determinismo biológico.\nUsar linguagem inclusiva.\nCitar fontes."
+    },
+    {
+      "id": "EF09CI02",
+      "pergunta": "Biotecnologia (noções): aplicações e ética.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de aplicações (saúde/agro/ambiente).\nDebate mediado sobre limites éticos.\nCaso real simplificado com fontes.",
+      "sugestaoNao": "Evitar promessas tecnicistas.\nCitar evidências.\nRespeitar divergências."
+    },
+    {
+      "id": "EF09CI03",
+      "pergunta": "Sistema nervoso e endocrino (noções) e homeostase.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa de respostas ao estímulo.\nRelatos de hábitos e regulação (sono/estresse).\nDiscussão de saúde mental com cuidado.",
+      "sugestaoNao": "Evitar exposição pessoal.\nUsar fontes confiáveis.\nIndicar serviços de apoio quando necessário."
+    },
+    {
+      "id": "EF09CI04",
+      "pergunta": "Imunologia (noções): resposta imune, vacinas e memória.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Simulação com cartões 'antígeno‑anticorpo'.\nLinha do tempo de uma campanha de vacinação.\nDesmentir mitos comuns com base científica.",
+      "sugestaoNao": "Evitar linguagem alarmista.\nCitar fontes oficiais.\nRespeitar crenças, mantendo foco científico."
+    },
+    {
+      "id": "EF09CI05",
+      "pergunta": "Ecologia aplicada: restauração, serviços ecossistêmicos e justiça ambiental.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Plano de restauração de canteiro/área da escola.\nAvaliar serviços ecossistêmicos locais.\nAnalisar quem é mais impactado pelos riscos.",
+      "sugestaoNao": "Evitar soluções simplistas.\nBasear em dados.\nIncluir participação comunitária."
+    },
+    {
+      "id": "EF09CI06",
+      "pergunta": "Física: cinemática (noções) — velocidade e gráficos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Percurso com carrinho e marcações.\nCalcular velocidade média.\nConstruir gráfico posição×tempo.",
+      "sugestaoNao": "Medir distâncias/tempos corretamente.\nEvitar extrapolações.\nRegistrar incertezas."
+    },
+    {
+      "id": "EF09CI07",
+      "pergunta": "Dinâmica: leis de Newton (noções) e segurança.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Experimentos com carrinho/massa/mola.\nDiário de forças atuantes.\nAplicações (cinto de segurança).",
+      "sugestaoNao": "Evitar impactos perigosos.\nMedir com cuidado.\nDiscutir limitações do modelo."
+    },
+    {
+      "id": "EF09CI08",
+      "pergunta": "Energia mecânica: trabalho, energia e potência (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Subir degraus medindo tempo e massa para estimar potência.\nComparar esforço em plano inclinado.\nRelatar perdas por atrito.",
+      "sugestaoNao": "Unidades corretas.\nEvitar riscos de queda.\nAnotar hipóteses/erros."
+    },
+    {
+      "id": "EF09CI09",
+      "pergunta": "Eletricidade: Lei de Ohm (noções), potência e segurança.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Montar circuito com resistor conhecido.\nGráfico V×I (qualitativo).\nPlano de segurança doméstica.",
+      "sugestaoNao": "Não usar rede elétrica.\nEvitar aquecimento excessivo.\nDesligar ao terminar."
+    },
+    {
+      "id": "EF09CI10",
+      "pergunta": "Ondas e espectro eletromagnético (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Mapa do espectro (rádio→gama).\nAplicações tecnológicas e segurança.\nComparar ondas mecânicas × eletromagnéticas.",
+      "sugestaoNao": "Evitar desinformação.\nCitar fontes.\nUsar linguagem clara."
+    },
+    {
+      "id": "EF09CI11",
+      "pergunta": "Astronomia: Sistema Solar, exoplanetas e escalas do universo (noções).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Modelo de escalas (passarela do Sistema Solar).\nRegistro de fases da Lua e eclipses (noções).\nDebate sobre vida fora da Terra (científico).",
+      "sugestaoNao": "Evitar pseudociência.\nCitar fontes confiáveis.\nRespeitar incertezas da ciência."
+    },
+    {
+      "id": "EF09CI12",
+      "pergunta": "Síntese e projeto autoral em Ciências (trabalho final).",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Definir problema, método e cronograma.\nColetar dados e analisar.\nComunicar resultados para a comunidade.",
+      "sugestaoNao": "Citar referências.\nGarantir ética/consentimento.\nAvaliar limites e próximos passos."
+    },
+    {
+      "id": "EF03–EF09/OBSERVAR‑INVESTIGAR",
+      "pergunta": "Rotina de observação, pergunta testável, hipótese, experimento e conclusão.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Usar roteiro (pergunta→previsão→teste→dados→conclusões).\nControlar variáveis simples.\nRegistrar falhas e limites.",
+      "sugestaoNao": "Evitar 'funcionou porque sim'.\nNão manipular material sem protocolo.\nRepetir/validar quando possível."
+    },
+    {
+      "id": "EF03–EF09/REGISTRAR‑COMUNICAR",
+      "pergunta": "Linguagem científica: desenho, tabela, gráfico, relatório e apresentação.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Padronizar legendas e unidades.\nTransformar dados em gráficos.\nApresentar com evidências.",
+      "sugestaoNao": "Evitar plágio.\nCitar fontes e datas.\nRevisar clareza e acessibilidade."
+    },
+    {
+      "id": "EF03–EF09/SEGURANÇA‑ÉTICA",
+      "pergunta": "Segurança, ética e respeito em atividades práticas.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "EPI básico e regras de laboratório.\nDescarte adequado.\nConsentimento e privacidade.",
+      "sugestaoNao": "Evitar riscos desnecessários.\nNão usar rede elétrica/líquidos quentes sem mediação.\nProteger dados pessoais."
+    },
+    {
+      "id": "EF03–EF09/SUSTENTABILIDADE",
+      "pergunta": "Cuidado ambiental, uso consciente de água/energia e resíduos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Diagnóstico→plano→ação→avaliação.\nParcerias com comunidade/órgãos.\nDivulgação de resultados.",
+      "sugestaoNao": "Evitar greenwashing.\nBasear‑se em dados.\nDefinir metas realistas."
+    },
+    {
+      "id": "EF03–EF09/TECNOLOGIA‑DADOS",
+      "pergunta": "Uso crítico de tecnologias, apps e dados públicos.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Registrar e analisar com planilhas/apps.\nChecar autoria/licenças.\nCriar infográficos com créditos.",
+      "sugestaoNao": "Evitar desinformação.\nProteger privacidade.\nIndicar fontes e ano."
+    },
+    {
+      "id": "EF03–EF09/TRABALHO‑EM‑EQUIPE",
+      "pergunta": "Colaboração, papéis e avaliação entre pares.",
+      "tipo": "",
+      "sugestaoSimComMediacao": "Distribuir funções claras.\nRubricas de auto/heteroavaliação.\nFeedback construtivo.",
+      "sugestaoNao": "Evitar sobrecarga em um aluno.\nRespeitar falas e tempos.\nRegistrar decisões do grupo."
+    }
+  ]
+}
