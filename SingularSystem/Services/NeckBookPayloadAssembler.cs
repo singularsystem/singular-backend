@@ -31,7 +31,7 @@ namespace SingularSystem.Services
     /// <summary>
     /// Monta o payload estruturado <c>generation_params</c> (<c>book_params</c>,
     /// <c>student_profile</c> e <c>reports</c>) a partir dos dados cadastrais e clínicos do aluno
-    /// no banco do iPAAGS combinados com o formulário recebido (Req 13, 14, 15).
+    /// no banco do Singular System combinados com o formulário recebido (Req 13, 14, 15).
     /// </summary>
     public class NeckBookPayloadAssembler
     {

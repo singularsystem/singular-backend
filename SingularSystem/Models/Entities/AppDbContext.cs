@@ -20,6 +20,8 @@ namespace SingularSystem.Models.Entities
         public DbSet<Attachment> Attachments { get; set; }
         public DbSet<BaseDocument> BaseDocuments { get; set; }
         public DbSet<Report> Reports { get; set; }
+        public DbSet<IssuerProfile> IssuerProfiles { get; set; }
+        public DbSet<DocumentValidation> DocumentValidations { get; set; }
 
         #region DbSets for RegularTeacherEvaluation and related entitiess
         public DbSet<RegularTeacherQuestionnaire> RegularTeacherQuestionnaires { get; set; }
@@ -116,6 +118,7 @@ namespace SingularSystem.Models.Entities
             modelBuilder.ApplyConfiguration(new TermConfiguration());
             modelBuilder.ApplyConfiguration(new UserTermAcceptanceConfiguration());
             modelBuilder.ApplyConfiguration(new MunicipalityNeckBookConfigConfiguration());
+            modelBuilder.ApplyConfiguration(new IssuerProfileConfiguration());
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<ApplicationUser>().ToTable("Users");
@@ -673,6 +676,8 @@ namespace SingularSystem.Models.Entities
                       .IsUnique();
             });
             #endregion
+
+            modelBuilder.ApplyConfiguration(new SingularSystem.Models.Configurations.DocumentValidationConfiguration());
         }
     }
 }

@@ -16,7 +16,7 @@ namespace SingularSystem.Tests
     {
         private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
-        // Feature: 012-ipaags-migration, Property 4: Mapeamento de status do provedor para campos locais
+        // Feature: 012-singular-migration, Property 4: Mapeamento de status do provedor para campos locais
         //
         // Para qualquer status de envelope do NeckSign, a sincronização de estado local deve seguir:
         // PENDING/SIGNING → InProgress; SIGNED → Complete com SignedAt/SignedFile preenchidos;
@@ -231,7 +231,7 @@ namespace SingularSystem.Tests
             Assert.Equal(Status.InProgress, report.DocumentStatus);
         }
 
-        // Feature: 012-ipaags-migration, Property 5: Falha de chamada ao provedor preserva o estado local
+        // Feature: 012-singular-migration, Property 5: Falha de chamada ao provedor preserva o estado local
         //
         // Para qualquer chamada ao provedor que não conclua com sucesso (404, >=500, erro de
         // comunicação), os campos locais persistidos permanecem inalterados e o método sinaliza
@@ -278,7 +278,7 @@ namespace SingularSystem.Tests
             return detailsNull.And(syncFalse).And(preserved);
         }
 
-        // Feature: 012-ipaags-migration, Property 20: bypassCooldown é no-op
+        // Feature: 012-singular-migration, Property 20: bypassCooldown é no-op
         //
         // Para qualquer sequência de chamadas a GetDocumentDetails com qualquer valor de
         // bypassCooldown, cada chamada deve emitir uma nova consulta ao NeckSign (sem cache/cooldown).

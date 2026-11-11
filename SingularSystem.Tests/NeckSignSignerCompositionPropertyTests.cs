@@ -18,7 +18,7 @@ using Xunit;
 
 namespace SingularSystem.Tests
 {
-    // Feature: 012-ipaags-migration, Property 2: Composição e filtragem de signatários
+    // Feature: 012-singular-migration, Property 2: Composição e filtragem de signatários
     //
     // Para qualquer conjunto de papéis/responsável de um documento, a lista `signers`
     // produzida por NeckSignService.ComposeSignersAsync deve conter apenas entradas cujos
@@ -148,7 +148,7 @@ namespace SingularSystem.Tests
                 {
                     ["NeckSign:BaseUrl"] = "https://necksign.test/",
                     ["NeckSign:ApiKey"] = "test-api-key",
-                    ["NeckSign:WebhookUrl"] = "https://ipaags.test/api/v1/necksign/webhook",
+                    ["NeckSign:WebhookUrl"] = "https://singular.test/api/v1/necksign/webhook",
                 })
                 .Build();
 
@@ -378,6 +378,7 @@ namespace SingularSystem.Tests
         private sealed class StubPdfService : IPDFService
         {
             public Task<byte[]> GeneratePdf(Guid documentId) => Task.FromResult(Array.Empty<byte>());
+            public Task<byte[]> GeneratePdf(Guid documentId, SingularSystem.Models.PdfProfile profile) => Task.FromResult(Array.Empty<byte>());
 
             public Task<string?> GetDocumentType(Guid documentId) => Task.FromResult<string?>(null);
 

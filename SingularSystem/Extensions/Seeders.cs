@@ -33,7 +33,7 @@ namespace SingularSystem.Extensions
                 await roleManager.CreateAsync(new IdentityRole("Admin"));
             }
 
-            // Req 2.7: ipaags.pi@gmail.com removido. Se credenciais forem fornecidas por
+            // Req 2.7: e-mail legado removido. Se credenciais forem fornecidas por
             // variáveis de ambiente de provisionamento, cria o admin operacional da Singular.
             var adminEmail = Environment.GetEnvironmentVariable("ADMIN_SEED_EMAIL");
             var adminPassword = Environment.GetEnvironmentVariable("ADMIN_SEED_PASSWORD");

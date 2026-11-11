@@ -107,7 +107,7 @@ namespace SingularSystem.Tests
             // via IsOwnS3Reference e gera a presigned URL a partir dela.
             const string s3ObjectKey = "signed/reports/2026/legacy-report-9f8e7d.pdf";
             const string presignedUrl =
-                "https://ipaags-bucket.s3.us-east-2.amazonaws.com/" + s3ObjectKey + "?X-Amz-Signature=deadbeef";
+                "https://singular-bucket.s3.us-east-2.amazonaws.com/" + s3ObjectKey + "?X-Amz-Signature=deadbeef";
 
             // Seed: uma entidade assinável (Report) com o DocumentToken da requisição,
             // DocumentStatus = Complete e SignedFile apontando para o S3 próprio.
@@ -271,7 +271,7 @@ namespace SingularSystem.Tests
             // (segredo interno, bucket, chave de objeto, endpoint do provedor e o token completo).
             // NADA disso pode vazar para a resposta HTTP (Req 5.1/5.2).
             const string internalMessage =
-                "secret-internal-detail: bucket=ipaags-private-bucket key=signed/reports/secret.pdf "
+                "secret-internal-detail: bucket=singular-private-bucket key=signed/reports/secret.pdf "
                 + "endpoint=https://provider.internal/api token=" + documentToken;
 
             // Caminho do provedor: banco vazio (nenhuma entidade S3-própria), então o controller
@@ -304,7 +304,7 @@ namespace SingularSystem.Tests
             Assert.DoesNotContain(internalMessage, body.Message);
             Assert.DoesNotContain(documentToken, body.Message);
             Assert.DoesNotContain("secret-internal-detail", body.Message);
-            Assert.DoesNotContain("ipaags-private-bucket", body.Message);
+            Assert.DoesNotContain("singular-private-bucket", body.Message);
             Assert.DoesNotContain("signed/reports/secret.pdf", body.Message);
             Assert.DoesNotContain("provider.internal", body.Message);
             Assert.DoesNotContain("InvalidOperationException", body.Message);

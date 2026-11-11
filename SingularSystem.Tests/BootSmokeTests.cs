@@ -97,7 +97,9 @@ namespace SingularSystem.Tests
                 ["Smtp:Port"] = "587",
                 ["Smtp:Username"] = "smtp_user",
                 ["Smtp:Password"] = "smtp_pass",
-                ["Smtp:FromAddress"] = "noreply@singularsystem.com.br"
+                ["Smtp:FromAddress"] = "noreply@singularsystem.com.br",
+                ["IntegrationSettings:ApiKey"] = "test_integration_key_123",
+                ["PublicValidation:BaseUrl"] = "https://app.singularsystem.com.br"
             };
 
             var config = new ConfigurationBuilder()

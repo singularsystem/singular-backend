@@ -1,6 +1,7 @@
 ﻿using SingularSystem.DTOs.Students;
 using SingularSystem.Extensions;
 using SingularSystem.Interfaces;
+using SingularSystem.Models;
 using SingularSystem.Models.Enums;
 using SingularSystem.Templates;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -23,13 +24,16 @@ namespace SingularSystem.Services
         public class StudentPDFDocument : IDocument
         {
             private readonly List<StudentsPDFResponse> _rows;
+            private readonly PdfRenderContext _context;
 
-            public StudentPDFDocument(List<StudentsPDFResponse> rows)
+            public StudentPDFDocument(List<StudentsPDFResponse> rows, PdfRenderContext? context = null)
             {
                 _rows = rows ?? new();
+                _context = context ?? PdfRenderContext.Default(PdfProfile.View);
             }
 
-            public DocumentMetadata GetMetadata() => DocumentMetadata.Default;
+            public DocumentMetadata GetMetadata() => PdfMetadataFactory.CreateMetadata(_context.Profile, "Listagem de Alunos");
+            public DocumentSettings GetSettings() => PdfMetadataFactory.CreateSettings(_context.Profile);
 
             public void Compose(IDocumentContainer container)
             {
@@ -38,28 +42,12 @@ namespace SingularSystem.Services
                 container.Page(page =>
                 {
                     page.Size(PageSizes.A4);
-                    page.Margin(2, Unit.Centimetre);
+                    page.Margin(1.5f, Unit.Centimetre);
                     page.DefaultTextStyle(_ => PdfTheme.BaseStyle);
 
-                    page.Header().ShowOnce().Element(h =>
+                    page.Header().Element(h =>
                     {
-                        h.Column(col =>
-                        {
-                            col.Item()
-                                .AlignCenter()
-                                .Text("IPAAGS · Sistema de Gestão Educacional")
-                                .Style(PdfTheme.MutedStyle);
-
-                            col.Item().PaddingTop(4);
-
-                            col.Item()
-                                .AlignCenter()
-                                .Text("Listagem de Alunos")
-                                .Style(PdfTheme.TitleStyle);
-
-                            col.Item().PaddingTop(48);
-                            col.Item().Element(x => PdfTheme.Hr(x, 2));
-                        });
+                        PdfBrandChrome.ComposeHeader(h, _context, "Listagem de Alunos");
                     });
 
                     page.Content()
@@ -116,32 +104,7 @@ namespace SingularSystem.Services
                             });
                         });
 
-                    page.Footer().Element(f =>
-                    {
-                        f.PaddingTop(6).Column(col =>
-                        {
-                            col.Item().PaddingBottom(6).Element(x => PdfTheme.Hr(x, 2));
-
-                            col.Item()
-                                .AlignCenter()
-                                .Text($"Documento gerado em {DateTime.Now:dd/MM/yyyy} às {DateTime.Now:HH:mm:ss}")
-                                .Style(PdfTheme.MutedStyle);
-
-                            col.Item()
-                                .AlignCenter()
-                                .Text("Sistema AEE - IPAAGS")
-                                .Style(PdfTheme.MutedStyle);
-
-                            col.Item().AlignCenter()
-                               .Text(t =>
-                               {
-                                   t.Span("Página ").Style(PdfTheme.MutedStyle);
-                                   t.CurrentPageNumber().Style(PdfTheme.MutedStyle);
-                                   t.Span(" de ").Style(PdfTheme.MutedStyle);
-                                   t.TotalPages().Style(PdfTheme.MutedStyle);
-                               });
-                        });
-                    });
+                    page.Footer().Element(f => PdfBrandChrome.ComposeFooter(f, _context));
                 });
             }
 

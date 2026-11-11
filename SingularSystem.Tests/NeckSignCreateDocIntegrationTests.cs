@@ -15,10 +15,10 @@ using Xunit;
 
 namespace SingularSystem.Tests
 {
-    // Feature: 012-ipaags-migration — Task 14.1: testes de integração de NeckSignService.CreateDoc
+    // Feature: 012-singular-migration — Task 14.1: testes de integração de NeckSignService.CreateDoc
     //
     // Com HttpClient mockado: o POST /api/v1/envelopes contém externalId=GUID, title não vazio,
-    // webhookUrl do iPAAGS, signers ≥1 e PDF Base64; X-Api-Key presente; 201 completo persiste
+    // webhookUrl do Singular System, signers ≥1 e PDF Base64; X-Api-Key presente; 201 completo persiste
     // DocumentToken/SignUrl/Status=InProgress/SignatureProvider=NeckSign; 201 malformado/não-201 →
     // false sem persistir.
     //
@@ -88,7 +88,7 @@ namespace SingularSystem.Tests
             var root = doc.RootElement;
             Assert.Equal(id.ToString(), root.GetProperty("externalId").GetString());
             Assert.False(string.IsNullOrWhiteSpace(root.GetProperty("title").GetString()));
-            Assert.Equal("https://ipaags.test/api/v1/necksign/webhook", root.GetProperty("webhookUrl").GetString());
+            Assert.Equal("https://singular.test/api/v1/necksign/webhook", root.GetProperty("webhookUrl").GetString());
             Assert.True(root.GetProperty("signers").GetArrayLength() >= 1);
 
             // O contrato estrito do NeckSign exige o papel em MAIÚSCULAS (SIGNER/WITNESS/APPROVER).
@@ -165,7 +165,7 @@ namespace SingularSystem.Tests
                 {
                     ["NeckSign:BaseUrl"] = "https://necksign.test/",
                     ["NeckSign:ApiKey"] = "test-api-key",
-                    ["NeckSign:WebhookUrl"] = "https://ipaags.test/api/v1/necksign/webhook",
+                    ["NeckSign:WebhookUrl"] = "https://singular.test/api/v1/necksign/webhook",
                 })
                 .Build();
 

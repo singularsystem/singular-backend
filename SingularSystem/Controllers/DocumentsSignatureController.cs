@@ -185,7 +185,7 @@ namespace SingularSystem.Controllers
                     "signed-url: falha ao resolver a URL do documento assinado para o token {Token}.",
                     MaskToken(documentToken));
 
-                // Req 5.1/5.2: resposta NEUTRA. Diferente de alguns handlers legados do iPAAGS que
+                // Req 5.1/5.2: resposta NEUTRA. Diferente de alguns handlers legados do sistema que
                 //   anexam ex.Message, aqui NÃO expomos a mensagem interna, stack trace, token,
                 //   segredo, endpoint do provedor, nome de bucket, chave de objeto, nem qual provedor
                 //   (ZapSign/NeckSign) originou o documento. 500 segue a convenção predominante do
@@ -237,7 +237,7 @@ namespace SingularSystem.Controllers
         /// consultando as quatro <c>DbSet</c> assináveis (<c>Reports</c>, <c>PEIs</c>, <c>PAEEs</c>,
         /// <c>RegularTeacherEvaluationDocuments</c>) por <c>DocumentToken == documentToken</c>,
         /// retornando o primeiro match (Req 4.5). Acesso direto via <see cref="AppDbContext"/>,
-        /// sem camada de repositório, no padrão de dados do iPAAGS.
+        /// sem camada de repositório, no padrão de dados da aplicação.
         /// </summary>
         /// <returns>
         /// O <see cref="DocumentLookupResult"/> do primeiro match encontrado, ou <c>null</c> se

@@ -35,6 +35,15 @@ COPY --from=publish /app/publish .
 COPY Templates/ ./Templates/
 COPY Resources/ ./Resources/
 COPY Fonts/ ./Fonts/
+RUN test -f Fonts/Poppins-Regular.ttf && \
+    test -f Fonts/Poppins-Medium.ttf && \
+    test -f Fonts/Poppins-SemiBold.ttf && \
+    test -f Fonts/Poppins-Bold.ttf && \
+    test -f Fonts/DMSans-Regular.ttf && \
+    test -f Fonts/DMSans-Italic.ttf && \
+    test -f Fonts/DMSans-Medium.ttf && \
+    test -f Fonts/DMSans-SemiBold.ttf && \
+    test -f Fonts/DMSans-Bold.ttf
 ENV LD_LIBRARY_PATH="/usr/local/lib"
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV ASPNETCORE_URLS=http://+:8080

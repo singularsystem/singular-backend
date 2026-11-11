@@ -1,6 +1,7 @@
 ﻿using Amazon.Runtime.EventStreams;
 using SingularSystem.Extensions;
 using SingularSystem.Interfaces;
+using SingularSystem.Models;
 using SingularSystem.Models.Entities;
 using SingularSystem.Models.Enums;
 using SingularSystem.Templates;
@@ -25,7 +26,7 @@ namespace SingularSystem.Services
         }
         public string Discriminator => "PEI";
 
-        public Task<byte[]> GenerateAsync(BaseDocument document, CancellationToken ct = default)
+        public Task<byte[]> GenerateAsync(BaseDocument document, PdfRenderContext context, CancellationToken ct = default)
         {
             var pei = (PEI)document;
             var serie = pei.Serie;
@@ -40,31 +41,37 @@ namespace SingularSystem.Services
                         : _suggestions.Load(sub, serie)
                 );
 
-            var bytes = new PEIPDFDocument(pei, banksBySubject, _portageSuggestions).GeneratePdf();
+            var bytes = new PEIPDFDocument(pei, banksBySubject, _portageSuggestions, context).GeneratePdf();
             return Task.FromResult(bytes);
         }
+
+        public Task<byte[]> GenerateAsync(BaseDocument document, CancellationToken ct = default)
+            => GenerateAsync(document, PdfRenderContext.Default(), ct);
 
         private static string DashIfEmpty(string? text)
              => string.IsNullOrWhiteSpace(text) ? "-" : text.Trim();
 
         public class PEIPDFDocument : IDocument
         {
-
             private readonly PEI _pei;
             private readonly IReadOnlyDictionary<Subject, IReadOnlyDictionary<string, PEISuggestionQuestion>> _banks;
             private readonly IPortageSuggestionLoader _portageSuggestions;
+            private readonly PdfRenderContext _context;
 
             public PEIPDFDocument(
-            PEI pei,
-            IReadOnlyDictionary<Subject, IReadOnlyDictionary<string, PEISuggestionQuestion>> banks,
-            IPortageSuggestionLoader portageSuggestions)
+                PEI pei,
+                IReadOnlyDictionary<Subject, IReadOnlyDictionary<string, PEISuggestionQuestion>> banks,
+                IPortageSuggestionLoader portageSuggestions,
+                PdfRenderContext? context = null)
             {
                 _pei = pei;
                 _banks = banks;
                 _portageSuggestions = portageSuggestions;
+                _context = context ?? PdfRenderContext.Default();
             }
 
-            public DocumentMetadata GetMetadata() => DocumentMetadata.Default;
+            public DocumentMetadata GetMetadata() => PdfMetadataFactory.CreateMetadata(_context.Profile, "Plano Educacional Individualizado");
+            public DocumentSettings GetSettings() => PdfMetadataFactory.CreateSettings(_context.Profile);
 
             public void Compose(IDocumentContainer container)
             {
@@ -137,23 +144,7 @@ namespace SingularSystem.Services
 
                     page.Header().ShowOnce().Element(h =>
                     {
-                        h.Column(col =>
-                        {
-                            col.Item()
-                                .AlignCenter()
-                                .Text("IPAAGS · Sistema de Gestão Educacional")
-                                .Style(PdfTheme.MutedStyle);
-
-                            col.Item().PaddingTop(4);
-
-                            col.Item()
-                                .AlignCenter()
-                                .Text("Plano Educacional Individualizado")
-                                .Style(PdfTheme.TitleStyle);
-
-                            col.Item().PaddingTop(48);
-                            col.Item().Element(x => PdfTheme.Hr(x, 2));
-                        });
+                        PdfBrandChrome.ComposeHeader(h, _context, "Plano Educacional Individualizado");
                     });
 
                     page.Content()
@@ -184,23 +175,43 @@ namespace SingularSystem.Services
                                             });
                                         });
 
-                                        card.Item().Row(row =>
+                                        var hasState = !string.IsNullOrWhiteSpace(_pei?.Student?.State);
+                                        var hasCity = !string.IsNullOrWhiteSpace(_pei?.Student?.City);
+                                        if (hasState || hasCity)
                                         {
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Estado: ", _pei?.Student?.State));
+                                            card.Item().Row(row =>
+                                            {
+                                                if (hasState)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.FieldIfPresent(t, "Estado: ", _pei?.Student?.State));
+                                                }
+                                                if (hasCity)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.FieldIfPresent(t, "Município: ", _pei?.Student?.City));
+                                                }
+                                            });
+                                        }
 
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Município: ", _pei?.Student?.City));
-                                        });
-
-                                        card.Item().Row(row =>
+                                        var hasSerie = _pei?.Student?.Serie != null;
+                                        var hasSchool = !string.IsNullOrWhiteSpace(_pei?.Student?.School?.Name);
+                                        if (hasSerie || hasSchool)
                                         {
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Ano/Série: ", _pei?.Student?.Serie.GetDisplayName()));
-
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Escola: ", _pei?.Student?.School?.Name));
-                                        });
+                                            card.Item().Row(row =>
+                                            {
+                                                if (hasSerie)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.Field(t, "Ano/Série: ", _pei?.Student?.Serie.GetDisplayName()));
+                                                }
+                                                if (hasSchool)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.FieldIfPresent(t, "Escola: ", _pei?.Student?.School?.Name));
+                                                }
+                                            });
+                                        }
 
                                         card.Item().Row(row =>
                                         {
@@ -268,33 +279,10 @@ namespace SingularSystem.Services
                         });
 
 
-                    page.Footer()
-                        .Element(f =>
-                        {
-                            f.PaddingTop(6).Column(col =>
-                            {
-                                col.Item().PaddingBottom(6).Element(x => PdfTheme.Hr(x, 2));
-
-                                col.Item()
-                                    .AlignCenter()
-                                    .Text($"Documento gerado em {DateTime.Now:dd/MM/yyyy} às {DateTime.Now:HH:mm:ss}")
-                                    .Style(PdfTheme.MutedStyle);
-
-                                col.Item()
-                                    .AlignCenter()
-                                    .Text("Sistema AEE - IPAAGS")
-                                    .Style(PdfTheme.MutedStyle);
-
-                                col.Item().AlignCenter()
-                                   .Text(t =>
-                                   {
-                                       t.Span("Página ").Style(PdfTheme.MutedStyle);
-                                       t.CurrentPageNumber().Style(PdfTheme.MutedStyle);
-                                       t.Span(" de ").Style(PdfTheme.MutedStyle);
-                                       t.TotalPages().Style(PdfTheme.MutedStyle);
-                                   });
-                            });
-                        });
+                    page.Footer().Element(f =>
+                    {
+                        PdfBrandChrome.ComposeFooter(f, _context);
+                    });
                 });
             }
 
@@ -418,10 +406,10 @@ namespace SingularSystem.Services
 
             private void SubjectBlock(IContainer container, PEISubject subject)
             {
-                container.Border(1).BorderColor("#E5E7EB").Padding(10).Column(col =>
+                container.Border(1).BorderColor(PdfTheme.Colors.Line).Padding(10).Column(col =>
                 {
                     col.Item().Text(DashIfEmpty(subject.Subject)).FontSize(13).SemiBold();
-                    col.Item().PaddingTop(6).LineHorizontal(1).LineColor("#E5E7EB");
+                    col.Item().PaddingTop(6).LineHorizontal(1).LineColor(PdfTheme.Colors.Line);
 
                     col.Item().PaddingTop(4)
                        .Text($"{DashIfEmpty(subject.SerieDisplay)} • Sugestões geradas: {subject.SuggestionsGenerated}/{subject.TotalSkills}")
@@ -473,7 +461,7 @@ namespace SingularSystem.Services
 
                                 h.Cell().ColumnSpan(2)
                                     .BorderBottom(1)
-                                    .BorderColor("#E5E7EB")
+                                    .BorderColor(PdfTheme.Colors.Line)
                                     .PaddingTop(4);
                             });
 
@@ -498,7 +486,7 @@ namespace SingularSystem.Services
                                 {
                                     t.Cell().ColumnSpan(2)
                                         .BorderBottom(1)
-                                        .BorderColor("#F3F4F6")
+                                        .BorderColor(PdfTheme.Colors.Line)
                                         .Padding(8)
                                         .Text(txt =>
                                         {

@@ -7,7 +7,7 @@
     /// </summary>
     public sealed class SignatureDocumentDetails
     {
-        /// <summary>Identificador de correlação do documento (GUID da entidade no iPAAGS).</summary>
+        /// <summary>Identificador de correlação do documento (GUID da entidade no Singular System).</summary>
         public string ExternalId { get; init; } = default!;
 
         /// <summary>URL do PDF assinado final; preenchida apenas quando o status for <see cref="SignatureDocumentStatus.Signed"/>.</summary>

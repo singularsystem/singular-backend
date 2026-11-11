@@ -38,11 +38,17 @@ namespace SingularSystem.Controllers
         }
 
         [HttpGet("{documentId}/pdf")]
-        public async Task<IActionResult> ViewDocumentPdf(Guid documentId)
+        public async Task<IActionResult> ViewDocumentPdf(Guid documentId, [FromQuery] string? profile = null)
         {
             try
             {
-                var bytes = await _pdfService.GeneratePdf(documentId);
+                var parseResult = PdfProfileParser.Parse(profile);
+                if (!parseResult.IsSuccess)
+                {
+                    return BadRequest(parseResult.ErrorMessage);
+                }
+
+                var bytes = await _pdfService.GeneratePdf(documentId, parseResult.Profile);
 
                 Response.Headers["Content-Disposition"] = $"inline; filename=\"documento-{documentId}.pdf\"";
 
@@ -56,14 +62,25 @@ namespace SingularSystem.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao gerar PDF do documento {DocumentId}", documentId);
+                return StatusCode(500, "Erro interno ao gerar PDF.");
+            }
         }
 
         [HttpGet("{documentId}/download")]
-        public async Task<IActionResult> DownloadDocument(Guid documentId)
+        public async Task<IActionResult> DownloadDocument(Guid documentId, [FromQuery] string? profile = null)
         {
             try
             {
-                var bytes = await _pdfService.GeneratePdf(documentId);
+                var parseResult = PdfProfileParser.Parse(profile);
+                if (!parseResult.IsSuccess)
+                {
+                    return BadRequest(parseResult.ErrorMessage);
+                }
+
+                var bytes = await _pdfService.GeneratePdf(documentId, parseResult.Profile);
                 var type = await _pdfService.GetDocumentType(documentId);
 
                 var safeType = SanitizeFileName(type ?? "documento");
@@ -79,6 +96,11 @@ namespace SingularSystem.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao gerar PDF do documento {DocumentId}", documentId);
+                return StatusCode(500, "Erro interno ao gerar PDF.");
+            }
         }
 
         [HttpGet("students/pdf")]
@@ -88,7 +110,7 @@ namespace SingularSystem.Controllers
             {
                 var bytes = await _pdfService.GenerateStudentsPdf(state, city, schoolID, serie);
 
-                Response.Headers["Content-Disposition"] = $"inline; filename=\"Lista_Estudantes_IPAAGS.pdf\"";
+                Response.Headers["Content-Disposition"] = $"inline; filename=\"Lista_Estudantes_Singular.pdf\"";
 
                 return File(bytes, "application/pdf");
             }
@@ -99,6 +121,11 @@ namespace SingularSystem.Controllers
             catch (NotSupportedException ex)
             {
                 return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao gerar PDF de estudantes");
+                return StatusCode(500, "Erro interno ao gerar PDF.");
             }
         }
 
@@ -109,7 +136,7 @@ namespace SingularSystem.Controllers
             {
                 var bytes = await _pdfService.GenerateStudentsPdf(state, city, schoolID, serie);
 
-                var filename = $"Lista_Estudantes_IPAAGS.pdf";
+                var filename = $"Lista_Estudantes_Singular.pdf";
 
                 return File(bytes, "application/pdf", filename);
             }
@@ -121,6 +148,11 @@ namespace SingularSystem.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao baixar PDF de estudantes");
+                return StatusCode(500, "Erro interno ao gerar PDF.");
+            }
         }
 
         [HttpGet("reports-aee/pdf")]
@@ -130,7 +162,7 @@ namespace SingularSystem.Controllers
             {
                 var bytes = await _pdfService.GenerateReportsAEEPdf(state, city, schoolID, disability, disorder);
 
-                Response.Headers["Content-Disposition"] = $"inline; filename=\"Relatorio_Geral_IPAAGS.pdf\"";
+                Response.Headers["Content-Disposition"] = $"inline; filename=\"Relatorio_Geral_Singular.pdf\"";
 
                 return File(bytes, "application/pdf");
             }
@@ -142,6 +174,11 @@ namespace SingularSystem.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao gerar PDF de relatórios AEE");
+                return StatusCode(500, "Erro interno ao gerar PDF.");
+            }
         }
 
         [HttpGet("reports-aee/download")]
@@ -151,7 +188,7 @@ namespace SingularSystem.Controllers
             {
                 var bytes = await _pdfService.GenerateReportsAEEPdf(state, city, schoolID, disability, disorder);
 
-                var filename = $"Relatorio_Geral_IPAAGS.pdf";
+                var filename = $"Relatorio_Geral_Singular.pdf";
 
                 return File(bytes, "application/pdf", filename);
             }
@@ -162,6 +199,11 @@ namespace SingularSystem.Controllers
             catch (NotSupportedException ex)
             {
                 return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao baixar PDF de relatórios AEE");
+                return StatusCode(500, "Erro interno ao gerar PDF.");
             }
         }
 

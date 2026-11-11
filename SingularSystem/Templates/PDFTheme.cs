@@ -3,6 +3,7 @@ using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using System.Globalization;
+using SingularSystem.Models;
 
 namespace SingularSystem.Templates
 {
@@ -10,15 +11,14 @@ namespace SingularSystem.Templates
     {
         public static void RegisterFonts()
         {
-            FontManager.RegisterFont(File.OpenRead("Fonts/Poppins-Regular.ttf"));
-            FontManager.RegisterFont(File.OpenRead("Fonts/Poppins-Medium.ttf"));
-            FontManager.RegisterFont(File.OpenRead("Fonts/Poppins-SemiBold.ttf"));
-            FontManager.RegisterFont(File.OpenRead("Fonts/Poppins-Bold.ttf"));
+            SingularSystem.Fonts.PdfFonts.EnsureRegistered();
         }
 
         public static class Colors
         {
-            public static readonly Color Primary = Color.FromHex("#090e27");
+            public static readonly Color Primary = Color.FromHex("#111E42");
+            public static readonly Color Accent = Color.FromHex("#FF7623");
+            public static readonly Color Ice = Color.FromHex("#F5F7FB");
             public static readonly Color Text = Color.FromHex("#212529");
             public static readonly Color Muted = Color.FromHex("#6B7280");
             public static readonly Color Line = Color.FromHex("#E5E7EB");
@@ -27,13 +27,16 @@ namespace SingularSystem.Templates
             //public static readonly Color Title = QuestPDF.Helpers.Colors.Blue.Darken4;
         }
 
+        public const string BodyFamily = "DM Sans";
+        public const string HeadingFamily = "Poppins";
+
         public static void Hr(IContainer c, float thickness = 1)
         {
             c.LineHorizontal(thickness).LineColor(Colors.Line);
         }
 
         public const float BaseFontSize = 10.2f; 
-        public static readonly string FontFamily = "Poppins";
+        public static readonly string FontFamily = BodyFamily;
 
         public static readonly Color TextColor = Colors.Text;   
         public static readonly Color MutedColor = Colors.Muted;  
@@ -41,22 +44,22 @@ namespace SingularSystem.Templates
 
         public static TextStyle BaseStyle =>
             TextStyle.Default
-                .FontFamily(FontFamily)
+                .FontFamily(BodyFamily)
                 .FontSize(BaseFontSize)
                 .FontColor(TextColor)
                 .LineHeight(1.6f);
 
         public static TextStyle H1 =>
-            BaseStyle.FontSize(18).SemiBold(); 
+            BaseStyle.FontFamily(HeadingFamily).FontSize(18).SemiBold().FontColor(Colors.Primary); 
 
         public static TextStyle H2 =>
-            BaseStyle.FontSize(14).SemiBold();
+            BaseStyle.FontFamily(HeadingFamily).FontSize(14).SemiBold().FontColor(Colors.Primary);
 
         public static TextStyle TitleStyle =>
-        BaseStyle.FontSize(24).Bold().FontColor(Colors.Text);
+            BaseStyle.FontFamily(HeadingFamily).FontSize(24).Bold().FontColor(Colors.Text);
 
         public static TextStyle HeaderCellStyle =>
-            BaseStyle.FontSize(11).SemiBold().FontColor(Colors.Primary);
+            BaseStyle.FontFamily(HeadingFamily).FontSize(11).SemiBold().FontColor(Colors.Primary);
 
         public static TextStyle BodyCellStyle =>
             BaseStyle.FontSize(10).FontColor(Colors.Text);
@@ -68,7 +71,7 @@ namespace SingularSystem.Templates
             BaseStyle.Bold();
 
         public static TextStyle SectionTitle =>
-            BaseStyle.FontSize(12).SemiBold().FontColor(Colors.Primary);
+            BaseStyle.FontFamily(HeadingFamily).FontSize(12).SemiBold().FontColor(Colors.Primary);
 
         public static TextStyle Label =>
             BaseStyle.SemiBold();
@@ -112,6 +115,17 @@ namespace SingularSystem.Templates
             t.Span(value ?? "—").Style(Value);
         }
 
+        public static void FieldIfPresent(TextDescriptor t, string label, string? value)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                return;
+            }
+
+            t.Span(label).Style(Label);
+            t.Span(value).Style(Value);
+        }
+
         public static void BulletItem(IContainer c, string text)
         {
             c.Row(r =>
@@ -126,14 +140,17 @@ namespace SingularSystem.Templates
     {
         private readonly string _title;
         private readonly Action<IContainer> _content;
+        private readonly PdfRenderContext _context;
 
-        public BaseA4Document(string title, Action<IContainer> content)
+        public BaseA4Document(string title, Action<IContainer> content, PdfRenderContext? context = null)
         {
             _title = title;
             _content = content;
+            _context = context ?? PdfRenderContext.Default();
         }
 
-        public DocumentMetadata GetMetadata() => DocumentMetadata.Default;
+        public DocumentMetadata GetMetadata() => PdfMetadataFactory.CreateMetadata(_context.Profile, _title);
+        public DocumentSettings GetSettings() => PdfMetadataFactory.CreateSettings(_context.Profile);
 
         public void Compose(IDocumentContainer container)
         {
@@ -148,70 +165,15 @@ namespace SingularSystem.Templates
 
                 page.DefaultTextStyle(PdfTheme.BaseStyle);
 
-                page.Header().Element(ComposeHeader);
+                page.Header().ShowOnce().Element(c => PdfBrandChrome.ComposeHeader(c, _context, _title));
 
                 page.Content().Element(c =>
                 {
                     _content(c);
                 });
 
-                page.Footer().Element(ComposeFooter);
+                page.Footer().Element(c => PdfBrandChrome.ComposeFooter(c, _context));
             });
-        }
-
-        private void ComposeHeader(IContainer container)
-        {
-            container
-                .Column(col =>
-                {
-                    col.Spacing(8);
-
-                    col.Item()
-                        .AlignCenter()
-                        .Text(_title)
-                        .Style(PdfTheme.H1);
-
-                    col.Item()
-                        .PaddingTop(6)
-                        .LineHorizontal(1)
-                        .LineColor(PdfTheme.BorderColor);
-                });
-        }
-
-        private void ComposeFooter(IContainer container)
-        {
-            container
-                .PaddingTop(8)
-                .Column(col =>
-                {
-                    col.Spacing(3);
-
-                    col.Item()
-                        .LineHorizontal(1)
-                        .LineColor(PdfTheme.BorderColor);
-
-                    col.Item().AlignCenter().Text(text =>
-                    {
-                        var now = DateTime.Now;
-                        text.Span("Documento gerado em ")
-                            .Style(PdfTheme.MutedStyle);
-                        text.Span(now.ToString("dd/MM/yyyy", new CultureInfo("pt-BR")))
-                            .Style(PdfTheme.MutedStyle);
-                        text.Span(" às ")
-                            .Style(PdfTheme.MutedStyle);
-                        text.Span(now.ToString("HH:mm", new CultureInfo("pt-BR")))
-                            .Style(PdfTheme.MutedStyle);
-                    });
-
-                    col.Item().AlignCenter().Text("Sistema AEE - IPAAGS").Style(PdfTheme.MutedStyle);
-
-                    col.Item().AlignCenter().Text(t =>
-                    {
-                        t.CurrentPageNumber().Style(PdfTheme.MutedStyle);
-                        t.Span(" de ").Style(PdfTheme.MutedStyle);
-                        t.TotalPages().Style(PdfTheme.MutedStyle);
-                    });
-                });
         }
     }
 

@@ -35,7 +35,7 @@ namespace SingularSystem.Tests
                 {
                     ["NeckSign:BaseUrl"] = "https://necksign.test/",
                     ["NeckSign:ApiKey"] = "test-api-key",
-                    ["NeckSign:WebhookUrl"] = "https://ipaags.test/api/v1/necksign/webhook",
+                    ["NeckSign:WebhookUrl"] = "https://singular.test/api/v1/necksign/webhook",
                 })
                 .Build();
 
@@ -116,6 +116,7 @@ namespace SingularSystem.Tests
     {
         private static readonly byte[] Pdf = Encoding.ASCII.GetBytes("%PDF-1.4\n%EOF\n");
         public Task<byte[]> GeneratePdf(Guid documentId) => Task.FromResult(Pdf);
+        public Task<byte[]> GeneratePdf(Guid documentId, SingularSystem.Models.PdfProfile profile) => Task.FromResult(Pdf);
         public Task<string?> GetDocumentType(Guid documentId) => Task.FromResult<string?>(null);
         public Task<byte[]> GenerateStudentsPdf(string state, string city, string schoolID, string serie = "") => Task.FromResult(Array.Empty<byte>());
         public Task<byte[]> GenerateReportsAEEPdf(string state, string city, string schoolID, string disabilities, string disorders) => Task.FromResult(Array.Empty<byte>());

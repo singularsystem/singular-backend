@@ -9,7 +9,7 @@ namespace SingularSystem.DTOs
     /// </summary>
     /// <remarks>
     /// Os valores são serializados em maiúsculas (<c>SIGNER</c>, <c>WITNESS</c>, <c>APPROVER</c>)
-    /// para corresponder exatamente ao schema Zod do NeckSign. No iPAAGS todos os signatários
+    /// para corresponder exatamente ao schema Zod do NeckSign. No Singular System todos os signatários
     /// (assistente social, psicólogo, psicopedagogo e responsáveis de PEI/PAEE/estudo de caso)
     /// assinam de fato o documento, portanto usam o papel <see cref="Signer"/>.
     /// </remarks>
@@ -34,7 +34,7 @@ namespace SingularSystem.DTOs
     /// </summary>
     /// <remarks>
     /// <para>
-    /// O campo <see cref="ExternalId"/> é um acréscimo do iPAAGS (fora do schema estrito do NeckSign)
+    /// O campo <see cref="ExternalId"/> é um acréscimo do sistema (fora do schema estrito do NeckSign)
     /// usado internamente para correlacionar a <c>signingUrl</c> retornada por signatário com o papel
     /// correspondente do <c>report</c> (assistente social / psicólogo / psicopedagogo), conforme
     /// Req 2.9. Para <c>pei</c>/<c>paee</c>/<c>caseStudy</c> há um único signatário e o
@@ -54,7 +54,7 @@ namespace SingularSystem.DTOs
         /// <summary>E-mail do signatário. Nunca vazio após a filtragem de composição e único (dedup por e-mail, case-insensitive).</summary>
         public string Email { get; init; } = default!;
 
-        /// <summary>Papel do signatário no envelope. No iPAAGS, sempre <see cref="NeckSignSignerRole.SIGNER"/>.</summary>
+        /// <summary>Papel do signatário no envelope. No Singular System, sempre <see cref="NeckSignSignerRole.SIGNER"/>.</summary>
         public NeckSignSignerRole Role { get; init; } = NeckSignSignerRole.SIGNER;
 
         /// <summary>
@@ -64,7 +64,7 @@ namespace SingularSystem.DTOs
         public int Order { get; init; }
 
         /// <summary>
-        /// Identificador de correlação do signatário usado pelo iPAAGS para associar a
+        /// Identificador de correlação do signatário usado pelo Singular System para associar a
         /// <c>signingUrl</c> por papel (<c>report</c>) ou pelo responsável (<c>pei</c>/<c>paee</c>/<c>caseStudy</c>).
         /// Não faz parte do schema estrito do NeckSign; é consumido internamente na persistência (task 4.3).
         /// </summary>

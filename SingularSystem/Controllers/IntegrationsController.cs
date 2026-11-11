@@ -28,7 +28,11 @@ namespace SingularSystem.Controllers
 
         private bool ValidateApiKey()
         {
-            var expectedKey = _configuration["IntegrationSettings:ApiKey"] ?? "ipaags_aee_integration_key_2026";
+            var expectedKey = _configuration["IntegrationSettings:ApiKey"];
+            if (string.IsNullOrWhiteSpace(expectedKey))
+            {
+                return false;
+            }
 
             if (!Request.Headers.TryGetValue("X-Api-Key", out var extractedKey))
             {

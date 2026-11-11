@@ -16,13 +16,45 @@ public class PDFService : IPDFService
     private readonly IEnumerable<IDocumentPdfGenerator> _generators;
     private readonly IStudentPDFGenerator _studentPDFGenerator;
     private readonly IReportAEEPDFGenerator _reportAEEPDFGenerator;
+    private readonly IIssuerResolver _issuerResolver;
+    private readonly IDocumentValidationService _documentValidationService;
+    private readonly Microsoft.Extensions.Configuration.IConfiguration _configuration;
+    private static readonly Lazy<byte[]> _singularLogo = new(LoadDefaultSingularLogo);
 
-    public PDFService(AppDbContext appDbContext, IEnumerable<IDocumentPdfGenerator> generators, IStudentPDFGenerator studentPDFGenerator, IReportAEEPDFGenerator reportAEEPDFGenerator)
+    public PDFService(
+        AppDbContext appDbContext,
+        IEnumerable<IDocumentPdfGenerator> generators,
+        IStudentPDFGenerator studentPDFGenerator,
+        IReportAEEPDFGenerator reportAEEPDFGenerator,
+        IIssuerResolver issuerResolver,
+        IDocumentValidationService documentValidationService,
+        Microsoft.Extensions.Configuration.IConfiguration configuration)
     {
         _appDbContext = appDbContext;
         _generators = generators;
         _studentPDFGenerator = studentPDFGenerator;
         _reportAEEPDFGenerator = reportAEEPDFGenerator;
+        _issuerResolver = issuerResolver;
+        _documentValidationService = documentValidationService;
+        _configuration = configuration;
+    }
+
+    private static byte[] LoadDefaultSingularLogo()
+    {
+        var basePath = AppContext.BaseDirectory;
+        var path = System.IO.Path.Combine(basePath, "Resources", "Brand", "logomarca-laranja.png");
+        if (System.IO.File.Exists(path))
+        {
+            return System.IO.File.ReadAllBytes(path);
+        }
+
+        var fallback = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "Resources", "Brand", "logomarca-laranja.png");
+        if (System.IO.File.Exists(fallback))
+        {
+            return System.IO.File.ReadAllBytes(fallback);
+        }
+
+        return Array.Empty<byte>();
     }
 
     private static List<string> SplitCsv(string csv)
@@ -34,7 +66,9 @@ public class PDFService : IPDFService
             .ToList();
     }
 
-    public async Task<byte[]> GeneratePdf(Guid documentId)
+    public Task<byte[]> GeneratePdf(Guid documentId) => GeneratePdf(documentId, PdfProfile.View);
+
+    public async Task<byte[]> GeneratePdf(Guid documentId, PdfProfile profile)
     {
         var docType = await GetDocumentType(documentId);
         if (docType is null) throw new KeyNotFoundException("Documento não encontrado.");
@@ -66,14 +100,17 @@ public class PDFService : IPDFService
                 .AsNoTracking()
                 .Include(x => x.User)
                 .Include(x => x.Student).ThenInclude(x => x!.School)
+                .Include(x => x.PsychologistReport).ThenInclude(x => x!.User)
                 .Include(x => x.PsychologistReport).ThenInclude(x => x!.SnapIVQuestionnaire)
                 .Include(x => x.PsychologistReport).ThenInclude(x => x!.AdaptiveBehaviorScaleDI)
                 .Include(x => x.PsychologistReport).ThenInclude(x => x!.PsychologistQuestionnaire)
+                .Include(x => x.PsychopedagogueReport).ThenInclude(x => x!.User)
                 .Include(x => x.PsychopedagogueReport).ThenInclude(x => x!.PsychopedagogueQuestionnaire).ThenInclude(x => x.TypeOfDisability)
                 .Include(x => x.PsychopedagogueReport).ThenInclude(x => x!.PsychopedagogueQuestionnaire).ThenInclude(x => x.TypeOfDisorder)
                 .Include(x => x.PsychopedagogueReport).ThenInclude(x => x!.MCHATQuestionnaire)
                 .Include(x => x.PsychopedagogueReport).ThenInclude(x => x!.CARSQuestionnaire)
                 .Include(x => x.PsychopedagogueReport).ThenInclude(x => x!.CognitiveAssessment)
+                .Include(x => x.SocialWorkerReport).ThenInclude(x => x!.User)
                 .Include(x => x.SocialWorkerReport).ThenInclude(x => x!.ProceduresUsed)
                 .Include(x => x.SocialWorkerReport).ThenInclude(x => x!.FamilyIncomeSource)
                 .Include(x => x.SocialWorkerReport).ThenInclude(x => x!.ReceivedGovernmentBenefits)
@@ -98,7 +135,27 @@ public class PDFService : IPDFService
         var generator = _generators.FirstOrDefault(g => g.Discriminator == docType);
         if (generator is null) throw new NotSupportedException($"Sem generator para '{docType}'.");
 
-        return await generator.GenerateAsync(document);
+        var issuer = await _issuerResolver.ResolveAsync(document, profile);
+
+        string? validationUrl = null;
+        if (string.Equals(docType, "Report", StringComparison.OrdinalIgnoreCase))
+        {
+            var baseUrl = _configuration["PublicValidation:BaseUrl"]?.TrimEnd('/');
+            if (!string.IsNullOrWhiteSpace(baseUrl))
+            {
+                var token = await _documentValidationService.GetOrIssueAsync(documentId, docType);
+                validationUrl = $"{baseUrl}/validar#{token}";
+            }
+        }
+
+        var renderContext = new PdfRenderContext(
+            Profile: profile,
+            Issuer: issuer,
+            SingularLogo: _singularLogo.Value,
+            ValidationUrl: validationUrl,
+            GeneratedAtBrt: DateTime.UtcNow.ToBrazilianTime());
+
+        return await generator.GenerateAsync(document, renderContext);
     }
 
     public async Task<string?> GetDocumentType(Guid documentId)

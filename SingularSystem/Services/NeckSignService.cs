@@ -12,7 +12,7 @@ using System.Text.Json.Serialization;
 namespace SingularSystem.Services
 {
     /// <summary>
-    /// Implementação de <see cref="ISignatureService"/> que integra o iPAAGS ao microsserviço
+    /// Implementação de <see cref="ISignatureService"/> que integra a Singular System ao microsserviço
     /// próprio <c>NeckSign</c> via API REST. Correlaciona documentos exclusivamente pelo
     /// <c>externalId</c> (GUID da entidade) e nunca expõe tipos específicos de provedor aos
     /// controllers chamadores.
@@ -66,7 +66,7 @@ namespace SingularSystem.Services
         private readonly IServiceScopeFactory _scopeFactory;
 
         /// <summary>
-        /// URL de webhook do iPAAGS enviada ao NeckSign na criação do envelope (Req 2.2). Lida de
+        /// URL de webhook da Singular System enviada ao NeckSign na criação do envelope (Req 2.2). Lida de
         /// <c>NeckSign:WebhookUrl</c>; o NeckSign a usa para notificar o <c>NeckSignController</c>
         /// (webhooks de entrada, task 7) sobre mudanças de estado do envelope.
         /// </summary>
@@ -486,7 +486,7 @@ namespace SingularSystem.Services
 
                     // Req 2.9: correlaciona a signingUrl por papel. O NeckSign retorna signers[] com
                     // { email, signingUrl } (sem externalId), então a correlação é POR E-MAIL: cada
-                    // papel do iPAAGS tem um externalId (ID do sub-relatório) e um e-mail conhecidos
+                    // papel do sistema tem um externalId (ID do sub-relatório) e um e-mail conhecidos
                     // (de composedSigners); casamos esse e-mail com a signingUrl retornada pelo
                     // provedor. Mantemos o casamento por externalId como fallback caso o provedor
                     // volte a enviá-lo. A comparação de e-mail é case-insensitive.
@@ -1026,7 +1026,7 @@ namespace SingularSystem.Services
         /// <c>DRAFT</c> caem em <see cref="SignatureDocumentStatus.Pending"/>.
         /// </summary>
         /// <remarks>
-        /// Correspondência com o estado local do iPAAGS (aplicada por <c>SyncDocument</c>/webhook):
+        /// Correspondência com o estado local do sistema (aplicada por <c>SyncDocument</c>/webhook):
         /// <c>PENDING</c>/<c>SIGNING</c> → <c>InProgress</c>; <c>SIGNED</c> → <c>Complete</c>;
         /// <c>DECLINED</c> → <c>Declined</c>; <c>EXPIRED</c> → <c>Expired</c>; <c>VOIDED</c> → sem
         /// alteração de estado local.
@@ -1165,7 +1165,7 @@ namespace SingularSystem.Services
                     // URL EFÊMERA (TTL ~1h) de um bucket externo (necksign-documents-prod). Persistí-la
                     // (a) a deixaria quebrada após a expiração e (b) faria o DocumentsSignatureController
                     // classificá-la como "S3 próprio" (IsOwnS3Reference casa qualquer host *.s3.amazonaws.com)
-                    // e RE-ASSINÁ-LA sobre o bucket do iPAAGS, gerando uma URL aninhada inválida (NoSuchKey).
+                    // e RE-ASSINÁ-LA sobre o bucket próprio, gerando uma URL aninhada inválida (NoSuchKey).
                     // Para documentos NeckSign, a URL do PDF assinado é resolvida SEMPRE na hora, via
                     // GetDocumentDetails → GET /api/v1/envelopes/:id/download. SignedFile fica nulo.
                     return new SingleSignerReconciliation(
@@ -1420,7 +1420,7 @@ namespace SingularSystem.Services
         /// <summary>
         /// Corpo da requisição <c>POST /api/v1/envelopes</c> do NeckSign (contrato <c>CreateEnvelope</c>).
         /// Serializado em camelCase. O campo <c>pdfBase64</c> (nome exigido pelo schema estrito do
-        /// NeckSign) transporta o PDF gerado pelo iPAAGS (Req 2.2).
+        /// NeckSign) transporta o PDF gerado pelo sistema (Req 2.2).
         /// </summary>
         private sealed class NeckSignCreateEnvelopeRequest
         {

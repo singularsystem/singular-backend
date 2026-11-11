@@ -2,6 +2,7 @@
 using SingularSystem.DTOs.Students;
 using SingularSystem.Extensions;
 using SingularSystem.Interfaces;
+using SingularSystem.Models;
 using SingularSystem.Models.Entities;
 using SingularSystem.Models.Enums;
 using SingularSystem.Templates;
@@ -17,19 +18,29 @@ namespace SingularSystem.Services
     {
         public string Discriminator => "RegularTeacherEvaluationDocument";
 
-        public Task<byte[]> GenerateAsync(BaseDocument document, CancellationToken ct = default)
+        public Task<byte[]> GenerateAsync(BaseDocument document, PdfRenderContext context, CancellationToken ct = default)
         {
             var evaluation = (RegularTeacherEvaluationDocument)document;
-            var bytes = new RegularTeacherEvaluationPDFDocument(evaluation).GeneratePdf();
+            var bytes = new RegularTeacherEvaluationPDFDocument(evaluation, context).GeneratePdf();
             return Task.FromResult(bytes);
         }
 
+        public Task<byte[]> GenerateAsync(BaseDocument document, CancellationToken ct = default)
+            => GenerateAsync(document, PdfRenderContext.Default(), ct);
+
         public class RegularTeacherEvaluationPDFDocument : IDocument
         {
-
             private readonly RegularTeacherEvaluationDocument _evaluation;
-            public RegularTeacherEvaluationPDFDocument(RegularTeacherEvaluationDocument evaluation) => _evaluation = evaluation;
-            public DocumentMetadata GetMetadata() => DocumentMetadata.Default;
+            private readonly PdfRenderContext _context;
+
+            public RegularTeacherEvaluationPDFDocument(RegularTeacherEvaluationDocument evaluation, PdfRenderContext? context = null)
+            {
+                _evaluation = evaluation;
+                _context = context ?? PdfRenderContext.Default();
+            }
+
+            public DocumentMetadata GetMetadata() => PdfMetadataFactory.CreateMetadata(_context.Profile, "Estudo de Caso");
+            public DocumentSettings GetSettings() => PdfMetadataFactory.CreateSettings(_context.Profile);
 
             public void Compose(IDocumentContainer container)
             {
@@ -323,30 +334,7 @@ namespace SingularSystem.Services
 
                     page.Header().ShowOnce().Element(h =>
                     {
-                        h.Column(col =>
-                        {
-                            col.Item()
-                                .AlignCenter()
-                                .Text("IPAAGS · Sistema de Gestão Educacional")
-                                .Style(PdfTheme.MutedStyle);
-
-                            col.Item().PaddingTop(4);
-
-                            col.Item()
-                                .AlignCenter()
-                                .Text("Estudo de Caso")
-                                .Style(PdfTheme.TitleStyle);
-
-                            //col.Item()
-                            //    .PaddingTop(4)
-                            //    .AlignCenter()
-                            //    .Text("Avaliação Psicopedagógica - Professor Regular")
-                            //    .FontSize(10)
-                            //    .Style(PdfTheme.MutedStyle);
-
-                            col.Item().PaddingTop(48);
-                            col.Item().Element(x => PdfTheme.Hr(x, 2));
-                        });
+                        PdfBrandChrome.ComposeHeader(h, _context, "Estudo de Caso");
                     });
 
                     page.Content()
@@ -377,23 +365,43 @@ namespace SingularSystem.Services
                                             });
                                         });
 
-                                        card.Item().Row(row =>
+                                        var hasState = !string.IsNullOrWhiteSpace(_evaluation.Student?.State);
+                                        var hasCity = !string.IsNullOrWhiteSpace(_evaluation.Student?.City);
+                                        if (hasState || hasCity)
                                         {
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Estado: ", _evaluation.Student?.State));
+                                            card.Item().Row(row =>
+                                            {
+                                                if (hasState)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.FieldIfPresent(t, "Estado: ", _evaluation.Student?.State));
+                                                }
+                                                if (hasCity)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.FieldIfPresent(t, "Município: ", _evaluation.Student?.City));
+                                                }
+                                            });
+                                        }
 
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Município: ", _evaluation.Student?.City));
-                                        });
-
-                                        card.Item().Row(row =>
+                                        var hasSerie = _evaluation.Student?.Serie != null;
+                                        var hasSchool = !string.IsNullOrWhiteSpace(_evaluation.Student?.School?.Name);
+                                        if (hasSerie || hasSchool)
                                         {
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Ano/Série: ", _evaluation.Student?.Serie.GetDisplayName()));
-
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Escola: ", _evaluation.Student?.School?.Name));
-                                        });
+                                            card.Item().Row(row =>
+                                            {
+                                                if (hasSerie)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.Field(t, "Ano/Série: ", _evaluation.Student?.Serie.GetDisplayName()));
+                                                }
+                                                if (hasSchool)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                        PdfTheme.FieldIfPresent(t, "Escola: ", _evaluation.Student?.School?.Name));
+                                                }
+                                            });
+                                        }
 
                                         card.Item().Row(row =>
                                         {
@@ -543,33 +551,10 @@ namespace SingularSystem.Services
                         });
 
 
-                    page.Footer()
-                        .Element(f =>
-                        {
-                            f.PaddingTop(6).Column(col =>
-                            {
-                                col.Item().PaddingBottom(6).Element(x => PdfTheme.Hr(x, 2));
-
-                                col.Item()
-                                    .AlignCenter()
-                                    .Text($"Documento gerado em {DateTime.Now:dd/MM/yyyy} às {DateTime.Now:HH:mm:ss}")
-                                    .Style(PdfTheme.MutedStyle);
-
-                                col.Item()
-                                    .AlignCenter()
-                                    .Text("Sistema AEE - IPAAGS")
-                                    .Style(PdfTheme.MutedStyle);
-
-                                col.Item().AlignCenter()
-                                   .Text(t =>
-                                   {
-                                       t.Span("Página ").Style(PdfTheme.MutedStyle);
-                                       t.CurrentPageNumber().Style(PdfTheme.MutedStyle);
-                                       t.Span(" de ").Style(PdfTheme.MutedStyle);
-                                       t.TotalPages().Style(PdfTheme.MutedStyle);
-                                   });
-                            });
-                        });
+                    page.Footer().Element(f =>
+                    {
+                        PdfBrandChrome.ComposeFooter(f, _context);
+                    });
                 });
             }
            

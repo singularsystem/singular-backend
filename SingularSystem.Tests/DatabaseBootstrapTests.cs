@@ -61,7 +61,7 @@ namespace SingularSystem.Tests
         }
 
         [Fact]
-        public async Task Seed_does_not_create_ipaags_admin_user_nor_responsibility_term()
+        public async Task Seed_does_not_create_legacy_admin_user_nor_responsibility_term()
         {
             using var sp = CreateIdentityServices($"seed-user-term-{Guid.NewGuid()}");
             using var scope = sp.CreateScope();
@@ -72,7 +72,7 @@ namespace SingularSystem.Tests
             await Seeders.SeedAdminUserAsync(userManager, roleManager);
             await Seeders.SeedAsync(db);
 
-            // Ausência de ipaags.pi@gmail.com
+            // Ausência de conta de e-mail legada
             var legacyUser = await userManager.FindByEmailAsync("ipaags.pi@gmail.com");
             Assert.Null(legacyUser);
 

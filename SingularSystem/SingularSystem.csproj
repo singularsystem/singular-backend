@@ -12,9 +12,8 @@
   </PropertyGroup>
 
     <ItemGroup>
-      <!-- Permite que o projeto de testes (IPAAG-AEE.Tests) acesse membros internal,
-           como NeckSignService.ComposeSignersAsync, para os testes de propriedade
-           da feature 012-ipaags-migration. -->
+      <!-- Permite que o projeto de testes (SingularSystem.Tests) acesse membros internal,
+           como NeckSignService.ComposeSignersAsync. -->
       <InternalsVisibleTo Include="SingularSystem.Tests" />
     </ItemGroup>
 
@@ -43,15 +42,24 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
     <PackageReference Include="QuestPDF" Version="2025.12.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.2" />
+    <PackageReference Include="ZXing.Net" Version="0.16.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Fonts\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Fonts\**\*.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Reports\Templates\**\*.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Brand\*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\term*.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -27,7 +27,9 @@ namespace SingularSystem.Tests
             "Smtp:Port",
             "Smtp:Username",
             "Smtp:Password",
-            "Smtp:FromAddress"
+            "Smtp:FromAddress",
+            "IntegrationSettings:ApiKey",
+            "PublicValidation:BaseUrl"
         };
 
         private static Dictionary<string, string?> CreateValidConfigDict()
@@ -49,7 +51,9 @@ namespace SingularSystem.Tests
                 ["Smtp:Port"] = "587",
                 ["Smtp:Username"] = "smtp-user",
                 ["Smtp:Password"] = "smtp-secret-pass",
-                ["Smtp:FromAddress"] = "noreply@singularsystem.com.br"
+                ["Smtp:FromAddress"] = "noreply@singularsystem.com.br",
+                ["IntegrationSettings:ApiKey"] = "singular_system_integration_key_2026",
+                ["PublicValidation:BaseUrl"] = "https://app.singularsystem.com.br"
             };
         }
 
@@ -181,6 +185,54 @@ namespace SingularSystem.Tests
 
                 return (isInvalid && containsTargetKey && hasErrorMessage).ToProperty()
                     .Label($"Invalid config ({testCase.Kind}) for key '{testCase.TargetKey}' must report failure identifying the affected key.");
+            }
+        }
+
+        // Feature: modulo-2-rebranding-pdfs, Property 21: Configuração obrigatória ausente falha nomeando a chave
+        //
+        // Para qualquer configuração válida em que IntegrationSettings:ApiKey está ausente, vazia ou só espaços,
+        // o ConfigValidator reprova e a mensagem contém o nome IntegrationSettings:ApiKey;
+        // com o valor presente, não reprova por esse motivo.
+        //
+        // Validates: Requirements 4.6, 4.7
+        [Property(MaxTest = 100)]
+        public Property Property_21_Missing_Or_Blank_IntegrationSettings_ApiKey_Fails_Naming_Key(bool omitKey, NonEmptyString? blankOrVal)
+        {
+            var dict = CreateValidConfigDict();
+            var isBlankOrOmitted = omitKey || (blankOrVal != null && string.IsNullOrWhiteSpace(blankOrVal.Get));
+
+            if (omitKey)
+            {
+                dict.Remove("IntegrationSettings:ApiKey");
+            }
+            else if (isBlankOrOmitted)
+            {
+                dict["IntegrationSettings:ApiKey"] = "   \t\n  ";
+            }
+            else
+            {
+                dict["IntegrationSettings:ApiKey"] = blankOrVal?.Get ?? "valid-api-key";
+            }
+
+            var config = new ConfigurationBuilder()
+                .AddInMemoryCollection(dict!)
+                .Build();
+
+            var result = ConfigValidator.Validate(config);
+
+            if (omitKey || isBlankOrOmitted)
+            {
+                var isInvalid = !result.IsValid;
+                var namesKey = result.MissingOrInvalidKeys.Contains("IntegrationSettings:ApiKey");
+                var messageContains = result.ErrorMessages.Any(m => m.Contains("IntegrationSettings:ApiKey"));
+                return (isInvalid && namesKey && messageContains).ToProperty()
+                    .Label("Missing or blank IntegrationSettings:ApiKey must fail naming the key.");
+            }
+            else
+            {
+                var notFailedByThis = !result.MissingOrInvalidKeys.Contains("IntegrationSettings:ApiKey");
+                return notFailedByThis.ToProperty()
+                    .Label("Valid IntegrationSettings:ApiKey must not fail for this key.");
             }
         }
     }

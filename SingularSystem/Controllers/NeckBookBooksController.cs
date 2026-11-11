@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 namespace SingularSystem.Controllers
 {
     /// <summary>
-    /// Controller de proxy autenticado entre o IPAAGS e a API externa de geração de livros
+    /// Controller de proxy autenticado entre o Singular System e a API externa de geração de livros
     /// do NeckBook (<c>https://api.neckbook.com.br</c>) (Req 6–17).
     /// </summary>
     [Authorize]

@@ -16,7 +16,7 @@ namespace SingularSystem.Tests
     {
         private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
-        // Feature: 012-ipaags-migration, Property 6: Validação HMAC-SHA256 do webhook (round-trip e erro)
+        // Feature: 012-singular-migration, Property 6: Validação HMAC-SHA256 do webhook (round-trip e erro)
         //
         // Para qualquer corpo, um header X-NeckSign-Signature sha256=<hmac-hex> calculado com o
         // segredo correto sobre os bytes brutos é aceito; qualquer alteração no corpo, segredo ou
@@ -56,7 +56,7 @@ namespace SingularSystem.Tests
                 .Label($"modo {c.HeaderMode}: esperado 403 sem efeito, obteve {Describe(result)} dedupRows={(noDedup ? 0 : 1)}");
         }
 
-        // Feature: 012-ipaags-migration, Property 7: Validação de campos obrigatórios do webhook
+        // Feature: 012-singular-migration, Property 7: Validação de campos obrigatórios do webhook
         //
         // Para qualquer payload com HMAC válido ao qual falte ao menos um dos campos obrigatórios
         // event/envelopeId/externalId, o controller responde 400 Bad Request sem efeito.
@@ -92,7 +92,7 @@ namespace SingularSystem.Tests
             return not400.ToProperty().Label($"todos presentes não deveria dar 400 (obteve {Describe(result)})");
         }
 
-        // Feature: 012-ipaags-migration, Property 8: Idempotência de webhook
+        // Feature: 012-singular-migration, Property 8: Idempotência de webhook
         //
         // Para qualquer evento válido, processá-lo mais de uma vez para a mesma combinação de
         // (envelopeId, estado) deve produzir o mesmo estado final e 200 OK sem efeitos adicionais.
@@ -143,7 +143,7 @@ namespace SingularSystem.Tests
                 .Label($"repeats={c.Repeats}: ok={ok} status={pei.DocumentStatus} teacherSign={pei.TeacherSign} dedupRows={dedupCount}");
         }
 
-        // Feature: 012-ipaags-migration — Task 7.7: testes de exemplo/integração do NeckSignController
+        // Feature: 012-singular-migration — Task 7.7: testes de exemplo/integração do NeckSignController
         //
         // envelope.signed com HMAC válido correlaciona por externalId e marca Complete;
         // reprocessamento → 200 sem efeito; HMAC inválido → 403 sem efeito.

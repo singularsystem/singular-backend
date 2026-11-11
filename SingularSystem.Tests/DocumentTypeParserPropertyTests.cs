@@ -8,7 +8,7 @@ using Xunit;
 
 namespace SingularSystem.Tests
 {
-    // Feature: 012-ipaags-migration, Property 1: Validação de tipo de documento
+    // Feature: 012-singular-migration, Property 1: Validação de tipo de documento
     //
     // Para qualquer string que não corresponda exatamente (case-sensitive) a um de
     // `report`, `pei`, `paee`, `caseStudy` — incluindo `null`, vazio, só-espaços e

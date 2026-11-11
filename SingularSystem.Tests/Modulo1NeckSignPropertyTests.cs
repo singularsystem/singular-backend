@@ -75,8 +75,8 @@ namespace SingularSystem.Tests
         // Feature: modulo-1-infraestrutura, Property 3: Neutralidade do envelope de assinatura
         //
         // Para todo documento submetido à assinatura, o título/branding do envelope gerado não deve
-        // conter nenhum termo de identificação municipal proibido (ex.: "IPAAGS", nomes de prefeituras/
-        // municípios da lista de bloqueio), em comparação case-insensitive.
+        // conter nenhum termo de identificação de marca legada ou municipal proibido,
+        // em comparação case-insensitive.
         //
         // Validates: Requirements 4.6
         [Property(MaxTest = 100, Arbitrary = new[] { typeof(EnvelopeTitleCaseArb) })]

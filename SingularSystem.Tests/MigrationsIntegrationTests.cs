@@ -9,7 +9,7 @@ using Xunit;
 
 namespace SingularSystem.Tests
 {
-    // Feature: 012-ipaags-migration — Task 2.4: testes de integração das migrations
+    // Feature: 012-singular-migration — Task 2.4: testes de integração das migrations
     //
     // Confirma, com EF Core InMemory, os invariantes garantidos pelas migrations das waves 0-1:
     //  - a extensão do enum Status (Declined=6, Expired=7) não altera os valores legados

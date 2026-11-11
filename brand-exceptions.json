@@ -1,0 +1,27 @@
+[
+  {
+    "glob": "Resources/PEI/Historia/4ano.json",
+    "pattern": "prefeitura",
+    "reason": "Conteúdo pedagógico da BNCC referente à história dos municípios, não é marca do sistema"
+  },
+  {
+    "glob": "Migrations/**",
+    "pattern": ".*",
+    "reason": "Histórico imutável de migrações anteriores do Entity Framework"
+  },
+  {
+    "glob": "Resources/term.txt",
+    "pattern": ".*",
+    "reason": "Termo de uso legado mantido como v1 pendente de validação jurídica do Cliente"
+  },
+  {
+    "glob": ".kiro/**",
+    "pattern": ".*",
+    "reason": "Documentação interna, especificações e histórico de ADRs do projeto"
+  },
+  {
+    "glob": "docs/**",
+    "pattern": ".*",
+    "reason": "Documentação arquitetural de histórico de migração"
+  }
+]

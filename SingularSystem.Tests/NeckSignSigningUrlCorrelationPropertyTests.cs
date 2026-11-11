@@ -20,7 +20,7 @@ using Xunit;
 
 namespace SingularSystem.Tests
 {
-    // Feature: 012-ipaags-migration, Property 3: Correlação de signingUrl por papel
+    // Feature: 012-singular-migration, Property 3: Correlação de signingUrl por papel
     //
     // Para qualquer resposta `201 Created` de criação de um `report` contendo signatários
     // por papel, cada campo de URL por papel (`SocialWorkerSignUrl`, `PsychologistSignUrl`,
@@ -119,7 +119,7 @@ namespace SingularSystem.Tests
 
         // Cenário REAL do NeckSign: a resposta 201 traz signers[] com { email, signingUrl } e SEM
         // externalId (o NeckSign não envia externalId). A correlação de signingUrl por papel deve
-        // então ser feita POR E-MAIL — cada papel do iPAAGS tem e-mail conhecido (social@/psi@/psiped@)
+        // então ser feita POR E-MAIL — cada papel do Singular System tem e-mail conhecido (social@/psi@/psiped@)
         // e deve receber a URL correspondente. Garante que o relatório multi-signatário obtém as três
         // URLs mesmo sem externalId na resposta do provedor.
         [Fact]
@@ -300,7 +300,7 @@ namespace SingularSystem.Tests
                 {
                     ["NeckSign:BaseUrl"] = "https://necksign.test/",
                     ["NeckSign:ApiKey"] = "test-api-key",
-                    ["NeckSign:WebhookUrl"] = "https://ipaags.test/api/webhooks/necksign",
+                    ["NeckSign:WebhookUrl"] = "https://singular.test/api/webhooks/necksign",
                 })
                 .Build();
 
@@ -420,6 +420,7 @@ namespace SingularSystem.Tests
             private static readonly byte[] MinimalPdf = Encoding.ASCII.GetBytes("%PDF-1.4\n%EOF\n");
 
             public Task<byte[]> GeneratePdf(Guid documentId) => Task.FromResult(MinimalPdf);
+            public Task<byte[]> GeneratePdf(Guid documentId, SingularSystem.Models.PdfProfile profile) => Task.FromResult(MinimalPdf);
 
             public Task<string?> GetDocumentType(Guid documentId) => Task.FromResult<string?>("report");
 

@@ -1,4 +1,4 @@
-$connString = "Server=localhost\SQLEXPRESS;Database=IPAAG_AEE;Trusted_Connection=True;TrustServerCertificate=True;"
+$connString = "Server=localhost\SQLEXPRESS;Database=SingularSystem;Trusted_Connection=True;TrustServerCertificate=True;"
 $query = @"
 SELECT TABLE_NAME, COLUMN_NAME, DATA_TYPE 
 FROM INFORMATION_SCHEMA.COLUMNS 

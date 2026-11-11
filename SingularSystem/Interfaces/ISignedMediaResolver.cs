@@ -3,7 +3,7 @@
     /// <summary>
     /// Abstração reutilizável das três operações de resolução de mídia assinada extraídas de
     /// <c>LegacyMediaMigrationService</c> (spec 012): a detecção de origem de um <c>SignedFile</c>
-    /// (ZapSign legado vs. S3 próprio do iPAAGS) e a geração de URL pré-assinada do S3 próprio.
+    /// (ZapSign legado vs. S3 próprio do Singular System) e a geração de URL pré-assinada do S3 próprio.
     /// </summary>
     /// <remarks>
     /// <para>
@@ -32,7 +32,7 @@
         bool IsZapSignUrl(string? signedFile);
 
         /// <summary>
-        /// Determina se o valor de <c>SignedFile</c> já se refere ao S3 próprio do iPAAGS — seja uma
+        /// Determina se o valor de <c>SignedFile</c> já se refere ao S3 próprio do Singular System — seja uma
         /// chave de objeto relativa, seja uma URL absoluta cujo host pertença ao bucket/endpoint S3
         /// configurado.
         /// </summary>

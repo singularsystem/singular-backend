@@ -1,0 +1,26 @@
+# TERMO DE RESPONSABILIDADE E USO DO SISTEMA AEE — SINGULAR SYSTEM
+
+Eu, **{{NOME_COMPLETO}}**, portador(a) do CPF nº **{{CPF}}**, ciente das minhas atribuições e responsabilidades profissionais, assumo, a partir da data do aceite eletrônico, total responsabilidade pelo uso adequado, ético e seguro da plataforma Singular System, disponibilizada para a gestão especializada em Atendimento Educacional Especializado (AEE).
+
+Declaro estar ciente e de acordo com as seguintes condições:
+
+## 1. Uso Restrito e Profissional
+O acesso à Singular System é estritamente reservado para fins profissionais no âmbito do atendimento pedagógico e clínico especializado. É vedado o uso da plataforma para finalidades pessoais, ilícitas ou não autorizadas.
+
+## 2. Sigilo e Confidencialidade
+Comprometo-me a manter absoluto sigilo sobre todas as informações, imagens, laudos, relatórios, pareceres e dados de estudantes e pacientes acessados por meio da Singular System, não os divulgando, reproduzindo, transmitindo ou armazenando em meios externos sem a devida autorização e finalidade legítima de atendimento.
+
+## 3. Proteção de Dados Pessoais – LGPD (Lei nº 13.709/2018)
+Estou ciente de que os dados pessoais e sensíveis tratados na Singular System estão protegidos pela Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018) e que o uso indevido, o vazamento ou qualquer forma de tratamento irregular poderá gerar responsabilização civil, administrativa e criminal, conforme a legislação vigente.
+
+## 4. Responsabilidade sobre Credenciais de Acesso
+Comprometo-me a manter em sigilo meu login e senha de acesso à plataforma, sendo vedado o compartilhamento dessas credenciais com terceiros. Reconheço que todos os acessos realizados com minhas credenciais serão de minha inteira responsabilidade.
+
+## 5. Auditoria e Rastreabilidade
+Estou ciente de que o uso da Singular System poderá ser auditado, monitorado e rastreado para fins de segurança da informação, conformidade e prevenção de incidentes.
+
+## 6. Consequências do Uso Indevido
+Estou ciente de que o descumprimento das normas estabelecidas neste termo poderá resultar em medidas administrativas, bloqueio ou suspensão do acesso à plataforma e responsabilização civil e criminal cabível.
+
+## 7. Aceite Eletrônico
+Declaro, por fim, ter lido, compreendido e aceitado todas as condições acima descritas, comprometendo-me a cumpri-las integralmente.

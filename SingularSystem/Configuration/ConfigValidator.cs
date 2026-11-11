@@ -62,6 +62,32 @@ namespace SingularSystem.Configuration
             ValidateRequired(configuration, "Smtp:Password", result);
             ValidateRequired(configuration, "Smtp:FromAddress", result);
 
+            // 6. Integração (Req 4.6, 4.7)
+            ValidateRequired(configuration, "IntegrationSettings:ApiKey", result);
+
+            // 7. Legal (Req 4.1, 4.5)
+            var termVersion = configuration["Legal:TermVersion"];
+            if (!string.IsNullOrWhiteSpace(termVersion) && termVersion != "1" && termVersion != "2")
+            {
+                result.AddError("Legal:TermVersion", "Valor inválido. Os valores aceitos são '1' ou '2'.");
+            }
+
+            // 8. Issuer Logo limits (Req 8.6, 14.1)
+            var maxBytesStr = configuration["Issuer:LogoMaxBytes"];
+            if (!string.IsNullOrWhiteSpace(maxBytesStr) && (!long.TryParse(maxBytesStr, out var maxBytes) || maxBytes <= 0))
+            {
+                result.AddError("Issuer:LogoMaxBytes", "Deve ser um número inteiro positivo representando bytes.");
+            }
+
+            var minWidthStr = configuration["Issuer:LogoMinWidthPx"];
+            if (!string.IsNullOrWhiteSpace(minWidthStr) && (!int.TryParse(minWidthStr, out var minWidth) || minWidth <= 0))
+            {
+                result.AddError("Issuer:LogoMinWidthPx", "Deve ser um número inteiro positivo representando pixels de largura.");
+            }
+
+            // 9. Validação Pública (Req 12.6, 12.7, 12.8, 12.9)
+            ValidateAbsoluteUrl(configuration, "PublicValidation:BaseUrl", result);
+
             return result;
         }
 

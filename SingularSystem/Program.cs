@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.DataProtection;
-﻿using DinkToPdf;
+using DinkToPdf;
 using DinkToPdf.Contracts;
 using SingularSystem.Configuration;
 using SingularSystem.Controllers;
@@ -8,7 +8,10 @@ using SingularSystem.Extensions;
 using SingularSystem.Interfaces;
 using SingularSystem.Models.Entities;
 using SingularSystem.Services;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using QuestPDF.Drawing;
 using QuestPDF.Infrastructure;
@@ -33,21 +36,7 @@ ConfigValidator.ValidateOrExit(builder.Configuration);
 NeckBookStartupValidator.ValidateOrExit(builder.Configuration);
 
 QuestPDF.Settings.License = LicenseType.Community;
-FontManager.RegisterFont(
-    System.IO.File.OpenRead("Fonts/Poppins-Regular.ttf")
-);
-
-FontManager.RegisterFont(
-    System.IO.File.OpenRead("Fonts/Poppins-SemiBold.ttf")
-);
-
-FontManager.RegisterFont(
-    System.IO.File.OpenRead("Fonts/Poppins-Bold.ttf")
-);
-
-FontManager.RegisterFont(
-    System.IO.File.OpenRead("Fonts/Poppins-Medium.ttf")
-);
+SingularSystem.Fonts.PdfFonts.EnsureRegistered();
 
 builder.Services.AddHttpClient();
 builder.Services.AddHealthChecks();
@@ -92,6 +81,30 @@ builder.Services.AddHttpClient(NeckSignService.NeckSignHttpClientName, (sp, clie
 // NeckSign exclusivo como única implementação ativa de ISignatureService (Req 4.1, ADR-001)
 builder.Services.AddScoped<NeckSignService>();
 builder.Services.AddScoped<ISignatureService, NeckSignService>();
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+});
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+    options.AddPolicy("public-validation", httpContext =>
+    {
+        var remoteIp = httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+        return RateLimitPartition.GetFixedWindowLimiter(
+            remoteIp,
+            _ => new FixedWindowRateLimiterOptions
+            {
+                PermitLimit = 30,
+                Window = TimeSpan.FromMinutes(1),
+                QueueLimit = 0
+            });
+    });
+});
+
 builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection(SmtpOptions.SectionName));
 builder.Services.AddHsts(options =>
 {
@@ -132,6 +145,7 @@ builder.Services.AddHangfireServer(options =>
     options.Queues = new[] { "default", "necksign", "signatures" };
 });
 
+
 builder.Services.AddCORSOrigins(builder.Configuration, MyAllowSpecificOrigins);
 builder.Services.AddSignalR();
 builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
@@ -171,6 +185,9 @@ builder.Services.AddSwaggerExplorer(builder.Environment)
 builder.Services.AddScoped<IIBGEService, IBGEService>();
 builder.Services.AddScoped<NotificationService>();
 builder.Services.AddScoped<IFileStorageService, FileStorageService>();
+builder.Services.AddScoped<IIssuerLogoStore, S3IssuerLogoStore>();
+builder.Services.AddScoped<IIssuerResolver, IssuerResolver>();
+builder.Services.AddScoped<IDocumentValidationService, DocumentValidationService>();
 builder.Services.AddSingleton<IConverter>(new SynchronizedConverter(new PdfTools()));
 builder.Services.AddScoped<IPDFService, PDFService>();
 builder.Services.AddScoped<IStudentPDFGenerator, StudentsListPDFGenerator>();
@@ -204,6 +221,9 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 });
 
 var app = builder.Build();
+
+app.UseForwardedHeaders();
+app.UseRateLimiter();
 
 app.ConfigureSwaggerExplorer();
 app.UseHsts();

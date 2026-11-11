@@ -1,5 +1,6 @@
 ﻿using SingularSystem.Extensions;
 using SingularSystem.Interfaces;
+using SingularSystem.Models;
 using SingularSystem.Models.Entities;
 using SingularSystem.Models.Enums;
 using SingularSystem.Templates;
@@ -16,8 +17,13 @@ namespace SingularSystem.Services
 
         public Task<byte[]> GenerateAsync(BaseDocument document, CancellationToken ct = default)
         {
+            return GenerateAsync(document, PdfRenderContext.Default(PdfProfile.View), ct);
+        }
+
+        public Task<byte[]> GenerateAsync(BaseDocument document, PdfRenderContext context, CancellationToken ct = default)
+        {
             var report = (Report)document;
-            var bytes = new ReportPDFDocument(report).GeneratePdf();
+            var bytes = new ReportPDFDocument(report, context).GeneratePdf();
             return Task.FromResult(bytes);
         }
 
@@ -495,10 +501,24 @@ namespace SingularSystem.Services
 
         public class ReportPDFDocument : IDocument
         {
-
             private readonly Report _report;
-            public ReportPDFDocument(Report report) => _report = report;
-            public DocumentMetadata GetMetadata() => DocumentMetadata.Default;
+            private readonly PdfRenderContext _context;
+
+            public ReportPDFDocument(Report report, PdfRenderContext? context = null)
+            {
+                _report = report;
+                _context = context ?? PdfRenderContext.Default(PdfProfile.View);
+            }
+
+            public DocumentMetadata GetMetadata()
+            {
+                var studentName = _report?.Student?.FullName ?? "Aluno";
+                return PdfMetadataFactory.CreateMetadata(
+                    _context.Profile,
+                    $"Relatório Biopsicossocial - {studentName}");
+            }
+
+            public DocumentSettings GetSettings() => PdfMetadataFactory.CreateSettings(_context.Profile);
 
             public void Compose(IDocumentContainer container)
             {
@@ -613,25 +633,9 @@ namespace SingularSystem.Services
                     page.Margin(2, Unit.Centimetre);
                     page.DefaultTextStyle(_ => PdfTheme.BaseStyle);
 
-                    page.Header().ShowOnce().Element(h =>
+                    page.Header().Element(h =>
                     {
-                        h.Column(col =>
-                        {
-                            col.Item()
-                                .AlignCenter()
-                                .Text("IPAAGS · Sistema de Gestão Educacional")
-                                .Style(PdfTheme.MutedStyle);
-
-                            col.Item().PaddingTop(4);
-
-                            col.Item()
-                                .AlignCenter()
-                                .Text("Relatório Biopsicossocial")
-                                .Style(PdfTheme.TitleStyle);
-
-                            col.Item().PaddingTop(48);
-                            col.Item().Element(x => PdfTheme.Hr(x, 2));
-                        });
+                        PdfBrandChrome.ComposeHeader(h, _context, "Relatório Biopsicossocial");
                     });
 
                     page.Content()
@@ -639,6 +643,12 @@ namespace SingularSystem.Services
                         .PaddingBottom(16)
                         .Column(x =>
                         {
+                            var student = _report?.Student;
+                            var hasAnyOptional = !string.IsNullOrWhiteSpace(student?.State)
+                                || !string.IsNullOrWhiteSpace(student?.City)
+                                || !string.IsNullOrWhiteSpace(student?.School?.Name)
+                                || student?.Serie != null;
+
                             x.Item().Column(section =>
                             {
                                 section.Spacing(8);
@@ -652,33 +662,47 @@ namespace SingularSystem.Services
                                         card.Item().Row(row =>
                                         {
                                             row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Nome: ", _report?.Student?.FullName));
+                                                PdfTheme.Field(t, "Nome: ", student?.FullName));
 
                                             row.RelativeItem().Text(t =>
                                             {
-                                                var dob = _report?.Student?.DateOfBirth;
+                                                var dob = student?.DateOfBirth;
                                                 var dobText = dob.HasValue ? dob.Value.ToString("dd/MM/yyyy") : "—";
                                                 PdfTheme.Field(t, "Data de Nascimento: ", dobText);
                                             });
                                         });
 
-                                        card.Item().Row(row =>
+                                        if (hasAnyOptional)
                                         {
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Estado: ", _report?.Student?.State));
+                                            card.Item().Row(row =>
+                                            {
+                                                var hasState = !string.IsNullOrWhiteSpace(student?.State);
+                                                var hasCity = !string.IsNullOrWhiteSpace(student?.City);
 
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Município: ", _report?.Student?.City));
-                                        });
+                                                if (hasState || hasCity)
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                    {
+                                                        PdfTheme.FieldIfPresent(t, "Estado: ", student?.State);
+                                                        if (hasState && hasCity) t.Span("   ");
+                                                        PdfTheme.FieldIfPresent(t, "Município: ", student?.City);
+                                                    });
+                                                }
 
-                                        card.Item().Row(row =>
-                                        {
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Ano/Série: ", _report?.Student?.Serie.GetDisplayName()));
+                                                var serie = student?.Serie != null ? student.Serie.GetDisplayName() : null;
+                                                var school = student?.School?.Name;
 
-                                            row.RelativeItem().Text(t =>
-                                                PdfTheme.Field(t, "Escola: ", _report?.Student?.School?.Name));
-                                        });
+                                                if (!string.IsNullOrWhiteSpace(serie) || !string.IsNullOrWhiteSpace(school))
+                                                {
+                                                    row.RelativeItem().Text(t =>
+                                                    {
+                                                        PdfTheme.FieldIfPresent(t, "Ano/Série: ", serie);
+                                                        if (!string.IsNullOrWhiteSpace(serie) && !string.IsNullOrWhiteSpace(school)) t.Span("   ");
+                                                        PdfTheme.FieldIfPresent(t, "Escola: ", school);
+                                                    });
+                                                }
+                                            });
+                                        }
 
                                         card.Item().Row(row =>
                                         {
@@ -700,7 +724,7 @@ namespace SingularSystem.Services
                             {
                                 instrumentosList.Add("ESCALA ADAPTATIVA-DI: Avalia o funcionamento adaptativo do estudante em três domínios principais: habilidades conceituais, sociais e práticas, permitindo identificar o nível de independência e adaptação ao ambiente.");
                             }
-                            instrumentosList.Add("QUESTIONÁRIO IPAAGS (Ficha de Triagem 1.1): Instrumento de triagem abrangente que avalia múltiplas áreas do desenvolvimento, incluindo linguagem, escrita, leitura, raciocínio lógico, autonomia, memória, atenção e interação socioemocional.");
+                            instrumentosList.Add("QUESTIONÁRIO DE TRIAGEM MULTIPROFISSIONAL (Ficha de Triagem 1.1): Instrumento de triagem abrangente que avalia múltiplas áreas do desenvolvimento, incluindo linguagem, escrita, leitura, raciocínio lógico, autonomia, memória, atenção e interação socioemocional.");
                             if (_report?.PsychopedagogueReport?.MCHATQuestionnaire != null)
                             {
                                 instrumentosList.Add("ESCALA M-CHAT (Modified Checklist for Autism in Toddlers): é um instrumento de rastreamento precoce para sinais do Transtorno do Espectro Autista (TEA), aplicado a crianças pequenas, especialmente entre 16 e 30 meses de idade.");
@@ -896,56 +920,91 @@ namespace SingularSystem.Services
                             x.Item().PaddingBottom(4).Text("16. Conclusão").Style(PdfTheme.QuestionText);
                             x.Item().PaddingLeft(8).PaddingBottom(8).Text(conclusao).Style(PdfTheme.AnswerText).Justify();
 
-                            if (_report.SocialWorkerSign || _report.PsychologistSign || _report.PsychopedagogueSign)
+                            // Bloco de Assinaturas (SignatureStamps) com status e horário de Brasília
+                            x.Item().PaddingTop(12).PaddingBottom(4).Text("17. Assinaturas Digitais").Style(PdfTheme.QuestionText);
+                            x.Item().PaddingLeft(8).PaddingBottom(8).Column(sigCol =>
                             {
-                                x.Item().PaddingTop(8).PaddingBottom(4).Text("17. Assinaturas Digitais").Style(PdfTheme.QuestionText);
-                                x.Item().PaddingLeft(8).PaddingBottom(8).Column(sigCol =>
+                                sigCol.Spacing(6);
+
+                                // 1. Assistente Social
+                                var swName = _report?.SocialWorkerReport?.User?.FullName ?? _report?.User?.FullName ?? "Profissional Responsável";
+                                var swSigned = _report?.SocialWorkerSign == true;
+                                var swTime = _report?.SocialWorkerSignedAt != null
+                                    ? _report.SocialWorkerSignedAt.Value.ToBrazilianTime().ToString("dd/MM/yyyy às HH:mm")
+                                    : null;
+                                var swStatus = swSigned ? $"Assinado digitalmente em {swTime}" : "Pendente de assinatura";
+                                sigCol.Item().Row(r =>
                                 {
-                                    sigCol.Spacing(4);
-                                    if (_report.SocialWorkerSign)
-                                        sigCol.Item().Text($"• Assistente Social: {_report.SocialWorkerReport?.User?.FullName} - Assinado em {_report.SocialWorkerSignedAt:dd/MM/yyyy HH:mm}").Style(PdfTheme.AnswerText);
-                                    if (_report.PsychologistSign)
+                                    r.ConstantItem(12).Text("•").Style(PdfTheme.Bullet);
+                                    r.RelativeItem().Text(t =>
                                     {
-                                        var pName = _report.PsychologistReport?.PsychologistQuestionnaire?.User?.FullName ?? _report.PsychologistReport?.User?.FullName;
-                                        sigCol.Item().Text($"• Psicólogo(a): {pName} - Assinado em {_report.PsychologistSignedAt:dd/MM/yyyy HH:mm}").Style(PdfTheme.AnswerText);
-                                    }
-                                    if (_report.PsychopedagogueSign)
+                                        t.Span("Assistente Social: ").SemiBold();
+                                        t.Span($"{swName} — {swStatus}").Style(PdfTheme.AnswerText);
+                                    });
+                                });
+
+                                // 2. Psicólogo(a)
+                                var psiName = _report?.PsychologistReport?.PsychologistQuestionnaire?.User?.FullName 
+                                    ?? _report?.PsychologistReport?.User?.FullName 
+                                    ?? "Profissional Responsável";
+                                var psiSigned = _report?.PsychologistSign == true;
+                                var psiTime = _report?.PsychologistSignedAt != null
+                                    ? _report.PsychologistSignedAt.Value.ToBrazilianTime().ToString("dd/MM/yyyy às HH:mm")
+                                    : null;
+                                var psiStatus = psiSigned ? $"Assinado digitalmente em {psiTime}" : "Pendente de assinatura";
+                                sigCol.Item().Row(r =>
+                                {
+                                    r.ConstantItem(12).Text("•").Style(PdfTheme.Bullet);
+                                    r.RelativeItem().Text(t =>
                                     {
-                                        var pName = _report.PsychopedagogueReport?.PsychopedagogueQuestionnaire?.User?.FullName ?? _report.PsychopedagogueReport?.User?.FullName;
-                                        sigCol.Item().Text($"• Psicopedagogo(a): {pName} - Assinado em {_report.PsychopedagogueSignedAt:dd/MM/yyyy HH:mm}").Style(PdfTheme.AnswerText);
-                                    }
+                                        t.Span("Psicólogo(a): ").SemiBold();
+                                        t.Span($"{psiName} — {psiStatus}").Style(PdfTheme.AnswerText);
+                                    });
+                                });
+
+                                // 3. Psicopedagogo(a)
+                                var pspName = _report?.PsychopedagogueReport?.PsychopedagogueQuestionnaire?.User?.FullName 
+                                    ?? _report?.PsychopedagogueReport?.User?.FullName 
+                                    ?? "Profissional Responsável";
+                                var pspSigned = _report?.PsychopedagogueSign == true;
+                                var pspTime = _report?.PsychopedagogueSignedAt != null
+                                    ? _report.PsychopedagogueSignedAt.Value.ToBrazilianTime().ToString("dd/MM/yyyy às HH:mm")
+                                    : null;
+                                var pspStatus = pspSigned ? $"Assinado digitalmente em {pspTime}" : "Pendente de assinatura";
+                                sigCol.Item().Row(r =>
+                                {
+                                    r.ConstantItem(12).Text("•").Style(PdfTheme.Bullet);
+                                    r.RelativeItem().Text(t =>
+                                    {
+                                        t.Span("Psicopedagogo(a): ").SemiBold();
+                                        t.Span($"{pspName} — {pspStatus}").Style(PdfTheme.AnswerText);
+                                    });
+                                });
+                            });
+
+                            // Bloco de Validação do Documento com QR Code (Req 12.4, 12.5)
+                            if (!string.IsNullOrWhiteSpace(_context.ValidationUrl))
+                            {
+                                x.Item().ShowEntire().PaddingTop(16).Element(PdfTheme.Card).Row(qrRow =>
+                                {
+                                    var qrSvg = QrCodeSvg.Render(_context.ValidationUrl, sizePx: 80);
+
+                                    qrRow.AutoItem().PaddingRight(12).Width(80).Height(80).Svg(qrSvg);
+
+                                    qrRow.RelativeItem().Column(infoCol =>
+                                    {
+                                        infoCol.Spacing(4);
+                                        infoCol.Item().Text("Validação da Autenticidade do Documento").Style(PdfTheme.H2);
+                                        infoCol.Item().Text("Aponte a câmera do celular para o código QR ou acesse o link abaixo para verificar a validade e o estado das assinaturas deste documento de forma pública e segura:")
+                                            .Style(PdfTheme.AnswerText);
+                                        infoCol.Item().Hyperlink(_context.ValidationUrl).Text(_context.ValidationUrl)
+                                            .FontColor(PdfTheme.Colors.Accent).Underline().FontSize(9);
+                                    });
                                 });
                             }
                         });
 
-
-                    page.Footer()
-                        .Element(f =>
-                        {
-                            f.PaddingTop(6).Column(col =>
-                            {
-                                col.Item().PaddingBottom(6).Element(x => PdfTheme.Hr(x, 2));
-
-                                col.Item()
-                                    .AlignCenter()
-                                    .Text($"Documento gerado em {DateTime.Now:dd/MM/yyyy} às {DateTime.Now:HH:mm:ss}")
-                                    .Style(PdfTheme.MutedStyle);
-
-                                col.Item()
-                                    .AlignCenter()
-                                    .Text("Sistema AEE - IPAAGS")
-                                    .Style(PdfTheme.MutedStyle);
-
-                                col.Item().AlignCenter()
-                                   .Text(t =>
-                                   {
-                                       t.Span("Página ").Style(PdfTheme.MutedStyle);
-                                       t.CurrentPageNumber().Style(PdfTheme.MutedStyle);
-                                       t.Span(" de ").Style(PdfTheme.MutedStyle);
-                                       t.TotalPages().Style(PdfTheme.MutedStyle);
-                                   });
-                            });
-                        });
+                    page.Footer().Element(f => PdfBrandChrome.ComposeFooter(f, _context));
                 });
             }
            

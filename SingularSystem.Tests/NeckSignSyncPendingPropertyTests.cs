@@ -18,7 +18,7 @@ namespace SingularSystem.Tests
     {
         private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
-        // Feature: 012-ipaags-migration, Property 9: Seleção de documentos pendentes para sincronização
+        // Feature: 012-singular-migration, Property 9: Seleção de documentos pendentes para sincronização
         //
         // Para qualquer conjunto misto de documentos, SyncPendingDocuments() deve consultar o NeckSign
         // exatamente para os documentos com DocumentStatus = InProgress e DocumentToken não vazio, não
@@ -67,7 +67,7 @@ namespace SingularSystem.Tests
                 .Label($"consultados=[{string.Join(",", queriedSet)}] esperados=[{string.Join(",", expectedTokens)}]");
         }
 
-        // Feature: 012-ipaags-migration, Property 10: Idempotência do job de sincronização
+        // Feature: 012-singular-migration, Property 10: Idempotência do job de sincronização
         //
         // Para qualquer conjunto de documentos, executar SyncPendingDocuments() duas ou mais vezes
         // deve produzir o mesmo estado final que uma única execução.
