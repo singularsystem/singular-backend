@@ -1,4 +1,4 @@
-﻿# TERMO DE RESPONSABILIDADE E USO DO SISTEMA AEE — SINGULAR SYSTEM
+﻿# TERMO DE RESPONSABILIDADE E USO — SINGULAR SYSTEM
 
 Eu, **{{NOME_COMPLETO}}**, portador(a) do CPF nº **{{CPF}}**, ciente das minhas atribuições e responsabilidades profissionais, assumo, a partir da data do aceite eletrônico, total responsabilidade pelo uso adequado, ético e seguro da plataforma Singular System, disponibilizada para a gestão especializada em Atendimento Educacional Especializado (AEE).
 

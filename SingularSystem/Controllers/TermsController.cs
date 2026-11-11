@@ -64,7 +64,7 @@ namespace SingularSystem.Controllers
                 {
                     return Ok(new TermResponse(
                         Guid.Parse("00000000-0000-0000-0000-000000000001"),
-                        key, "1", "Termo de Responsabilidade e Uso do Sistema AEE",
+                        key, "1", "Termo de Responsabilidade e Uso — Singular System",
                         v1Content, "markdown", DateTime.UtcNow, Hashing.Sha256Hex(v1Content)
                     ));
                 }
@@ -132,7 +132,7 @@ namespace SingularSystem.Controllers
                         Id = isV2 ? Guid.Parse("00000000-0000-0000-0000-000000000002") : Guid.Parse("00000000-0000-0000-0000-000000000001"),
                         Key = key,
                         Version = isV2 ? "2" : "1",
-                        Title = isV2 ? "Termo de Responsabilidade e Uso — Singular System" : "Termo de Responsabilidade e Uso do Sistema AEE",
+                        Title = "Termo de Responsabilidade e Uso — Singular System",
                         Content = fallbackContent,
                         ContentFormat = "markdown",
                         IsActive = true,

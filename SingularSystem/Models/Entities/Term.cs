@@ -13,7 +13,7 @@
         public string Version { get; set; } = "2026-02-02"; 
 
         [Required, MaxLength(200)]
-        public string Title { get; set; } = "Termo de Responsabilidade e Uso do Sistema AEE";
+        public string Title { get; set; } = "Termo de Responsabilidade e Uso — Singular System";
 
         [Required]
         public string Content { get; set; } = string.Empty; 
