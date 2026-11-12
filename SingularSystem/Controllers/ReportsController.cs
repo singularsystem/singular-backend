@@ -373,41 +373,42 @@ namespace SingularSystem.Controllers
                 }
                 else if (myStatus.Equals("pending_sign", StringComparison.OrdinalIgnoreCase))
                 {
-                    // Só é pendente de assinatura digital se o relatório foi criado A PARTIR de 18/08/2026,
+                    // Só é pendente de assinatura digital se o relatório foi criado A PARTIR de 18/08/2026 (ou já possui fluxo ativo de assinatura digital),
                     // não está com assinatura bloqueada e o documento não está marcado como Completo
                     query = query.Where(student => _appDbContext.Reports.Any(r =>
                         r.StudentID == student.ID &&
-                        (r.ReportStatus == Status.Complete || r.UnifiedAt != null || (r.SocialWorkerSign && r.PsychologistSign && r.PsychopedagogueSign)) &&
-                        r.CreatedAt >= cutoffDate &&
+                        (r.ReportStatus == Status.Complete || r.UnifiedAt != null) &&
                         !r.SignatureBlocked &&
-                        r.DocumentStatus != Status.Complete && (
+                        r.DocumentStatus != Status.Complete &&
+                        !((r.SocialWorkerSign || r.SocialWorkerSignedAt != null) && (r.PsychologistSign || r.PsychologistSignedAt != null) && (r.PsychopedagogueSign || r.PsychopedagogueSignedAt != null)) &&
+                        (r.CreatedAt >= cutoffDate || (r.DocumentToken != null && r.DocumentToken != "") || r.SocialWorkerSign || r.SocialWorkerSignedAt != null || r.PsychologistSign || r.PsychologistSignedAt != null || r.PsychopedagogueSign || r.PsychopedagogueSignedAt != null) && (
                             (checkPsychologist && r.PsychologistReport != null && (
                                 r.PsychologistReport.UserID == CurrentUserId || 
                                 (r.PsychologistReport.PsychologistQuestionnaire != null && r.PsychologistReport.PsychologistQuestionnaire.UserID == CurrentUserId)
-                            ) && !r.PsychologistSign) ||
+                            ) && !r.PsychologistSign && r.PsychologistSignedAt == null) ||
                             (checkPsychopedagogue && r.PsychopedagogueReport != null && (
                                 r.PsychopedagogueReport.UserID == CurrentUserId || 
                                 (r.PsychopedagogueReport.PsychopedagogueQuestionnaire != null && r.PsychopedagogueReport.PsychopedagogueQuestionnaire.UserID == CurrentUserId)
-                            ) && !r.PsychopedagogueSign) ||
-                            (checkSocialWorker && r.SocialWorkerReport != null && r.SocialWorkerReport.UserID == CurrentUserId && !r.SocialWorkerSign)
+                            ) && !r.PsychopedagogueSign && r.PsychopedagogueSignedAt == null) ||
+                            (checkSocialWorker && r.SocialWorkerReport != null && r.SocialWorkerReport.UserID == CurrentUserId && !r.SocialWorkerSign && r.SocialWorkerSignedAt == null)
                         )
                     ));
                 }
                 else if (myStatus.Equals("signed", StringComparison.OrdinalIgnoreCase))
                 {
-                    // Considerado assinado se assinou digitalmente OU se é relatório unificado/completo anterior a 18/08/2026 / bloqueado
+                    // Considerado assinado se assinou digitalmente OU se é relatório unificado/completo legado (anterior a 18/08/2026 sem fluxo digital em aberto) / bloqueado / envelope completo
                     query = query.Where(student => _appDbContext.Reports.Any(r =>
                         r.StudentID == student.ID && (
                             (checkPsychologist && r.PsychologistReport != null && (
                                 r.PsychologistReport.UserID == CurrentUserId || 
                                 (r.PsychologistReport.PsychologistQuestionnaire != null && r.PsychologistReport.PsychologistQuestionnaire.UserID == CurrentUserId)
-                            ) && (r.PsychologistSign || ((r.ReportStatus == Status.Complete || r.UnifiedAt != null || r.SignatureBlocked || (r.SocialWorkerSign && r.PsychologistSign && r.PsychopedagogueSign)) && (r.CreatedAt < cutoffDate || r.SignatureBlocked || r.DocumentStatus == Status.Complete)))) ||
+                            ) && (r.PsychologistSign || r.PsychologistSignedAt != null || ((r.ReportStatus == Status.Complete || r.UnifiedAt != null || r.SignatureBlocked) && (r.SignatureBlocked || r.DocumentStatus == Status.Complete || ((r.SocialWorkerSign || r.SocialWorkerSignedAt != null) && (r.PsychologistSign || r.PsychologistSignedAt != null) && (r.PsychopedagogueSign || r.PsychopedagogueSignedAt != null)) || (r.CreatedAt < cutoffDate && (r.DocumentToken == null || r.DocumentToken == "") && !r.SocialWorkerSign && r.SocialWorkerSignedAt == null && !r.PsychologistSign && r.PsychologistSignedAt == null && !r.PsychopedagogueSign && r.PsychopedagogueSignedAt == null))))) ||
                             (checkPsychopedagogue && r.PsychopedagogueReport != null && (
                                 r.PsychopedagogueReport.UserID == CurrentUserId || 
                                 (r.PsychopedagogueReport.PsychopedagogueQuestionnaire != null && r.PsychopedagogueReport.PsychopedagogueQuestionnaire.UserID == CurrentUserId)
-                            ) && (r.PsychopedagogueSign || ((r.ReportStatus == Status.Complete || r.UnifiedAt != null || r.SignatureBlocked || (r.SocialWorkerSign && r.PsychologistSign && r.PsychopedagogueSign)) && (r.CreatedAt < cutoffDate || r.SignatureBlocked || r.DocumentStatus == Status.Complete)))) ||
+                            ) && (r.PsychopedagogueSign || r.PsychopedagogueSignedAt != null || ((r.ReportStatus == Status.Complete || r.UnifiedAt != null || r.SignatureBlocked) && (r.SignatureBlocked || r.DocumentStatus == Status.Complete || ((r.SocialWorkerSign || r.SocialWorkerSignedAt != null) && (r.PsychologistSign || r.PsychologistSignedAt != null) && (r.PsychopedagogueSign || r.PsychopedagogueSignedAt != null)) || (r.CreatedAt < cutoffDate && (r.DocumentToken == null || r.DocumentToken == "") && !r.SocialWorkerSign && r.SocialWorkerSignedAt == null && !r.PsychologistSign && r.PsychologistSignedAt == null && !r.PsychopedagogueSign && r.PsychopedagogueSignedAt == null))))) ||
                             (checkSocialWorker && r.SocialWorkerReport != null && r.SocialWorkerReport.UserID == CurrentUserId && 
-                                (r.SocialWorkerSign || ((r.ReportStatus == Status.Complete || r.UnifiedAt != null || r.SignatureBlocked || (r.SocialWorkerSign && r.PsychologistSign && r.PsychopedagogueSign)) && (r.CreatedAt < cutoffDate || r.SignatureBlocked || r.DocumentStatus == Status.Complete))))
+                                (r.SocialWorkerSign || r.SocialWorkerSignedAt != null || ((r.ReportStatus == Status.Complete || r.UnifiedAt != null || r.SignatureBlocked) && (r.SignatureBlocked || r.DocumentStatus == Status.Complete || ((r.SocialWorkerSign || r.SocialWorkerSignedAt != null) && (r.PsychologistSign || r.PsychologistSignedAt != null) && (r.PsychopedagogueSign || r.PsychopedagogueSignedAt != null)) || (r.CreatedAt < cutoffDate && (r.DocumentToken == null || r.DocumentToken == "") && !r.SocialWorkerSign && r.SocialWorkerSignedAt == null && !r.PsychologistSign && r.PsychologistSignedAt == null && !r.PsychopedagogueSign && r.PsychopedagogueSignedAt == null)))))
                         )
                     ));
                 }
@@ -776,6 +777,7 @@ namespace SingularSystem.Controllers
                                          .AsNoTracking()
                                          .AsSplitQuery()
                                          .Where(r => r.StudentID.HasValue && studentIds.Contains(r.StudentID.Value))
+                                         .OrderByDescending(r => r.CreatedAt)
                                          .ToListAsync();
 
                 if (string.Equals(myStatus, "pending_sign", StringComparison.OrdinalIgnoreCase))
@@ -812,6 +814,7 @@ namespace SingularSystem.Controllers
                             .AsNoTracking()
                             .AsSplitQuery()
                             .Where(r => r.StudentID.HasValue && studentIds.Contains(r.StudentID.Value))
+                            .OrderByDescending(r => r.CreatedAt)
                             .ToListAsync();
                     }
                 }
@@ -966,6 +969,7 @@ namespace SingularSystem.Controllers
                                          .AsNoTracking()
                                          .AsSplitQuery()
                                          .Where(r => r.StudentID.HasValue && studentIds.Contains(r.StudentID.Value))
+                                         .OrderByDescending(r => r.CreatedAt)
                                          .ToListAsync();
 
                 var creators = await LoadCreatorsAsync(reports);
@@ -1103,7 +1107,8 @@ namespace SingularSystem.Controllers
                     }
                 }
 
-                if (report.UnifiedAt != null && report.DocumentStatus != Status.Complete && string.IsNullOrEmpty(report.DocumentToken))
+                var cutoffDate = new DateTime(2026, 8, 18, 0, 0, 0, DateTimeKind.Utc);
+                if (report.UnifiedAt != null && !report.SignatureBlocked && report.CreatedAt >= cutoffDate && report.DocumentStatus != Status.Complete && string.IsNullOrEmpty(report.DocumentToken))
                 {
                     var resultDocCreation = await _zapSignService.CreateDoc(report.ID, "report");
 

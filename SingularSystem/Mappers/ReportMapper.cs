@@ -61,6 +61,7 @@ namespace SingularSystem.Mappers
                 PsychopedagogueSignedAt = entity.PsychopedagogueSignedAt,
                 PsychologistSignedAt = entity.PsychologistSignedAt,
                 CreatedAt = entity.Student?.CreatedAt ?? entity.CreatedAt,
+                ReportCreatedAt = entity.CreatedAt,
                 UpdatedAt = entity.UpdatedAt,
                 UnifiedAt = entity.UnifiedAt,
             };
@@ -107,6 +108,7 @@ namespace SingularSystem.Mappers
                 PsychopedagogueSignedAt = entity.PsychopedagogueSignedAt,
                 PsychologistSignedAt = entity.PsychologistSignedAt,
                 CreatedAt = entity.Student?.CreatedAt ?? entity.CreatedAt,
+                ReportCreatedAt = entity.CreatedAt,
                 UpdatedAt = entity.UpdatedAt,
                 UnifiedAt = entity.UnifiedAt,
             };

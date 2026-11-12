@@ -43,6 +43,10 @@ namespace SingularSystem.DTOs.Reports
         public DateTime CreatedAt { get; set; }
         public string LocalCreatedAt => CreatedAt.ToBrazilianTime().ToString("dd/MM/yyyy HH:mm", new CultureInfo("pt-BR"));
 
+        [Display(Name = "Data de Criação do Relatório")]
+        public DateTime ReportCreatedAt { get; set; }
+        public string LocalReportCreatedAt => ReportCreatedAt.ToBrazilianTime().ToString("dd/MM/yyyy HH:mm", new CultureInfo("pt-BR"));
+
         [Display(Name = "Última atualização")]
         public DateTime? UpdatedAt { get; set; }
         public string LocalUpdatedAt => UpdatedAt?.ToBrazilianTime().ToString("dd/MM/yyyy HH:mm", new CultureInfo("pt-BR")) ?? string.Empty;
