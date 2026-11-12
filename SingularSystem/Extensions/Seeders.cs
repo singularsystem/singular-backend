@@ -10,10 +10,18 @@ namespace SingularSystem.Extensions
     {
         public static async Task SeedRolesAsync(RoleManager<IdentityRole> roleManager)
         {
-            // Req 2.5, 2.6: Semeia exclusivamente a role Admin necessária para boot.
-            // Nenhuma role municipal (Secretary, SocialWork, Psychologist, etc.) e nenhuma
-            // role do Módulo 3 (AutonomousProfessional, ClinicAdmin) são semeadas aqui.
-            var roles = new[] { "Admin" };
+            var roles = new[]
+            {
+                "Admin",
+                "Secretary",
+                "SocialWork",
+                "Psychologist",
+                "Psychopedagogue",
+                "Teacher",
+                "Coordinator",
+                "Principal",
+                "MunicipalManager"
+            };
 
             foreach (var roleName in roles)
             {
