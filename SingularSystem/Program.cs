@@ -19,6 +19,7 @@ using System.Globalization;
 using Hangfire;
 using Hangfire.SqlServer;
 using SingularSystem.Authorization;
+using SingularSystem.Middleware;
 using SingularSystem.Models;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
@@ -212,6 +213,7 @@ if (keysDirectory.Exists)
 builder.Services.AddScoped<ApiKeyProtector>();
 builder.Services.AddScoped<IMunicipalityNeckBookKeyResolver, MunicipalityNeckBookKeyResolver>();
 builder.Services.AddScoped<NeckBookPayloadAssembler>();
+builder.Services.AddPlanServices();
 
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
@@ -383,6 +385,8 @@ await app.SeedIdentityData();
 
 app.ConfigureCORS(MyAllowSpecificOrigins)
    .IdentityAuthMiddlewares();
+
+app.UseMiddleware<TenantResolutionMiddleware>();
 
 app.UseHangfireDashboard("/hangfire", new DashboardOptions
 {

@@ -155,6 +155,52 @@ namespace SingularSystem.Migrations
                     b.ToTable("UserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("SingularSystem.Domain.Plans.PlanSubscription", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ExternalPaymentId")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int>("MaxUsers")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PlanType")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuotaDocuments")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TenantId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("TenantId", "Status");
+
+                    b.ToTable("PlanSubscriptions");
+                });
+
             modelBuilder.Entity("SingularSystem.Models.Entities.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -310,6 +356,9 @@ namespace SingularSystem.Migrations
 
                     b.Property<Guid?>("StudentID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("TenantId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UnifiedAt")
                         .HasColumnType("datetime2");
@@ -1131,6 +1180,9 @@ namespace SingularSystem.Migrations
 
                     b.Property<string>("State")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenantId")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdatedAt")

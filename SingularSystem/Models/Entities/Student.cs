@@ -50,6 +50,8 @@ namespace SingularSystem.Models.Entities
 
         public string? RegistrationType { get; set; } = "Geral";
 
+        public string? TenantId { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
 

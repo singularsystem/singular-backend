@@ -129,6 +129,13 @@ namespace SingularSystem.Extensions
                     policy.RequireRole("Admin", "SocialWork"));
                 options.AddPolicy("AdminOrSchool", policy =>
                     policy.RequireRole("Admin", "Secretary", "Principal", "Coordinator"));
+                options.AddPolicy("AdminOrSchoolAdmin", policy =>
+                    policy.RequireRole("Admin", "SchoolAdmin"));
+                options.AddPolicy("AdminOrAutonomous", policy =>
+                    policy.RequireRole("Admin", "AutonomousProfessional"));
+                options.AddPolicy("PrivatePlan", policy =>
+                    policy.RequireRole("Admin", "AutonomousProfessional", "SchoolAdmin",
+                                       "Teacher", "Psychologist", "Psychopedagogue"));
             });
 
             return services;

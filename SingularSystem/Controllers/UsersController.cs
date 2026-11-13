@@ -1,4 +1,5 @@
-﻿using SingularSystem.DTOs.Users;
+﻿using SingularSystem.Domain.Plans;
+using SingularSystem.DTOs.Users;
 using SingularSystem.Extensions;
 using SingularSystem.Mappers;
 using SingularSystem.Models;
@@ -33,6 +34,7 @@ namespace SingularSystem.Controllers
         private readonly NotificationService _notificationService;
         private readonly IConfiguration _configuration;
         private readonly IAuthorizationService _authorizationService;
+        private readonly IPlanService _planService;
         private const string DefaultNewUserPassword = "user123!";
 
         private sealed class UserImportSpreadsheetRow
@@ -65,7 +67,7 @@ namespace SingularSystem.Controllers
             public UserImportSpreadsheetRow RowData { get; set; } = new();
         }
 
-        public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, ILogger<UsersController> logger, AppDbContext appDbContext, NotificationService notificationService, IConfiguration configuration, IAuthorizationService authorizationService)
+        public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, ILogger<UsersController> logger, AppDbContext appDbContext, NotificationService notificationService, IConfiguration configuration, IAuthorizationService authorizationService, IPlanService planService)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -75,6 +77,7 @@ namespace SingularSystem.Controllers
             _logger = logger;
             _notificationService = notificationService;
             _authorizationService = authorizationService;
+            _planService = planService;
         }
 
         [HttpGet("template/xls")]
@@ -782,6 +785,26 @@ namespace SingularSystem.Controllers
 
                 var roles = await _userManager.GetRolesAsync(user);
                 var userResponse = ApplicationUserMapper.ToResponse(user, roles);
+
+                // Preencher campos de plano — fallback Público se sem assinatura
+                try
+                {
+                    var subscription = await _planService.GetActiveSubscriptionAsync(userId);
+                    if (subscription != null)
+                    {
+                        userResponse.PlanType = subscription.PlanType.ToString();
+                        userResponse.PlanStatus = subscription.Status.ToString();
+                        userResponse.QuotaDocuments = subscription.QuotaDocuments;
+                        var quota = await _planService.CheckStudentQuotaAsync(userId);
+                        userResponse.QuotaUsed = quota.Current;
+                    }
+                    // Se subscription == null: mantém defaults "Publico" / "Active" / 0 / 0
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogWarning(ex, "Falha ao carregar dados de plano para userId {UserId}. Retornando fallback Público.", userId);
+                    // Mantém os defaults do DTO — usuário legado não é bloqueado
+                }
 
                 return Ok(new ApiResponse<UserResponse>
                 {

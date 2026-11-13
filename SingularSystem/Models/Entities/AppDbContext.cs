@@ -1,4 +1,5 @@
-﻿using SingularSystem.Interfaces;
+﻿using SingularSystem.Domain.Plans;
+using SingularSystem.Interfaces;
 using SingularSystem.Models;
 using SingularSystem.Models.Configurations;
 using Microsoft.AspNetCore.Identity;
@@ -80,6 +81,7 @@ namespace SingularSystem.Models.Entities
         public DbSet<MunicipalityStudentTarget> MunicipalityStudentTargets { get; set; }
         public DbSet<MunicipalityNeckBookConfig> MunicipalityNeckBookConfigs { get; set; }
         public DbSet<ProcessedWebhookEvent> ProcessedWebhookEvents { get; set; }
+        public DbSet<PlanSubscription> PlanSubscriptions { get; set; }
 
         private static void ApplySoftDeleteQueryFilter<TEntity>(ModelBuilder modelBuilder)
         where TEntity : class, ISoftDelete
@@ -678,6 +680,16 @@ namespace SingularSystem.Models.Entities
             #endregion
 
             modelBuilder.ApplyConfiguration(new SingularSystem.Models.Configurations.DocumentValidationConfiguration());
+
+            modelBuilder.Entity<PlanSubscription>(entity =>
+            {
+                entity.HasKey(e => e.ID);
+                entity.Property(e => e.TenantId).IsRequired().HasMaxLength(450);
+                entity.Property(e => e.ExternalPaymentId).HasMaxLength(255);
+                entity.Property(e => e.PlanType).HasConversion<int>();
+                entity.Property(e => e.Status).HasConversion<int>();
+                entity.HasIndex(e => new { e.TenantId, e.Status });
+            });
         }
     }
 }

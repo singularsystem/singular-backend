@@ -32,5 +32,9 @@ namespace SingularSystem.DTOs.Users
         [Display(Name = "�ltima atualiza��o")]
         public DateTime? UpdatedAt { get; set; }
         public string? LocalUpdatedAt => UpdatedAt?.ToBrazilianTime().ToString("dd/MM/yyyy HH:mm", new CultureInfo("pt-BR"));
+        public string PlanType { get; set; } = "Publico";
+        public string PlanStatus { get; set; } = "Active";
+        public int QuotaDocuments { get; set; } = 0;
+        public int QuotaUsed { get; set; } = 0;
     }
 }

@@ -20,7 +20,9 @@ namespace SingularSystem.Extensions
                 "Teacher",
                 "Coordinator",
                 "Principal",
-                "MunicipalManager"
+                "MunicipalManager",
+                "AutonomousProfessional",
+                "SchoolAdmin"
             };
 
             foreach (var roleName in roles)

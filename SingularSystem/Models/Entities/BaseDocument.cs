@@ -17,6 +17,8 @@ namespace SingularSystem.Models.Entities
         public string? UserID { get; set; }
         public ApplicationUser? User { get; set; }
 
+        public string? TenantId { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
         public DateTime? UnifiedAt { get; set; }
