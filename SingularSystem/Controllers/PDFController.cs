@@ -1,4 +1,5 @@
-﻿using SingularSystem.DTOs.Students;
+﻿using SingularSystem.Authorization;
+using SingularSystem.DTOs.Students;
 using SingularSystem.Interfaces;
 using SingularSystem.Models.Entities;
 using SingularSystem.Services;
@@ -263,6 +264,7 @@ namespace SingularSystem.Controllers
             }
         }
 
+        [PlanFeatureAuthorize("Empresa", "Publico")]
         [HttpGet("biopsychosocial-tracking/pdf")]
         public async Task<IActionResult> ViewBiopsychosocialTrackingList([FromQuery] string state = "", [FromQuery] string city = "", [FromQuery] string schoolID = "", [FromQuery] string searchTerm = "", [FromQuery] string status = "", [FromQuery] string pendingProfessional = "", [FromQuery] int? year = null, [FromQuery] int? month = null)
         {
@@ -291,6 +293,7 @@ namespace SingularSystem.Controllers
             }
         }
 
+        [PlanFeatureAuthorize("Empresa", "Publico")]
         [HttpGet("biopsychosocial-tracking/download")]
         public async Task<IActionResult> DownloadBiopsychosocialTrackingList([FromQuery] string state = "", [FromQuery] string city = "", [FromQuery] string schoolID = "", [FromQuery] string searchTerm = "", [FromQuery] string status = "", [FromQuery] string pendingProfessional = "", [FromQuery] int? year = null, [FromQuery] int? month = null)
         {

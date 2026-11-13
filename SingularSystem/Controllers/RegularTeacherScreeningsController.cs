@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using SingularSystem.Authorization;
+using SingularSystem.Domain.Tenancy;
 
 namespace SingularSystem.Controllers
 {
@@ -27,8 +28,9 @@ namespace SingularSystem.Controllers
         private readonly IUserSummaryFactory _userSummaryFactory;
         private readonly ISignatureService _zapSignService;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ITenantContext _tenantContext;
 
-        public RegularTeacherScreeningsController(ILogger<RegularTeacherScreeningsController> logger, AppDbContext appDbContext, NotificationService notificationService, StudentEvaluationDocumentService studentEvaluationDocumentService, IUserSummaryFactory userSummaryFactory, ISignatureService zapSignService, UserManager<ApplicationUser> userManager)
+        public RegularTeacherScreeningsController(ILogger<RegularTeacherScreeningsController> logger, AppDbContext appDbContext, NotificationService notificationService, StudentEvaluationDocumentService studentEvaluationDocumentService, IUserSummaryFactory userSummaryFactory, ISignatureService zapSignService, UserManager<ApplicationUser> userManager, ITenantContext tenantContext)
         {
             _logger = logger;
             _appDbContext = appDbContext;
@@ -37,6 +39,7 @@ namespace SingularSystem.Controllers
             _userSummaryFactory = userSummaryFactory;
             _zapSignService = zapSignService;
             _userManager = userManager;
+            _tenantContext = tenantContext;
         }
 
         private IQueryable<RegularTeacherScreening> BuildRegularTeacherScreeningQuery(
@@ -60,6 +63,12 @@ namespace SingularSystem.Controllers
                                      .Include(s => s.Student).ThenInclude(st => st!.School)
                                      .AsNoTracking()
                                      .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {

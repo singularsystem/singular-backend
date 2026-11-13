@@ -23,11 +23,11 @@ namespace SingularSystem.DTOs.Students
         public string City { get; set; } = string.Empty;
         public string State { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "O nome da escola é obrigatório")]
+        //[Required(ErrorMessage = "O nome da escola é obrigatório")]
         [Display(Name = "Nome da Escola")]
         public string SchoolName { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "O nome da cidade é obrigatório")]
+        //[Required(ErrorMessage = "O nome da cidade é obrigatório")]
         [Display(Name = "Nome da cidade")]
         public string SchoolCity { get; set; } = string.Empty;
         public string SchoolState { get; set; } = string.Empty;

@@ -148,6 +148,9 @@ namespace SingularSystem.Models.Entities
             {
                 entity.HasQueryFilter(u => u.IsActive);
 
+                entity.Property(u => u.TenantId).HasMaxLength(450);
+                entity.HasIndex(u => u.TenantId);
+
                 entity.HasOne(u => u.School)
                       .WithMany()
                       .HasForeignKey(u => u.SchoolID)

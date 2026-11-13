@@ -24,5 +24,6 @@ namespace SingularSystem.Models.Entities
 
         public School? SchoolAsPrincipal { get; set; }
 
+        public string? TenantId { get; set; }
     }
 }

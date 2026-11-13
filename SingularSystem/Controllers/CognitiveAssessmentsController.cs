@@ -16,6 +16,7 @@ namespace SingularSystem.Controllers
 {
     [Authorize]
     [NoSecretary]
+    [PlanFeatureAuthorize("Empresa", "Publico")]
     [Route("api/v1/cognitive-assessments")]
     [ApiController]
     public class CognitiveAssessmentsController : BaseController

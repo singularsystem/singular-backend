@@ -1,4 +1,5 @@
-﻿using SingularSystem.DTOs.Reports;
+﻿using SingularSystem.Domain.Tenancy;
+using SingularSystem.DTOs.Reports;
 using SingularSystem.DTOs.Statistics;
 using SingularSystem.Extensions;
 using SingularSystem.Mappers;
@@ -23,12 +24,14 @@ namespace SingularSystem.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<StatisticsController> _logger;
+        private readonly ITenantContext _tenantContext;
 
-        public StatisticsController(AppDbContext appDbContext, ILogger<StatisticsController> logger, UserManager<ApplicationUser> userManager)
+        public StatisticsController(AppDbContext appDbContext, ILogger<StatisticsController> logger, UserManager<ApplicationUser> userManager, ITenantContext tenantContext)
         {
             _appDbContext = appDbContext;
             _userManager = userManager;
             _logger = logger;
+            _tenantContext = tenantContext;
         }
 
         private int CalculateAge(DateTime birthDate)
@@ -93,6 +96,20 @@ namespace SingularSystem.Controllers
                 var regularTeacherScreenings = await _appDbContext.RegularTeacherScreenings.Include(s => s.Student).Include(s => s.Student!.School).ToListAsync();
                 var regularTeacherQuestionnaires = await _appDbContext.RegularTeacherQuestionnaires.Include(s => s.Student).Include(s => s.Student!.School).ToListAsync();
                 var regularTeacherCaseStudies = await _appDbContext.RegularTeacherEvaluationDocuments.Include(s => s.Student).Include(s => s.Student!.School).ToListAsync();
+
+                if (_tenantContext.IsPrivatePlan)
+                {
+                    students = students.Where(s => s.TenantId == _tenantContext.TenantId).ToList();
+                    reports = reports.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    paees = paees.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    peis = peis.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    regularTeacherScreenings = regularTeacherScreenings.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    regularTeacherQuestionnaires = regularTeacherQuestionnaires.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    regularTeacherCaseStudies = regularTeacherCaseStudies.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    var schoolIds = students.Where(s => s.SchoolID.HasValue).Select(s => s.SchoolID!.Value).ToHashSet();
+                    schools = schools.Where(s => schoolIds.Contains(s.ID)).ToList();
+                    municipalityTargets = new List<MunicipalityStudentTarget>();
+                }
 
                 if (filter.Sex != null)
                 {
@@ -202,7 +219,16 @@ namespace SingularSystem.Controllers
                 var isPsychologistUser = userRoles.Contains("Psychologist");
                 var isPsychopedagogueUser = userRoles.Contains("Psychopedagogue");
 
-                if (!isAdmin)
+                if (_tenantContext.IsPrivatePlan)
+                {
+                    students = students.Where(s => s.TenantId == _tenantContext.TenantId).ToList();
+                    reports = reports.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    paees = paees.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId).ToList();
+                    var schoolIds = students.Where(s => s.SchoolID.HasValue).Select(s => s.SchoolID!.Value).ToHashSet();
+                    schools = schools.Where(s => schoolIds.Contains(s.ID)).ToList();
+                    municipalityTargets = new List<MunicipalityStudentTarget>();
+                }
+                else if (!isAdmin)
                 {
                     if (userRoles.Contains("Principal") || userRoles.Contains("Psychologist") || userRoles.Contains("SocialWork") ||
                              userRoles.Contains("MunicipalManager") || userRoles.Contains("Secretary") ||
@@ -1015,6 +1041,11 @@ namespace SingularSystem.Controllers
             var firstDayOfLastMonth = new DateTime(lastDayOfLastMonth.Year, lastDayOfLastMonth.Month, 1);
 
             var studentsQuery = _appDbContext.Students.Include(s => s.School).AsQueryable();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                studentsQuery = studentsQuery.Where(s => s.TenantId == _tenantContext.TenantId);
+            }
 
             if (!string.IsNullOrWhiteSpace(filter.State))
             {

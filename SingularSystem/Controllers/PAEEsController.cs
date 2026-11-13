@@ -1,4 +1,5 @@
-﻿using SingularSystem.DTOs.Requests;
+﻿using SingularSystem.Domain.Tenancy;
+using SingularSystem.DTOs.Requests;
 using SingularSystem.DTOs.Responses;
 using SingularSystem.Interfaces;
 using SingularSystem.Mappers;
@@ -25,8 +26,9 @@ namespace SingularSystem.Controllers
         private readonly ISignatureService _zapSignService;
         private readonly ILogger<PAEEsController> _logger;
         private readonly IUserSummaryFactory _userSummaryFactory;
+        private readonly ITenantContext _tenantContext;
 
-        public PAEEsController(AppDbContext appDbContext, ILogger<PAEEsController> logger, NotificationService notificationService, UserManager<ApplicationUser> userManager, ISignatureService zapSignService, IUserSummaryFactory userSummaryFactory)
+        public PAEEsController(AppDbContext appDbContext, ILogger<PAEEsController> logger, NotificationService notificationService, UserManager<ApplicationUser> userManager, ISignatureService zapSignService, IUserSummaryFactory userSummaryFactory, ITenantContext tenantContext)
         {
             _appDbContext = appDbContext;
             _logger = logger;
@@ -34,6 +36,7 @@ namespace SingularSystem.Controllers
             _userManager = userManager;
             _zapSignService = zapSignService;
             _userSummaryFactory = userSummaryFactory;
+            _tenantContext = tenantContext;
         }
 
         private IQueryable<PAEE> BuildPaeeQuery(
@@ -59,6 +62,12 @@ namespace SingularSystem.Controllers
                                     .Include(u => u.User).ThenInclude(s => s!.School)
                                     .AsNoTracking()
                                     .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(p => p.Student != null && p.Student.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
@@ -181,6 +190,8 @@ namespace SingularSystem.Controllers
                 }
 
                 var paee = PAEEMapper.ToEntity(model, CurrentUserId);
+                if (_tenantContext.IsPrivatePlan)
+                    paee.TenantId = _tenantContext.TenantId;
 
                 await _appDbContext.PAEEs.AddAsync(paee);
                 await _appDbContext.SaveChangesAsync();

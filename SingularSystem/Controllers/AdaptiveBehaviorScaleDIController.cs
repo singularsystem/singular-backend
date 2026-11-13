@@ -16,6 +16,7 @@ namespace SingularSystem.Controllers
 {
     [Authorize]
     [NoSecretary]
+    [PlanFeatureAuthorize("Empresa", "Publico")]
     [Route("api/v1/adaptative-scale-di")]
     [ApiController]
     public class AdaptiveBehaviorScaleDIController : BaseController

@@ -1,3 +1,4 @@
+using SingularSystem.Domain.Plans;
 using SingularSystem.Domain.Tenancy;
 
 namespace SingularSystem.Services
@@ -6,5 +7,6 @@ namespace SingularSystem.Services
     {
         public string? TenantId { get; set; }
         public bool IsPrivatePlan { get; set; }
+        public PlanSubscription? Subscription { get; set; }
     }
 }

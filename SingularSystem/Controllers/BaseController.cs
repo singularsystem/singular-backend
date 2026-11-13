@@ -1,12 +1,16 @@
-﻿using SingularSystem.Models;
+﻿using SingularSystem.Domain.Tenancy;
+using SingularSystem.Models;
 using SingularSystem.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using System.Security.Claims;
 
 namespace SingularSystem.Controllers
 {
     public class BaseController : ControllerBase
     {
+        protected ITenantContext? TenantContext => HttpContext?.RequestServices?.GetService<ITenantContext>();
+
         protected string CurrentUserId =>
         User.FindFirstValue(ClaimTypes.NameIdentifier)
         ?? throw new UnauthorizedAccessException("UserId não encontrado no token");
@@ -25,6 +29,9 @@ namespace SingularSystem.Controllers
         protected bool HasStudentAccess(ApplicationUser user, Student student, IList<string> roles)
         {
             if (roles.Contains("Admin")) return true;
+
+            if (TenantContext?.IsPrivatePlan == true)
+                return !string.IsNullOrEmpty(student.TenantId) && student.TenantId == TenantContext.TenantId;
 
             if (roles.Contains("Coordinator"))
             {

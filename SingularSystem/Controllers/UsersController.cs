@@ -1,4 +1,6 @@
-﻿using SingularSystem.Domain.Plans;
+﻿using SingularSystem.Authorization;
+using SingularSystem.Domain.Plans;
+using SingularSystem.Domain.Tenancy;
 using SingularSystem.DTOs.Users;
 using SingularSystem.Extensions;
 using SingularSystem.Mappers;
@@ -35,6 +37,7 @@ namespace SingularSystem.Controllers
         private readonly IConfiguration _configuration;
         private readonly IAuthorizationService _authorizationService;
         private readonly IPlanService _planService;
+        private readonly ITenantContext _tenantContext;
         private const string DefaultNewUserPassword = "user123!";
 
         private sealed class UserImportSpreadsheetRow
@@ -67,7 +70,7 @@ namespace SingularSystem.Controllers
             public UserImportSpreadsheetRow RowData { get; set; } = new();
         }
 
-        public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, ILogger<UsersController> logger, AppDbContext appDbContext, NotificationService notificationService, IConfiguration configuration, IAuthorizationService authorizationService, IPlanService planService)
+        public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, ILogger<UsersController> logger, AppDbContext appDbContext, NotificationService notificationService, IConfiguration configuration, IAuthorizationService authorizationService, IPlanService planService, ITenantContext tenantContext)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -78,6 +81,7 @@ namespace SingularSystem.Controllers
             _notificationService = notificationService;
             _authorizationService = authorizationService;
             _planService = planService;
+            _tenantContext = tenantContext;
         }
 
         [HttpGet("template/xls")]
@@ -520,6 +524,120 @@ namespace SingularSystem.Controllers
             }
         }
 
+        [Authorize(Policy = "AdminOrSchoolAdmin")]
+        [HttpPost("register/school")]
+        public async Task<IActionResult> RegisterSchoolUser([FromBody] SchoolUserRequest model)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                    return BadRequest(new ApiResponse<object>
+                    {
+                        Success = false,
+                        Message = "Dados inválidos: " + string.Join("; ", errors)
+                    });
+                }
+
+                var allowedTypes = new[] { "Teacher", "Psychologist", "Psychopedagogue" };
+                if (!allowedTypes.Contains(model.Type))
+                {
+                    return BadRequest(new ApiResponse<object>
+                    {
+                        Success = false,
+                        Message = $"Tipo de usuário inválido: '{model.Type}'. Os tipos permitidos são: Teacher, Psychologist, Psychopedagogue."
+                    });
+                }
+
+                var callerTenantId = _tenantContext.TenantId ?? User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                if (_tenantContext.IsPrivatePlan)
+                {
+                    var subscription = _tenantContext.Subscription
+                        ?? await _planService.GetCurrentSubscriptionAsync(callerTenantId);
+
+                    if (subscription != null && subscription.MaxUsers > 0)
+                    {
+                        var currentCount = await _userManager.Users.CountAsync(u => u.TenantId == callerTenantId);
+                        if (currentCount >= subscription.MaxUsers)
+                        {
+                            return StatusCode(StatusCodes.Status402PaymentRequired, new ApiResponse<object>
+                            {
+                                Success = false,
+                                Message = $"Você atingiu o limite de {subscription.MaxUsers} usuários do seu plano. Faça upgrade para continuar."
+                            });
+                        }
+                    }
+                }
+
+                string[] names = model.FullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                string userName = names.Length > 1
+                    ? $"{names[0]}{names[^1]}_{Guid.NewGuid().ToString()[..6]}"
+                    : $"{names[0]}_{Guid.NewGuid().ToString()[..6]}";
+
+                var sex = !string.IsNullOrWhiteSpace(model.Sex)
+                    ? Helpers.GetEnumValueFromDisplayName<Sex>(model.Sex)
+                    : Sex.None;
+
+                var user = new ApplicationUser
+                {
+                    FullName = model.FullName,
+                    Email = model.Email,
+                    UserName = userName,
+                    PhoneNumber = model.PhoneNumber,
+                    Sex = sex,
+                    DateOfBirth = model.DateOfBirth ?? DateTime.UtcNow,
+                    Address = model.Address ?? string.Empty,
+                    City = string.Empty,
+                    State = string.Empty,
+                    TenantId = callerTenantId,
+                    MustChangePassword = true,
+                    IsActive = true
+                };
+
+                var result = await _userManager.CreateAsync(user, DefaultNewUserPassword);
+                if (!result.Succeeded)
+                {
+                    return BadRequest(new ApiResponse<object>
+                    {
+                        Success = false,
+                        Message = string.Join("; ", result.Errors.Select(e => e.Description))
+                    });
+                }
+
+                await _userManager.AddToRoleAsync(user, model.Type);
+
+                await _appDbContext.Logs.AddAsync(new Log
+                {
+                    LogLevel = Models.Enums.LogLevel.Info.ToString(),
+                    Message = $"Usuário escolar criado com sucesso com ID {user.Id}",
+                    Source = "UsersController",
+                    UserID = Guid.Parse(user.Id),
+                    EntityType = "ApplicationUser",
+                    EntityID = Guid.Parse(user.Id),
+                    Details = "",
+                    Action = "RegisterSchoolUser"
+                });
+                await _appDbContext.SaveChangesAsync();
+
+                return StatusCode(StatusCodes.Status201Created, new ApiResponse<object>
+                {
+                    Success = true,
+                    Message = "Usuário escolar criado com sucesso."
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao registrar usuário escolar");
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiResponse<object>
+                {
+                    Success = false,
+                    Message = "Erro interno ao cadastrar usuário escolar: " + ex.Message
+                });
+            }
+        }
+
         [HttpPost("login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginRequest model)
@@ -554,7 +672,8 @@ namespace SingularSystem.Controllers
 
                     var claims = new List<Claim>
                     {
-                        new Claim(ClaimTypes.NameIdentifier, user.Id)
+                        new Claim(ClaimTypes.NameIdentifier, user.Id),
+                        new Claim(TenantClaimTypes.TenantId, user.TenantId ?? string.Empty)
                     };
 
                     claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
@@ -789,20 +908,21 @@ namespace SingularSystem.Controllers
                 // Preencher campos de plano — fallback Público se sem assinatura
                 try
                 {
-                    var subscription = await _planService.GetActiveSubscriptionAsync(userId);
+                    var targetTenantId = _tenantContext.TenantId ?? userId!;
+                    var subscription = await _planService.GetCurrentSubscriptionAsync(targetTenantId);
                     if (subscription != null)
                     {
                         userResponse.PlanType = subscription.PlanType.ToString();
                         userResponse.PlanStatus = subscription.Status.ToString();
                         userResponse.QuotaDocuments = subscription.QuotaDocuments;
-                        var quota = await _planService.CheckStudentQuotaAsync(userId);
+                        var quota = await _planService.CheckStudentQuotaAsync(targetTenantId);
                         userResponse.QuotaUsed = quota.Current;
                     }
                     // Se subscription == null: mantém defaults "Publico" / "Active" / 0 / 0
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogWarning(ex, "Falha ao carregar dados de plano para userId {UserId}. Retornando fallback Público.", userId);
+                    _logger.LogWarning(ex, "Falha ao carregar dados de plano para tenantId {TenantId}. Retornando fallback Público.", _tenantContext.TenantId ?? userId);
                     // Mantém os defaults do DTO — usuário legado não é bloqueado
                 }
 

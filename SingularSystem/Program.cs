@@ -19,6 +19,7 @@ using System.Globalization;
 using Hangfire;
 using Hangfire.SqlServer;
 using SingularSystem.Authorization;
+using SingularSystem.Filters;
 using SingularSystem.Middleware;
 using SingularSystem.Models;
 using Microsoft.AspNetCore.Diagnostics;
@@ -149,7 +150,10 @@ builder.Services.AddHangfireServer(options =>
 
 builder.Services.AddCORSOrigins(builder.Configuration, MyAllowSpecificOrigins);
 builder.Services.AddSignalR();
-builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<SubscriptionStatusLockFilter>();
+}).ConfigureApiBehaviorOptions(options =>
 {
     options.InvalidModelStateResponseFactory = context =>
     {

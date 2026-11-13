@@ -12,7 +12,7 @@ namespace SingularSystem.Mappers
     public static class StudentMapper
     {
         public static Student ToEntity(
-            StudentRequest model, School school
+            StudentRequest model, School? school
         )
         {
             return new Student()
@@ -31,7 +31,7 @@ namespace SingularSystem.Mappers
                 RG = model.RG == "" ? null : model.RG,
                 CPF = model.CPF == "" ? null : model.CPF,
                 School = school,
-                SchoolID = school.ID
+                SchoolID = school?.ID
             };
         }
 

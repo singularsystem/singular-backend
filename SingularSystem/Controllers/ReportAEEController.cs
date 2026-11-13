@@ -1,4 +1,5 @@
-﻿using SingularSystem.DTOs.ReportAEE;
+﻿using SingularSystem.Domain.Tenancy;
+using SingularSystem.DTOs.ReportAEE;
 using SingularSystem.DTOs.Reports;
 using SingularSystem.DTOs.Statistics;
 using SingularSystem.DTOs.Students;
@@ -26,12 +27,14 @@ namespace SingularSystem.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<ReportAEEController> _logger;
+        private readonly ITenantContext _tenantContext;
 
-        public ReportAEEController(AppDbContext appDbContext, ILogger<ReportAEEController> logger, UserManager<ApplicationUser> userManager)
+        public ReportAEEController(AppDbContext appDbContext, ILogger<ReportAEEController> logger, UserManager<ApplicationUser> userManager, ITenantContext tenantContext)
         {
             _appDbContext = appDbContext;
             _userManager = userManager;
             _logger = logger;
+            _tenantContext = tenantContext;
         }
 
         private async Task<IQueryable<Student>> BuildStudentQuery(
@@ -46,6 +49,12 @@ namespace SingularSystem.Controllers
                 .AsNoTracking()
                 .AsSplitQuery()
                 .Where(s => s.IsActive);
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(s => s.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {

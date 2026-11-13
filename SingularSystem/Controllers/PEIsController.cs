@@ -1,4 +1,5 @@
-﻿using SingularSystem.DTOs.PEIs;
+﻿using SingularSystem.Domain.Tenancy;
+using SingularSystem.DTOs.PEIs;
 using SingularSystem.DTOs.Reports;
 using SingularSystem.DTOs.Responses;
 using SingularSystem.Interfaces;
@@ -25,8 +26,9 @@ namespace SingularSystem.Controllers
         private readonly IUserSummaryFactory _userSummaryFactory;
         private readonly ISignatureService _zapSignService;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ITenantContext _tenantContext;
 
-        public PEIsController(ILogger<PEIsController> logger, AppDbContext appDbContext, NotificationService notificationService, IUserSummaryFactory userSummaryFactory, ISignatureService zapSignService, UserManager<ApplicationUser> userManager)
+        public PEIsController(ILogger<PEIsController> logger, AppDbContext appDbContext, NotificationService notificationService, IUserSummaryFactory userSummaryFactory, ISignatureService zapSignService, UserManager<ApplicationUser> userManager, ITenantContext tenantContext)
         {
             _logger = logger;
             _appDbContext = appDbContext;
@@ -34,6 +36,7 @@ namespace SingularSystem.Controllers
             _userSummaryFactory = userSummaryFactory;
             _zapSignService = zapSignService;
             _userManager = userManager;
+            _tenantContext = tenantContext;
         }
 
         private IQueryable<PEI> BuildPEIQuery(
@@ -58,6 +61,12 @@ namespace SingularSystem.Controllers
                                           .Include(p => p.Subjects).ThenInclude(r => r.Responses)
                                           .AsNoTracking()
                                           .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(p => p.Student != null && p.Student.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
@@ -185,6 +194,8 @@ namespace SingularSystem.Controllers
                 }
 
                 var plan = PEIMapper.ToEntity(model, CurrentUserId);
+                if (_tenantContext.IsPrivatePlan)
+                    plan.TenantId = _tenantContext.TenantId;
                 await _appDbContext.PEIs.AddAsync(plan);
 
                 await _appDbContext.Logs.AddAsync(new Log

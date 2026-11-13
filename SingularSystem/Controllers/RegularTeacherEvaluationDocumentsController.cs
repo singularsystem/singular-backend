@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SingularSystem.Authorization;
+using SingularSystem.Domain.Tenancy;
 
 namespace SingularSystem.Controllers
 {
@@ -25,8 +26,9 @@ namespace SingularSystem.Controllers
         private readonly StudentEvaluationDocumentService _studentEvaluationDocumentService;
         private readonly ISignatureService _zapSignService;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ITenantContext _tenantContext;
 
-        public RegularTeacherEvaluationDocumentsController(ILogger<RegularTeacherEvaluationDocumentsController> logger, AppDbContext appDbContext, IUserSummaryFactory userSummaryFactory, StudentEvaluationDocumentService studentEvaluationDocumentService, ISignatureService zapSignService, UserManager<ApplicationUser> userManager)
+        public RegularTeacherEvaluationDocumentsController(ILogger<RegularTeacherEvaluationDocumentsController> logger, AppDbContext appDbContext, IUserSummaryFactory userSummaryFactory, StudentEvaluationDocumentService studentEvaluationDocumentService, ISignatureService zapSignService, UserManager<ApplicationUser> userManager, ITenantContext tenantContext)
         {
             _logger = logger;
             _appDbContext = appDbContext;
@@ -34,6 +36,7 @@ namespace SingularSystem.Controllers
             _studentEvaluationDocumentService = studentEvaluationDocumentService;
             _zapSignService = zapSignService;
             _userManager = userManager;
+            _tenantContext = tenantContext;
         }
 
         private IQueryable<RegularTeacherEvaluationDocument> BuildRegularTeacherEvaluationDocumentQuery(
@@ -60,6 +63,12 @@ namespace SingularSystem.Controllers
                                          .Include(s => s.RegularTeacherScreening)
                                          .AsNoTracking()
                                          .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(s => s.Student != null && s.Student.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
@@ -132,6 +141,12 @@ namespace SingularSystem.Controllers
             var query = _appDbContext.Students.Include(s => s.School)
                                               .AsNoTracking()
                                               .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(s => s.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {

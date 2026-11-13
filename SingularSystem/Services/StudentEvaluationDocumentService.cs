@@ -1,4 +1,5 @@
-﻿using SingularSystem.Mappers;
+﻿using SingularSystem.Domain.Tenancy;
+using SingularSystem.Mappers;
 using SingularSystem.Models.Entities;
 using SingularSystem.Models.Enums;
 using Microsoft.EntityFrameworkCore;
@@ -8,10 +9,12 @@ namespace SingularSystem.Services
     public class StudentEvaluationDocumentService
     {
         private readonly AppDbContext _appDbContext;
+        private readonly ITenantContext _tenantContext;
 
-        public StudentEvaluationDocumentService(AppDbContext context)
+        public StudentEvaluationDocumentService(AppDbContext context, ITenantContext tenantContext)
         {
             _appDbContext = context;
+            _tenantContext = tenantContext;
         }
 
         public async Task<Guid?> TryCreateUnifiedDocumentAsync(
@@ -42,6 +45,9 @@ namespace SingularSystem.Services
 
             var evaluationDocument = RegularTeacherEvaluationDocumentMapper
                 .ToEntity(currentUserId, screening, questionnaire);
+
+            if (_tenantContext.IsPrivatePlan)
+                evaluationDocument.TenantId = _tenantContext.TenantId;
 
             await _appDbContext.RegularTeacherEvaluationDocuments.AddAsync(evaluationDocument);
             await _appDbContext.SaveChangesAsync();

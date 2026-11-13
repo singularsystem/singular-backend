@@ -17,6 +17,7 @@ namespace SingularSystem.Controllers
 {
     [Authorize]
     [NoSecretary]
+    [PlanFeatureAuthorize("Empresa", "Publico")]
     [Route("api/v1/cars-questionnaires")]
     [ApiController]
     public class CARSQuestionnairesController : BaseController

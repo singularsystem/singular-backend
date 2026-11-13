@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using SingularSystem.Authorization;
+using SingularSystem.Domain.Tenancy;
 
 namespace SingularSystem.Controllers
 {
@@ -26,8 +27,9 @@ namespace SingularSystem.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly ILogger<ReportsController> _logger;
         private readonly IUserSummaryFactory _userSummaryFactory;
+        private readonly ITenantContext _tenantContext;
 
-        public ReportsController(AppDbContext appDbContext, ILogger<ReportsController> logger, NotificationService notificationService, ISignatureService zapSignService, IUserSummaryFactory userSummaryFactory, UserManager<ApplicationUser> userManager)
+        public ReportsController(AppDbContext appDbContext, ILogger<ReportsController> logger, NotificationService notificationService, ISignatureService zapSignService, IUserSummaryFactory userSummaryFactory, UserManager<ApplicationUser> userManager, ITenantContext tenantContext)
         {
             _appDbContext = appDbContext;
             _logger = logger;
@@ -35,6 +37,7 @@ namespace SingularSystem.Controllers
             _zapSignService = zapSignService;
             _userSummaryFactory = userSummaryFactory;
             _userManager = userManager;
+            _tenantContext = tenantContext;
         }
 
         private async Task<Dictionary<string, UserSummaryResponse>> LoadCreatorsAsync(IEnumerable<Report> reports)
@@ -65,7 +68,7 @@ namespace SingularSystem.Controllers
             );
         }
 
-        [AllowAnonymous]
+        [Authorize(Policy = "AdminOnly")]
         [HttpGet("revert-incomplete")]
         public async Task<IActionResult> RevertIncomplete()
         {
@@ -210,6 +213,12 @@ namespace SingularSystem.Controllers
                                      .AsNoTracking()
                                      .AsSplitQuery();
 
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(r => r.Student != null && r.Student.TenantId == _tenantContext.TenantId);
+                return query;
+            }
+
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
                 var term = searchTerm.Trim().ToLower();
@@ -275,6 +284,12 @@ namespace SingularSystem.Controllers
             var query = _appDbContext.Students.Include(s => s.School)
                                               .AsNoTracking()
                                               .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(s => s.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
@@ -419,6 +434,7 @@ namespace SingularSystem.Controllers
 
         #region CREATE
         [NoSecretary]
+        [PlanFeatureAuthorize("Empresa", "Publico")]
         [HttpPost]
         public async Task<IActionResult> CreateReport([FromBody] ReportRequest model)
         {

@@ -1,4 +1,6 @@
-﻿using SingularSystem.DTOs.Students;
+﻿using SingularSystem.Domain.Plans;
+using SingularSystem.Domain.Tenancy;
+using SingularSystem.DTOs.Students;
 using SingularSystem.Mappers;
 using SingularSystem.Models;
 using SingularSystem.Models.Entities;
@@ -24,13 +26,17 @@ namespace SingularSystem.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly NotificationService _notificationService;
         private readonly ILogger<StudentsController> _logger;
+        private readonly ITenantContext _tenantContext;
+        private readonly IPlanService _planService;
 
-        public StudentsController(AppDbContext appDbContext, ILogger<StudentsController> logger, NotificationService notificationService, UserManager<ApplicationUser> userManager)
+        public StudentsController(AppDbContext appDbContext, ILogger<StudentsController> logger, NotificationService notificationService, UserManager<ApplicationUser> userManager, ITenantContext tenantContext, IPlanService planService)
         {
             _appDbContext = appDbContext;
             _logger = logger;
             _notificationService = notificationService;
             _userManager = userManager;
+            _tenantContext = tenantContext;
+            _planService = planService;
         }
 
         private async Task<IQueryable<Student>> BuildStudentQuery(
@@ -47,6 +53,12 @@ namespace SingularSystem.Controllers
             var query = _appDbContext.Students.Include(s => s.School)
                                               .AsNoTracking()
                                               .AsSplitQuery();
+
+            if (_tenantContext.IsPrivatePlan)
+            {
+                query = query.Where(s => s.TenantId == _tenantContext.TenantId);
+                return query;
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
@@ -129,19 +141,39 @@ namespace SingularSystem.Controllers
                     });
                 }
 
-                var school = await _appDbContext.Schools.FirstOrDefaultAsync(temp => temp.City == model.SchoolCity && temp.State == model.SchoolState && temp.Name == model.SchoolName);
-
-                if (school == null)
+                if (_tenantContext.IsPrivatePlan)
                 {
-                    _logger.LogWarning("Escola não encontrada para o estudante. Dados: {SchoolName}, {City}, {State}", model.SchoolName, model.SchoolCity, model.SchoolState);
-                    return NotFound(new ApiResponse<object>()
+                    var quota = await _planService.CheckStudentQuotaAsync(_tenantContext.TenantId!);
+                    if (!quota.Allowed)
                     {
-                        Success = false,
-                        Message = $"Escola '{model.SchoolName}' na cidade '{model.SchoolCity}' não encontrada"
-                    });
+                        return StatusCode(StatusCodes.Status402PaymentRequired, new ApiResponse<object>
+                        {
+                            Success = false,
+                            Message = $"Você atingiu o limite de {quota.Max} alunos do seu plano. Faça upgrade para continuar."
+                        });
+                    }
+                }
+
+                School? school = null;
+                var informedSchool = !string.IsNullOrWhiteSpace(model.SchoolName);
+                if (!_tenantContext.IsPrivatePlan || informedSchool)
+                {
+                    school = await _appDbContext.Schools.FirstOrDefaultAsync(temp => temp.City == model.SchoolCity && temp.State == model.SchoolState && temp.Name == model.SchoolName);
+
+                    if (school == null)
+                    {
+                        _logger.LogWarning("Escola não encontrada para o estudante. Dados: {SchoolName}, {City}, {State}", model.SchoolName, model.SchoolCity, model.SchoolState);
+                        return NotFound(new ApiResponse<object>()
+                        {
+                            Success = false,
+                            Message = $"Escola '{model.SchoolName}' na cidade '{model.SchoolCity}' não encontrada"
+                        });
+                    }
                 }
 
                 var student = StudentMapper.ToEntity(model, school);
+                if (_tenantContext.IsPrivatePlan)
+                    student.TenantId = _tenantContext.TenantId;
 
                 await _appDbContext.Students.AddAsync(student);
                 await _appDbContext.SaveChangesAsync();
@@ -809,6 +841,27 @@ namespace SingularSystem.Controllers
                     });
                 }
 
+                if (_tenantContext.IsPrivatePlan)
+                {
+                    var candidateRows = 0;
+                    for (var i = 1; i <= sheet.LastRowNum; i++)
+                    {
+                        var r = sheet.GetRow(i);
+                        if (r == null || IsRowEmpty(r, 13)) continue;
+                        if (ValidateSpreadsheetRow(BuildSpreadsheetRowData(r)).Count == 0) candidateRows++;
+                    }
+
+                    var quota = await _planService.CheckStudentQuotaAsync(_tenantContext.TenantId!, candidateRows);
+                    if (!quota.Allowed)
+                    {
+                        return StatusCode(StatusCodes.Status402PaymentRequired, new ApiResponse<object>
+                        {
+                            Success = false,
+                            Message = $"A importação de {candidateRows} aluno(s) excede o limite de {quota.Max} do seu plano ({quota.Current} em uso). Faça upgrade para continuar."
+                        });
+                    }
+                }
+
                 var createdCount = 0;
                 var logs = new List<Log>();
                 var successfulStudents = new List<StudentImportSuccessItem>();
@@ -880,6 +933,9 @@ namespace SingularSystem.Controllers
                     }
 
                     var student = StudentMapper.ToEntity(studentRequest, school);
+                    if (_tenantContext.IsPrivatePlan)
+                        student.TenantId = _tenantContext.TenantId;
+
                     await _appDbContext.Students.AddAsync(student);
                     
                     try 

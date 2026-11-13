@@ -12,6 +12,7 @@ namespace SingularSystem.Extensions
             services.AddScoped<IPlanSubscriptionRepository, PlanSubscriptionRepository>();
             services.AddScoped<IPlanService, PlanService>();
             services.AddScoped<ITenantContext, TenantContextService>();
+            services.AddHostedService<SubscriptionExpirationService>();
             return services;
         }
     }

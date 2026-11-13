@@ -18,20 +18,23 @@ namespace SingularSystem.Services
         public async Task<PlanSubscription?> GetActiveSubscriptionAsync(string tenantId)
             => await _repo.GetActiveAsync(tenantId);
 
-        public async Task<QuotaResult> CheckStudentQuotaAsync(string tenantId)
+        public async Task<PlanSubscription?> GetCurrentSubscriptionAsync(string tenantId)
+            => await _repo.GetCurrentAsync(tenantId);
+
+        public Task<QuotaResult> CheckStudentQuotaAsync(string tenantId) => CheckStudentQuotaAsync(tenantId, 1);
+
+        public async Task<QuotaResult> CheckStudentQuotaAsync(string tenantId, int additional)
         {
-            var subscription = await _repo.GetActiveAsync(tenantId);
+            var subscription = await _repo.GetCurrentAsync(tenantId);
 
-            if (subscription == null)
-                return new QuotaResult(true, 0, 0); // plano Público — sem cota
-
-            if (subscription.QuotaDocuments == 0)
-                return new QuotaResult(true, 0, 0); // ilimitado
+            if (subscription == null || subscription.QuotaDocuments == 0)
+                return new QuotaResult(true, 0, 0); // plano Público ou ilimitado
 
             var used = await _db.Students
                 .CountAsync(s => s.TenantId == tenantId && s.IsActive);
 
-            return new QuotaResult(used < subscription.QuotaDocuments, used, subscription.QuotaDocuments);
+            var allowed = used + additional <= subscription.QuotaDocuments;
+            return new QuotaResult(allowed, used, subscription.QuotaDocuments);
         }
     }
 }
