@@ -121,7 +121,8 @@ namespace SingularSystem.Controllers
                                                        .Include(s => s.Student!.School)
                                                        .Include(pg => pg.Responses)
                                                        .Include(u => u.User)
-                                                       .AsNoTracking();
+                                                       .AsNoTracking()
+                                                       .WhereStudentInTenant(TenantContext);
 
                 if (isTeacher && currentUser != null)
                 {
@@ -206,6 +207,22 @@ namespace SingularSystem.Controllers
                     });
                 }
 
+                var currentUser = await _appDbContext.Users.FirstOrDefaultAsync(u => u.Id == CurrentUserId);
+                if (currentUser == null) return Unauthorized();
+                var userManager = HttpContext?.RequestServices?.GetService<Microsoft.AspNetCore.Identity.UserManager<ApplicationUser>>();
+                var roles = userManager != null
+                    ? await userManager.GetRolesAsync(currentUser)
+                    : User.FindAll(ClaimTypes.Role).Select(c => c.Value).ToList();
+
+                var student = portage.Student ?? await _appDbContext.Students.IgnoreQueryFilters().AsNoTracking()
+                    .Include(s => s.School)
+                    .FirstOrDefaultAsync(s => s.ID == portage.StudentID);
+
+                if (student != null && IsOutsideTenant(currentUser, student, roles))
+                {
+                    return StatusCode(StatusCodes.Status403Forbidden, DocumentAccessDenied.Body());
+                }
+
                 var userSummary = await _userSummaryFactory.CreateAsync(portage.User);
                 var portageResponse = PortageGuideMapper.ToResponse(portage, userSummary);
 
@@ -232,6 +249,31 @@ namespace SingularSystem.Controllers
         {
             try
             {
+                var student = await _appDbContext.Students.IgnoreQueryFilters().AsNoTracking()
+                    .Include(s => s.School)
+                    .FirstOrDefaultAsync(s => s.ID == studentID);
+
+                if (student == null)
+                {
+                    return NotFound(new ApiResponse<List<PortageResponse>>
+                    {
+                        Success = false,
+                        Message = $"Nenhum guia Portage foi cadastrado ainda para esse estudante"
+                    });
+                }
+
+                var currentUser = await _appDbContext.Users.FirstOrDefaultAsync(u => u.Id == CurrentUserId);
+                if (currentUser == null) return Unauthorized();
+                var userManager = HttpContext?.RequestServices?.GetService<Microsoft.AspNetCore.Identity.UserManager<ApplicationUser>>();
+                var roles = userManager != null
+                    ? await userManager.GetRolesAsync(currentUser)
+                    : User.FindAll(ClaimTypes.Role).Select(c => c.Value).ToList();
+
+                if (IsOutsideTenant(currentUser, student, roles))
+                {
+                    return StatusCode(StatusCodes.Status403Forbidden, DocumentAccessDenied.Body());
+                }
+
                 var isTeacher = User.IsInRole("Teacher");
 
                 var query = _appDbContext.PortageGuides

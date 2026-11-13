@@ -1,8 +1,10 @@
-﻿using SingularSystem.Domain.Tenancy;
+﻿using SingularSystem.Domain.Access;
+using SingularSystem.Domain.Tenancy;
 using SingularSystem.Models;
 using SingularSystem.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System.Security.Claims;
 
 namespace SingularSystem.Controllers
@@ -28,37 +30,21 @@ namespace SingularSystem.Controllers
 
         protected bool HasStudentAccess(ApplicationUser user, Student student, IList<string> roles)
         {
-            if (roles.Contains("Admin")) return true;
-
-            if (TenantContext?.IsPrivatePlan == true)
-                return !string.IsNullOrEmpty(student.TenantId) && student.TenantId == TenantContext.TenantId;
-
-            if (roles.Contains("Coordinator"))
+            var policy = HttpContext?.RequestServices?.GetService<IStudentAccessPolicy>();
+            if (policy is null)
             {
-                return (Helpers.CityMatches(student.City, user.City) && Helpers.StateMatches(student.State, user.State)) ||
-                       (student.School != null && Helpers.CityMatches(student.School.City, user.City) && Helpers.StateMatches(student.School.State, user.State));
+                HttpContext?.RequestServices?.GetService<ILoggerFactory>()?
+                    .CreateLogger("StudentAccess")
+                    .LogError("IStudentAccessPolicy não registrada; acesso ao aluno negado.");
+                return false;
             }
-
-            if (roles.Contains("Principal"))
-            {
-                return (Helpers.CityMatches(student.City, user.City) && Helpers.StateMatches(student.State, user.State)) ||
-                       (student.School != null && Helpers.CityMatches(student.School.City, user.City) && Helpers.StateMatches(student.School.State, user.State));
-            }
-
-            if (roles.Contains("Teacher") || roles.Contains("Psychologist") || roles.Contains("SocialWork") ||
-                roles.Contains("MunicipalManager") || roles.Contains("Secretary") ||
-                roles.Contains("Psychopedagogue"))
-            {
-                bool sameMunicipality = (Helpers.CityMatches(student.City, user.City) && Helpers.StateMatches(student.State, user.State)) ||
-                                        (student.School != null && Helpers.CityMatches(student.School.City, user.City) && Helpers.StateMatches(student.School.State, user.State));
-
-                bool sameSchool = user.SchoolID != null && student.SchoolID == user.SchoolID;
-
-                return sameMunicipality || sameSchool;
-            }
-
-            return (Helpers.CityMatches(student.City, user.City) && Helpers.StateMatches(student.State, user.State)) ||
-                   (student.School != null && Helpers.CityMatches(student.School.City, user.City) && Helpers.StateMatches(student.School.State, user.State));
+            return policy.CanAccess(user, student, roles, TenantContext);
         }
+
+        /// <summary>
+        /// Atalho para controllers cujo ramo Público não muda: só aplica a trava de tenant.
+        /// </summary>
+        protected bool IsOutsideTenant(ApplicationUser user, Student student, IList<string> roles)
+            => TenantContext?.IsPrivatePlan == true && !HasStudentAccess(user, student, roles);
     }
 }

@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
 using SingularSystem.Controllers;
+using SingularSystem.Domain.Access;
 using SingularSystem.Models.Entities;
 using SingularSystem.Security;
 using SingularSystem.Services;
@@ -12,6 +13,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -71,7 +73,12 @@ namespace SingularSystem.Tests
                 assembler,
                 effectiveLogger);
 
-            var httpContext = new DefaultHttpContext();
+            var services = new Microsoft.Extensions.DependencyInjection.ServiceCollection();
+            services.AddSingleton<IStudentAccessPolicy, StudentAccessPolicy>();
+            var httpContext = new DefaultHttpContext
+            {
+                RequestServices = services.BuildServiceProvider()
+            };
             if (authenticatedUser is not null)
             {
                 var claims = new List<Claim>

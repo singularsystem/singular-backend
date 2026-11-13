@@ -173,7 +173,8 @@ namespace SingularSystem.Controllers
                                          .Include(m => m.MainSchoolDifficulties)
                                          .Include(p => p.ProceduresUsed)
                                          .Include(r => r.Recommendations)
-                                         .AsNoTracking();
+                                         .AsNoTracking()
+                                         .WhereStudentInTenant(TenantContext);
 
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
@@ -182,7 +183,7 @@ namespace SingularSystem.Controllers
                         s.Student.FullName.ToLower().Contains(term));
                 }
 
-                if (!isAdmin)
+                if (TenantContext?.IsPrivatePlan != true && !isAdmin)
                 {
                     query = query.Where(s => s.Student != null &&
                                              ((s.Student.City == currentUser.City && s.Student.State == currentUser.State) ||

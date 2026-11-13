@@ -206,7 +206,9 @@ namespace SingularSystem.Controllers
                 {
                     var usersInRole = await _userManager.GetUsersInRoleAsync(role);
                     var filteredUsers = usersInRole
-                        .Where(u => u.City == student.City && u.State == student.State)
+                        .Where(u => _tenantContext.IsPrivatePlan
+                            ? u.TenantId == _tenantContext.TenantId
+                            : (u.City == student.City && u.State == student.State))
                         .ToList();
 
                     recipients.AddRange(filteredUsers);

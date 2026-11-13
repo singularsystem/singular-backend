@@ -377,6 +377,7 @@ namespace SingularSystem.Tests
 
         private sealed class StubPdfService : IPDFService
         {
+            public Task<SingularSystem.Models.DocumentPdfResult> GeneratePdfForUser(Guid documentId, SingularSystem.Models.PdfProfile profile, SingularSystem.Models.Entities.ApplicationUser user, IList<string> roles) => Task.FromResult(SingularSystem.Models.DocumentPdfResult.Ok(Array.Empty<byte>(), null));
             public Task<byte[]> GeneratePdf(Guid documentId) => Task.FromResult(Array.Empty<byte>());
             public Task<byte[]> GeneratePdf(Guid documentId, SingularSystem.Models.PdfProfile profile) => Task.FromResult(Array.Empty<byte>());
 

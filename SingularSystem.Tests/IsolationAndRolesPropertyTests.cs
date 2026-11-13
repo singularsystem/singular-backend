@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SingularSystem.Authorization;
 using SingularSystem.Controllers;
+using SingularSystem.Domain.Access;
 using SingularSystem.Domain.Plans;
 using SingularSystem.Domain.Plans.Enums;
 using SingularSystem.Domain.Tenancy;
@@ -28,6 +29,7 @@ namespace SingularSystem.Tests
             {
                 var services = new ServiceCollection();
                 services.AddSingleton(tenantContext);
+                services.AddSingleton<IStudentAccessPolicy, StudentAccessPolicy>();
                 ControllerContext = new ControllerContext
                 {
                     HttpContext = new DefaultHttpContext
@@ -296,6 +298,7 @@ namespace SingularSystem.Tests
             var services = new ServiceCollection();
             services.AddSingleton<ITenantContext>(tenantContext);
             services.AddSingleton<IPlanService>(planService);
+            services.AddSingleton<IStudentAccessPolicy, StudentAccessPolicy>();
 
             var httpContext = new DefaultHttpContext
             {

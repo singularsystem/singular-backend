@@ -57,7 +57,8 @@ namespace SingularSystem.Controllers
                                          .Include(a => a.AdaptiveBehaviorScaleDI)
                                          .Include(p => p.PsychologistQuestionnaire)
                                          .Include(s => s.SnapIVQuestionnaire)
-                                         .AsNoTracking();
+                                         .AsNoTracking()
+                                         .WhereStudentInTenant(TenantContext);
 
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
@@ -66,7 +67,7 @@ namespace SingularSystem.Controllers
                         s.Student.FullName.ToLower().Contains(term));
                 }
 
-                if (!isAdmin)
+                if (TenantContext?.IsPrivatePlan != true && !isAdmin)
                 {
                     query = query.Where(s => s.Student != null &&
                                              ((s.Student.City == currentUser.City && s.Student.State == currentUser.State) ||

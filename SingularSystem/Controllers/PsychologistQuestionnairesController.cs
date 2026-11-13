@@ -171,7 +171,8 @@ namespace SingularSystem.Controllers
 
                 var query = _appDbContext.PsychologistQuestionnaires.IgnoreQueryFilters()
                                          .Include(s => s.Student).Include(st => st.Student!.School)
-                                         .Include(u => u.User).AsNoTracking();
+                                         .Include(u => u.User).AsNoTracking()
+                                         .WhereStudentInTenant(TenantContext);
 
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
@@ -186,7 +187,7 @@ namespace SingularSystem.Controllers
                 var roles = await _userManager.GetRolesAsync(currentUser);
                 var isAdmin = roles.Contains("Admin");
 
-                if (!isAdmin)
+                if (TenantContext?.IsPrivatePlan != true && !isAdmin)
                 {
                     query = query.Where(s => s.Student != null &&
                                              ((s.Student.City == currentUser.City && s.Student.State == currentUser.State) ||

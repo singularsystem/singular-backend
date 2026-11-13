@@ -1,4 +1,6 @@
-﻿using SingularSystem.DTOs.ReportAEE;
+﻿using SingularSystem.Domain.Access;
+using SingularSystem.Domain.Tenancy;
+using SingularSystem.DTOs.ReportAEE;
 using SingularSystem.DTOs.Students;
 using SingularSystem.Extensions;
 using SingularSystem.Interfaces;
@@ -19,6 +21,8 @@ public class PDFService : IPDFService
     private readonly IIssuerResolver _issuerResolver;
     private readonly IDocumentValidationService _documentValidationService;
     private readonly Microsoft.Extensions.Configuration.IConfiguration _configuration;
+    private readonly ITenantContext _tenantContext;
+    private readonly IStudentAccessPolicy _studentAccessPolicy;
     private static readonly Lazy<byte[]> _singularLogo = new(LoadDefaultSingularLogo);
 
     public PDFService(
@@ -28,7 +32,9 @@ public class PDFService : IPDFService
         IReportAEEPDFGenerator reportAEEPDFGenerator,
         IIssuerResolver issuerResolver,
         IDocumentValidationService documentValidationService,
-        Microsoft.Extensions.Configuration.IConfiguration configuration)
+        Microsoft.Extensions.Configuration.IConfiguration configuration,
+        ITenantContext tenantContext,
+        IStudentAccessPolicy studentAccessPolicy)
     {
         _appDbContext = appDbContext;
         _generators = generators;
@@ -37,6 +43,8 @@ public class PDFService : IPDFService
         _issuerResolver = issuerResolver;
         _documentValidationService = documentValidationService;
         _configuration = configuration;
+        _tenantContext = tenantContext;
+        _studentAccessPolicy = studentAccessPolicy;
     }
 
     private static byte[] LoadDefaultSingularLogo()
@@ -158,21 +166,42 @@ public class PDFService : IPDFService
         return await generator.GenerateAsync(document, renderContext);
     }
 
-    public async Task<string?> GetDocumentType(Guid documentId)
+    public async Task<DocumentPdfResult> GeneratePdfForUser(
+        Guid documentId, PdfProfile profile, ApplicationUser user, IList<string> roles)
     {
-        var entity = await _appDbContext.BaseDocuments
-        .AsNoTracking()
-        .FirstOrDefaultAsync(d => d.ID == documentId);
+        var header = await ResolveDocumentHeaderAsync(documentId);
+        if (header is null) return DocumentPdfResult.Missing();
 
-        return entity?.GetType().Name;
+        if (!roles.Contains("Admin"))
+        {
+            if (header.StudentId is null) return DocumentPdfResult.Denied();
+
+            var student = await _appDbContext.Students.IgnoreQueryFilters().AsNoTracking()
+                .Include(s => s.School)
+                .FirstOrDefaultAsync(s => s.ID == header.StudentId.Value);
+
+            if (student is null || !_studentAccessPolicy.CanAccess(user, student, roles, _tenantContext))
+                return DocumentPdfResult.Denied();
+        }
+
+        var bytes = await GeneratePdf(documentId, profile);
+        return DocumentPdfResult.Ok(bytes, header.TypeName);
     }
 
-    public async Task<byte[]> GenerateStudentsPdf(string state, string city, string schoolID, string serie = "")
-    {
-        var query = _appDbContext.Students
-        .AsNoTracking()
-        .Include(s => s.School).Where(s => s.IsActive);
+    private sealed record DocumentHeader(string TypeName, Guid? StudentId);
 
+    private async Task<DocumentHeader?> ResolveDocumentHeaderAsync(Guid documentId)
+    {
+        var entity = await _appDbContext.BaseDocuments.AsNoTracking()
+            .FirstOrDefaultAsync(d => d.ID == documentId);
+        return entity is null ? null : new DocumentHeader(entity.GetType().Name, entity.StudentID);
+    }
+
+    public async Task<string?> GetDocumentType(Guid documentId)
+        => (await ResolveDocumentHeaderAsync(documentId))?.TypeName;
+
+    private IQueryable<Student> ApplyGeo(IQueryable<Student> query, string state, string city, string schoolID)
+    {
         if (!string.IsNullOrWhiteSpace(state))
         {
             var cleanState = state.Trim();
@@ -186,7 +215,37 @@ public class PDFService : IPDFService
         }
 
         if (!string.IsNullOrWhiteSpace(schoolID))
-            query = query.Where(s => s.School != null && s.School.ID == Guid.Parse(schoolID));
+        {
+            if (_tenantContext?.IsPrivatePlan == true)
+            {
+                if (Guid.TryParse(schoolID, out var parsedGuid))
+                {
+                    query = query.Where(s => (s.SchoolID == parsedGuid) || (s.School != null && s.School.ID == parsedGuid));
+                }
+                else
+                {
+                    query = query.Where(_ => false);
+                }
+            }
+            else
+            {
+                var parsedGuid = Guid.Parse(schoolID);
+                query = query.Where(s => (s.SchoolID == parsedGuid) || (s.School != null && s.School.ID == parsedGuid));
+            }
+        }
+
+        return query;
+    }
+
+    internal IQueryable<Student> BuildStudentsListQuery(string state, string city, string schoolID, string serie = "")
+    {
+        var query = _appDbContext.Students
+            .AsNoTracking()
+            .Include(s => s.School)
+            .Where(s => s.IsActive)
+            .WhereInTenant(_tenantContext);
+
+        query = ApplyGeo(query, state, city, schoolID);
 
         if (!string.IsNullOrWhiteSpace(serie))
         {
@@ -196,6 +255,13 @@ public class PDFService : IPDFService
                 query = query.Where(s => s.Serie == serieEnum);
             }
         }
+
+        return query;
+    }
+
+    public async Task<byte[]> GenerateStudentsPdf(string state, string city, string schoolID, string serie = "")
+    {
+        var query = BuildStudentsListQuery(state, city, schoolID, serie);
 
         var rows = await query
             .OrderBy(s => s.FullName)
@@ -211,7 +277,7 @@ public class PDFService : IPDFService
             .ToListAsync();
 
         return await _studentPDFGenerator.GenerateStudentsPDFAsync(rows);
-    }    public async Task<byte[]> GenerateReportsAEEPdf(string state, string city, string schoolID, string disabilities, string disorders)
+    }    internal IQueryable<Student> BuildReportsAeeQuery(string state, string city, string schoolID, string disabilities, string disorders)
     {
         var disabilityList = SplitCsv(disabilities);
         var disorderList = SplitCsv(disorders);
@@ -261,22 +327,10 @@ public class PDFService : IPDFService
         var query = _appDbContext.Students.Include(s => s.School)
                                            .AsNoTracking()
                                            .AsSplitQuery()
-                                           .Where(s => s.IsActive);
+                                           .Where(s => s.IsActive)
+                                           .WhereInTenant(_tenantContext);
 
-        if (!string.IsNullOrWhiteSpace(state))
-        {
-            var cleanState = state.Trim();
-            query = query.Where(s => s.State == cleanState || (s.School != null && s.School.State == cleanState));
-        }
-
-        if (!string.IsNullOrWhiteSpace(city))
-        {
-            var cleanCity = city.Trim();
-            query = query.Where(s => s.City == cleanCity || (s.School != null && s.School.City == cleanCity));
-        }
-
-        if (!string.IsNullOrWhiteSpace(schoolID))
-            query = query.Where(s => s.School != null && s.School.ID == Guid.Parse(schoolID));
+        query = ApplyGeo(query, state, city, schoolID);
 
         if (disabilityEnums.Count > 0 || disorderEnums.Count > 0 || snapIvEnums.Count > 0)
         {
@@ -300,6 +354,13 @@ public class PDFService : IPDFService
                     .Any(q => q.Result != SnapIVResult.None)
             );
         }
+
+        return query;
+    }
+
+    public async Task<byte[]> GenerateReportsAEEPdf(string state, string city, string schoolID, string disabilities, string disorders)
+    {
+        var query = BuildReportsAeeQuery(state, city, schoolID, disabilities, disorders);
 
         var pageStudents = await query
             .OrderBy(s => s.FullName)
@@ -387,12 +448,13 @@ public class PDFService : IPDFService
         return await _reportAEEPDFGenerator.GenerateReportsAEEPDFAsync(rows);
     }
 
-    public async Task<byte[]> GenerateCaseStudiesTrackingPdf(string state, string city, string schoolID, string searchTerm, string status, int? year, int? month)
+    internal IQueryable<Student> BuildCaseStudiesTrackingQuery(string state, string city, string schoolID, string searchTerm, string status, int? year, int? month)
     {
         var query = _appDbContext.Students.Include(s => s.School)
                                           .AsNoTracking()
                                           .AsSplitQuery()
-                                          .Where(s => s.IsActive);
+                                          .Where(s => s.IsActive)
+                                          .WhereInTenant(_tenantContext);
 
         if (!string.IsNullOrWhiteSpace(searchTerm))
         {
@@ -400,20 +462,7 @@ public class PDFService : IPDFService
             query = query.Where(s => s != null && s.FullName.ToLower().Contains(term));
         }
 
-        if (!string.IsNullOrWhiteSpace(state))
-        {
-            query = query.Where(s => s.State == state || (s.School != null && s.School.State == state));
-        }
-
-        if (!string.IsNullOrWhiteSpace(city))
-        {
-            query = query.Where(s => s.City == city || (s.School != null && s.School.City == city));
-        }
-
-        if (!string.IsNullOrWhiteSpace(schoolID))
-        {
-            query = query.Where(s => s.SchoolID == Guid.Parse(schoolID));
-        }
+        query = ApplyGeo(query, state, city, schoolID);
 
         if (!string.IsNullOrWhiteSpace(status) && !status.Equals("Todos", StringComparison.OrdinalIgnoreCase))
         {
@@ -448,6 +497,13 @@ public class PDFService : IPDFService
         {
             query = query.Where(s => s.CreatedAt.Month == month.Value);
         }
+
+        return query;
+    }
+
+    public async Task<byte[]> GenerateCaseStudiesTrackingPdf(string state, string city, string schoolID, string searchTerm, string status, int? year, int? month)
+    {
+        var query = BuildCaseStudiesTrackingQuery(state, city, schoolID, searchTerm, status, year, month);
 
         var pagedStudents = await query
             .OrderBy(s => s.FullName)
@@ -499,12 +555,13 @@ public class PDFService : IPDFService
         return CaseStudiesTrackingPDFGenerator.Generate(rows);
     }
 
-    public async Task<byte[]> GenerateBiopsychosocialTrackingPdf(string state, string city, string schoolID, string searchTerm, string status, string pendingProfessional, int? year, int? month)
+    internal IQueryable<Student> BuildBiopsychosocialTrackingQuery(string state, string city, string schoolID, string searchTerm, string status, string pendingProfessional, int? year, int? month)
     {
         var query = _appDbContext.Students.Include(s => s.School)
                                           .AsNoTracking()
                                           .AsSplitQuery()
-                                          .Where(s => s.IsActive);
+                                          .Where(s => s.IsActive)
+                                          .WhereInTenant(_tenantContext);
 
         if (!string.IsNullOrWhiteSpace(searchTerm))
         {
@@ -512,20 +569,7 @@ public class PDFService : IPDFService
             query = query.Where(s => s != null && s.FullName.ToLower().Contains(term));
         }
 
-        if (!string.IsNullOrWhiteSpace(state))
-        {
-            query = query.Where(s => s.State == state || (s.School != null && s.School.State == state));
-        }
-
-        if (!string.IsNullOrWhiteSpace(city))
-        {
-            query = query.Where(s => s.City == city || (s.School != null && s.School.City == city));
-        }
-
-        if (!string.IsNullOrWhiteSpace(schoolID))
-        {
-            query = query.Where(s => s.SchoolID == Guid.Parse(schoolID));
-        }
+        query = ApplyGeo(query, state, city, schoolID);
 
         if (!string.IsNullOrWhiteSpace(status) && !status.Equals("Todos", StringComparison.OrdinalIgnoreCase))
         {
@@ -580,6 +624,13 @@ public class PDFService : IPDFService
         {
             query = query.Where(s => s.CreatedAt.Month == month.Value);
         }
+
+        return query;
+    }
+
+    public async Task<byte[]> GenerateBiopsychosocialTrackingPdf(string state, string city, string schoolID, string searchTerm, string status, string pendingProfessional, int? year, int? month)
+    {
+        var query = BuildBiopsychosocialTrackingQuery(state, city, schoolID, searchTerm, status, pendingProfessional, year, month);
 
         var pagedStudents = await query
             .OrderBy(s => s.FullName)

@@ -50,7 +50,8 @@ namespace SingularSystem.Controllers
                                          .Include(c => c.CognitiveAssessment)
                                          .Include(c => c.CARSQuestionnaire)
                                          .Include(m => m.MCHATQuestionnaire)
-                                         .AsNoTracking();
+                                         .AsNoTracking()
+                                         .WhereStudentInTenant(TenantContext);
 
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
@@ -65,7 +66,7 @@ namespace SingularSystem.Controllers
                 var roles = await _userManager.GetRolesAsync(currentUser);
                 var isAdmin = roles.Contains("Admin");
 
-                if (!isAdmin)
+                if (TenantContext?.IsPrivatePlan != true && !isAdmin)
                 {
                     query = query.Where(s => s.Student != null &&
                                              ((s.Student.City == currentUser.City && s.Student.State == currentUser.State) ||
@@ -174,6 +175,11 @@ namespace SingularSystem.Controllers
 
                 var roles = await _userManager.GetRolesAsync(user);
                 var isAdmin = roles.Contains("Admin");
+
+                if (report.Student != null && IsOutsideTenant(user, report.Student, roles))
+                {
+                    return StatusCode(403, DocumentAccessDenied.Body());
+                }
 
                 if (!isAdmin)
                 {

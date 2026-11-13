@@ -38,71 +38,56 @@ namespace SingularSystem.Controllers
             return name.Replace(' ', '-');
         }
 
-        [HttpGet("{documentId}/pdf")]
-        public async Task<IActionResult> ViewDocumentPdf(Guid documentId, [FromQuery] string? profile = null)
+        private IActionResult InlinePdf(byte[] bytes, Guid documentId)
+        {
+            Response.Headers["Content-Disposition"] = $"inline; filename=\"documento-{documentId}.pdf\"";
+            return File(bytes, "application/pdf");
+        }
+
+        private async Task<IActionResult> HandleDocumentAsync(Guid documentId, string? profile, bool download)
         {
             try
             {
-                var parseResult = PdfProfileParser.Parse(profile);
-                if (!parseResult.IsSuccess)
+                var parse = PdfProfileParser.Parse(profile);
+                if (!parse.IsSuccess) return BadRequest(parse.ErrorMessage);
+
+                var user = await _userManager.FindByIdAsync(CurrentUserId);
+                if (user == null) return Unauthorized();
+                var roles = await _userManager.GetRolesAsync(user);
+
+                var result = await _pdfService.GeneratePdfForUser(documentId, parse.Profile, user, roles);
+
+                switch (result.Outcome)
                 {
-                    return BadRequest(parseResult.ErrorMessage);
+                    case DocumentPdfOutcome.NotFound:
+                        return NotFound();
+                    case DocumentPdfOutcome.Forbidden:
+                        _logger.LogWarning("Acesso negado ao documento {DocumentId} para o usuário {UserId}",
+                                           documentId, user.Id);
+                        return StatusCode(StatusCodes.Status403Forbidden, DocumentAccessDenied.Body());
+                    default:
+                        return download
+                            ? File(result.Bytes!, "application/pdf",
+                                   $"{SanitizeFileName(result.DocumentType ?? "documento")}-{documentId}.pdf")
+                            : InlinePdf(result.Bytes!, documentId);
                 }
-
-                var bytes = await _pdfService.GeneratePdf(documentId, parseResult.Profile);
-
-                Response.Headers["Content-Disposition"] = $"inline; filename=\"documento-{documentId}.pdf\"";
-
-                return File(bytes, "application/pdf");
             }
-            catch (KeyNotFoundException)
-            {
-                return NotFound();
-            }
-            catch (NotSupportedException ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            catch (NotSupportedException ex) { return BadRequest(ex.Message); }
+            catch (KeyNotFoundException)     { return NotFound(); }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Erro ao gerar PDF do documento {DocumentId}", documentId);
                 return StatusCode(500, "Erro interno ao gerar PDF.");
             }
         }
+
+        [HttpGet("{documentId}/pdf")]
+        public Task<IActionResult> ViewDocumentPdf(Guid documentId, [FromQuery] string? profile = null)
+            => HandleDocumentAsync(documentId, profile, download: false);
 
         [HttpGet("{documentId}/download")]
-        public async Task<IActionResult> DownloadDocument(Guid documentId, [FromQuery] string? profile = null)
-        {
-            try
-            {
-                var parseResult = PdfProfileParser.Parse(profile);
-                if (!parseResult.IsSuccess)
-                {
-                    return BadRequest(parseResult.ErrorMessage);
-                }
-
-                var bytes = await _pdfService.GeneratePdf(documentId, parseResult.Profile);
-                var type = await _pdfService.GetDocumentType(documentId);
-
-                var safeType = SanitizeFileName(type ?? "documento");
-                var filename = $"{safeType}-{documentId}.pdf";
-
-                return File(bytes, "application/pdf", filename);
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound();
-            }
-            catch (NotSupportedException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Erro ao gerar PDF do documento {DocumentId}", documentId);
-                return StatusCode(500, "Erro interno ao gerar PDF.");
-            }
-        }
+        public Task<IActionResult> DownloadDocument(Guid documentId, [FromQuery] string? profile = null)
+            => HandleDocumentAsync(documentId, profile, download: true);
 
         [HttpGet("students/pdf")]
         public async Task<IActionResult> ViewStudentsList([FromQuery] string state = "", [FromQuery] string city = "", [FromQuery] string schoolID = "", [FromQuery] string serie = "")

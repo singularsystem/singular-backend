@@ -168,7 +168,8 @@ namespace SingularSystem.Controllers
                 var query = _appDbContext.AdaptiveBehaviorScalesDI.Include(s => s.Student)
                                                                   .Include(s => s.Student!.School)
                                                                   .Include(u => u.User)
-                                                                  .AsNoTracking();
+                                                                  .AsNoTracking()
+                                                                  .WhereStudentInTenant(TenantContext);
 
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
@@ -183,7 +184,7 @@ namespace SingularSystem.Controllers
                 var roles = await _userManager.GetRolesAsync(currentUser);
                 var isAdmin = roles.Contains("Admin");
 
-                if (!isAdmin)
+                if (TenantContext?.IsPrivatePlan != true && !isAdmin)
                 {
                     query = query.Where(s => s.Student != null &&
                                              ((s.Student.City == currentUser.City && s.Student.State == currentUser.State) ||

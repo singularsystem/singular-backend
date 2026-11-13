@@ -1,3 +1,4 @@
+using SingularSystem.Domain.Access;
 using SingularSystem.Domain.Plans;
 using SingularSystem.Domain.Tenancy;
 using SingularSystem.Infrastructure.Plans;
@@ -12,6 +13,7 @@ namespace SingularSystem.Extensions
             services.AddScoped<IPlanSubscriptionRepository, PlanSubscriptionRepository>();
             services.AddScoped<IPlanService, PlanService>();
             services.AddScoped<ITenantContext, TenantContextService>();
+            services.AddScoped<IStudentAccessPolicy, StudentAccessPolicy>();
             services.AddHostedService<SubscriptionExpirationService>();
             return services;
         }

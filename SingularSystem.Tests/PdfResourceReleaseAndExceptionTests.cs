@@ -21,6 +21,7 @@ public class PdfResourceReleaseAndExceptionTests
 {
     private sealed class FaultyPdfService : IPDFService
     {
+        public Task<SingularSystem.Models.DocumentPdfResult> GeneratePdfForUser(Guid id, Models.PdfProfile profile, Models.Entities.ApplicationUser user, IList<string> roles) => throw new InvalidOperationException("Falha simulada na renderização de PDF");
         public Task<byte[]> GeneratePdf(Guid id) => throw new InvalidOperationException("Falha simulada na renderização de PDF");
         public Task<byte[]> GeneratePdf(Guid id, Models.PdfProfile profile) => throw new InvalidOperationException("Falha simulada na renderização de PDF");
         public Task<string?> GetDocumentType(Guid id) => Task.FromResult<string?>("pei");

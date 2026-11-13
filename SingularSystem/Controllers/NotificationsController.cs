@@ -25,6 +25,19 @@ namespace SingularSystem.Controllers
         {
             try
             {
+                var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                if (string.IsNullOrEmpty(currentUserId)) return Unauthorized();
+
+                var isAdmin = User.IsInRole("Admin");
+                if (!isAdmin && (!Guid.TryParse(currentUserId, out var parsedId) || parsedId != userId))
+                {
+                    return StatusCode(StatusCodes.Status403Forbidden, new ApiResponse<object>
+                    {
+                        Success = false,
+                        Message = "Você não tem permissão para acessar as notificações deste usuário."
+                    });
+                }
+
                 var notifications = await _notificationService.GetNotificationsFromUser(userId);
                 return Ok(new ApiResponse<object>()
                 {
@@ -46,7 +59,10 @@ namespace SingularSystem.Controllers
         {
             try
             {
-                await _notificationService.MarkAsRead(notificationId);
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                if (string.IsNullOrEmpty(userId)) return Unauthorized();
+
+                await _notificationService.MarkAsRead(notificationId, userId);
                 return NoContent();
             }
             catch (Exception ex)

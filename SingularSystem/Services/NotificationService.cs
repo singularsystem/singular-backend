@@ -68,11 +68,16 @@ namespace SingularSystem.Services
             }
         }
 
-        public async Task MarkAsRead(Guid idNotification)
+        public async Task MarkAsRead(Guid idNotification, string? userId = null)
         {
             try
             {
-                var notification = await _appDbContext.Notifications.FirstOrDefaultAsync(temp => temp.ID == idNotification);
+                var query = _appDbContext.Notifications.Where(temp => temp.ID == idNotification);
+                if (!string.IsNullOrEmpty(userId))
+                {
+                    query = query.Where(temp => temp.UserID == userId);
+                }
+                var notification = await query.FirstOrDefaultAsync();
 
                 if (notification != null && !notification.Read)
                 {

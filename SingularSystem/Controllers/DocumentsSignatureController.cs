@@ -5,8 +5,10 @@ using SingularSystem.Models;
 using SingularSystem.Models.Entities;
 using SingularSystem.Models.Enums;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace SingularSystem.Controllers
 {
@@ -32,7 +34,7 @@ namespace SingularSystem.Controllers
     [ApiController]
     [Route("api/v1/documents")]
     [Authorize]
-    public sealed class DocumentsSignatureController : ControllerBase
+    public sealed class DocumentsSignatureController : BaseController
     {
         private readonly ISignatureService _signatureService;
         private readonly ISignedMediaResolver _signedMedia;
@@ -90,6 +92,32 @@ namespace SingularSystem.Controllers
                 //   retornando tipo, SignedFile e DocumentStatus do primeiro match (null se nenhuma).
                 //   As tasks 3.3/3.4 consomem este resultado para o fallback S3 próprio e o 404.
                 DocumentLookupResult? lookup = await FindDocumentByTokenAsync(documentToken);
+
+                var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier);
+                if (userId != null && lookup is not null)
+                {
+                    var userManager = HttpContext?.RequestServices?.GetService<UserManager<ApplicationUser>>();
+                    var user = userManager != null ? await userManager.FindByIdAsync(userId) : null;
+                    if (user == null) return Unauthorized();
+                    var roles = await userManager.GetRolesAsync(user);
+
+                    if (!roles.Contains("Admin"))
+                    {
+                        if (lookup.StudentId is null)
+                        {
+                            return StatusCode(StatusCodes.Status403Forbidden, DocumentAccessDenied.Body());
+                        }
+
+                        var student = await _appDbContext.Students.IgnoreQueryFilters().AsNoTracking()
+                            .Include(s => s.School)
+                            .FirstOrDefaultAsync(s => s.ID == lookup.StudentId.Value);
+
+                        if (student == null || !HasStudentAccess(user, student, roles))
+                        {
+                            return StatusCode(StatusCodes.Status403Forbidden, DocumentAccessDenied.Body());
+                        }
+                    }
+                }
 
                 // task 3.3: fallback S3 próprio (precedência sobre o provedor, Req 4.1/4.2/4.4).
                 //   Avaliado ANTES de qualquer consulta ao provedor: documentos legados migrados ao S3
@@ -230,7 +258,7 @@ namespace SingularSystem.Controllers
         /// <c>DocumentStatus</c>. As tasks 3.3/3.4 usam <c>SignedFile</c> e <c>Status</c> para
         /// decidir entre o fallback S3 próprio e a consulta ao provedor.
         /// </summary>
-        private sealed record DocumentLookupResult(DocumentType Type, string? SignedFile, Status Status);
+        private sealed record DocumentLookupResult(DocumentType Type, string? SignedFile, Status Status, Guid? StudentId = null);
 
         /// <summary>
         /// Localiza a entidade de documento correspondente ao <paramref name="documentToken"/>
@@ -249,21 +277,21 @@ namespace SingularSystem.Controllers
                 .FirstOrDefaultAsync(r => r.DocumentToken == documentToken);
             if (report is not null)
             {
-                return new DocumentLookupResult(DocumentType.Report, report.SignedFile, report.DocumentStatus);
+                return new DocumentLookupResult(DocumentType.Report, report.SignedFile, report.DocumentStatus, report.StudentID);
             }
 
             PEI? pei = await _appDbContext.PEIs
                 .FirstOrDefaultAsync(p => p.DocumentToken == documentToken);
             if (pei is not null)
             {
-                return new DocumentLookupResult(DocumentType.PEI, pei.SignedFile, pei.DocumentStatus);
+                return new DocumentLookupResult(DocumentType.PEI, pei.SignedFile, pei.DocumentStatus, pei.StudentID);
             }
 
             PAEE? paee = await _appDbContext.PAEEs
                 .FirstOrDefaultAsync(p => p.DocumentToken == documentToken);
             if (paee is not null)
             {
-                return new DocumentLookupResult(DocumentType.PAEE, paee.SignedFile, paee.DocumentStatus);
+                return new DocumentLookupResult(DocumentType.PAEE, paee.SignedFile, paee.DocumentStatus, paee.StudentID);
             }
 
             RegularTeacherEvaluationDocument? evaluation = await _appDbContext.RegularTeacherEvaluationDocuments
@@ -273,7 +301,8 @@ namespace SingularSystem.Controllers
                 return new DocumentLookupResult(
                     DocumentType.RegularTeacherEvaluationDocument,
                     evaluation.SignedFile,
-                    evaluation.DocumentStatus);
+                    evaluation.DocumentStatus,
+                    evaluation.StudentID);
             }
 
             return null;

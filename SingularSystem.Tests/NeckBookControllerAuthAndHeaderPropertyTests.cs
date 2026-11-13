@@ -13,6 +13,7 @@ using SingularSystem.Models.Entities;
 using SingularSystem.Models.Enums;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
 namespace SingularSystem.Tests
@@ -46,6 +47,19 @@ namespace SingularSystem.Tests
 
         private sealed class BaseControllerProbe : BaseController
         {
+            public BaseControllerProbe()
+            {
+                var services = new Microsoft.Extensions.DependencyInjection.ServiceCollection();
+                services.AddSingleton<SingularSystem.Domain.Access.IStudentAccessPolicy, SingularSystem.Services.StudentAccessPolicy>();
+                ControllerContext = new ControllerContext
+                {
+                    HttpContext = new DefaultHttpContext
+                    {
+                        RequestServices = services.BuildServiceProvider()
+                    }
+                };
+            }
+
             public bool Evaluate(ApplicationUser user, Student student, IList<string> roles) =>
                 HasStudentAccess(user, student, roles);
         }

@@ -115,6 +115,7 @@ namespace SingularSystem.Tests
     internal sealed class MinimalPdfService : IPDFService
     {
         private static readonly byte[] Pdf = Encoding.ASCII.GetBytes("%PDF-1.4\n%EOF\n");
+        public Task<SingularSystem.Models.DocumentPdfResult> GeneratePdfForUser(Guid documentId, SingularSystem.Models.PdfProfile profile, SingularSystem.Models.Entities.ApplicationUser user, IList<string> roles) => Task.FromResult(SingularSystem.Models.DocumentPdfResult.Ok(Pdf, "Report"));
         public Task<byte[]> GeneratePdf(Guid documentId) => Task.FromResult(Pdf);
         public Task<byte[]> GeneratePdf(Guid documentId, SingularSystem.Models.PdfProfile profile) => Task.FromResult(Pdf);
         public Task<string?> GetDocumentType(Guid documentId) => Task.FromResult<string?>(null);

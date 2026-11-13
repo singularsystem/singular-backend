@@ -15,7 +15,7 @@ namespace SingularSystem.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class FilesController : ControllerBase
+    public class FilesController : BaseController
     {
         private readonly AppDbContext _appDbContext;
         private readonly ILogger<FilesController> _logger;
@@ -246,6 +246,29 @@ namespace SingularSystem.Controllers
         {
             try
             {
+                var student = await _appDbContext.Students.IgnoreQueryFilters().AsNoTracking()
+                    .Include(s => s.School)
+                    .FirstOrDefaultAsync(s => s.ID == studentID);
+
+                if (student == null)
+                {
+                    return NotFound(new ApiResponse<object>
+                    {
+                        Success = false,
+                        Message = "Estudante não encontrado."
+                    });
+                }
+
+                var userManager = HttpContext?.RequestServices?.GetService<Microsoft.AspNetCore.Identity.UserManager<ApplicationUser>>();
+                var user = userManager != null ? await userManager.FindByIdAsync(CurrentUserId) : null;
+                if (user == null) return Unauthorized();
+                var roles = await userManager.GetRolesAsync(user);
+
+                if (!HasStudentAccess(user, student, roles))
+                {
+                    return StatusCode(StatusCodes.Status403Forbidden, DocumentAccessDenied.Body());
+                }
+
                 var files = await _fileStorageService.GetFilesByStudent(studentID);
 
                 if (files == null)

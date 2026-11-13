@@ -831,6 +831,7 @@ namespace SingularSystem.Controllers
                     if (role == "Psychopedagogue") roleString = "Psicopedagogo(a)";
 
                     var filteredUsers = usersInRole.Where(user =>
+                        (!_tenantContext.IsPrivatePlan || user.TenantId == _tenantContext.TenantId) &&
                         (string.IsNullOrEmpty(filter.Sex) || user.Sex.GetDisplayName() == filter.Sex) &&
                         (string.IsNullOrEmpty(filter.State) || Helpers.StateMatches(user.State, filter.State)) &&
                         (string.IsNullOrEmpty(filter.City) || Helpers.CityMatches(user.City, filter.City))

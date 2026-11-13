@@ -19,7 +19,7 @@ namespace SingularSystem.Filters
         {
             // Sem assinatura (Público legado ou anônimo): trava não se aplica (Req 10.3).
             // O critério é a existência de assinatura, e não IsPrivatePlan: assinaturas do tipo Publico
-            // (prefeituras provisionadas via webhook) também são travadas quando PastDue/Suspended/Cancelled.
+            // provisionadas via webhook também são travadas quando PastDue/Suspended/Cancelled.
             if (_tenantContext.Subscription is null)
             {
                 await next();

@@ -92,10 +92,10 @@ namespace SingularSystem.Controllers
                     .Where(s => Helpers.StateMatches(s.State, cleanState) && Helpers.CityMatches(s.City, cleanCity))
                     .ToList();
 
-                // Carregar alunos ativos até a data de referência e filtrar em memória por município/estado
+                // Carregar alunos ativos até a data de referência e filtrar em memória por município/estado (apenas Plano Público: TenantId nulo/vazio)
                 var allActiveStudents = await _appDbContext.Students
                     .Include(s => s.School)
-                    .Where(s => s.IsActive && s.CreatedAt <= referenceDate)
+                    .Where(s => s.IsActive && s.CreatedAt <= referenceDate && string.IsNullOrEmpty(s.TenantId))
                     .ToListAsync();
 
                 var students = allActiveStudents

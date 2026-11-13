@@ -181,7 +181,8 @@ namespace SingularSystem.Controllers
                                          .Include(s => s.Student!.School)
                                          .Include(u => u.User)
                                          .Include(p => p.PsychopedagogueReport)
-                                         .AsNoTracking();
+                                         .AsNoTracking()
+                                         .WhereStudentInTenant(TenantContext);
 
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
@@ -196,7 +197,7 @@ namespace SingularSystem.Controllers
                 var roles = await _userManager.GetRolesAsync(currentUser);
                 var isAdmin = roles.Contains("Admin");
 
-                if (!isAdmin)
+                if (TenantContext?.IsPrivatePlan != true && !isAdmin)
                 {
                     query = query.Where(s => s.Student != null &&
                                              ((s.Student.City == currentUser.City && s.Student.State == currentUser.State) ||

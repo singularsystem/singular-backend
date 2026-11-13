@@ -10,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
+using FsCheck;
+using FsCheck.Xunit;
 
 namespace SingularSystem.Tests
 {
@@ -28,9 +30,15 @@ namespace SingularSystem.Tests
             return services.BuildServiceProvider();
         }
 
-        // Task 4.3: Testes de exemplo para o seed neutro (Req 2.5, 2.6, 2.7)
+        private static readonly string[] SeedRoles =
+        {
+            "Admin", "Secretary", "SocialWork", "Psychologist", "Psychopedagogue",
+            "Teacher", "Coordinator", "Principal", "MunicipalManager",
+            "AutonomousProfessional", "SchoolAdmin"
+        };
+
         [Fact]
-        public async Task Seed_creates_only_Admin_role_and_no_municipal_roles()
+        public async Task Seed_creates_exactly_the_11_seed_roles()
         {
             using var sp = CreateIdentityServices($"seed-roles-{Guid.NewGuid()}");
             using var scope = sp.CreateScope();
@@ -38,26 +46,41 @@ namespace SingularSystem.Tests
 
             await Seeders.SeedRolesAsync(roleManager);
 
-            var roles = await roleManager.Roles.Select(r => r.Name).ToListAsync();
+            var roles = await roleManager.Roles.Select(r => r.Name!).ToListAsync();
+            Assert.Equal(11, roles.Count);
+            Assert.Equal(SeedRoles.OrderBy(r => r), roles.OrderBy(r => r));
+        }
 
-            // Contém Admin
-            Assert.Contains("Admin", roles);
-            Assert.Single(roles);
+        [Fact]
+        public async Task Seed_roles_twice_keeps_11_roles()
+        {
+            using var sp = CreateIdentityServices($"seed-roles-twice-{Guid.NewGuid()}");
+            using var scope = sp.CreateScope();
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-            // NÃO contém roles municipais
-            var forbiddenRoles = new[]
+            await Seeders.SeedRolesAsync(roleManager);
+            await Seeders.SeedRolesAsync(roleManager);
+
+            Assert.Equal(11, await roleManager.Roles.CountAsync());
+        }
+
+        // Feature: modulo-3-2b-isolamento-pdf-listagens, Property 12: Idempotência do seed de roles
+        // Validates: Requirements 12.1, 12.2, 12.4
+        [Property(MaxTest = 100)]
+        public bool Seed_roles_n_vezes_resulta_nas_mesmas_11_roles(PositiveInt n)
+        {
+            var count = Math.Clamp(n.Item, 1, 5);
+            using var sp = CreateIdentityServices($"seed-roles-prop-{Guid.NewGuid()}");
+            using var scope = sp.CreateScope();
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+            for (var i = 0; i < count; i++)
             {
-                "Secretary", "SocialWork", "Psychologist", "Psychopedagogue",
-                "Teacher", "Coordinator", "Principal", "MunicipalManager"
-            };
-            foreach (var forbidden in forbiddenRoles)
-            {
-                Assert.DoesNotContain(forbidden, roles);
+                Seeders.SeedRolesAsync(roleManager).GetAwaiter().GetResult();
             }
 
-            // NÃO contém roles do Módulo 3
-            Assert.DoesNotContain("AutonomousProfessional", roles);
-            Assert.DoesNotContain("ClinicAdmin", roles);
+            var roles = roleManager.Roles.Select(r => r.Name!).ToList();
+            return roles.Count == 11 && SeedRoles.OrderBy(r => r).SequenceEqual(roles.OrderBy(r => r));
         }
 
         [Fact]
