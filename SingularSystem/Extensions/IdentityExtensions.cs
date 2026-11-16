@@ -131,6 +131,8 @@ namespace SingularSystem.Extensions
                     policy.RequireRole("Admin", "Secretary", "Principal", "Coordinator"));
                 options.AddPolicy("AdminOrSchoolAdmin", policy =>
                     policy.RequireRole("Admin", "SchoolAdmin"));
+                options.AddPolicy("SchoolAdmin", policy =>
+                    policy.RequireRole("SchoolAdmin"));
                 options.AddPolicy("AdminOrAutonomous", policy =>
                     policy.RequireRole("Admin", "AutonomousProfessional"));
                 options.AddPolicy("PrivatePlan", policy =>

@@ -11,7 +11,10 @@ namespace SingularSystem.Extensions
         public static IServiceCollection AddPlanServices(this IServiceCollection services)
         {
             services.AddScoped<IPlanSubscriptionRepository, PlanSubscriptionRepository>();
+            services.AddScoped<ITenantProfessionalConfigRepository, TenantProfessionalConfigRepository>();
+            services.AddScoped<ITenantProfessionalConfigService, TenantProfessionalConfigService>();
             services.AddScoped<IPlanService, PlanService>();
+            services.AddScoped<ITenantUserService, TenantUserService>();
             services.AddScoped<ITenantContext, TenantContextService>();
             services.AddScoped<IStudentAccessPolicy, StudentAccessPolicy>();
             services.AddHostedService<SubscriptionExpirationService>();

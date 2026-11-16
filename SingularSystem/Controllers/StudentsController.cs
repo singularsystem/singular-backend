@@ -149,7 +149,9 @@ namespace SingularSystem.Controllers
                         return StatusCode(StatusCodes.Status402PaymentRequired, new ApiResponse<object>
                         {
                             Success = false,
-                            Message = $"Você atingiu o limite de {quota.Max} alunos do seu plano. Faça upgrade para continuar."
+                            Message = $"Você atingiu o limite de {quota.Max} alunos do seu plano. Faça upgrade para continuar.",
+                            ErrorCode = PlanErrorCodes.QuotaExceeded,
+                            Data = new QuotaInfo(quota.Current, quota.Max)
                         });
                     }
                 }
@@ -859,7 +861,9 @@ namespace SingularSystem.Controllers
                         return StatusCode(StatusCodes.Status402PaymentRequired, new ApiResponse<object>
                         {
                             Success = false,
-                            Message = $"A importação de {candidateRows} aluno(s) excede o limite de {quota.Max} do seu plano ({quota.Current} em uso). Faça upgrade para continuar."
+                            Message = $"A importação de {candidateRows} aluno(s) excede o limite de {quota.Max} do seu plano ({quota.Current} em uso). Faça upgrade para continuar.",
+                            ErrorCode = PlanErrorCodes.QuotaExceeded,
+                            Data = new QuotaInfo(quota.Current, quota.Max)
                         });
                     }
                 }

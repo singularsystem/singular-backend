@@ -165,6 +165,9 @@ namespace SingularSystem.Models
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
         public int UniqueTotal { get; set; }
+
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        public string? ErrorCode { get; set; }
     }
 
     public class MCHATResponse

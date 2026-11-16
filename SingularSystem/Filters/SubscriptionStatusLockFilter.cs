@@ -33,12 +33,17 @@ namespace SingularSystem.Filters
                 return;
             }
 
-            var denial = SubscriptionStatusRules.Evaluate(
+            var denial = SubscriptionStatusRules.EvaluateDetailed(
                 _tenantContext.Subscription.Status, context.HttpContext.Request.Method);
 
             if (denial is not null)
             {
-                context.Result = new ObjectResult(new ApiResponse<object> { Success = false, Message = denial })
+                context.Result = new ObjectResult(new ApiResponse<object>
+                {
+                    Success = false,
+                    Message = denial.Message,
+                    ErrorCode = denial.ErrorCode
+                })
                 {
                     StatusCode = StatusCodes.Status403Forbidden
                 };

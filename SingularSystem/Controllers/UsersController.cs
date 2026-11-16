@@ -38,6 +38,8 @@ namespace SingularSystem.Controllers
         private readonly IAuthorizationService _authorizationService;
         private readonly IPlanService _planService;
         private readonly ITenantContext _tenantContext;
+        private readonly ITenantUserService _tenantUserService;
+        private readonly ITenantProfessionalConfigService _professionalConfigService;
         private const string DefaultNewUserPassword = "user123!";
 
         private sealed class UserImportSpreadsheetRow
@@ -70,7 +72,7 @@ namespace SingularSystem.Controllers
             public UserImportSpreadsheetRow RowData { get; set; } = new();
         }
 
-        public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, ILogger<UsersController> logger, AppDbContext appDbContext, NotificationService notificationService, IConfiguration configuration, IAuthorizationService authorizationService, IPlanService planService, ITenantContext tenantContext)
+        public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, ILogger<UsersController> logger, AppDbContext appDbContext, NotificationService notificationService, IConfiguration configuration, IAuthorizationService authorizationService, IPlanService planService, ITenantContext tenantContext, ITenantUserService tenantUserService, ITenantProfessionalConfigService professionalConfigService)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -82,6 +84,8 @@ namespace SingularSystem.Controllers
             _authorizationService = authorizationService;
             _planService = planService;
             _tenantContext = tenantContext;
+            _tenantUserService = tenantUserService;
+            _professionalConfigService = professionalConfigService;
         }
 
         [HttpGet("template/xls")]
@@ -554,18 +558,31 @@ namespace SingularSystem.Controllers
 
                 if (_tenantContext.IsPrivatePlan)
                 {
+                    var typeEnabled = await _professionalConfigService.IsTypeEnabledAsync(callerTenantId, model.Type);
+                    if (!typeEnabled)
+                    {
+                        return BadRequest(new ApiResponse<object>
+                        {
+                            Success = false,
+                            Message = $"O perfil '{model.Type}' está desabilitado para esta escola.",
+                            ErrorCode = PlanErrorCodes.ProfessionalTypeDisabled
+                        });
+                    }
+
                     var subscription = _tenantContext.Subscription
                         ?? await _planService.GetCurrentSubscriptionAsync(callerTenantId);
 
                     if (subscription != null && subscription.MaxUsers > 0)
                     {
-                        var currentCount = await _userManager.Users.CountAsync(u => u.TenantId == callerTenantId);
+                        var currentCount = await _tenantUserService.CountActiveAsync(callerTenantId);
                         if (currentCount >= subscription.MaxUsers)
                         {
                             return StatusCode(StatusCodes.Status402PaymentRequired, new ApiResponse<object>
                             {
                                 Success = false,
-                                Message = $"Você atingiu o limite de {subscription.MaxUsers} usuários do seu plano. Faça upgrade para continuar."
+                                Message = $"Você atingiu o limite de {subscription.MaxUsers} usuários do seu plano. Faça upgrade para continuar.",
+                                ErrorCode = PlanErrorCodes.UserLimitExceeded,
+                                Data = new QuotaInfo(currentCount, subscription.MaxUsers)
                             });
                         }
                     }
@@ -760,6 +777,68 @@ namespace SingularSystem.Controllers
                     Message = $"Ocorreu um erro no login do usuário. {ex.Message}"
                 });
             }
+        }
+
+        [Authorize(Policy = "AdminOrSchoolAdmin")]
+        [HttpGet("school")]
+        public async Task<IActionResult> ListSchoolUsers([FromQuery] int page = 1, [FromQuery] int pageSize = 10, [FromQuery] string? searchTerm = null)
+        {
+            if (!_tenantContext.IsPrivatePlan || string.IsNullOrEmpty(_tenantContext.TenantId))
+            {
+                return BadRequest(new ApiResponse<object>
+                {
+                    Success = false,
+                    Message = "O usuário atual não possui escola associada."
+                });
+            }
+
+            var result = await _tenantUserService.ListAsync(_tenantContext.TenantId, page, pageSize, searchTerm);
+            return Ok(new ApiResponse<object>
+            {
+                Success = true,
+                Data = new
+                {
+                    items = result.Items,
+                    summary = new
+                    {
+                        used = result.Summary.Used,
+                        max = result.Summary.Max
+                    }
+                },
+                Total = result.Total
+            });
+        }
+
+        [Authorize(Policy = "AdminOrSchoolAdmin")]
+        [HttpDelete("school/{id}")]
+        public async Task<IActionResult> DeactivateSchoolUser(string id)
+        {
+            if (!_tenantContext.IsPrivatePlan || string.IsNullOrEmpty(_tenantContext.TenantId))
+            {
+                return StatusCode(StatusCodes.Status403Forbidden, new ApiResponse<object>
+                {
+                    Success = false,
+                    Message = "Acesso negado."
+                });
+            }
+
+            var callerId = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? string.Empty;
+            var res = await _tenantUserService.DeactivateAsync(callerId, _tenantContext.TenantId, id);
+
+            if (res == DeactivateUserResult.Denied)
+            {
+                return StatusCode(StatusCodes.Status403Forbidden, new ApiResponse<object>
+                {
+                    Success = false,
+                    Message = "Acesso negado."
+                });
+            }
+
+            return Ok(new ApiResponse<object>
+            {
+                Success = true,
+                Message = "Usuário desativado com sucesso."
+            });
         }
 
         //[Authorize(Roles = "Admin,MunicipalManager")]

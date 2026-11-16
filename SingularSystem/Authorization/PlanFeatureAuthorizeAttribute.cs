@@ -53,7 +53,8 @@ namespace SingularSystem.Authorization
                     context.Result = new ObjectResult(new ApiResponse<object>
                     {
                         Success = false,
-                        Message = "Recurso não disponível para o plano atual."
+                        Message = "Recurso não disponível para o plano atual.",
+                        ErrorCode = PlanErrorCodes.FeatureUnavailable
                     })
                     {
                         StatusCode = StatusCodes.Status403Forbidden
@@ -66,13 +67,14 @@ namespace SingularSystem.Authorization
             }
 
             // 3. Defesa em profundidade: mesma regra da trava global (helper compartilhado)
-            var denial = SubscriptionStatusRules.Evaluate(subscription.Status, context.HttpContext.Request.Method);
+            var denial = SubscriptionStatusRules.EvaluateDetailed(subscription.Status, context.HttpContext.Request.Method);
             if (denial is not null)
             {
                 context.Result = new ObjectResult(new ApiResponse<object>
                 {
                     Success = false,
-                    Message = denial
+                    Message = denial.Message,
+                    ErrorCode = denial.ErrorCode
                 })
                 {
                     StatusCode = StatusCodes.Status403Forbidden
@@ -86,7 +88,8 @@ namespace SingularSystem.Authorization
                 context.Result = new ObjectResult(new ApiResponse<object>
                 {
                     Success = false,
-                    Message = "Recurso não disponível para o plano atual."
+                    Message = "Recurso não disponível para o plano atual.",
+                    ErrorCode = PlanErrorCodes.FeatureUnavailable
                 })
                 {
                     StatusCode = StatusCodes.Status403Forbidden

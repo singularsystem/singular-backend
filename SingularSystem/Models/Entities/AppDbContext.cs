@@ -82,6 +82,7 @@ namespace SingularSystem.Models.Entities
         public DbSet<MunicipalityNeckBookConfig> MunicipalityNeckBookConfigs { get; set; }
         public DbSet<ProcessedWebhookEvent> ProcessedWebhookEvents { get; set; }
         public DbSet<PlanSubscription> PlanSubscriptions { get; set; }
+        public DbSet<TenantProfessionalConfig> TenantProfessionalConfigs { get; set; }
 
         private static void ApplySoftDeleteQueryFilter<TEntity>(ModelBuilder modelBuilder)
         where TEntity : class, ISoftDelete
@@ -692,6 +693,18 @@ namespace SingularSystem.Models.Entities
                 entity.Property(e => e.PlanType).HasConversion<int>();
                 entity.Property(e => e.Status).HasConversion<int>();
                 entity.HasIndex(e => new { e.TenantId, e.Status });
+            });
+
+            modelBuilder.Entity<TenantProfessionalConfig>(entity =>
+            {
+                entity.ToTable("TenantProfessionalConfigs");
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.TenantId).IsRequired().HasMaxLength(450);
+                entity.HasIndex(e => e.TenantId).IsUnique();
+                entity.Property(e => e.PsychologistEnabled).HasDefaultValue(true);
+                entity.Property(e => e.PsychopedagogueEnabled).HasDefaultValue(true);
+                entity.Property(e => e.SocialWorkEnabled).HasDefaultValue(false);
+                entity.Property(e => e.UpdatedBy).HasMaxLength(450);
             });
         }
     }
